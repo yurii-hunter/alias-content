@@ -1,6 +1,6 @@
-// Збирає cards.csv + images/*.png у статичні файли для CDN (dist/).
+// Збирає cards.csv + images/*.png у статичні файли для CDN (dist/) і додає сторінку privacy/.
 //   node scripts/build.ts [--published <url маніфесту>] [--allow-partial-free] [--out dist]
-import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { parseArgs } from 'node:util';
 
@@ -76,6 +76,8 @@ async function main() {
   const version = contentVersion(new Date(), process.env.GITHUB_RUN_NUMBER ?? 'local');
   const manifest = buildManifest(locales, cardsName, version);
   await writeFile(join(out, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`);
+  // Політика конфіденційності додатку: посилання на неї вказане в App Store і Google Play.
+  await cp('privacy', join(out, 'privacy'), { recursive: true });
   // GitHub Pages не обробляє файли через Jekyll.
   await writeFile(join(out, '.nojekyll'), '');
 
