@@ -32,7 +32,7 @@ hedgehog,full,,1,animals,Їжак,Hedgehog,Igel,Jeż,Erizo,Hérisson,a hedgehog 
 squirrel,full,,1,animals,Білка,Squirrel,Eichhörnchen,Wiewiórka,Ardilla,Écureuil,a red squirrel with a bushy tail
 elephant,full,yes,1,animals,Слон,Elephant,Elefant,Słoń,Elefante,Éléphant,a grey elephant with a trunk
 lion,free,,1,animals,Лев,Lion,Löwe,Lew,León,Lion,a lion with a big mane
-tiger,full,,1,animals,Тигр,Tiger,Tiger,Tygrys,Tigre,Tigre,an orange tiger with black stripes
+tiger,full,yes,1,animals,Тигр,Tiger,Tiger,Tygrys,Tigre,Tigre,an orange tiger with black stripes
 giraffe,full,yes,1,animals,Жирафа,Giraffe,Giraffe,Żyrafa,Jirafa,Girafe,a tall giraffe with spots
 zebra,full,,1,animals,Зебра,Zebra,Zebra,Zebra,Cebra,Zèbre,a zebra with black and white stripes
 monkey,full,,1,animals,Мавпа,Monkey,Affe,Małpa,Mono,Singe,a brown monkey with a long tail
@@ -500,7 +500,7 @@ motorcycle,full,,1,transport,Мотоцикл,Motorcycle,Motorrad,Motocykl,Moto,
 truck,full,,1,transport,Вантажівка,Truck,Lastwagen,Ciężarówka,Camión,Camion,a delivery truck
 tractor,full,,1,transport,Трактор,Tractor,Traktor,Traktor,Tractor,Tracteur,a green tractor
 helicopter,full,,1,transport,Гелікоптер,Helicopter,Hubschrauber,Helikopter,Helicóptero,Hélicoptère,a helicopter
-rocket,full,,1,transport,Ракета,Rocket,Rakete,Rakieta,Cohete,Fusée,a space rocket
+rocket,full,yes,1,transport,Ракета,Rocket,Rakete,Rakieta,Cohete,Fusée,a space rocket
 taxi,full,,2,transport,Таксі,Taxi,Taxi,Taksówka,Taxi,Taxi,a yellow taxi
 ambulance,full,,1,transport,Швидка допомога,Ambulance,Krankenwagen,Karetka,Ambulancia,Ambulance,an ambulance
 fire_truck,full,,1,transport,Пожежна машина,Fire truck,Feuerwehrauto,Wóz strażacki,Camión de bomberos,Camion de pompiers,a red fire truck with a ladder
@@ -542,7 +542,7 @@ star,full,,1,nature,Зірка,Star,Stern,Gwiazda,Estrella,Étoile,a yellow five
 cloud,full,,1,nature,Хмара,Cloud,Wolke,Chmura,Nube,Nuage,a white fluffy cloud
 rain,full,,1,nature,Дощ,Rain,Regen,Deszcz,Lluvia,Pluie,a grey cloud with raindrops
 snowflake,full,,1,nature,Сніжинка,Snowflake,Schneeflocke,Płatek śniegu,Copo de nieve,Flocon de neige,a blue snowflake
-rainbow,full,,1,nature,Веселка,Rainbow,Regenbogen,Tęcza,Arcoíris,Arc-en-ciel,a rainbow arc with clouds at the ends
+rainbow,full,yes,1,nature,Веселка,Rainbow,Regenbogen,Tęcza,Arcoíris,Arc-en-ciel,a rainbow arc with clouds at the ends
 lightning,full,,2,nature,Блискавка,Lightning,Blitz,Błyskawica,Rayo,Éclair,a yellow lightning bolt from a dark cloud
 puddle,full,,1,nature,Калюжа,Puddle,Pfütze,Kałuża,Charco,Flaque,a blue puddle on the ground
 mountain,full,,1,nature,Гора,Mountain,Berg,Góra,Montaña,Montagne,a mountain with a snowy top

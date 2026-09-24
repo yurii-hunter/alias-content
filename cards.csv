@@ -16,7 +16,7 @@ fox,full,,Лисиця,Fox
 hedgehog,full,,Їжак,Hedgehog
 squirrel,full,,Білка,Squirrel
 lion,free,,Лев,Lion
-tiger,full,,Тигр,Tiger
+tiger,full,yes,Тигр,Tiger
 zebra,full,,Зебра,Zebra
 monkey,full,,Мавпа,Monkey
 frog,full,,Жаба,Frog
@@ -32,7 +32,7 @@ sun,free,,Сонце,Sun
 moon,free,,Місяць,Moon
 star,full,,Зірка,Star
 cloud,full,,Хмара,Cloud
-rainbow,full,,Веселка,Rainbow
+rainbow,full,yes,Веселка,Rainbow
 tree,free,,Дерево,Tree
 flower,free,,Квітка,Flower
 apple,free,,Яблуко,Apple
@@ -97,5 +97,5 @@ plane,free,,Літак,Plane
 ship,full,,Корабель,Ship
 bicycle,full,,Велосипед,Bicycle
 tractor,full,,Трактор,Tractor
-rocket,full,,Ракета,Rocket
+rocket,full,yes,Ракета,Rocket
 snowman,full,,Сніговик,Snowman
