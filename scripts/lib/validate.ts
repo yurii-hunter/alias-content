@@ -1,6 +1,6 @@
 import type { Sheet, SourceCard, Tier } from './types.ts';
 
-export const FREE_CARD_COUNT = 100;
+export const FREE_CARD_COUNT = 30;
 
 export interface ValidateOptions {
   /** Id, для яких є `images/<id>.png`. */

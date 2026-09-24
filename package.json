@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "node scripts/build.ts",
+    "split": "node scripts/split-sheets.ts",
     "test": "node --test \"scripts/**/*.test.ts\""
   },
   "dependencies": {

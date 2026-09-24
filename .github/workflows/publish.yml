@@ -27,8 +27,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm test
-      # TODO: прибрати --allow-partial-free, коли в cards.csv буде 100 безкоштовних карток.
-      - run: npm run build -- --published "$PUBLISHED_MANIFEST" --allow-partial-free
+      - run: npm run build -- --published "$PUBLISHED_MANIFEST"
       - if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:

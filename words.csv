@@ -1,0 +1,835 @@
+id,tier,preview,level,category,uk,en,de,pl,es,fr,draw
+dog,free,,1,animals,Собака,Dog,Hund,Pies,Perro,Chien,a friendly brown dog sitting
+cat,free,,1,animals,Кіт,Cat,Katze,Kot,Gato,Chat,a grey cat sitting
+cow,free,,1,animals,Корова,Cow,Kuh,Krowa,Vaca,Vache,a black and white cow standing
+pig,free,,1,animals,Свиня,Pig,Schwein,Świnia,Cerdo,Cochon,a pink pig standing
+horse,free,,1,animals,Кінь,Horse,Pferd,Koń,Caballo,Cheval,a brown horse standing
+sheep,full,,1,animals,Вівця,Sheep,Schaf,Owca,Oveja,Mouton,a fluffy white sheep
+goat,full,,1,animals,Коза,Goat,Ziege,Koza,Cabra,Chèvre,a white goat with small horns and a beard
+hen,full,,1,animals,Курка,Hen,Huhn,Kura,Gallina,Poule,a brown hen
+rooster,full,,1,animals,Півень,Rooster,Hahn,Kogut,Gallo,Coq,a rooster with a big red comb and colorful tail
+chick,full,,1,animals,Курча,Chick,Küken,Kurczątko,Pollito,Poussin,a small fluffy yellow chick
+duck,full,,1,animals,Качка,Duck,Ente,Kaczka,Pato,Canard,a white duck with an orange beak
+goose,full,,2,animals,Гуска,Goose,Gans,Gęś,Ganso,Oie,a white goose with a long neck
+turkey,full,,2,animals,Індик,Turkey,Truthahn,Indyk,Pavo,Dinde,a turkey with a fanned tail
+donkey,full,,1,animals,Віслюк,Donkey,Esel,Osioł,Burro,Âne,a grey donkey with long ears
+rabbit,free,,1,animals,Кролик,Rabbit,Kaninchen,Królik,Conejo,Lapin,a white rabbit with long ears sitting
+hamster,full,,1,animals,Хом'як,Hamster,Hamster,Chomik,Hámster,Hamster,a round ginger hamster
+mouse,full,,1,animals,Миша,Mouse,Maus,Mysz,Ratón,Souris,a small grey mouse with round ears
+parrot,full,,1,animals,Папуга,Parrot,Papagei,Papuga,Loro,Perroquet,a bright green and red parrot
+turtle,full,,1,animals,Черепаха,Turtle,Schildkröte,Żółw,Tortuga,Tortue,a green tortoise with a domed shell
+bull,full,,2,animals,Бик,Bull,Stier,Byk,Toro,Taureau,a brown bull with horns
+goldfish,full,,2,animals,Золота рибка,Goldfish,Goldfisch,Złota rybka,Pez dorado,Poisson rouge,an orange goldfish in a round bowl
+doghouse,full,,1,animals,Будка,Doghouse,Hundehütte,Buda,Caseta,Niche,a small wooden doghouse with a round door
+barn,full,,2,animals,Сарай,Barn,Scheune,Stodoła,Granero,Grange,a red farm barn
+hay,full,,2,animals,Сіно,Hay,Heu,Siano,Heno,Foin,a round bale of hay
+horseshoe,full,,2,animals,Підкова,Horseshoe,Hufeisen,Podkowa,Herradura,Fer à cheval,a single metal horseshoe
+beehive,full,,2,animals,Вулик,Beehive,Bienenstock,Ul,Colmena,Ruche,a wooden beehive box with bees
+bear,free,,1,animals,Ведмідь,Bear,Bär,Niedźwiedź,Oso,Ours,a brown bear standing on four legs
+wolf,full,,1,animals,Вовк,Wolf,Wolf,Wilk,Lobo,Loup,a grey wolf
+fox,full,,1,animals,Лисиця,Fox,Fuchs,Lis,Zorro,Renard,an orange fox with a fluffy tail
+hedgehog,full,,1,animals,Їжак,Hedgehog,Igel,Jeż,Erizo,Hérisson,a hedgehog with spines
+squirrel,full,,1,animals,Білка,Squirrel,Eichhörnchen,Wiewiórka,Ardilla,Écureuil,a red squirrel with a bushy tail
+elephant,full,yes,1,animals,Слон,Elephant,Elefant,Słoń,Elefante,Éléphant,a grey elephant with a trunk
+lion,free,,1,animals,Лев,Lion,Löwe,Lew,León,Lion,a lion with a big mane
+tiger,full,,1,animals,Тигр,Tiger,Tiger,Tygrys,Tigre,Tigre,an orange tiger with black stripes
+giraffe,full,yes,1,animals,Жирафа,Giraffe,Giraffe,Żyrafa,Jirafa,Girafe,a tall giraffe with spots
+zebra,full,,1,animals,Зебра,Zebra,Zebra,Zebra,Cebra,Zèbre,a zebra with black and white stripes
+monkey,full,,1,animals,Мавпа,Monkey,Affe,Małpa,Mono,Singe,a brown monkey with a long tail
+crocodile,full,yes,1,animals,Крокодил,Crocodile,Krokodil,Krokodyl,Cocodrilo,Crocodile,"a green crocodile with teeth showing, friendly"
+hippo,full,,1,animals,Бегемот,Hippo,Nilpferd,Hipopotam,Hipopótamo,Hippopotame,a round purple-grey hippo
+rhino,full,,2,animals,Носоріг,Rhino,Nashorn,Nosorożec,Rinoceronte,Rhinocéros,a grey rhino with a horn on its nose
+kangaroo,full,,1,animals,Кенгуру,Kangaroo,Känguru,Kangur,Canguro,Kangourou,a kangaroo standing on its hind legs
+koala,full,,2,animals,Коала,Koala,Koala,Koala,Koala,Koala,a grey koala hugging a branch
+panda,full,,1,animals,Панда,Panda,Panda,Panda,Panda,Panda,a black and white panda sitting
+camel,full,,1,animals,Верблюд,Camel,Kamel,Wielbłąd,Camello,Chameau,a camel with two humps
+deer,full,,1,animals,Олень,Deer,Hirsch,Jeleń,Ciervo,Cerf,a deer with antlers
+moose,full,,2,animals,Лось,Moose,Elch,Łoś,Alce,Élan,a moose with wide flat antlers
+boar,full,,2,animals,Кабан,Boar,Wildschwein,Dzik,Jabalí,Sanglier,a wild boar with tusks
+beaver,full,,2,animals,Бобер,Beaver,Biber,Bóbr,Castor,Castor,a beaver with a flat tail and big front teeth
+raccoon,full,,2,animals,Єнот,Raccoon,Waschbär,Szop,Mapache,Raton laveur,a raccoon with a striped tail and a black mask
+mole,full,,2,animals,Кріт,Mole,Maulwurf,Kret,Topo,Taupe,a dark mole peeking out of a mound of soil
+bat,full,,2,animals,Кажан,Bat,Fledermaus,Nietoperz,Murciélago,Chauve-souris,a small friendly bat with open wings
+snake,full,,1,animals,Змія,Snake,Schlange,Wąż,Serpiente,Serpent,"a green snake curled up, friendly"
+lizard,full,,2,animals,Ящірка,Lizard,Eidechse,Jaszczurka,Lagarto,Lézard,a small green lizard
+frog,full,,1,animals,Жаба,Frog,Frosch,Żaba,Rana,Grenouille,a green frog sitting
+leopard,full,,2,animals,Леопард,Leopard,Leopard,Lampart,Leopardo,Léopard,a yellow leopard with black spots
+gorilla,full,,2,animals,Горила,Gorilla,Gorilla,Goryl,Gorila,Gorille,a big black gorilla sitting
+polar_bear,full,,1,animals,Білий ведмідь,Polar bear,Eisbär,Niedźwiedź polarny,Oso polar,Ours polaire,a white polar bear
+penguin,full,,1,animals,Пінгвін,Penguin,Pinguin,Pingwin,Pingüino,Pingouin,a black and white penguin standing
+seal,full,,2,animals,Тюлень,Seal,Robbe,Foka,Foca,Phoque,a grey seal lying down
+walrus,full,,2,animals,Морж,Walrus,Walross,Mors,Morsa,Morse,a brown walrus with long tusks
+sloth,full,,2,animals,Лінивець,Sloth,Faultier,Leniwiec,Perezoso,Paresseux,a sloth hanging from a branch
+llama,full,,2,animals,Лама,Llama,Lama,Lama,Llama,Lama,a fluffy white llama
+chameleon,full,,2,animals,Хамелеон,Chameleon,Chamäleon,Kameleon,Camaleón,Caméléon,a green chameleon with a curled tail
+skunk,full,,2,animals,Скунс,Skunk,Stinktier,Skunks,Mofeta,Mouffette,a black skunk with a white stripe
+otter,full,,2,animals,Видра,Otter,Otter,Wydra,Nutria,Loutre,a brown otter floating on its back
+lynx,full,,2,animals,Рись,Lynx,Luchs,Ryś,Lince,Lynx,a lynx with tufted ears
+bison,full,,2,animals,Зубр,Bison,Bison,Żubr,Bisonte,Bison,a big brown bison with a shaggy mane
+anteater,full,,2,animals,Мурахоїд,Anteater,Ameisenbär,Mrówkojad,Oso hormiguero,Fourmilier,an anteater with a long snout
+dinosaur,full,yes,1,animals,Динозавр,Dinosaur,Dinosaurier,Dinozaur,Dinosaurio,Dinosaure,a friendly green long-necked dinosaur
+bird,full,,1,animals,Пташка,Bird,Vogel,Ptak,Pájaro,Oiseau,a small blue bird sitting
+owl,full,,1,animals,Сова,Owl,Eule,Sowa,Búho,Hibou,a brown owl with big eyes
+eagle,full,,2,animals,Орел,Eagle,Adler,Orzeł,Águila,Aigle,a brown eagle with a white head
+sparrow,full,,2,animals,Горобець,Sparrow,Spatz,Wróbel,Gorrión,Moineau,a small brown sparrow
+pigeon,full,,1,animals,Голуб,Pigeon,Taube,Gołąb,Paloma,Pigeon,a grey pigeon
+crow,full,,2,animals,Ворона,Crow,Krähe,Wrona,Cuervo,Corbeau,a black crow
+stork,full,,2,animals,Лелека,Stork,Storch,Bocian,Cigüeña,Cigogne,a white stork with a red beak and long legs
+swan,full,,1,animals,Лебідь,Swan,Schwan,Łabędź,Cisne,Cygne,a white swan swimming
+peacock,full,,1,animals,Павич,Peacock,Pfau,Paw,Pavo real,Paon,a peacock with an open colorful tail
+flamingo,full,,1,animals,Фламінго,Flamingo,Flamingo,Flaming,Flamenco,Flamant rose,a pink flamingo standing on one leg
+ostrich,full,,2,animals,Страус,Ostrich,Strauß,Struś,Avestruz,Autruche,an ostrich with a long neck
+woodpecker,full,,2,animals,Дятел,Woodpecker,Specht,Dzięcioł,Pájaro carpintero,Pivert,a woodpecker with a red cap on a tree trunk
+seagull,full,,2,animals,Чайка,Seagull,Möwe,Mewa,Gaviota,Mouette,a white seagull
+toucan,full,,2,animals,Тукан,Toucan,Tukan,Tukan,Tucán,Toucan,a black toucan with a big orange beak
+heron,full,,2,animals,Чапля,Heron,Reiher,Czapla,Garza,Héron,a grey heron with long legs
+pelican,full,,2,animals,Пелікан,Pelican,Pelikan,Pelikan,Pelícano,Pélican,a white pelican with a big beak pouch
+magpie,full,,2,animals,Сорока,Magpie,Elster,Sroka,Urraca,Pie,a black and white magpie with a long tail
+cuckoo,full,,2,animals,Зозуля,Cuckoo,Kuckuck,Kukułka,Cuco,Coucou,a grey cuckoo bird
+nest,full,,1,animals,Гніздо,Nest,Nest,Gniazdo,Nido,Nid,a bird nest with three eggs
+feather,full,,1,animals,Перо,Feather,Feder,Pióro,Pluma,Plume,a single colorful feather
+fish,free,,1,animals,Риба,Fish,Fisch,Ryba,Pez,Poisson,an orange fish
+whale,full,,1,animals,Кит,Whale,Wal,Wieloryb,Ballena,Baleine,a blue whale with a water spout
+dolphin,full,,1,animals,Дельфін,Dolphin,Delfin,Delfin,Delfín,Dauphin,a grey dolphin jumping
+shark,full,,1,animals,Акула,Shark,Hai,Rekin,Tiburón,Requin,"a grey shark, friendly"
+octopus,full,,1,animals,Восьминіг,Octopus,Krake,Ośmiornica,Pulpo,Pieuvre,a purple octopus with eight arms
+crab,full,,1,animals,Краб,Crab,Krabbe,Krab,Cangrejo,Crabe,a red crab with claws
+jellyfish,full,,2,animals,Медуза,Jellyfish,Qualle,Meduza,Medusa,Méduse,a pink jellyfish
+starfish,full,,1,animals,Морська зірка,Starfish,Seestern,Rozgwiazda,Estrella de mar,Étoile de mer,an orange starfish
+seahorse,full,,2,animals,Морський коник,Seahorse,Seepferdchen,Konik morski,Caballito de mar,Hippocampe,a yellow seahorse
+seashell,full,,1,animals,Мушля,Seashell,Muschel,Muszla,Concha,Coquillage,a spiral seashell
+shrimp,full,,2,animals,Креветка,Shrimp,Garnele,Krewetka,Gamba,Crevette,a pink shrimp
+coral,full,,2,animals,Корал,Coral,Koralle,Koral,Coral,Corail,a branch of red coral
+butterfly,full,,1,animals,Метелик,Butterfly,Schmetterling,Motyl,Mariposa,Papillon,a colorful butterfly with open wings
+bee,full,,1,animals,Бджола,Bee,Biene,Pszczoła,Abeja,Abeille,a yellow and black striped bee
+ladybug,full,,1,animals,Сонечко,Ladybug,Marienkäfer,Biedronka,Mariquita,Coccinelle,a red ladybug with black dots
+ant,full,,1,animals,Мураха,Ant,Ameise,Mrówka,Hormiga,Fourmi,a black ant
+spider,full,,1,animals,Павук,Spider,Spinne,Pająk,Araña,Araignée,a small friendly black spider
+snail,full,,1,animals,Равлик,Snail,Schnecke,Ślimak,Caracol,Escargot,a snail with a spiral shell
+worm,full,,1,animals,Черв'як,Worm,Wurm,Dżdżownica,Gusano,Ver de terre,a pink earthworm
+caterpillar,full,,1,animals,Гусениця,Caterpillar,Raupe,Gąsienica,Oruga,Chenille,a green caterpillar
+dragonfly,full,,2,animals,Бабка,Dragonfly,Libelle,Ważka,Libélula,Libellule,a blue dragonfly with four wings
+grasshopper,full,,2,animals,Коник,Grasshopper,Heuschrecke,Konik polny,Saltamontes,Sauterelle,a green grasshopper
+fly,full,,2,animals,Муха,Fly,Fliege,Mucha,Mosca,Mouche,a housefly
+mosquito,full,,2,animals,Комар,Mosquito,Mücke,Komar,Mosquito,Moustique,a mosquito with long legs
+beetle,full,,1,animals,Жук,Beetle,Käfer,Chrząszcz,Escarabajo,Scarabée,a shiny green beetle
+bumblebee,full,,2,animals,Джміль,Bumblebee,Hummel,Trzmiel,Abejorro,Bourdon,a fuzzy round bumblebee
+spiderweb,full,,1,animals,Павутина,Spiderweb,Spinnennetz,Pajęczyna,Telaraña,Toile d'araignée,a round spiderweb
+puppy,full,,1,animals,Цуценя,Puppy,Welpe,Szczeniak,Cachorro,Chiot,a small puppy with floppy ears
+kitten,full,,1,animals,Кошеня,Kitten,Kätzchen,Kotek,Gatito,Chaton,a tiny kitten playing with a ball of yarn
+pony,full,,1,animals,Поні,Pony,Pony,Kucyk,Poni,Poney,a small pony with a colorful mane
+lamb,full,,2,animals,Ягня,Lamb,Lamm,Jagnię,Cordero,Agneau,a small white lamb
+guinea_pig,full,,1,animals,Морська свинка,Guinea pig,Meerschweinchen,Świnka morska,Cobaya,Cochon d'Inde,a guinea pig
+rat,full,,2,animals,Щур,Rat,Ratte,Szczur,Rata,Rat,"a grey rat with a long tail, friendly"
+canary,full,,2,animals,Канарка,Canary,Kanarienvogel,Kanarek,Canario,Canari,a yellow canary
+scarecrow,full,,2,animals,Опудало,Scarecrow,Vogelscheuche,Strach na wróble,Espantapájaros,Épouvantail,a friendly scarecrow in a field
+cheetah,full,,2,animals,Гепард,Cheetah,Gepard,Gepard,Guepardo,Guépard,a cheetah running
+orangutan,full,,2,animals,Орангутан,Orangutan,Orang-Utan,Orangutan,Orangután,Orang-outan,an orange orangutan
+lemur,full,,2,animals,Лемур,Lemur,Lemur,Lemur,Lémur,Lémurien,a lemur with a striped tail
+hyena,full,,2,animals,Гієна,Hyena,Hyäne,Hiena,Hiena,Hyène,a spotted hyena
+platypus,full,,2,animals,Качкодзьоб,Platypus,Schnabeltier,Dziobak,Ornitorrinco,Ornithorynque,a platypus with a duck bill
+badger,full,,2,animals,Борсук,Badger,Dachs,Borsuk,Tejón,Blaireau,a badger with a striped face
+porcupine,full,,2,animals,Дикобраз,Porcupine,Stachelschwein,Jeżozwierz,Puercoespín,Porc-épic,a porcupine with long quills
+armadillo,full,,2,animals,Броненосець,Armadillo,Gürteltier,Pancernik,Armadillo,Tatou,an armadillo
+tadpole,full,,2,animals,Пуголовок,Tadpole,Kaulquappe,Kijanka,Renacuajo,Têtard,a black tadpole swimming
+buffalo,full,,2,animals,Буйвол,Buffalo,Büffel,Bawół,Búfalo,Buffle,a water buffalo with curved horns
+antelope,full,,2,animals,Антилопа,Antelope,Antilope,Antylopa,Antílope,Antilope,an antelope with long horns
+meerkat,full,,2,animals,Сурикат,Meerkat,Erdmännchen,Surykatka,Suricata,Suricate,a meerkat standing upright
+chipmunk,full,,2,animals,Бурундук,Chipmunk,Streifenhörnchen,Pręgowiec,Ardilla listada,Tamia,a chipmunk with stripes on its back
+iguana,full,,2,animals,Ігуана,Iguana,Leguan,Legwan,Iguana,Iguane,a green iguana
+narwhal,full,,2,animals,Нарвал,Narwhal,Narwal,Narwal,Narval,Narval,a narwhal with a long tusk
+hare,full,,1,animals,Заєць,Hare,Hase,Zając,Liebre,Lièvre,a brown hare running
+hummingbird,full,,2,animals,Колібрі,Hummingbird,Kolibri,Koliber,Colibrí,Colibri,a hummingbird near a flower
+bullfinch,full,,2,animals,Снігур,Bullfinch,Gimpel,Gil,Camachuelo,Bouvreuil,a bullfinch with a red chest on a snowy branch
+eggshell,full,,2,animals,Шкаралупа,Eggshell,Eierschale,Skorupka,Cáscara de huevo,Coquille d'œuf,a cracked eggshell
+squid,full,,2,animals,Кальмар,Squid,Tintenfisch,Kałamarnica,Calamar,Calmar,a squid
+lobster,full,,2,animals,Омар,Lobster,Hummer,Homar,Langosta,Homard,a red lobster
+sea_urchin,full,,2,animals,Морський їжак,Sea urchin,Seeigel,Jeżowiec,Erizo de mar,Oursin,a spiky purple sea urchin
+orca,full,,2,animals,Косатка,Orca,Orca,Orka,Orca,Orque,a black and white orca
+stingray,full,,2,animals,Скат,Stingray,Rochen,Płaszczka,Raya,Raie,a stingray
+pufferfish,full,,2,animals,Риба-їжак,Pufferfish,Kugelfisch,Rozdymka,Pez globo,Poisson-globe,a round spiky pufferfish
+clownfish,full,,1,animals,Риба-клоун,Clownfish,Clownfisch,Błazenek,Pez payaso,Poisson-clown,an orange and white striped clownfish
+seaweed,full,,2,animals,Водорості,Seaweed,Seetang,Wodorosty,Algas,Algues,green seaweed
+firefly,full,,2,animals,Світлячок,Firefly,Glühwürmchen,Świetlik,Luciérnaga,Luciole,a glowing firefly
+wasp,full,,2,animals,Оса,Wasp,Wespe,Osa,Avispa,Guêpe,a wasp
+centipede,full,,2,animals,Багатоніжка,Centipede,Tausendfüßler,Stonoga,Ciempiés,Mille-pattes,a centipede with many legs
+reindeer,full,,2,animals,Північний олень,Reindeer,Rentier,Renifer,Reno,Renne,a reindeer with big antlers
+mammoth,full,,2,animals,Мамонт,Mammoth,Mammut,Mamut,Mamut,Mammouth,a woolly mammoth with curved tusks
+scorpion,full,,2,animals,Скорпіон,Scorpion,Skorpion,Skorpion,Escorpión,Scorpion,a friendly cartoon scorpion
+swallow,full,,2,animals,Ластівка,Swallow,Schwalbe,Jaskółka,Golondrina,Hirondelle,a swallow with a forked tail flying
+tit,full,,2,animals,Синиця,Great tit,Kohlmeise,Sikorka,Carbonero,Mésange,a yellow-breasted great tit on a branch
+cockatoo,full,,2,animals,Какаду,Cockatoo,Kakadu,Kakadu,Cacatúa,Cacatoès,a white cockatoo with a yellow crest
+swordfish,full,,2,animals,Риба-меч,Swordfish,Schwertfisch,Miecznik,Pez espada,Espadon,a swordfish with a long pointed nose
+pearl,full,,2,animals,Перлина,Pearl,Perle,Perła,Perla,Perle,a white pearl in an open shell
+aquarium,full,,2,animals,Акваріум,Aquarium,Aquarium,Akwarium,Acuario,Aquarium,a rectangular aquarium with fish and plants
+anthill,full,,2,animals,Мурашник,Anthill,Ameisenhaufen,Mrowisko,Hormiguero,Fourmilière,an anthill with ants
+apple,free,,1,food,Яблуко,Apple,Apfel,Jabłko,Manzana,Pomme,a red apple with a leaf
+banana,free,,1,food,Банан,Banana,Banane,Banan,Plátano,Banane,a yellow banana
+pear,full,,1,food,Груша,Pear,Birne,Gruszka,Pera,Poire,a green pear
+orange,full,,1,food,Апельсин,Orange,Orange,Pomarańcza,Naranja,Orange,a whole orange with a leaf
+lemon,full,,1,food,Лимон,Lemon,Zitrone,Cytryna,Limón,Citron,a yellow lemon
+grapes,full,,1,food,Виноград,Grapes,Weintrauben,Winogrona,Uvas,Raisin,a bunch of purple grapes
+strawberry,full,,1,food,Полуниця,Strawberry,Erdbeere,Truskawka,Fresa,Fraise,a red strawberry
+cherry,full,,1,food,Вишня,Cherry,Kirsche,Wiśnia,Cereza,Cerise,two red cherries on stems
+watermelon,free,,1,food,Кавун,Watermelon,Wassermelone,Arbuz,Sandía,Pastèque,a slice of watermelon with seeds
+melon,full,,2,food,Диня,Melon,Honigmelone,Melon,Melón,Melon,a yellow oval melon
+peach,full,,1,food,Персик,Peach,Pfirsich,Brzoskwinia,Melocotón,Pêche,a round peach with a leaf
+plum,full,,2,food,Слива,Plum,Pflaume,Śliwka,Ciruela,Prune,a purple plum
+apricot,full,,2,food,Абрикос,Apricot,Aprikose,Morela,Albaricoque,Abricot,an orange apricot
+pineapple,full,,1,food,Ананас,Pineapple,Ananas,Ananas,Piña,Ananas,a pineapple with green leaves
+kiwi,full,,2,food,Ківі,Kiwi,Kiwi,Kiwi,Kiwi,Kiwi,a kiwi fruit cut in half
+mango,full,,2,food,Манго,Mango,Mango,Mango,Mango,Mangue,a yellow-red mango
+coconut,full,,2,food,Кокос,Coconut,Kokosnuss,Kokos,Coco,Noix de coco,a brown coconut cut open
+raspberry,full,,1,food,Малина,Raspberry,Himbeere,Malina,Frambuesa,Framboise,a red raspberry
+blueberry,full,,2,food,Чорниця,Blueberry,Heidelbeere,Borówka,Arándano,Myrtille,a small pile of blueberries
+pomegranate,full,,2,food,Гранат,Pomegranate,Granatapfel,Granat,Granada,Grenade,a red pomegranate cut open
+avocado,full,,2,food,Авокадо,Avocado,Avocado,Awokado,Aguacate,Avocat,an avocado cut in half with the pit
+tangerine,full,,1,food,Мандарин,Tangerine,Mandarine,Mandarynka,Mandarina,Mandarine,a small peeled tangerine with segments
+carrot,free,,1,food,Морква,Carrot,Karotte,Marchewka,Zanahoria,Carotte,an orange carrot with green top
+tomato,full,,1,food,Помідор,Tomato,Tomate,Pomidor,Tomate,Tomate,a red tomato
+cucumber,full,,1,food,Огірок,Cucumber,Gurke,Ogórek,Pepino,Concombre,a green cucumber
+potato,full,,1,food,Картопля,Potato,Kartoffel,Ziemniak,Patata,Pomme de terre,a brown potato
+onion,full,,1,food,Цибуля,Onion,Zwiebel,Cebula,Cebolla,Oignon,a golden onion
+garlic,full,,2,food,Часник,Garlic,Knoblauch,Czosnek,Ajo,Ail,a white head of garlic
+cabbage,full,,1,food,Капуста,Cabbage,Kohl,Kapusta,Col,Chou,a green head of cabbage
+corn,full,,1,food,Кукурудза,Corn,Mais,Kukurydza,Maíz,Maïs,a yellow corn cob with husk
+pumpkin,full,,1,food,Гарбуз,Pumpkin,Kürbis,Dynia,Calabaza,Citrouille,an orange pumpkin
+bell_pepper,full,,1,food,Перець,Pepper,Paprika,Papryka,Pimiento,Poivron,a red bell pepper
+eggplant,full,,2,food,Баклажан,Eggplant,Aubergine,Bakłażan,Berenjena,Aubergine,a purple eggplant
+peas,full,,1,food,Горох,Peas,Erbsen,Groszek,Guisantes,Petits pois,an open green pea pod with peas
+beet,full,,2,food,Буряк,Beet,Rote Bete,Burak,Remolacha,Betterave,a dark red beet with leaves
+broccoli,full,,1,food,Броколі,Broccoli,Brokkoli,Brokuł,Brócoli,Brocoli,a green broccoli floret
+radish,full,,2,food,Редиска,Radish,Radieschen,Rzodkiewka,Rábano,Radis,a red radish with leaves
+mushroom,full,,1,food,Гриб,Mushroom,Pilz,Grzyb,Seta,Champignon,a mushroom with a brown cap
+walnut,full,,2,food,Горіх,Nut,Nuss,Orzech,Nuez,Noix,a walnut in its shell
+acorn,full,,2,food,Жолудь,Acorn,Eichel,Żołądź,Bellota,Gland,an acorn with its cap
+chestnut,full,,2,food,Каштан,Chestnut,Kastanie,Kasztan,Castaña,Châtaigne,a shiny brown chestnut
+bread,full,,1,food,Хліб,Bread,Brot,Chleb,Pan,Pain,a loaf of bread
+egg,full,,1,food,Яйце,Egg,Ei,Jajko,Huevo,Œuf,a white egg
+fried_egg,full,,2,food,Яєчня,Fried egg,Spiegelei,Jajko sadzone,Huevo frito,Œuf au plat,a fried egg on a pan
+cheese,full,,1,food,Сир,Cheese,Käse,Ser,Queso,Fromage,a wedge of yellow cheese with holes
+milk,full,,1,food,Молоко,Milk,Milch,Mleko,Leche,Lait,a carton of milk
+soup,full,,1,food,Суп,Soup,Suppe,Zupa,Sopa,Soupe,a bowl of hot soup
+pizza,full,,1,food,Піца,Pizza,Pizza,Pizza,Pizza,Pizza,a round pizza
+sandwich,full,,1,food,Бутерброд,Sandwich,Sandwich,Kanapka,Sándwich,Sandwich,a sandwich with cheese and lettuce
+sausage,full,,1,food,Сосиска,Sausage,Würstchen,Parówka,Salchicha,Saucisse,a sausage on a fork
+pasta,full,,1,food,Макарони,Pasta,Nudeln,Makaron,Espaguetis,Pâtes,a plate of spaghetti
+rice,full,,2,food,Рис,Rice,Reis,Ryż,Arroz,Riz,a bowl of white rice
+pancake,full,,1,food,Млинці,Pancakes,Pfannkuchen,Naleśniki,Tortitas,Crêpes,a stack of pancakes
+hamburger,full,,1,food,Гамбургер,Burger,Hamburger,Hamburger,Hamburguesa,Hamburger,a hamburger
+hot_dog,full,,2,food,Хот-дог,Hot dog,Hotdog,Hot dog,Perrito caliente,Hot-dog,a hot dog in a bun
+honey,full,,1,food,Мед,Honey,Honig,Miód,Miel,Miel,a jar of honey with a dipper
+salad,full,,2,food,Салат,Salad,Salat,Sałatka,Ensalada,Salade,a bowl of green salad
+yogurt,full,,2,food,Йогурт,Yogurt,Joghurt,Jogurt,Yogur,Yaourt,a cup of yogurt with a spoon
+pie,full,,2,food,Пиріг,Pie,Kuchen,Placek,Pastel,Tarte,a round fruit pie
+waffle,full,,2,food,Вафля,Waffle,Waffel,Gofr,Gofre,Gaufre,a square waffle
+pretzel,full,,2,food,Крендель,Pretzel,Brezel,Precel,Pretzel,Bretzel,a salted pretzel
+bagel,full,,2,food,Бублик,Bagel,Bagel,Bajgiel,Bagel,Bagel,a bagel with sesame seeds
+croissant,full,,2,food,Круасан,Croissant,Croissant,Rogalik,Cruasán,Croissant,a golden croissant
+bun,full,,1,food,Булочка,Bun,Brötchen,Bułka,Bollo,Petit pain,a round bread bun
+baguette,full,,2,food,Багет,Baguette,Baguette,Bagietka,Barra de pan,Baguette,a long baguette
+cake,free,,1,food,Торт,Cake,Torte,Tort,Tarta,Gâteau,a birthday cake with candles
+cookie,full,,1,food,Печиво,Cookie,Keks,Ciastko,Galleta,Biscuit,a round cookie with chocolate chips
+candy,full,,1,food,Цукерка,Candy,Bonbon,Cukierek,Caramelo,Bonbon,a wrapped candy
+ice_cream,free,,1,food,Морозиво,Ice cream,Eis,Lody,Helado,Glace,an ice cream cone with two scoops
+chocolate,full,,1,food,Шоколад,Chocolate,Schokolade,Czekolada,Chocolate,Chocolat,"a chocolate bar, partly unwrapped"
+lollipop,full,,1,food,Льодяник,Lollipop,Lutscher,Lizak,Piruleta,Sucette,a round swirl lollipop
+donut,full,,1,food,Пончик,Donut,Donut,Pączek,Dónut,Beignet,a pink glazed donut with sprinkles
+popcorn,full,,1,food,Попкорн,Popcorn,Popcorn,Popcorn,Palomitas,Pop-corn,a striped box of popcorn
+cotton_candy,full,,2,food,Цукрова вата,Cotton candy,Zuckerwatte,Wata cukrowa,Algodón de azúcar,Barbe à papa,pink cotton candy on a stick
+cupcake,full,,2,food,Кекс,Cupcake,Muffin,Babeczka,Magdalena,Cupcake,a cupcake with frosting
+juice,full,,1,food,Сік,Juice,Saft,Sok,Zumo,Jus,a glass of orange juice with a straw
+tea,full,,2,food,Чай,Tea,Tee,Herbata,Té,Thé,a cup of tea with a tea bag
+cocoa,full,,2,food,Какао,Cocoa,Kakao,Kakao,Cacao,Chocolat chaud,a mug of hot cocoa
+lemonade,full,,2,food,Лимонад,Lemonade,Limonade,Lemoniada,Limonada,Limonade,a glass of lemonade with ice and a lemon slice
+fig,full,,2,food,Інжир,Fig,Feige,Figa,Higo,Figue,a purple fig cut open
+grapefruit,full,,2,food,Грейпфрут,Grapefruit,Grapefruit,Grejpfrut,Pomelo,Pamplemousse,a grapefruit cut in half
+blackberry,full,,2,food,Ожина,Blackberry,Brombeere,Jeżyna,Mora,Mûre,a blackberry
+currant,full,,2,food,Смородина,Currant,Johannisbeere,Porzeczka,Grosella,Groseille,a bunch of red currants
+zucchini,full,,2,food,Кабачок,Zucchini,Zucchini,Cukinia,Calabacín,Courgette,a green zucchini
+cauliflower,full,,2,food,Цвітна капуста,Cauliflower,Blumenkohl,Kalafior,Coliflor,Chou-fleur,a white cauliflower
+chili,full,,2,food,Перець чилі,Chili pepper,Chili,Papryczka chili,Guindilla,Piment,a red chili pepper
+dill,full,,2,food,Кріп,Dill,Dill,Koperek,Eneldo,Aneth,a bunch of dill
+beans,full,,2,food,Квасоля,Beans,Bohnen,Fasola,Judías,Haricots,a pile of red beans
+peanut,full,,2,food,Арахіс,Peanut,Erdnuss,Orzeszek ziemny,Cacahuete,Cacahuète,a peanut in its shell
+olive,full,,2,food,Оливка,Olive,Olive,Oliwka,Aceituna,Olive,two green olives on a branch
+turnip,full,,2,food,Ріпка,Turnip,Rübe,Rzepa,Nabo,Navet,a round yellow turnip with leaves
+porridge,full,,2,food,Каша,Oatmeal,Haferbrei,Owsianka,Gachas de avena,Porridge,a bowl of oatmeal porridge with berries
+chicken_leg,full,,2,food,Куряча ніжка,Chicken leg,Hähnchenkeule,Udko,Muslo de pollo,Cuisse de poulet,a roasted chicken drumstick
+fries,full,,1,food,Картопля фрі,French fries,Pommes,Frytki,Patatas fritas,Frites,french fries in a red box
+ketchup,full,,2,food,Кетчуп,Ketchup,Ketchup,Keczup,Kétchup,Ketchup,a red ketchup bottle
+jam,full,,2,food,Варення,Jam,Marmelade,Dżem,Mermelada,Confiture,a jar of strawberry jam
+butter,full,,2,food,Масло,Butter,Butter,Masło,Mantequilla,Beurre,a block of butter on a dish
+salt,full,,2,food,Сіль,Salt,Salz,Sól,Sal,Sel,a salt shaker
+sugar,full,,2,food,Цукор,Sugar,Zucker,Cukier,Azúcar,Sucre,white sugar cubes
+sushi,full,,2,food,Суші,Sushi,Sushi,Sushi,Sushi,Sushi,two pieces of sushi
+toast,full,,2,food,Тост,Toast,Toast,Tost,Tostada,Pain grillé,a slice of golden toast
+gingerbread_man,full,,2,food,Пряничний чоловічок,Gingerbread man,Lebkuchenmann,Piernikowy ludzik,Hombre de jengibre,Bonhomme en pain d'épices,a gingerbread man cookie
+marshmallow,full,,2,food,Маршмелоу,Marshmallow,Marshmallow,Pianka,Malvavisco,Guimauve,pink and white marshmallows
+jelly,full,,2,food,Желе,Gelatin,Wackelpudding,Galaretka,Gelatina,Gelée,a wobbly red jelly dessert
+milkshake,full,,2,food,Молочний коктейль,Milkshake,Milchshake,Koktajl mleczny,Batido,Milk-shake,a milkshake with a straw and whipped cream
+taco,full,,2,food,Тако,Taco,Taco,Taco,Taco,Taco,a taco
+cereal,full,,2,food,Пластівці,Cereal,Cornflakes,Płatki,Cereales,Céréales,a bowl of cereal with milk
+chopsticks,full,,2,food,Палички для їжі,Chopsticks,Essstäbchen,Pałeczki,Palillos,Baguettes chinoises,a pair of chopsticks
+straw,full,,2,food,Трубочка,Straw,Strohhalm,Słomka,Pajita,Paille,a striped drinking straw
+lime,full,,2,food,Лайм,Lime,Limette,Limonka,Lima,Citron vert,a green lime
+persimmon,full,,2,food,Хурма,Persimmon,Kaki,Persymona,Caqui,Kaki,an orange persimmon
+cranberry,full,,2,food,Журавлина,Cranberry,Cranberry,Żurawina,Arándano rojo,Canneberge,a handful of red cranberries
+dates,full,,2,food,Фініки,Dates,Datteln,Daktyle,Dátiles,Dattes,a few brown dates
+asparagus,full,,2,food,Спаржа,Asparagus,Spargel,Szparagi,Espárragos,Asperges,a bunch of green asparagus
+parsley,full,,2,food,Петрушка,Parsley,Petersilie,Pietruszka,Perejil,Persil,a bunch of parsley
+borscht,full,,2,food,Борщ,Borscht,Borschtsch,Barszcz,Borsch,Bortsch,a bowl of red beet soup with sour cream
+meatballs,full,,2,food,Фрикадельки,Meatballs,Fleischbällchen,Klopsiki,Albóndigas,Boulettes,a plate of meatballs
+omelette,full,,2,food,Омлет,Omelette,Omelett,Omlet,Tortilla francesa,Omelette,a folded omelette on a plate
+chewing_gum,full,,2,food,Жуйка,Chewing gum,Kaugummi,Guma do żucia,Chicle,Chewing-gum,a pink bubble of chewing gum
+cup,full,,1,home,Чашка,Cup,Tasse,Kubek,Taza,Tasse,a cup with a handle
+spoon,full,,1,home,Ложка,Spoon,Löffel,Łyżka,Cuchara,Cuillère,a metal spoon
+fork,full,,1,home,Виделка,Fork,Gabel,Widelec,Tenedor,Fourchette,a metal fork
+knife,full,,2,home,Ніж,Knife,Messer,Nóż,Cuchillo,Couteau,a round-tipped table knife
+plate,full,,1,home,Тарілка,Plate,Teller,Talerz,Plato,Assiette,an empty round plate
+glass,full,,2,home,Склянка,Glass,Glas,Szklanka,Vaso,Verre,an empty drinking glass
+bottle,full,,1,home,Пляшка,Bottle,Flasche,Butelka,Botella,Bouteille,a plastic water bottle
+pot,full,,1,home,Каструля,Pot,Topf,Garnek,Olla,Casserole,a cooking pot with a lid
+frying_pan,full,,1,home,Сковорідка,Frying pan,Pfanne,Patelnia,Sartén,Poêle,a frying pan
+kettle,full,,1,home,Чайник,Kettle,Wasserkessel,Czajnik,Tetera,Bouilloire,a stovetop kettle with a spout
+bowl,full,,1,home,Миска,Bowl,Schüssel,Miska,Cuenco,Bol,an empty bowl
+fridge,full,,1,home,Холодильник,Fridge,Kühlschrank,Lodówka,Nevera,Frigo,a white fridge
+oven,full,,2,home,Духовка,Oven,Backofen,Piekarnik,Horno,Four,a kitchen oven with a glass door
+toaster,full,,2,home,Тостер,Toaster,Toaster,Toster,Tostadora,Grille-pain,a toaster with two slices of toast popping up
+ladle,full,,2,home,Черпак,Ladle,Schöpflöffel,Chochla,Cucharón,Louche,a soup ladle
+rolling_pin,full,,2,home,Качалка,Rolling pin,Nudelholz,Wałek,Rodillo,Rouleau,a wooden rolling pin
+basket,full,,1,home,Кошик,Basket,Korb,Koszyk,Cesta,Panier,a woven basket with a handle
+jug,full,,2,home,Глечик,Jug,Krug,Dzbanek,Jarra,Cruche,a clay jug
+saucepan_lid,full,,2,home,Кришка,Lid,Deckel,Pokrywka,Tapa,Couvercle,a pot lid with a knob
+table,full,,1,home,Стіл,Table,Tisch,Stół,Mesa,Table,a wooden table
+chair,free,,1,home,Стілець,Chair,Stuhl,Krzesło,Silla,Chaise,a wooden chair
+bed,free,,1,home,Ліжко,Bed,Bett,Łóżko,Cama,Lit,a bed with a pillow and blanket
+sofa,full,,1,home,Диван,Sofa,Sofa,Kanapa,Sofá,Canapé,a blue sofa
+armchair,full,,2,home,Крісло,Armchair,Sessel,Fotel,Sillón,Fauteuil,a soft armchair
+wardrobe,full,,1,home,Шафа,Wardrobe,Schrank,Szafa,Armario,Armoire,a wooden wardrobe with two doors
+shelf,full,,2,home,Полиця,Shelf,Regal,Półka,Estantería,Étagère,a bookshelf with books
+lamp,full,,1,home,Лампа,Lamp,Lampe,Lampa,Lámpara,Lampe,a table lamp with a shade
+light_bulb,full,,1,home,Лампочка,Light bulb,Glühbirne,Żarówka,Bombilla,Ampoule,a glowing light bulb
+clock,full,,1,home,Годинник,Clock,Uhr,Zegar,Reloj,Horloge,a round wall clock
+mirror,full,,1,home,Дзеркало,Mirror,Spiegel,Lustro,Espejo,Miroir,an oval mirror
+window,full,,1,home,Вікно,Window,Fenster,Okno,Ventana,Fenêtre,a window with curtains
+door,full,,1,home,Двері,Door,Tür,Drzwi,Puerta,Porte,a wooden door with a handle
+key,full,,1,home,Ключ,Key,Schlüssel,Klucz,Llave,Clé,a golden key
+pillow,full,,1,home,Подушка,Pillow,Kissen,Poduszka,Almohada,Oreiller,a white pillow
+blanket,full,,1,home,Ковдра,Blanket,Decke,Koc,Manta,Couverture,a folded checked blanket
+rug,full,,2,home,Килим,Rug,Teppich,Dywan,Alfombra,Tapis,a patterned rug
+curtains,full,,2,home,Штори,Curtains,Vorhang,Zasłony,Cortinas,Rideaux,window curtains
+stairs,full,,1,home,Сходи,Stairs,Treppe,Schody,Escalera,Escalier,a staircase
+candle,full,,1,home,Свічка,Candle,Kerze,Świeca,Vela,Bougie,a lit candle
+vase,full,,2,home,Ваза,Vase,Vase,Wazon,Jarrón,Vase,a vase with flowers
+painting,full,,2,home,Картина,Painting,Bild,Obraz,Cuadro,Tableau,a framed landscape painting
+box,full,,1,home,Коробка,Box,Schachtel,Pudełko,Caja,Boîte,a cardboard box
+fireplace,full,,2,home,Камін,Fireplace,Kamin,Kominek,Chimenea,Cheminée,a fireplace with fire
+bench,full,,1,home,Лавка,Bench,Bank,Ławka,Banco,Banc,a park bench
+hanger,full,,2,home,Вішалка,Hanger,Kleiderbügel,Wieszak,Percha,Cintre,a clothes hanger
+fan,full,,2,home,Вентилятор,Fan,Ventilator,Wentylator,Ventilador,Ventilateur,an electric fan
+flowerpot,full,,2,home,Вазон,Flowerpot,Blumentopf,Doniczka,Maceta,Pot de fleurs,a potted plant
+chest_of_drawers,full,,2,home,Комод,Dresser,Kommode,Komoda,Cómoda,Commode,a chest of drawers
+stool,full,,2,home,Табурет,Stool,Hocker,Taboret,Taburete,Tabouret,a wooden stool
+socket,full,,2,home,Розетка,Socket,Steckdose,Gniazdko,Enchufe,Prise,a wall power socket
+roof,full,,2,home,Дах,Roof,Dach,Dach,Tejado,Toit,a red tiled roof
+cradle,full,,2,home,Колиска,Cradle,Wiege,Kołyska,Cuna,Berceau,a wooden baby cradle
+toothbrush,free,,1,home,Зубна щітка,Toothbrush,Zahnbürste,Szczoteczka,Cepillo de dientes,Brosse à dents,a toothbrush with toothpaste
+toothpaste,full,,2,home,Зубна паста,Toothpaste,Zahnpasta,Pasta do zębów,Pasta de dientes,Dentifrice,a tube of toothpaste
+soap,full,,1,home,Мило,Soap,Seife,Mydło,Jabón,Savon,a bar of soap with bubbles
+towel,full,,1,home,Рушник,Towel,Handtuch,Ręcznik,Toalla,Serviette,a folded towel
+bathtub,full,,1,home,Ванна,Bathtub,Badewanne,Wanna,Bañera,Baignoire,a bathtub with bubbles
+shower,full,,2,home,Душ,Shower,Dusche,Prysznic,Ducha,Douche,a shower head with water
+toilet,full,,1,home,Унітаз,Toilet,Toilette,Toaleta,Inodoro,Toilettes,a white toilet
+comb,full,,1,home,Гребінець,Comb,Kamm,Grzebień,Peine,Peigne,a comb
+sponge,full,,1,home,Губка,Sponge,Schwamm,Gąbka,Esponja,Éponge,a yellow sponge
+broom,full,,1,home,Віник,Broom,Besen,Miotła,Escoba,Balai,a broom
+bucket,full,,1,home,Відро,Bucket,Eimer,Wiadro,Cubo,Seau,a bucket with a handle
+vacuum,full,,1,home,Пилосос,Vacuum cleaner,Staubsauger,Odkurzacz,Aspiradora,Aspirateur,a vacuum cleaner
+washing_machine,full,,1,home,Пральна машина,Washing machine,Waschmaschine,Pralka,Lavadora,Machine à laver,a washing machine
+iron,full,,2,home,Праска,Iron,Bügeleisen,Żelazko,Plancha,Fer à repasser,a clothes iron
+tap,full,,2,home,Кран,Faucet,Wasserhahn,Kran,Grifo,Robinet,a water tap with a drop
+hair_dryer,full,,2,home,Фен,Hair dryer,Föhn,Suszarka,Secador,Sèche-cheveux,a hair dryer
+rubber_duck,full,,1,home,Гумова качечка,Rubber duck,Quietscheente,Gumowa kaczuszka,Patito de goma,Canard en plastique,a yellow rubber duck
+phone,full,,1,home,Телефон,Phone,Telefon,Telefon,Teléfono,Téléphone,a smartphone
+computer,full,,1,home,Комп'ютер,Computer,Computer,Komputer,Ordenador,Ordinateur,a desktop computer with a monitor and keyboard
+tv,full,,1,home,Телевізор,TV,Fernseher,Telewizor,Televisión,Télé,a television
+camera,full,,1,home,Фотоапарат,Camera,Kamera,Aparat,Cámara,Appareil photo,a photo camera
+battery,full,,2,home,Батарейка,Battery,Batterie,Bateria,Pila,Pile,an AA battery
+telescope,full,,2,home,Телескоп,Telescope,Teleskop,Teleskop,Telescopio,Télescope,a telescope on a tripod
+headphones,full,,1,home,Навушники,Headphones,Kopfhörer,Słuchawki,Auriculares,Casque audio,over-ear headphones
+microphone,full,,2,home,Мікрофон,Microphone,Mikrofon,Mikrofon,Micrófono,Micro,a microphone
+laptop,full,,2,home,Ноутбук,Laptop,Laptop,Laptop,Portátil,Ordinateur portable,an open laptop
+remote,full,,2,home,Пульт,Remote,Fernbedienung,Pilot,Mando,Télécommande,a TV remote control
+alarm_clock,full,,2,home,Будильник,Alarm clock,Wecker,Budzik,Despertador,Réveil,an alarm clock with two bells
+tray,full,,2,home,Таця,Tray,Tablett,Taca,Bandeja,Plateau,an empty serving tray
+colander,full,,2,home,Друшляк,Colander,Sieb,Durszlak,Colador,Passoire,a colander with holes
+grater,full,,2,home,Тертка,Grater,Reibe,Tarka,Rallador,Râpe,a box grater
+whisk,full,,2,home,Вінчик,Whisk,Schneebesen,Trzepaczka,Batidor,Fouet,a kitchen whisk
+jar,full,,2,home,Банка,Jar,Einmachglas,Słoik,Tarro,Bocal,an empty glass jar with a lid
+thermos,full,,2,home,Термос,Thermos,Thermoskanne,Termos,Termo,Thermos,a thermos flask
+microwave,full,,2,home,Мікрохвильовка,Microwave,Mikrowelle,Mikrofalówka,Microondas,Micro-ondes,a microwave oven
+mailbox,full,,2,home,Поштова скринька,Mailbox,Briefkasten,Skrzynka pocztowa,Buzón,Boîte aux lettres,a mailbox
+photo_frame,full,,2,home,Рамка,Photo frame,Bilderrahmen,Ramka,Marco,Cadre,an empty photo frame
+sink,full,,2,home,Раковина,Sink,Waschbecken,Umywalka,Lavabo,Lavabo,a bathroom sink with a tap
+shampoo,full,,2,home,Шампунь,Shampoo,Shampoo,Szampon,Champú,Shampoing,a shampoo bottle
+toilet_paper,full,,1,home,Туалетний папір,Toilet paper,Klopapier,Papier toaletowy,Papel higiénico,Papier toilette,a roll of toilet paper
+plaster,full,,1,home,Пластир,Bandage,Pflaster,Plaster,Tirita,Pansement,an adhesive bandage
+thermometer,full,,2,home,Градусник,Thermometer,Fieberthermometer,Termometr,Termómetro,Thermomètre,a digital fever thermometer
+mop,full,,2,home,Швабра,Mop,Wischmopp,Mop,Fregona,Serpillière,a floor mop
+dustpan,full,,2,home,Совок,Dustpan,Kehrschaufel,Szufelka,Recogedor,Pelle à poussière,a dustpan with a small brush
+clothespin,full,,2,home,Прищіпка,Clothespin,Wäscheklammer,Klamerka,Pinza,Pince à linge,a wooden clothespin
+trash_can,full,,1,home,Смітник,Trash can,Mülleimer,Kosz na śmieci,Papelera,Poubelle,a trash can with a lid
+pacifier,full,,1,home,Соска,Pacifier,Schnuller,Smoczek,Chupete,Tétine,a baby pacifier
+diaper,full,,2,home,Підгузок,Diaper,Windel,Pieluszka,Pañal,Couche,a baby diaper
+bathrobe,full,,2,home,Халат,Bathrobe,Bademantel,Szlafrok,Albornoz,Peignoir,a fluffy bathrobe
+first_aid_kit,full,,2,home,Аптечка,First aid kit,Verbandskasten,Apteczka,Botiquín,Trousse de secours,a first aid kit with a cross
+stethoscope,full,,2,home,Стетоскоп,Stethoscope,Stethoskop,Stetoskop,Estetoscopio,Stéthoscope,a stethoscope
+elevator,full,,2,home,Ліфт,Elevator,Aufzug,Winda,Ascensor,Ascenseur,an elevator with open doors
+tablet,full,,2,home,Планшет,Tablet,Tablet,Tablet,Tableta,Tablette,a tablet computer
+radio,full,,2,home,Радіо,Radio,Radio,Radio,Radio,Radio,an old radio with an antenna
+drone,full,,2,home,Дрон,Drone,Drohne,Dron,Dron,Drone,a small drone with four propellers
+calculator,full,,2,home,Калькулятор,Calculator,Taschenrechner,Kalkulator,Calculadora,Calculatrice,a calculator
+satellite,full,,2,home,Супутник,Satellite,Satellit,Satelita,Satélite,Satellite,a satellite in space with solar panels
+bunk_bed,full,,2,home,Двоповерхове ліжко,Bunk bed,Etagenbett,Łóżko piętrowe,Litera,Lits superposés,a bunk bed
+baby_bottle,full,,2,home,Пляшечка,Baby bottle,Babyflasche,Butelka dla niemowląt,Biberón,Biberon,a baby bottle with milk
+bib,full,,2,home,Слинявчик,Bib,Lätzchen,Śliniak,Babero,Bavoir,a baby bib
+hairbrush,full,,2,home,Щітка для волосся,Hairbrush,Haarbürste,Szczotka do włosów,Cepillo del pelo,Brosse à cheveux,a hairbrush
+air_conditioner,full,,2,home,Кондиціонер,Air conditioner,Klimaanlage,Klimatyzator,Aire acondicionado,Climatiseur,a wall air conditioner
+chandelier,full,,2,home,Люстра,Chandelier,Kronleuchter,Żyrandol,Lámpara de araña,Lustre,a ceiling chandelier
+dishwasher,full,,2,home,Посудомийна машина,Dishwasher,Spülmaschine,Zmywarka,Lavavajillas,Lave-vaisselle,an open dishwasher with plates
+spatula,full,,2,home,Лопатка,Spatula,Pfannenwender,Łopatka,Espátula,Spatule,a kitchen spatula
+lunch_box,full,,2,home,Ланч-бокс,Lunch box,Brotdose,Śniadaniówka,Fiambrera,Boîte à goûter,a lunch box with a sandwich
+printer,full,,2,home,Принтер,Printer,Drucker,Drukarka,Impresora,Imprimante,a printer with a sheet of paper
+keyboard,full,,2,home,Клавіатура,Keyboard,Tastatur,Klawiatura,Teclado,Clavier,a computer keyboard
+speaker,full,,2,home,Колонка,Speaker,Lautsprecher,Głośnik,Altavoz,Enceinte,a music speaker
+birdcage,full,,2,home,Клітка,Birdcage,Vogelkäfig,Klatka dla ptaków,Jaula,Cage,an empty round birdcage
+folding_fan,full,,2,home,Віяло,Folding fan,Fächer,Wachlarz,Abanico,Éventail,an open folding hand fan
+barrel,full,,2,home,Бочка,Barrel,Fass,Beczka,Barril,Tonneau,a wooden barrel
+paint_can,full,,2,home,Банка фарби,Paint can,Farbeimer,Puszka farby,Bote de pintura,Pot de peinture,an open can of blue paint
+woolly_hat,full,,1,clothes,Шапка,Winter hat,Mütze,Czapka,Gorro,Bonnet,a knitted winter hat with a pompom
+hat,full,,2,clothes,Капелюх,Hat,Hut,Kapelusz,Sombrero,Chapeau,a brimmed sun hat
+cap,full,,1,clothes,Кепка,Cap,Kappe,Czapka z daszkiem,Gorra,Casquette,a baseball cap
+scarf,full,,1,clothes,Шарф,Scarf,Schal,Szalik,Bufanda,Écharpe,a striped knitted scarf
+mittens,full,,1,clothes,Рукавиці,Mittens,Fäustlinge,Rękawiczki,Manoplas,Moufles,a pair of knitted mittens
+jacket,full,,1,clothes,Куртка,Jacket,Jacke,Kurtka,Chaqueta,Veste,a zip-up jacket
+coat,full,,2,clothes,Пальто,Coat,Mantel,Płaszcz,Abrigo,Manteau,a long coat with buttons
+dress,full,,1,clothes,Сукня,Dress,Kleid,Sukienka,Vestido,Robe,a girl's dress
+skirt,full,,1,clothes,Спідниця,Skirt,Rock,Spódnica,Falda,Jupe,a pleated skirt
+t_shirt,full,,1,clothes,Футболка,T-shirt,T-Shirt,Koszulka,Camiseta,Tee-shirt,a t-shirt
+shirt,full,,2,clothes,Сорочка,Shirt,Hemd,Koszula,Camisa,Chemise,a button-up shirt with a collar
+sweater,full,,1,clothes,Светр,Sweater,Pullover,Sweter,Jersey,Pull,a knitted sweater
+trousers,full,,1,clothes,Штани,Pants,Hose,Spodnie,Pantalones,Pantalon,a pair of trousers
+shorts,full,,1,clothes,Шорти,Shorts,Shorts,Szorty,Pantalón corto,Short,a pair of shorts
+jeans,full,,2,clothes,Джинси,Jeans,Jeans,Dżinsy,Tejanos,Jean,a pair of blue jeans
+socks,full,,1,clothes,Шкарпетки,Socks,Socken,Skarpetki,Calcetines,Chaussettes,a pair of striped socks
+pajamas,full,,1,clothes,Піжама,Pajamas,Schlafanzug,Piżama,Pijama,Pyjama,a pajama top and bottoms with stars
+swimsuit,full,,2,clothes,Купальник,Swimsuit,Badeanzug,Strój kąpielowy,Bañador,Maillot de bain,a one-piece swimsuit
+raincoat,full,,2,clothes,Дощовик,Raincoat,Regenmantel,Płaszcz przeciwdeszczowy,Chubasquero,Imperméable,a yellow raincoat with a hood
+belt,full,,2,clothes,Пасок,Belt,Gürtel,Pasek,Cinturón,Ceinture,a leather belt with a buckle
+tie,full,,2,clothes,Краватка,Tie,Krawatte,Krawat,Corbata,Cravate,a necktie
+button,full,,1,clothes,Ґудзик,Button,Knopf,Guzik,Botón,Bouton,a round button with four holes
+apron,full,,2,clothes,Фартух,Apron,Schürze,Fartuch,Delantal,Tablier,a kitchen apron
+boots,full,,1,clothes,Чоботи,Boots,Stiefel,Kalosze,Botas,Bottes,a pair of rubber rain boots
+sneakers,full,,1,clothes,Кросівки,Sneakers,Turnschuhe,Trampki,Zapatillas,Baskets,a pair of sneakers
+slippers,full,,1,clothes,Капці,Slippers,Hausschuhe,Kapcie,Pantuflas,Chaussons,a pair of fluffy slippers
+sandals,full,,2,clothes,Сандалі,Sandals,Sandalen,Sandały,Sandalias,Sandales,a pair of sandals
+glasses,full,,1,clothes,Окуляри,Glasses,Brille,Okulary,Gafas,Lunettes,a pair of eyeglasses
+sunglasses,full,,2,clothes,Сонцезахисні окуляри,Sunglasses,Sonnenbrille,Okulary przeciwsłoneczne,Gafas de sol,Lunettes de soleil,a pair of dark sunglasses
+umbrella,full,,1,clothes,Парасолька,Umbrella,Regenschirm,Parasol,Paraguas,Parapluie,an open umbrella
+backpack,full,,1,clothes,Рюкзак,Backpack,Rucksack,Plecak,Mochila,Sac à dos,a school backpack
+bag,full,,1,clothes,Сумка,Bag,Tasche,Torba,Bolso,Sac,a handbag
+ring,full,,2,clothes,Каблучка,Ring,Ring,Pierścionek,Anillo,Bague,a gold ring with a gem
+necklace,full,,2,clothes,Намисто,Necklace,Halskette,Naszyjnik,Collar,Collier,a bead necklace
+bow,full,,1,clothes,Бантик,Bow,Schleife,Kokarda,Lazo,Nœud,a pink ribbon bow
+wallet,full,,2,clothes,Гаманець,Wallet,Geldbörse,Portfel,Cartera,Portefeuille,a leather wallet
+suitcase,full,,2,clothes,Валіза,Suitcase,Koffer,Walizka,Maleta,Valise,a travel suitcase with wheels
+hoodie,full,,2,clothes,Худі,Hoodie,Kapuzenpullover,Bluza z kapturem,Sudadera,Sweat à capuche,a hooded sweatshirt
+overalls,full,,2,clothes,Комбінезон,Overalls,Latzhose,Ogrodniczki,Peto,Salopette,a pair of denim overalls
+tights,full,,2,clothes,Колготки,Tights,Strumpfhose,Rajstopy,Leotardos,Collants,a pair of colorful tights
+headband,full,,2,clothes,Обідок,Headband,Haarreif,Opaska,Diadema,Serre-tête,a hair headband with a bow
+vest,full,,2,clothes,Жилетка,Vest,Weste,Kamizelka,Chaleco,Gilet,a knitted vest
+watch,full,,2,clothes,Наручний годинник,Watch,Armbanduhr,Zegarek,Reloj de pulsera,Montre,a wristwatch
+flip_flops,full,,2,clothes,В'єтнамки,Flip-flops,Flip-Flops,Japonki,Chanclas,Tongs,a pair of flip-flops
+beret,full,,2,clothes,Берет,Beret,Baskenmütze,Beret,Boina,Béret,a red beret
+shoe,full,,2,clothes,Черевик,Shoe,Schuh,But,Zapato,Chaussure,a single laced shoe
+ball,free,,1,toys,М'яч,Ball,Ball,Piłka,Pelota,Balle,a colorful ball
+balloon,free,,1,toys,Кулька,Balloon,Luftballon,Balon,Globo,Ballon,a red balloon on a string
+doll,full,,1,toys,Лялька,Doll,Puppe,Lalka,Muñeca,Poupée,a doll in a dress
+teddy_bear,free,,1,toys,Ведмедик,Teddy bear,Teddybär,Miś,Osito de peluche,Nounours,a brown teddy bear
+blocks,full,,1,toys,Кубики,Blocks,Bauklötze,Klocki,Bloques,Cubes,a stack of colorful toy blocks
+kite,full,,1,toys,Повітряний змій,Kite,Drachen,Latawiec,Cometa,Cerf-volant,a diamond kite with a tail
+yo_yo,full,,2,toys,Йо-йо,Yo-yo,Jo-Jo,Jo-jo,Yoyó,Yo-yo,a yo-yo on a string
+spinning_top,full,,2,toys,Дзиґа,Spinning top,Kreisel,Bączek,Peonza,Toupie,a colorful spinning top
+puzzle,full,,1,toys,Пазл,Puzzle,Puzzle,Puzzle,Puzle,Puzzle,a few jigsaw puzzle pieces
+jump_rope,full,,1,toys,Скакалка,Jump rope,Springseil,Skakanka,Comba,Corde à sauter,a jump rope with handles
+swing,full,,1,toys,Гойдалка,Swing,Schaukel,Huśtawka,Columpio,Balançoire,a playground swing
+slide,full,,1,toys,Гірка,Slide,Rutsche,Zjeżdżalnia,Tobogán,Toboggan,a playground slide
+sandbox,full,,1,toys,Пісочниця,Sandbox,Sandkasten,Piaskownica,Arenero,Bac à sable,a sandbox with a bucket and spade
+scooter,full,,1,toys,Самокат,Scooter,Roller,Hulajnoga,Patinete,Trottinette,a kick scooter
+bubbles,full,,1,toys,Мильні бульбашки,Bubbles,Seifenblasen,Bańki mydlane,Pompas de jabón,Bulles de savon,soap bubbles and a bubble wand
+sled,full,,1,toys,Санки,Sled,Schlitten,Sanki,Trineo,Luge,a wooden sled
+hoop,full,,2,toys,Обруч,Hoop,Reifen,Obręcz,Aro,Cerceau,a hula hoop
+skittles,full,,2,toys,Кеглі,Skittles,Kegel,Kręgle,Bolos,Quilles,bowling pins and a ball
+toy_car,full,,1,toys,Іграшкова машинка,Toy car,Spielzeugauto,Samochodzik,Cochecito,Petite voiture,a small red toy car
+pyramid_toy,full,,2,toys,Пірамідка,Stacking rings,Ringpyramide,Piramidka,Pirámide de aros,Pyramide d'anneaux,a colorful ring-stacking toy
+rocking_horse,full,,2,toys,Конячка-гойдалка,Rocking horse,Schaukelpferd,Koń na biegunach,Caballito balancín,Cheval à bascule,a wooden rocking horse
+dollhouse,full,,2,toys,Ляльковий будиночок,Dollhouse,Puppenhaus,Domek dla lalek,Casa de muñecas,Maison de poupée,a dollhouse
+dice,full,,2,toys,Гральний кубик,Dice,Würfel,Kostka do gry,Dado,Dé,a white dice with dots
+rattle,full,,2,toys,Брязкальце,Rattle,Rassel,Grzechotka,Sonajero,Hochet,a baby rattle
+paper_plane,full,,1,toys,Паперовий літачок,Paper plane,Papierflieger,Papierowy samolot,Avión de papel,Avion en papier,a paper airplane
+sandcastle,full,,1,toys,Пісочний замок,Sandcastle,Sandburg,Zamek z piasku,Castillo de arena,Château de sable,a sandcastle with a flag
+paper_boat,full,,2,toys,Паперовий кораблик,Paper boat,Papierschiff,Łódka z papieru,Barco de papel,Bateau en papier,a folded paper boat
+snowball,full,,1,toys,Сніжка,Snowball,Schneeball,Śnieżka,Bola de nieve,Boule de neige,a round snowball
+ball_of_yarn,full,,2,toys,Клубок,Ball of yarn,Wollknäuel,Kłębek,Ovillo,Pelote de laine,a ball of red yarn
+play_dough,full,,1,toys,Пластилін,Plasticine,Knete,Plastelina,Plastilina,Pâte à modeler,colorful modeling clay sticks
+stickers,full,,1,toys,Наліпки,Stickers,Aufkleber,Naklejki,Pegatinas,Autocollants,a sheet of stickers with stars
+kaleidoscope,full,,2,toys,Калейдоскоп,Kaleidoscope,Kaleidoskop,Kalejdoskop,Caleidoscopio,Kaléidoscope,a kaleidoscope tube
+chess,full,,2,toys,Шахи,Chess,Schach,Szachy,Ajedrez,Échecs,a chessboard with pieces
+dominoes,full,,2,toys,Доміно,Dominoes,Domino,Domino,Dominó,Dominos,a row of domino tiles
+coloring_book,full,,2,toys,Розмальовка,Coloring book,Malbuch,Kolorowanka,Libro para colorear,Cahier de coloriage,an open coloring book with crayons
+car,free,,1,transport,Машина,Car,Auto,Samochód,Coche,Voiture,a red car
+bus,free,,1,transport,Автобус,Bus,Bus,Autobus,Autobús,Bus,a yellow bus
+train,free,,1,transport,Потяг,Train,Zug,Pociąg,Tren,Train,a train with carriages
+plane,free,,1,transport,Літак,Plane,Flugzeug,Samolot,Avión,Avion,a passenger plane
+ship,full,,1,transport,Корабель,Ship,Schiff,Statek,Barco,Bateau,a big ship
+boat,full,,1,transport,Човен,Boat,Boot,Łódka,Barca,Barque,a small rowing boat with oars
+sailboat,full,,2,transport,Вітрильник,Sailboat,Segelboot,Żaglówka,Velero,Voilier,a sailboat
+bicycle,full,,1,transport,Велосипед,Bicycle,Fahrrad,Rower,Bicicleta,Vélo,a bicycle
+motorcycle,full,,1,transport,Мотоцикл,Motorcycle,Motorrad,Motocykl,Moto,Moto,a motorcycle
+truck,full,,1,transport,Вантажівка,Truck,Lastwagen,Ciężarówka,Camión,Camion,a delivery truck
+tractor,full,,1,transport,Трактор,Tractor,Traktor,Traktor,Tractor,Tracteur,a green tractor
+helicopter,full,,1,transport,Гелікоптер,Helicopter,Hubschrauber,Helikopter,Helicóptero,Hélicoptère,a helicopter
+rocket,full,,1,transport,Ракета,Rocket,Rakete,Rakieta,Cohete,Fusée,a space rocket
+taxi,full,,2,transport,Таксі,Taxi,Taxi,Taksówka,Taxi,Taxi,a yellow taxi
+ambulance,full,,1,transport,Швидка допомога,Ambulance,Krankenwagen,Karetka,Ambulancia,Ambulance,an ambulance
+fire_truck,full,,1,transport,Пожежна машина,Fire truck,Feuerwehrauto,Wóz strażacki,Camión de bomberos,Camion de pompiers,a red fire truck with a ladder
+police_car,full,,1,transport,Поліцейська машина,Police car,Polizeiauto,Radiowóz,Coche de policía,Voiture de police,a police car
+tram,full,,2,transport,Трамвай,Tram,Straßenbahn,Tramwaj,Tranvía,Tramway,a tram
+submarine,full,,2,transport,Підводний човен,Submarine,U-Boot,Łódź podwodna,Submarino,Sous-marin,a yellow submarine
+excavator,full,,1,transport,Екскаватор,Excavator,Bagger,Koparka,Excavadora,Pelleteuse,a yellow excavator
+crane,full,,2,transport,Підйомний кран,Crane,Kran,Dźwig,Grúa,Grue,a construction crane
+skateboard,full,,2,transport,Скейтборд,Skateboard,Skateboard,Deskorolka,Monopatín,Skateboard,a skateboard
+wheel,full,,1,transport,Колесо,Wheel,Rad,Koło,Rueda,Roue,a car wheel
+traffic_light,full,,1,transport,Світлофор,Traffic light,Ampel,Światła,Semáforo,Feu tricolore,a traffic light
+stroller,full,,1,transport,Візочок,Stroller,Kinderwagen,Wózek,Carrito,Poussette,a baby stroller
+parachute,full,,2,transport,Парашут,Parachute,Fallschirm,Spadochron,Paracaídas,Parachute,a colorful parachute
+anchor,full,,2,transport,Якір,Anchor,Anker,Kotwica,Ancla,Ancre,a ship anchor
+garbage_truck,full,,2,transport,Сміттєвоз,Garbage truck,Müllauto,Śmieciarka,Camión de basura,Camion-poubelle,a green garbage truck
+cement_mixer,full,,2,transport,Бетономішалка,Cement mixer,Betonmischer,Betoniarka,Hormigonera,Bétonnière,a cement mixer truck
+bulldozer,full,,2,transport,Бульдозер,Bulldozer,Planierraupe,Spychacz,Bulldozer,Bulldozer,a yellow bulldozer
+race_car,full,,2,transport,Гоночна машина,Race car,Rennauto,Wyścigówka,Coche de carreras,Voiture de course,a race car with a number
+hot_air_balloon,full,,2,transport,Повітряна куля,Hot air balloon,Heißluftballon,Balon na ogrzane powietrze,Globo aerostático,Montgolfière,a striped hot air balloon with a basket
+steering_wheel,full,,2,transport,Кермо,Steering wheel,Lenkrad,Kierownica,Volante,Volant,a car steering wheel
+canoe,full,,2,transport,Каное,Canoe,Kanu,Kanadyjka,Canoa,Canoë,a red canoe with a paddle
+raft,full,,2,transport,Пліт,Raft,Floß,Tratwa,Balsa,Radeau,a wooden raft
+ticket,full,,2,transport,Квиток,Ticket,Fahrkarte,Bilet,Billete,Billet,a ticket
+compass,full,,2,transport,Компас,Compass,Kompass,Kompas,Brújula,Boussole,a compass
+dump_truck,full,,2,transport,Самоскид,Dump truck,Kipper,Wywrotka,Volquete,Camion benne,a dump truck with sand
+snowmobile,full,,2,transport,Снігохід,Snowmobile,Schneemobil,Skuter śnieżny,Moto de nieve,Motoneige,a snowmobile
+cable_car,full,,2,transport,Канатна дорога,Cable car,Seilbahn,Kolejka linowa,Teleférico,Téléphérique,a cable car cabin over mountains
+steam_train,full,,2,transport,Паровоз,Steam train,Dampflok,Parowóz,Locomotora de vapor,Locomotive à vapeur,a steam locomotive with smoke
+carriage,full,,2,transport,Карета,Carriage,Kutsche,Kareta,Carruaje,Carrosse,a royal horse-drawn carriage
+traffic_cone,full,,2,transport,Конус,Traffic cone,Leitkegel,Pachołek,Cono,Cône,an orange traffic cone
+road_sign,full,,2,transport,Дорожній знак,Road sign,Verkehrsschild,Znak drogowy,Señal de tráfico,Panneau,a round road sign on a pole
+airship,full,,2,transport,Дирижабль,Airship,Luftschiff,Sterowiec,Dirigible,Dirigeable,an airship in the sky
+tricycle,full,,2,transport,Триколісний велосипед,Tricycle,Dreirad,Rowerek trójkołowy,Triciclo,Tricycle,a kid's tricycle
+shopping_cart,full,,2,transport,Візок для покупок,Shopping cart,Einkaufswagen,Wózek sklepowy,Carrito de la compra,Chariot,a supermarket shopping cart
+paddle,full,,2,transport,Весло,Paddle,Paddel,Wiosło,Remo,Pagaie,a wooden paddle
+sun,free,,1,nature,Сонце,Sun,Sonne,Słońce,Sol,Soleil,a smiling yellow sun with rays
+moon,free,,1,nature,Місяць,Moon,Mond,Księżyc,Luna,Lune,a yellow crescent moon
+star,full,,1,nature,Зірка,Star,Stern,Gwiazda,Estrella,Étoile,a yellow five-pointed star
+cloud,full,,1,nature,Хмара,Cloud,Wolke,Chmura,Nube,Nuage,a white fluffy cloud
+rain,full,,1,nature,Дощ,Rain,Regen,Deszcz,Lluvia,Pluie,a grey cloud with raindrops
+snowflake,full,,1,nature,Сніжинка,Snowflake,Schneeflocke,Płatek śniegu,Copo de nieve,Flocon de neige,a blue snowflake
+rainbow,full,,1,nature,Веселка,Rainbow,Regenbogen,Tęcza,Arcoíris,Arc-en-ciel,a rainbow arc with clouds at the ends
+lightning,full,,2,nature,Блискавка,Lightning,Blitz,Błyskawica,Rayo,Éclair,a yellow lightning bolt from a dark cloud
+puddle,full,,1,nature,Калюжа,Puddle,Pfütze,Kałuża,Charco,Flaque,a blue puddle on the ground
+mountain,full,,1,nature,Гора,Mountain,Berg,Góra,Montaña,Montagne,a mountain with a snowy top
+volcano,full,,1,nature,Вулкан,Volcano,Vulkan,Wulkan,Volcán,Volcan,a volcano erupting
+island,full,,2,nature,Острів,Island,Insel,Wyspa,Isla,Île,a small island with a palm tree
+waterfall,full,,2,nature,Водоспад,Waterfall,Wasserfall,Wodospad,Cascada,Cascade,a waterfall over rocks
+wave,full,,2,nature,Хвиля,Wave,Welle,Fala,Ola,Vague,a curling blue sea wave
+fire,full,,1,nature,Вогонь,Fire,Feuer,Ogień,Fuego,Feu,a campfire with flames
+stone,full,,1,nature,Камінь,Stone,Stein,Kamień,Piedra,Pierre,a grey stone
+planet,full,,2,nature,Планета,Planet,Planet,Planeta,Planeta,Planète,a planet with a ring
+globe,full,,2,nature,Глобус,Globe,Globus,Globus,Globo terráqueo,Globe,a desk globe on a stand
+cave,full,,2,nature,Печера,Cave,Höhle,Jaskinia,Cueva,Grotte,the entrance of a cave in a rock
+iceberg,full,,2,nature,Айсберг,Iceberg,Eisberg,Góra lodowa,Iceberg,Iceberg,an iceberg floating in the sea
+stick,full,,1,nature,Палиця,Stick,Stock,Patyk,Palo,Bâton,a wooden stick
+log,full,,2,nature,Колода,Log,Baumstamm,Kłoda,Tronco,Bûche,a wooden log
+stump,full,,2,nature,Пеньок,Stump,Baumstumpf,Pień,Tocón,Souche,a tree stump
+sand,full,,2,nature,Пісок,Sand,Sand,Piasek,Arena,Sable,a pile of sand with a toy spade
+snow,full,,1,nature,Сніг,Snow,Schnee,Śnieg,Nieve,Neige,snow falling on a snowy hill
+tree,free,,1,nature,Дерево,Tree,Baum,Drzewo,Árbol,Arbre,a green leafy tree
+flower,free,,1,nature,Квітка,Flower,Blume,Kwiat,Flor,Fleur,a red flower with a stem and leaves
+leaf,full,,1,nature,Листок,Leaf,Blatt,Liść,Hoja,Feuille,a green leaf
+rose,full,,2,nature,Троянда,Rose,Rose,Róża,Rosa,Rose,a red rose
+sunflower,full,,1,nature,Соняшник,Sunflower,Sonnenblume,Słonecznik,Girasol,Tournesol,a sunflower
+tulip,full,,2,nature,Тюльпан,Tulip,Tulpe,Tulipan,Tulipán,Tulipe,a red tulip
+dandelion,full,,1,nature,Кульбаба,Dandelion,Löwenzahn,Mlecz,Diente de león,Pissenlit,a yellow dandelion flower
+cactus,full,,1,nature,Кактус,Cactus,Kaktus,Kaktus,Cactus,Cactus,a cactus in a pot
+palm_tree,full,,1,nature,Пальма,Palm tree,Palme,Palma,Palmera,Palmier,a palm tree with coconuts
+grass,full,,1,nature,Трава,Grass,Gras,Trawa,Hierba,Herbe,a tuft of green grass
+pine_cone,full,,2,nature,Шишка,Pine cone,Tannenzapfen,Szyszka,Piña de pino,Pomme de pin,a brown pine cone
+daisy,full,,1,nature,Ромашка,Daisy,Gänseblümchen,Stokrotka,Margarita,Marguerite,a white daisy with a yellow center
+autumn_leaf,full,,2,nature,Кленовий листок,Maple leaf,Ahornblatt,Liść klonu,Hoja de arce,Feuille d'érable,an orange maple leaf
+tornado,full,,2,nature,Торнадо,Tornado,Tornado,Tornado,Tornado,Tornade,a grey swirling tornado
+icicle,full,,2,nature,Бурулька,Icicle,Eiszapfen,Sopel,Carámbano,Stalactite de glace,icicles hanging from a roof
+forest,full,,1,nature,Ліс,Forest,Wald,Las,Bosque,Forêt,a group of trees in a forest
+river,full,,1,nature,Річка,River,Fluss,Rzeka,Río,Rivière,a river winding through a meadow
+sea,full,,1,nature,Море,Sea,Meer,Morze,Mar,Mer,the sea with waves and a sailboat on the horizon
+beach,full,,1,nature,Пляж,Beach,Strand,Plaża,Playa,Plage,a sandy beach with an umbrella
+desert,full,,2,nature,Пустеля,Desert,Wüste,Pustynia,Desierto,Désert,a desert with sand dunes and a cactus
+crystal,full,,2,nature,Кристал,Crystal,Kristall,Kryształ,Cristal,Cristal,a purple crystal
+diamond,full,,2,nature,Діамант,Diamond,Diamant,Diament,Diamante,Diamant,a sparkling diamond
+sunset,full,,2,nature,Захід сонця,Sunset,Sonnenuntergang,Zachód słońca,Puesta de sol,Coucher de soleil,the sun setting over the sea
+oak,full,,2,nature,Дуб,Oak,Eiche,Dąb,Roble,Chêne,a big oak tree
+birch,full,,2,nature,Береза,Birch,Birke,Brzoza,Abedul,Bouleau,a birch tree with white bark
+bush,full,,2,nature,Кущ,Bush,Busch,Krzak,Arbusto,Buisson,a round green bush
+clover,full,,2,nature,Конюшина,Clover,Klee,Koniczyna,Trébol,Trèfle,a clover with three leaves
+poppy,full,,2,nature,Мак,Poppy,Mohn,Mak,Amapola,Coquelicot,a red poppy
+sprout,full,,2,nature,Паросток,Sprout,Keimling,Kiełek,Brote,Pousse,a small green sprout in soil
+bamboo,full,,2,nature,Бамбук,Bamboo,Bambus,Bambus,Bambú,Bambou,green bamboo stalks
+wheat,full,,2,nature,Пшениця,Wheat,Weizen,Pszenica,Trigo,Blé,golden ears of wheat
+pond,full,,2,nature,Ставок,Pond,Teich,Staw,Estanque,Étang,a small pond with lily pads
+pine,full,,2,nature,Сосна,Pine,Kiefer,Sosna,Pino,Pin,a tall pine tree
+lily,full,,2,nature,Лілія,Lily,Lilie,Lilia,Lirio,Lys,a white lily
+water_lily,full,,2,nature,Латаття,Water lily,Seerose,Lilia wodna,Nenúfar,Nénuphar,a pink water lily on a leaf
+bouquet,full,,2,nature,Букет,Bouquet,Blumenstrauß,Bukiet,Ramo,Bouquet,a bouquet of flowers
+wreath,full,,2,nature,Вінок,Flower crown,Blumenkranz,Wianek,Corona de flores,Couronne de fleurs,a crown of wildflowers
+fern,full,,2,nature,Папороть,Fern,Farn,Paproć,Helecho,Fougère,a green fern
+earth,full,,2,nature,Земля,Earth,Erde,Ziemia,Tierra,Terre,planet Earth from space
+branch,full,,2,nature,Гілка,Branch,Ast,Gałąź,Rama,Branche,a tree branch with leaves
+lavender,full,,2,nature,Лаванда,Lavender,Lavendel,Lawenda,Lavanda,Lavande,a bunch of purple lavender
+willow,full,,2,nature,Верба,Willow,Weide,Wierzba,Sauce,Saule,a weeping willow tree
+hand,full,,1,body,Рука,Hand,Hand,Ręka,Mano,Main,an open hand
+leg,full,,1,body,Нога,Leg,Bein,Noga,Pierna,Jambe,a child's leg with a sock and shoe
+eye,full,,1,body,Око,Eye,Auge,Oko,Ojo,Œil,an eye with eyelashes
+nose,full,,1,body,Ніс,Nose,Nase,Nos,Nariz,Nez,a nose
+mouth,full,,1,body,Рот,Mouth,Mund,Usta,Boca,Bouche,a smiling mouth
+ear,full,,1,body,Вухо,Ear,Ohr,Ucho,Oreja,Oreille,an ear
+tooth,full,,1,body,Зуб,Tooth,Zahn,Ząb,Diente,Dent,"a white tooth, smiling"
+tongue,full,,2,body,Язик,Tongue,Zunge,Język,Lengua,Langue,a face sticking out its tongue
+finger,full,,1,body,Палець,Finger,Finger,Palec,Dedo,Doigt,a hand pointing with one finger
+heart,full,,1,body,Серце,Heart,Herz,Serce,Corazón,Cœur,a red heart shape
+footprint,full,,2,body,Слід,Footprint,Fußabdruck,Ślad stopy,Huella,Empreinte,a bare footprint
+belly,full,,1,body,Живіт,Belly,Bauch,Brzuch,Barriga,Ventre,a child's round belly with a belly button
+knee,full,,2,body,Коліно,Knee,Knie,Kolano,Rodilla,Genou,a bent knee with a bandage
+face,full,,1,body,Обличчя,Face,Gesicht,Twarz,Cara,Visage,a smiling child's face
+beard,full,,2,body,Борода,Beard,Bart,Broda,Barba,Barbe,a man's face with a big beard
+mustache,full,,2,body,Вуса,Mustache,Schnurrbart,Wąsy,Bigote,Moustache,a curly mustache
+hair,full,,2,body,Волосся,Hair,Haare,Włosy,Pelo,Cheveux,a head of long wavy hair
+foot,full,,2,body,Стопа,Foot,Fuß,Stopa,Pie,Pied,a bare foot
+skeleton,full,,2,body,Скелет,Skeleton,Skelett,Szkielet,Esqueleto,Squelette,a friendly cartoon skeleton
+bone,full,,1,body,Кістка,Bone,Knochen,Kość,Hueso,Os,a dog bone
+elbow,full,,2,body,Лікоть,Elbow,Ellbogen,Łokieć,Codo,Coude,a bent arm showing the elbow
+neck,full,,2,body,Шия,Neck,Hals,Szyja,Cuello,Cou,a smiling child pointing at their neck
+back,full,,2,body,Спина,Back,Rücken,Plecy,Espalda,Dos,a child seen from behind
+baby,full,,1,people,Малюк,Baby,Baby,Dzidziuś,Bebé,Bébé,a baby with a pacifier
+boy,full,,1,people,Хлопчик,Boy,Junge,Chłopiec,Niño,Garçon,a smiling boy
+girl,full,,1,people,Дівчинка,Girl,Mädchen,Dziewczynka,Niña,Fille,a smiling girl
+grandma,full,,1,people,Бабуся,Grandma,Oma,Babcia,Abuela,Mamie,a smiling grandmother with glasses
+grandpa,full,,1,people,Дідусь,Grandpa,Opa,Dziadek,Abuelo,Papy,a smiling grandfather with a mustache
+doctor,full,,1,people,Лікарка,Doctor,Ärztin,Lekarka,Doctora,Médecin,a female doctor with a stethoscope
+firefighter,full,,1,people,Пожежник,Firefighter,Feuerwehrmann,Strażak,Bombero,Pompier,a male firefighter in a helmet
+police_officer,full,,2,people,Поліцейський,Police officer,Polizist,Policjant,Policía,Policier,a male police officer
+chef,full,,1,people,Кухар,Chef,Koch,Kucharz,Cocinero,Cuisinier,a male chef in a white hat
+builder,full,,2,people,Будівельник,Builder,Bauarbeiter,Budowlaniec,Albañil,Maçon,a male builder in a hard hat
+teacher,full,,1,people,Вчителька,Teacher,Lehrerin,Nauczycielka,Maestra,Maîtresse,a female teacher at a blackboard
+astronaut,full,,1,people,Космонавт,Astronaut,Astronaut,Astronauta,Astronauta,Astronaute,an astronaut in a spacesuit
+farmer,full,,2,people,Фермер,Farmer,Bauer,Rolnik,Granjero,Fermier,a male farmer in overalls with a pitchfork
+artist,full,,2,people,Художниця,Artist,Malerin,Malarka,Pintora,Peintre,a female artist with a palette and brush
+clown,full,,1,people,Клоун,Clown,Clown,Klaun,Payaso,Clown,a friendly clown with a red nose
+king,full,,1,people,Король,King,König,Król,Rey,Roi,a king with a crown
+queen,full,,1,people,Королева,Queen,Königin,Królowa,Reina,Reine,a queen with a crown
+princess,full,,1,people,Принцеса,Princess,Prinzessin,Księżniczka,Princesa,Princesse,a princess in a pink dress
+knight,full,,2,people,Лицар,Knight,Ritter,Rycerz,Caballero,Chevalier,a knight in armor with a shield
+pirate,full,yes,1,people,Пірат,Pirate,Pirat,Pirat,Pirata,Pirate,a friendly pirate with an eye patch
+mail_carrier,full,,2,people,Листоноша,Mail carrier,Postbote,Listonosz,Cartero,Facteur,a male mail carrier with a bag of letters
+cowboy,full,,2,people,Ковбой,Cowboy,Cowboy,Kowboj,Vaquero,Cow-boy,a cowboy in a hat
+ballerina,full,,2,people,Балерина,Ballerina,Ballerina,Baletnica,Bailarina,Ballerine,a ballerina in a tutu
+diver,full,,2,people,Водолаз,Diver,Taucher,Nurek,Buzo,Plongeur,a male diver in a mask and flippers
+sailor,full,,2,people,Моряк,Sailor,Matrose,Marynarz,Marinero,Marin,a male sailor in a white cap
+driver,full,,2,people,Водій,Driver,Fahrer,Kierowca,Conductor,Conducteur,a male bus driver at the wheel
+superhero,full,,2,people,Супергерой,Superhero,Superheld,Superbohater,Superhéroe,Super-héros,a generic superhero kid in a cape and mask
+gnome,full,,2,people,Гном,Gnome,Zwerg,Krasnal,Gnomo,Gnome,a garden gnome with a red hat
+family,full,,2,people,Сім'я,Family,Familie,Rodzina,Familia,Famille,a family of four holding hands
+nurse,full,,2,people,Медсестра,Nurse,Krankenschwester,Pielęgniarka,Enfermera,Infirmière,a female nurse in a white uniform
+baker,full,,2,people,Пекар,Baker,Bäcker,Piekarz,Panadero,Boulanger,a male baker holding bread
+singer,full,,2,people,Співачка,Singer,Sängerin,Piosenkarka,Cantante,Chanteuse,a female singer with a microphone
+soccer_player,full,,2,people,Футболіст,Soccer player,Fußballspieler,Piłkarz,Futbolista,Footballeur,a male soccer player kicking a ball
+juggler,full,,2,people,Жонглер,Juggler,Jongleur,Żongler,Malabarista,Jongleur,a male juggler with three balls
+prince,full,,2,people,Принц,Prince,Prinz,Książę,Príncipe,Prince,a young prince with a small crown
+ninja,full,,2,people,Ніндзя,Ninja,Ninja,Ninja,Ninja,Ninja,a friendly kid ninja in a black suit
+mom,full,,1,people,Мама,Mom,Mama,Mama,Mamá,Maman,a mother hugging a small child
+dad,full,,1,people,Тато,Dad,Papa,Tata,Papá,Papa,a father carrying a child on his shoulders
+hairdresser,full,,2,people,Перукарка,Hairdresser,Friseurin,Fryzjerka,Peluquera,Coiffeuse,a female hairdresser with scissors and a comb
+gardener,full,,2,people,Садівник,Gardener,Gärtner,Ogrodnik,Jardinero,Jardinier,a male gardener with a watering can
+photographer,full,,2,people,Фотограф,Photographer,Fotograf,Fotograf,Fotógrafo,Photographe,a male photographer with a camera
+scientist,full,,2,people,Вчений,Scientist,Wissenschaftler,Naukowiec,Científico,Scientifique,a male scientist in a lab coat with a flask
+detective,full,,2,people,Детектив,Detective,Detektiv,Detektyw,Detective,Détective,a detective with a hat and a magnifying glass
+captain,full,,2,people,Капітан,Captain,Kapitän,Kapitan,Capitán,Capitaine,a ship captain with a white cap
+waiter,full,,2,people,Офіціант,Waiter,Kellner,Kelner,Camarero,Serveur,a male waiter carrying a tray
+mechanic,full,,2,people,Механік,Mechanic,Mechaniker,Mechanik,Mecánico,Mécanicien,a male mechanic with a wrench
+pencil,full,,1,school,Олівець,Pencil,Bleistift,Ołówek,Lápiz,Crayon,a pencil
+pen,full,,1,school,Ручка,Pen,Kuli,Długopis,Bolígrafo,Stylo,a pen
+book,full,,1,school,Книжка,Book,Buch,Książka,Libro,Livre,an open book
+notebook,full,,1,school,Зошит,Notebook,Heft,Zeszyt,Cuaderno,Cahier,a school notebook
+scissors,full,,1,school,Ножиці,Scissors,Schere,Nożyczki,Tijeras,Ciseaux,a pair of kids' scissors
+glue,full,,2,school,Клей,Glue,Kleber,Klej,Pegamento,Colle,a glue stick
+paintbrush,full,,1,school,Пензлик,Paintbrush,Pinsel,Pędzel,Pincel,Pinceau,a paintbrush with paint on the tip
+paints,full,,1,school,Фарби,Paints,Wasserfarben,Farby,Pinturas,Peinture,a watercolor paint box
+ruler,full,,2,school,Лінійка,Ruler,Lineal,Linijka,Regla,Règle,a ruler
+eraser,full,,2,school,Гумка,Eraser,Radiergummi,Gumka,Goma,Gomme,an eraser
+chalk,full,,2,school,Крейда,Chalk,Kreide,Kreda,Tiza,Craie,colored chalk sticks
+blackboard,full,,2,school,Дошка,Blackboard,Tafel,Tablica,Pizarra,Tableau noir,a school blackboard
+bell,full,,1,school,Дзвоник,Bell,Glocke,Dzwonek,Campana,Cloche,a golden bell
+envelope,full,,1,school,Конверт,Envelope,Briefumschlag,Koperta,Sobre,Enveloppe,a closed envelope
+map,full,,2,school,Карта,Map,Landkarte,Mapa,Mapa,Carte,a folded map
+sharpener,full,,2,school,Точилка,Sharpener,Anspitzer,Temperówka,Sacapuntas,Taille-crayon,a pencil sharpener
+magnifying_glass,full,,2,school,Лупа,Magnifying glass,Lupe,Lupa,Lupa,Loupe,a magnifying glass
+marker,full,,2,school,Фломастер,Marker,Filzstift,Flamaster,Rotulador,Feutre,a colored marker pen
+desk,full,,2,school,Парта,Desk,Schulbank,Ławka szkolna,Pupitre,Pupitre,a school desk
+microscope,full,,2,school,Мікроскоп,Microscope,Mikroskop,Mikroskop,Microscopio,Microscope,a microscope
+calendar,full,,2,school,Календар,Calendar,Kalender,Kalendarz,Calendario,Calendrier,a wall calendar
+pencil_case,full,,2,school,Пенал,Pencil case,Federmäppchen,Piórnik,Estuche,Trousse,a pencil case with pencils
+abacus,full,,2,school,Рахівниця,Abacus,Abakus,Liczydło,Ábaco,Boulier,a colorful bead abacus
+newspaper,full,,2,school,Газета,Newspaper,Zeitung,Gazeta,Periódico,Journal,a folded newspaper
+easel,full,,2,school,Мольберт,Easel,Staffelei,Sztaluga,Caballete,Chevalet,a wooden easel with a canvas
+palette,full,,2,school,Палітра,Palette,Palette,Paleta,Paleta,Palette,a painter's palette with paint blobs
+tape,full,,2,school,Скотч,Tape,Klebeband,Taśma klejąca,Cinta adhesiva,Ruban adhésif,a roll of sticky tape
+stapler,full,,2,school,Степлер,Stapler,Hefter,Zszywacz,Grapadora,Agrafeuse,a stapler
+paper_clip,full,,2,school,Скріпка,Paper clip,Büroklammer,Spinacz,Clip,Trombone,a paper clip
+crayons,full,,2,school,Воскові олівці,Crayons,Wachsmalstifte,Kredki świecowe,Ceras,Crayons de cire,a box of wax crayons
+paper,full,,2,school,Папір,Paper,Papier,Papier,Papel,Papier,a stack of white paper sheets
+stamp,full,,2,school,Марка,Stamp,Briefmarke,Znaczek,Sello,Timbre,a postage stamp
+postcard,full,,2,school,Листівка,Postcard,Postkarte,Pocztówka,Postal,Carte postale,a postcard with a picture
+drum,full,,1,music,Барабан,Drum,Trommel,Bęben,Tambor,Tambour,a drum with two sticks
+guitar,full,,1,music,Гітара,Guitar,Gitarre,Gitara,Guitarra,Guitare,an acoustic guitar
+piano,full,,1,music,Піаніно,Piano,Klavier,Pianino,Piano,Piano,an upright piano
+violin,full,,2,music,Скрипка,Violin,Geige,Skrzypce,Violín,Violon,a violin with a bow
+trumpet,full,,1,music,Труба,Trumpet,Trompete,Trąbka,Trompeta,Trompette,a golden trumpet
+flute,full,,2,music,Сопілка,Flute,Blockflöte,Flet,Flauta,Flûte,a wooden recorder flute
+accordion,full,,2,music,Акордеон,Accordion,Akkordeon,Akordeon,Acordeón,Accordéon,an accordion
+xylophone,full,,2,music,Ксилофон,Xylophone,Xylophon,Cymbałki,Xilófono,Xylophone,a rainbow xylophone with mallets
+harp,full,,2,music,Арфа,Harp,Harfe,Harfa,Arpa,Harpe,a golden harp
+music_note,full,,2,music,Нота,Music note,Note,Nuta,Nota,Note,a black music note
+tambourine,full,,2,music,Бубон,Tambourine,Tamburin,Tamburyn,Pandereta,Tambourin,a tambourine
+maracas,full,,2,music,Маракаси,Maracas,Maracas,Marakasy,Maracas,Maracas,a pair of colorful maracas
+saxophone,full,,2,music,Саксофон,Saxophone,Saxophon,Saksofon,Saxofón,Saxophone,a golden saxophone
+cello,full,,2,music,Віолончель,Cello,Cello,Wiolonczela,Violonchelo,Violoncelle,a cello
+harmonica,full,,2,music,Губна гармошка,Harmonica,Mundharmonika,Harmonijka,Armónica,Harmonica,a harmonica
+tuba,full,,2,music,Туба,Tuba,Tuba,Tuba,Tuba,Tuba,a big brass tuba
+gong,full,,2,music,Гонг,Gong,Gong,Gong,Gong,Gong,a round gong with a mallet
+record,full,,2,music,Платівка,Record,Schallplatte,Płyta winylowa,Disco,Disque,a vinyl record
+skis,full,,2,sports,Лижі,Skis,Ski,Narty,Esquís,Skis,a pair of skis with poles
+skates,full,,1,sports,Ковзани,Ice skates,Schlittschuhe,Łyżwy,Patines,Patins,a pair of ice skates
+tent,full,,1,sports,Намет,Tent,Zelt,Namiot,Tienda de campaña,Tente,a camping tent
+medal,full,,1,sports,Медаль,Medal,Medaille,Medal,Medalla,Médaille,a gold medal on a ribbon
+trophy,full,,2,sports,Кубок,Trophy,Pokal,Puchar,Trofeo,Coupe,a golden trophy cup
+goal,full,,2,sports,Ворота,Goal,Tor,Bramka,Portería,But,a football goal with a net
+racket,full,,2,sports,Ракетка,Racket,Schläger,Rakietka,Raqueta,Raquette,a tennis racket
+whistle,full,,1,sports,Свисток,Whistle,Pfeife,Gwizdek,Silbato,Sifflet,a whistle on a cord
+helmet,full,,2,sports,Шолом,Helmet,Helm,Kask,Casco,Casque,a bike helmet
+flag,full,,1,sports,Прапорець,Flag,Fahne,Flaga,Bandera,Drapeau,a red flag on a pole
+fishing_rod,full,,2,sports,Вудка,Fishing rod,Angel,Wędka,Caña de pescar,Canne à pêche,a fishing rod with a hook
+trampoline,full,,1,sports,Батут,Trampoline,Trampolin,Trampolina,Cama elástica,Trampoline,a round trampoline
+target,full,,2,sports,Мішень,Target,Zielscheibe,Tarcza,Diana,Cible,a round target with red rings
+soccer_ball,full,,1,sports,Футбольний м'яч,Soccer ball,Fußball,Piłka nożna,Balón de fútbol,Ballon de foot,a black and white soccer ball
+basketball,full,,2,sports,Баскетбольний м'яч,Basketball,Basketball,Piłka do koszykówki,Balón de baloncesto,Ballon de basket,an orange basketball
+swimming_ring,full,,1,sports,Надувне коло,Swim ring,Schwimmring,Koło do pływania,Flotador,Bouée,an inflatable swim ring
+hockey_stick,full,,2,sports,Ключка,Hockey stick,Hockeyschläger,Kij hokejowy,Palo de hockey,Crosse de hockey,a hockey stick and a puck
+boxing_gloves,full,,2,sports,Боксерські рукавиці,Boxing gloves,Boxhandschuhe,Rękawice bokserskie,Guantes de boxeo,Gants de boxe,a pair of red boxing gloves
+dumbbell,full,,2,sports,Гантеля,Dumbbell,Hantel,Hantla,Mancuerna,Haltère,a dumbbell
+flippers,full,,2,sports,Ласти,Flippers,Schwimmflossen,Płetwy,Aletas,Palmes,a pair of swimming flippers
+sleeping_bag,full,,2,sports,Спальник,Sleeping bag,Schlafsack,Śpiwór,Saco de dormir,Sac de couchage,a rolled-out sleeping bag
+binoculars,full,,1,sports,Бінокль,Binoculars,Fernglas,Lornetka,Prismáticos,Jumelles,a pair of binoculars
+deckchair,full,,2,sports,Шезлонг,Deckchair,Liegestuhl,Leżak,Tumbona,Transat,a striped deckchair
+snowboard,full,,2,sports,Сноуборд,Snowboard,Snowboard,Snowboard,Snowboard,Snowboard,a snowboard
+stopwatch,full,,2,sports,Секундомір,Stopwatch,Stoppuhr,Stoper,Cronómetro,Chronomètre,a stopwatch
+life_jacket,full,,2,sports,Рятувальний жилет,Life jacket,Rettungsweste,Kamizelka ratunkowa,Chaleco salvavidas,Gilet de sauvetage,an orange life jacket
+hammer,full,,1,tools,Молоток,Hammer,Hammer,Młotek,Martillo,Marteau,a hammer
+saw,full,,2,tools,Пилка,Saw,Säge,Piła,Sierra,Scie,a hand saw
+nail,full,,2,tools,Цвях,Nail,Nagel,Gwóźdź,Clavo,Clou,a metal nail
+screwdriver,full,,2,tools,Викрутка,Screwdriver,Schraubenzieher,Śrubokręt,Destornillador,Tournevis,a screwdriver
+shovel,full,,1,tools,Лопата,Shovel,Schaufel,Łopata,Pala,Pelle,a shovel
+rake,full,,2,tools,Граблі,Rake,Rechen,Grabie,Rastrillo,Râteau,a garden rake
+watering_can,full,,1,tools,Лійка,Watering can,Gießkanne,Konewka,Regadera,Arrosoir,a green watering can
+wheelbarrow,full,,2,tools,Тачка,Wheelbarrow,Schubkarre,Taczka,Carretilla,Brouette,a wheelbarrow
+ladder,full,,1,tools,Драбина,Ladder,Leiter,Drabina,Escalera de mano,Échelle,a wooden ladder
+magnet,full,,2,tools,Магніт,Magnet,Magnet,Magnes,Imán,Aimant,a red horseshoe magnet
+flashlight,full,,1,tools,Ліхтарик,Flashlight,Taschenlampe,Latarka,Linterna,Lampe de poche,a flashlight with a beam
+rope,full,,2,tools,Мотузка,Rope,Seil,Lina,Cuerda,Corde,a coiled rope
+thread,full,,1,tools,Нитки,Thread,Faden,Nici,Hilo,Fil,a spool of thread with a needle
+scale,full,,2,tools,Ваги,Scale,Waage,Waga,Balanza,Balance,a kitchen scale
+brick,full,,2,tools,Цеглина,Brick,Ziegelstein,Cegła,Ladrillo,Brique,a red brick
+toolbox,full,,2,tools,Ящик з інструментами,Toolbox,Werkzeugkasten,Skrzynka na narzędzia,Caja de herramientas,Boîte à outils,a red toolbox
+paint_roller,full,,2,tools,Валик,Paint roller,Farbroller,Wałek do malowania,Rodillo de pintura,Rouleau à peinture,a paint roller
+drill,full,,2,tools,Дриль,Drill,Bohrmaschine,Wiertarka,Taladro,Perceuse,an electric drill
+tape_measure,full,,2,tools,Рулетка,Tape measure,Maßband,Miarka,Cinta métrica,Mètre ruban,a tape measure
+needle,full,,2,tools,Голка,Needle,Nadel,Igła,Aguja,Aiguille,a sewing needle with thread
+chain,full,,2,tools,Ланцюг,Chain,Kette,Łańcuch,Cadena,Chaîne,a metal chain
+hook,full,,2,tools,Гачок,Hook,Haken,Hak,Gancho,Crochet,a metal hook
+axe,full,,2,tools,Сокира,Axe,Axt,Siekiera,Hacha,Hache,a wood axe stuck in a log
+pliers,full,,2,tools,Плоскогубці,Pliers,Zange,Kombinerki,Alicates,Pince,a pair of pliers
+screw,full,,2,tools,Шуруп,Screw,Schraube,Śruba,Tornillo,Vis,a metal screw
+lawn_mower,full,,2,tools,Газонокосарка,Lawn mower,Rasenmäher,Kosiarka,Cortacésped,Tondeuse,a lawn mower on grass
+house,free,,1,places,Будинок,House,Haus,Dom,Casa,Maison,a house with a red roof
+castle,full,yes,1,places,Замок,Castle,Burg,Zamek,Castillo,Château,a castle with towers
+tower,full,,2,places,Вежа,Tower,Turm,Wieża,Torre,Tour,a tall stone tower
+bridge,full,,1,places,Міст,Bridge,Brücke,Most,Puente,Pont,a bridge over a river
+lighthouse,full,,2,places,Маяк,Lighthouse,Leuchtturm,Latarnia morska,Faro,Phare,a red and white lighthouse
+windmill,full,,2,places,Вітряк,Windmill,Windmühle,Wiatrak,Molino,Moulin,a windmill with sails
+fence,full,,1,places,Паркан,Fence,Zaun,Płot,Valla,Clôture,a wooden fence
+igloo,full,,2,places,Іглу,Igloo,Iglu,Igloo,Iglú,Igloo,an igloo made of snow blocks
+fountain,full,,2,places,Фонтан,Fountain,Brunnen,Fontanna,Fuente,Fontaine,a park fountain
+skyscraper,full,,2,places,Хмарочос,Skyscraper,Wolkenkratzer,Wieżowiec,Rascacielos,Gratte-ciel,a tall skyscraper
+birdhouse,full,,2,places,Шпаківня,Birdhouse,Vogelhaus,Budka dla ptaków,Casita para pájaros,Nichoir,a wooden birdhouse on a pole
+circus,full,,1,places,Цирк,Circus,Zirkus,Cyrk,Circo,Cirque,a striped circus tent
+carousel,full,,1,places,Карусель,Carousel,Karussell,Karuzela,Tiovivo,Manège,a carousel with horses
+pyramid,full,,2,places,Піраміда,Pyramid,Pyramide,Piramida,Pirámide,Pyramide,an Egyptian pyramid in the desert
+tent_hut,full,,2,places,Хатинка,Hut,Hütte,Chatka,Cabaña,Cabane,a small wooden hut
+school,full,,1,places,Школа,School,Schule,Szkoła,Colegio,École,a school building with a bell
+hospital,full,,2,places,Лікарня,Hospital,Krankenhaus,Szpital,Hospital,Hôpital,a hospital building with a red cross
+shop,full,,2,places,Магазин,Shop,Laden,Sklep,Tienda,Magasin,a small shop with an awning
+zoo,full,,2,places,Зоопарк,Zoo,Zoo,Zoo,Zoo,Zoo,a zoo gate with animals behind
+farm,full,,2,places,Ферма,Farm,Bauernhof,Farma,Granja,Ferme,a farm with a barn and a field
+tunnel,full,,2,places,Тунель,Tunnel,Tunnel,Tunel,Túnel,Tunnel,a tunnel through a mountain with a train entering
+garage,full,,2,places,Гараж,Garage,Garage,Garaż,Garaje,Garage,a garage with a car inside
+treehouse,full,,2,places,Будиночок на дереві,Treehouse,Baumhaus,Domek na drzewie,Casa del árbol,Cabane dans les arbres,a treehouse
+playground,full,,2,places,Дитячий майданчик,Playground,Spielplatz,Plac zabaw,Parque infantil,Aire de jeux,a playground with a slide and swings
+theater,full,,2,places,Театр,Theater,Theater,Teatr,Teatro,Théâtre,a theater stage with red curtains
+airport,full,,2,places,Аеропорт,Airport,Flughafen,Lotnisko,Aeropuerto,Aéroport,an airport with a plane and a control tower
+stadium,full,,2,places,Стадіон,Stadium,Stadion,Stadion,Estadio,Stade,a round sports stadium
+swimming_pool,full,,2,places,Басейн,Swimming pool,Schwimmbad,Basen,Piscina,Piscine,a swimming pool with a ladder
+city,full,,2,places,Місто,City,Stadt,Miasto,Ciudad,Ville,a city skyline with houses
+library,full,,2,places,Бібліотека,Library,Bibliothek,Biblioteka,Biblioteca,Bibliothèque,a library with bookshelves
+pharmacy,full,,2,places,Аптека,Pharmacy,Apotheke,Apteka,Farmacia,Pharmacie,a pharmacy with a green cross sign
+factory,full,,2,places,Фабрика,Factory,Fabrik,Fabryka,Fábrica,Usine,a factory with chimneys
+dragon,full,yes,1,fantasy,Дракон,Dragon,Drache,Smok,Dragón,Dragon,a friendly green dragon
+unicorn,full,yes,1,fantasy,Єдиноріг,Unicorn,Einhorn,Jednorożec,Unicornio,Licorne,a white unicorn with a golden horn
+robot,full,,1,fantasy,Робот,Robot,Roboter,Robot,Robot,Robot,a friendly robot
+mermaid,full,,1,fantasy,Русалка,Mermaid,Meerjungfrau,Syrenka,Sirena,Sirène,a mermaid with a green tail
+fairy,full,,1,fantasy,Фея,Fairy,Fee,Wróżka,Hada,Fée,a small fairy with wings and a wand
+wizard,full,,2,fantasy,Чарівник,Wizard,Zauberer,Czarodziej,Mago,Magicien,a wizard with a pointy hat and a beard
+magic_wand,full,,2,fantasy,Чарівна паличка,Magic wand,Zauberstab,Różdżka,Varita mágica,Baguette magique,a magic wand with a star
+crown,full,,1,fantasy,Корона,Crown,Krone,Korona,Corona,Couronne,a golden crown
+treasure_chest,full,,2,fantasy,Скриня,Treasure chest,Schatztruhe,Skrzynia,Cofre,Coffre,an open treasure chest with coins
+snowman,full,,1,fantasy,Сніговик,Snowman,Schneemann,Bałwan,Muñeco de nieve,Bonhomme de neige,a snowman with a carrot nose
+christmas_tree,full,,1,fantasy,Ялинка,Christmas tree,Weihnachtsbaum,Choinka,Árbol de Navidad,Sapin de Noël,a decorated Christmas tree
+gift,full,,1,fantasy,Подарунок,Gift,Geschenk,Prezent,Regalo,Cadeau,a wrapped gift box with a bow
+alien,full,,2,fantasy,Інопланетянин,Alien,Außerirdischer,Kosmita,Extraterrestre,Extraterrestre,a friendly green alien
+mask,full,,2,fantasy,Маска,Mask,Maske,Maska,Máscara,Masque,a carnival mask
+fireworks,full,,1,fantasy,Феєрверк,Fireworks,Feuerwerk,Fajerwerki,Fuegos artificiales,Feu d'artifice,colorful fireworks in the night sky
+lantern,full,,2,fantasy,Ліхтар,Lantern,Laterne,Lampion,Farol,Lanterne,a paper lantern
+flying_carpet,full,,2,fantasy,Килим-літак,Flying carpet,Fliegender Teppich,Latający dywan,Alfombra mágica,Tapis volant,a flying carpet
+ufo,full,,2,fantasy,НЛО,UFO,UFO,UFO,Ovni,Ovni,a flying saucer
+easter_egg,full,,2,fantasy,Писанка,Easter egg,Osterei,Pisanka,Huevo de Pascua,Œuf de Pâques,a painted decorated egg
+confetti,full,,2,fantasy,Конфеті,Confetti,Konfetti,Konfetti,Confeti,Confettis,colorful confetti
+party_hat,full,,2,fantasy,Святковий ковпачок,Party hat,Partyhut,Czapeczka urodzinowa,Gorro de fiesta,Chapeau de fête,a striped party hat
+treasure_map,full,,2,fantasy,Карта скарбів,Treasure map,Schatzkarte,Mapa skarbów,Mapa del tesoro,Carte au trésor,an old treasure map with an X
+ghost,full,,2,fantasy,Привид,Ghost,Gespenst,Duch,Fantasma,Fantôme,a friendly smiling white ghost
+throne,full,,2,fantasy,Трон,Throne,Thron,Tron,Trono,Trône,a golden throne with red cushion
+coin,full,,1,misc,Монета,Coin,Münze,Moneta,Moneda,Pièce,a gold coin
+hourglass,full,,2,misc,Пісочний годинник,Hourglass,Sanduhr,Klepsydra,Reloj de arena,Sablier,an hourglass with sand
