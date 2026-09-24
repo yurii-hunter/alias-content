@@ -1,0 +1,20 @@
+{
+  "name": "alias-content",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "node scripts/build.ts",
+    "test": "node --test \"scripts/**/*.test.ts\""
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.2",
+    "sharp": "^0.35.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2"
+  }
+}
