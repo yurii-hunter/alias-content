@@ -19,15 +19,15 @@ scripts/build.ts       збірка в dist/
 `cards.csv`:
 
 ```
-id,tier,preview,uk,en
-apple,free,,Яблуко,Apple
-giraffe,full,yes,Жирафа,Giraffe
+id,tier,preview,uk,en,de,pl,es,fr
+dog,free,,Собака,Dog,Hund,Pies,Perro,Chien
+tiger,full,yes,Тигр,Tiger,Tiger,Tygrys,Tigre,Tigre
 ```
 
-- `id` — малі латинські літери, цифри, `-`, `_`. Той самий id у назві картинки: `images/giraffe.png`.
+- `id` — малі латинські літери, цифри, `-`, `_`. Той самий id у назві картинки: `images/tiger.png`.
 - `tier` — `free` (безкоштовна) або `full` (повна версія).
 - `preview` — `yes`, якщо повну картку показують у прев'ю покупки (картинку вшивають у додаток). Для безкоштовних порожньо.
-- Далі — колонки мов за кодом (`uk`, `en`, `de`…).
+- Далі — колонки мов за кодом. Зараз опубліковані `uk`, `en`, `de`, `pl`, `es`, `fr` (`en` — американська англійська, `es` — іспанська Іспанії).
 
 ## Як додати
 
