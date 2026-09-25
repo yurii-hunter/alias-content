@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 
-import { assignToCells, cutout, findComponents, foregroundMask } from './sheet.ts';
+import { assignToCells, cutout, findComponents, foregroundMask, splitNecks } from './sheet.ts';
 
 /** RGBA-картинка width×height з прозорим тлом і непрозорими прямокутниками заданого кольору. */
 function image(width: number, height: number, rects: [number, number, number, number, number][]) {
@@ -72,4 +72,26 @@ test('біле тло теж розпізнається', () => {
   const { components } = findComponents(foregroundMask(data, width, height, 3), width, height);
   assert.equal(components.length, 1);
   assert.deepEqual([components[0].x0, components[0].x1], [10, 39]);
+});
+
+test('два предмети, що торкнулися через межу клітинок, розрізаються по шийці', () => {
+  // Сітка 1×2 (100×200): верхній предмет 20..90, нижній 110..180, між ними тонкий місток x 48..52.
+  const data = image(100, 200, [
+    [10, 20, 90, 90, 200],
+    [48, 91, 52, 109, 200],
+    [10, 110, 90, 180, 100],
+  ]);
+  const found = findComponents(foregroundMask(data, 100, 200, 4), 100, 200);
+  assert.equal(found.components.length, 1);
+  const parts = splitNecks(found.components, found.labels, 100, 200, 1, 2);
+  assert.equal(parts.length, 2);
+  const cells = assignToCells(parts, 100, 200, 1, 2);
+  assert.ok(cells[0].box!.y1 < 110 && cells[1].box!.y0 > 90);
+  assert.ok(cells.every((c) => c.problems.some((p) => p.includes('розрізано автоматично'))));
+});
+
+test('великий предмет без шийки не ріжеться', () => {
+  const data = image(100, 200, [[10, 20, 90, 180, 200]]);
+  const found = findComponents(foregroundMask(data, 100, 200, 4), 100, 200);
+  assert.equal(splitNecks(found.components, found.labels, 100, 200, 1, 2).length, 1);
 });

@@ -13,6 +13,8 @@ export interface Component extends Box {
   area: number;
   cx: number;
   cy: number;
+  /** Область відрізана від сусідньої по найвужчому місцю (`splitNecks`). */
+  cut?: boolean;
 }
 
 /**
@@ -85,6 +87,103 @@ export function findComponents(mask: Uint8Array, width: number, height: number):
   return { components: result, labels: label };
 }
 
+/** Перераховує рамку, площу й центр області за картою міток у межах `box`. */
+function measure(labels: Int32Array, width: number, id: number, box: Box): Component | null {
+  const c: Component = { id, x0: Infinity, y0: Infinity, x1: -1, y1: -1, area: 0, cx: 0, cy: 0 };
+  for (let y = box.y0; y <= box.y1; y++) {
+    for (let x = box.x0; x <= box.x1; x++) {
+      if (labels[y * width + x] !== id) continue;
+      c.area++;
+      c.cx += x;
+      c.cy += y;
+      if (x < c.x0) c.x0 = x;
+      if (x > c.x1) c.x1 = x;
+      if (y < c.y0) c.y0 = y;
+      if (y > c.y1) c.y1 = y;
+    }
+  }
+  if (!c.area) return null;
+  c.cx /= c.area;
+  c.cy /= c.area;
+  return c;
+}
+
+/**
+ * Розрізає області, що злиплися через межу клітинок сітки (кофта одного предмета торкається каски іншого).
+ * Біля кожної лінії сітки, яку перетинає область, шукає найвужчий рядок (стовпчик) і, якщо він
+ * значно вужчий за саму область, відрізає по ньому. Змінює `labels`, повертає новий список областей.
+ */
+export function splitNecks(
+  components: Component[],
+  labels: Int32Array,
+  width: number,
+  height: number,
+  cols: number,
+  rows: number,
+): Component[] {
+  const cellW = width / cols;
+  const cellH = height / rows;
+  let nextId = components.reduce((m, c) => Math.max(m, c.id), 0) + 1;
+  const queue = [...components];
+  const result: Component[] = [];
+
+  while (queue.length) {
+    const c = queue.pop()!;
+    const cut = findNeck(c, labels, width, cellW, cellH, cols, rows);
+    if (!cut) {
+      result.push(c);
+      continue;
+    }
+    // Усе, що після лінії розрізу, стає новою областю.
+    const id = nextId++;
+    for (let y = c.y0; y <= c.y1; y++) {
+      for (let x = c.x0; x <= c.x1; x++) {
+        const i = y * width + x;
+        if (labels[i] !== c.id) continue;
+        if (cut.axis === 'y' ? y > cut.at : x > cut.at) labels[i] = id;
+      }
+    }
+    for (const part of [measure(labels, width, c.id, c), measure(labels, width, id, c)]) {
+      if (part) queue.push({ ...part, cut: true });
+    }
+  }
+  return result.sort((a, b) => a.id - b.id);
+}
+
+function findNeck(c: Component, labels: Int32Array, width: number, cellW: number, cellH: number, cols: number, rows: number) {
+  for (const axis of ['y', 'x'] as const) {
+    const cell = axis === 'y' ? cellH : cellW;
+    const lo = axis === 'y' ? c.y0 : c.x0;
+    const hi = axis === 'y' ? c.y1 : c.x1;
+    // Область не довша за клітинку — різати нічого.
+    if (hi - lo <= cell * 1.1) continue;
+    const count = (n: number) => {
+      let s = 0;
+      if (axis === 'y') for (let x = c.x0; x <= c.x1; x++) s += labels[n * width + x] === c.id ? 1 : 0;
+      else for (let y = c.y0; y <= c.y1; y++) s += labels[y * width + n] === c.id ? 1 : 0;
+      return s;
+    };
+    let widest = 0;
+    for (let n = lo; n <= hi; n++) widest = Math.max(widest, count(n));
+    for (let k = 1; k < (axis === 'y' ? rows : cols); k++) {
+      const line = Math.round(k * cell);
+      if (line <= lo || line >= hi) continue;
+      // Шукаємо шийку в смузі ±30% клітинки від лінії сітки.
+      let best = -1;
+      let bestCount = Infinity;
+      for (let n = Math.max(lo + 1, line - Math.round(cell * 0.3)); n <= Math.min(hi - 1, line + Math.round(cell * 0.3)); n++) {
+        const s = count(n);
+        if (s < bestCount) {
+          bestCount = s;
+          best = n;
+        }
+      }
+      if (best >= 0 && bestCount <= widest * 0.15) return { axis, at: best };
+    }
+  }
+  return null;
+}
+
 export interface CellResult {
   box: Box | null;
   /** Області, з яких складається предмет. */
@@ -126,6 +225,9 @@ export function assignToCells(
     // Трохи заходити за межу клітинки нормально: модель малює предмети майже на всю клітинку.
     if (c.x1 - c.x0 > cellW * 1.25 || c.y1 - c.y0 > cellH * 1.25) {
       cell.problems.push('предмет більший за клітинку — можливо, злипся з сусіднім');
+    }
+    if (c.cut && !cell.problems.some((p) => p.startsWith('злипся'))) {
+      cell.problems.push('злипся з сусіднім, розрізано автоматично — перевірте краї');
     }
   }
 

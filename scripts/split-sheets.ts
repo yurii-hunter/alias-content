@@ -13,7 +13,7 @@ import { parseArgs } from 'node:util';
 import { parse } from 'csv-parse/sync';
 import sharp from 'sharp';
 
-import { assignToCells, cutout, findComponents, foregroundMask, type Box } from './lib/sheet.ts';
+import { assignToCells, cutout, findComponents, foregroundMask, splitNecks, type Box } from './lib/sheet.ts';
 
 const OUT_SIZE = 1024;
 /** Яку частку квадрата займає більша сторона предмета. */
@@ -89,7 +89,10 @@ async function writeCard(raw: Raw, labels: Int32Array, box: Box, ids: number[], 
 
 /** Знаходить предмети на картинці й розкладає по клітинках сітки. */
 function analyze(raw: Raw, cols: number, rows: number) {
-  const { components, labels } = findComponents(foregroundMask(raw.data, raw.width, raw.height, raw.channels), raw.width, raw.height);
+  const found = findComponents(foregroundMask(raw.data, raw.width, raw.height, raw.channels), raw.width, raw.height);
+  const { labels } = found;
+  // Предмети, що торкнулися сусідів через межу клітинки, розрізаємо по найвужчому місцю.
+  const components = splitNecks(found.components, labels, raw.width, raw.height, cols, rows);
   return { cells: assignToCells(components, raw.width, raw.height, cols, rows), labels };
 }
 
