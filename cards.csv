@@ -1,333 +1,333 @@
-id,tier,preview,uk,en
-dog,free,,Собака,Dog
-cat,free,,Кіт,Cat
-cow,free,,Корова,Cow
-pig,free,,Свиня,Pig
-horse,free,,Кінь,Horse
-sheep,full,,Вівця,Sheep
-hen,full,,Курка,Hen
-duck,full,,Качка,Duck
-rabbit,free,,Кролик,Rabbit
-mouse,full,,Миша,Mouse
-turtle,full,,Черепаха,Turtle
-bear,free,,Ведмідь,Bear
-wolf,full,,Вовк,Wolf
-fox,full,,Лисиця,Fox
-hedgehog,full,,Їжак,Hedgehog
-squirrel,full,,Білка,Squirrel
-lion,free,,Лев,Lion
-tiger,full,yes,Тигр,Tiger
-zebra,full,,Зебра,Zebra
-monkey,full,,Мавпа,Monkey
-frog,full,,Жаба,Frog
-penguin,full,,Пінгвін,Penguin
-owl,full,,Сова,Owl
-whale,full,,Кит,Whale
-fish,free,,Риба,Fish
-butterfly,full,,Метелик,Butterfly
-bee,full,,Бджола,Bee
-ladybug,full,,Сонечко,Ladybug
-snail,full,,Равлик,Snail
-sun,free,,Сонце,Sun
-moon,free,,Місяць,Moon
-star,full,,Зірка,Star
-cloud,full,,Хмара,Cloud
-rainbow,full,yes,Веселка,Rainbow
-tree,free,,Дерево,Tree
-flower,free,,Квітка,Flower
-apple,free,,Яблуко,Apple
-banana,free,,Банан,Banana
-pear,full,,Груша,Pear
-orange,full,,Апельсин,Orange
-grapes,full,,Виноград,Grapes
-strawberry,full,,Полуниця,Strawberry
-watermelon,free,,Кавун,Watermelon
-carrot,free,,Морква,Carrot
-tomato,full,,Помідор,Tomato
-cucumber,full,,Огірок,Cucumber
-corn,full,,Кукурудза,Corn
-pumpkin,full,,Гарбуз,Pumpkin
-mushroom,full,,Гриб,Mushroom
-bread,full,,Хліб,Bread
-egg,full,,Яйце,Egg
-cheese,full,,Сир,Cheese
-milk,full,,Молоко,Milk
-pizza,full,,Піца,Pizza
-cake,free,,Торт,Cake
-candy,full,,Цукерка,Candy
-ice_cream,free,,Морозиво,Ice cream
-house,free,,Будинок,House
-cup,full,,Чашка,Cup
-spoon,full,,Ложка,Spoon
-plate,full,,Тарілка,Plate
-table,full,,Стіл,Table
-chair,free,,Стілець,Chair
-bed,free,,Ліжко,Bed
-lamp,full,,Лампа,Lamp
-clock,full,,Годинник,Clock
-window,full,,Вікно,Window
-door,full,,Двері,Door
-key,full,,Ключ,Key
-toothbrush,free,,Зубна щітка,Toothbrush
-soap,full,,Мило,Soap
-phone,full,,Телефон,Phone
-tv,full,,Телевізор,TV
-woolly_hat,full,,Шапка,Winter hat
-socks,full,,Шкарпетки,Socks
-boots,full,,Чоботи,Boots
-glasses,full,,Окуляри,Glasses
-umbrella,full,,Парасолька,Umbrella
-backpack,full,,Рюкзак,Backpack
-ball,free,,М'яч,Ball
-balloon,free,,Кулька,Balloon
-doll,full,,Лялька,Doll
-teddy_bear,free,,Ведмедик,Teddy bear
-kite,full,,Повітряний змій,Kite
-pencil,full,,Олівець,Pencil
-book,full,,Книжка,Book
-drum,full,,Барабан,Drum
-guitar,full,,Гітара,Guitar
-hand,full,,Рука,Hand
-heart,full,,Серце,Heart
-gift,full,,Подарунок,Gift
-car,free,,Машина,Car
-bus,free,,Автобус,Bus
-train,free,,Потяг,Train
-plane,free,,Літак,Plane
-ship,full,,Корабель,Ship
-bicycle,full,,Велосипед,Bicycle
-tractor,full,,Трактор,Tractor
-rocket,full,yes,Ракета,Rocket
-snowman,full,,Сніговик,Snowman
-goat,full,,Коза,Goat
-rooster,full,,Півень,Rooster
-chick,full,,Курча,Chick
-donkey,full,,Віслюк,Donkey
-hamster,full,,Хом'як,Hamster
-parrot,full,,Папуга,Parrot
-elephant,full,yes,Слон,Elephant
-giraffe,full,yes,Жирафа,Giraffe
-crocodile,full,yes,Крокодил,Crocodile
-hippo,full,,Бегемот,Hippo
-kangaroo,full,,Кенгуру,Kangaroo
-panda,full,,Панда,Panda
-camel,full,,Верблюд,Camel
-deer,full,,Олень,Deer
-snake,full,,Змія,Snake
-dinosaur,full,yes,Динозавр,Dinosaur
-bird,full,,Пташка,Bird
-flamingo,full,,Фламінго,Flamingo
-dolphin,full,,Дельфін,Dolphin
-shark,full,,Акула,Shark
-octopus,full,,Восьминіг,Octopus
-crab,full,,Краб,Crab
-spider,full,,Павук,Spider
-caterpillar,full,,Гусениця,Caterpillar
-lemon,full,,Лимон,Lemon
-cherry,full,,Вишня,Cherry
-peach,full,,Персик,Peach
-pineapple,full,,Ананас,Pineapple
-potato,full,,Картопля,Potato
-onion,full,,Цибуля,Onion
-cabbage,full,,Капуста,Cabbage
-soup,full,,Суп,Soup
-sandwich,full,,Бутерброд,Sandwich
-pasta,full,,Макарони,Pasta
-pancake,full,,Млинці,Pancakes
-cookie,full,,Печиво,Cookie
-chocolate,full,,Шоколад,Chocolate
-lollipop,full,,Льодяник,Lollipop
-juice,full,,Сік,Juice
-fork,full,,Виделка,Fork
-pot,full,,Каструля,Pot
-kettle,full,,Чайник,Kettle
-fridge,full,,Холодильник,Fridge
-sofa,full,,Диван,Sofa
-pillow,full,,Подушка,Pillow
-candle,full,,Свічка,Candle
-box,full,,Коробка,Box
-towel,full,,Рушник,Towel
-bathtub,full,,Ванна,Bathtub
-broom,full,,Віник,Broom
-bucket,full,,Відро,Bucket
-computer,full,,Комп'ютер,Computer
-camera,full,,Фотоапарат,Camera
-scissors,full,,Ножиці,Scissors
-cap,full,,Кепка,Cap
-scarf,full,,Шарф,Scarf
-mittens,full,,Рукавиці,Mittens
-jacket,full,,Куртка,Jacket
-dress,full,,Сукня,Dress
-t_shirt,full,,Футболка,T-shirt
-trousers,full,,Штани,Pants
-sneakers,full,,Кросівки,Sneakers
-blocks,full,,Кубики,Blocks
-swing,full,,Гойдалка,Swing
-slide,full,,Гірка,Slide
-scooter,full,,Самокат,Scooter
-sled,full,,Санки,Sled
-toy_car,full,,Іграшкова машинка,Toy car
-boat,full,,Човен,Boat
-motorcycle,full,,Мотоцикл,Motorcycle
-truck,full,,Вантажівка,Truck
-helicopter,full,,Гелікоптер,Helicopter
-ambulance,full,,Швидка допомога,Ambulance
-fire_truck,full,,Пожежна машина,Fire truck
-police_car,full,,Поліцейська машина,Police car
-snowflake,full,,Сніжинка,Snowflake
-mountain,full,,Гора,Mountain
-fire,full,,Вогонь,Fire
-leaf,full,,Листок,Leaf
-sunflower,full,,Соняшник,Sunflower
-cactus,full,,Кактус,Cactus
-eye,full,,Око,Eye
-nose,full,,Ніс,Nose
-mouth,full,,Рот,Mouth
-ear,full,,Вухо,Ear
-tooth,full,,Зуб,Tooth
-piano,full,,Піаніно,Piano
-soccer_ball,full,,Футбольний м'яч,Soccer ball
-hammer,full,,Молоток,Hammer
-baby,full,,Малюк,Baby
-boy,full,,Хлопчик,Boy
-girl,full,,Дівчинка,Girl
-grandma,full,,Бабуся,Grandma
-grandpa,full,,Дідусь,Grandpa
-doctor,full,,Лікарка,Doctor
-firefighter,full,,Пожежник,Firefighter
-castle,full,yes,Замок,Castle
-robot,full,,Робот,Robot
-dragon,full,yes,Дракон,Dragon
-unicorn,full,yes,Єдиноріг,Unicorn
-puppy,full,,Цуценя,Puppy
-kitten,full,,Кошеня,Kitten
-pony,full,,Поні,Pony
-polar_bear,full,,Білий ведмідь,Polar bear
-swan,full,,Лебідь,Swan
-peacock,full,,Павич,Peacock
-pigeon,full,,Голуб,Pigeon
-nest,full,,Гніздо,Nest
-feather,full,,Перо,Feather
-starfish,full,,Морська зірка,Starfish
-seashell,full,,Мушля,Seashell
-ant,full,,Мураха,Ant
-beetle,full,,Жук,Beetle
-raspberry,full,,Малина,Raspberry
-tangerine,full,,Мандарин,Tangerine
-bell_pepper,full,,Перець,Pepper
-peas,full,,Горох,Peas
-broccoli,full,,Броколі,Broccoli
-sausage,full,,Сосиска,Sausage
-hamburger,full,,Гамбургер,Burger
-honey,full,,Мед,Honey
-donut,full,,Пончик,Donut
-popcorn,full,,Попкорн,Popcorn
-fries,full,,Картопля фрі,French fries
-bottle,full,,Пляшка,Bottle
-frying_pan,full,,Сковорідка,Frying pan
-bowl,full,,Миска,Bowl
-basket,full,,Кошик,Basket
-wardrobe,full,,Шафа,Wardrobe
-light_bulb,full,,Лампочка,Light bulb
-mirror,full,,Дзеркало,Mirror
-blanket,full,,Ковдра,Blanket
-bench,full,,Лавка,Bench
-toilet,full,,Унітаз,Toilet
-vacuum,full,,Пилосос,Vacuum cleaner
-washing_machine,full,,Пральна машина,Washing machine
-rubber_duck,full,,Гумова качечка,Rubber duck
-headphones,full,,Навушники,Headphones
-toilet_paper,full,,Туалетний папір,Toilet paper
-trash_can,full,,Смітник,Trash can
-pacifier,full,,Соска,Pacifier
-sponge,full,,Губка,Sponge
-skirt,full,,Спідниця,Skirt
-sweater,full,,Светр,Sweater
-shorts,full,,Шорти,Shorts
-pajamas,full,,Піжама,Pajamas
-slippers,full,,Капці,Slippers
-bag,full,,Сумка,Bag
-bow,full,,Бантик,Bow
-button,full,,Ґудзик,Button
-puzzle,full,,Пазл,Puzzle
-jump_rope,full,,Скакалка,Jump rope
-sandbox,full,,Пісочниця,Sandbox
-bubbles,full,,Мильні бульбашки,Bubbles
-paper_plane,full,,Паперовий літачок,Paper plane
-sandcastle,full,,Пісочний замок,Sandcastle
-snowball,full,,Сніжка,Snowball
-play_dough,full,,Пластилін,Plasticine
-excavator,full,,Екскаватор,Excavator
-traffic_light,full,,Світлофор,Traffic light
-wheel,full,,Колесо,Wheel
-stroller,full,,Візочок,Stroller
-rain,full,,Дощ,Rain
-volcano,full,,Вулкан,Volcano
-dandelion,full,,Кульбаба,Dandelion
-palm_tree,full,,Пальма,Palm tree
-grass,full,,Трава,Grass
-daisy,full,,Ромашка,Daisy
-stone,full,,Камінь,Stone
-leg,full,,Нога,Leg
-finger,full,,Палець,Finger
-bone,full,,Кістка,Bone
-chef,full,,Кухар,Chef
-teacher,full,,Вчителька,Teacher
-astronaut,full,,Космонавт,Astronaut
-clown,full,,Клоун,Clown
-king,full,,Король,King
-queen,full,,Королева,Queen
-princess,full,,Принцеса,Princess
-pirate,full,yes,Пірат,Pirate
-mom,full,,Мама,Mom
-dad,full,,Тато,Dad
-mermaid,full,,Русалка,Mermaid
-fairy,full,,Фея,Fairy
-pen,full,,Ручка,Pen
-notebook,full,,Зошит,Notebook
-paintbrush,full,,Пензлик,Paintbrush
-paints,full,,Фарби,Paints
-bell,full,,Дзвоник,Bell
-trumpet,full,,Труба,Trumpet
-medal,full,,Медаль,Medal
-tent,full,,Намет,Tent
-whistle,full,,Свисток,Whistle
-flag,full,,Прапорець,Flag
-swimming_ring,full,,Надувне коло,Swim ring
-binoculars,full,,Бінокль,Binoculars
-shovel,full,,Лопата,Shovel
-watering_can,full,,Лійка,Watering can
-crown,full,,Корона,Crown
-christmas_tree,full,,Ялинка,Christmas tree
-doghouse,full,,Будка,Doghouse
-worm,full,,Черв'як,Worm
-spiderweb,full,,Павутина,Spiderweb
-guinea_pig,full,,Морська свинка,Guinea pig
-clownfish,full,,Риба-клоун,Clownfish
-bun,full,,Булочка,Bun
-stairs,full,,Сходи,Stairs
-comb,full,,Гребінець,Comb
-plaster,full,,Пластир,Bandage
-stickers,full,,Наліпки,Stickers
-stick,full,,Палиця,Stick
-envelope,full,,Конверт,Envelope
-face,full,,Обличчя,Face
-belly,full,,Живіт,Belly
-skates,full,,Ковзани,Ice skates
-trampoline,full,,Батут,Trampoline
-ladder,full,,Драбина,Ladder
-flashlight,full,,Ліхтарик,Flashlight
-thread,full,,Нитки,Thread
-bridge,full,,Міст,Bridge
-fence,full,,Паркан,Fence
-carousel,full,,Карусель,Carousel
-school,full,,Школа,School
-coin,full,,Монета,Coin
-puddle,full,,Калюжа,Puddle
-snow,full,,Сніг,Snow
-forest,full,,Ліс,Forest
-river,full,,Річка,River
-sea,full,,Море,Sea
-beach,full,,Пляж,Beach
-fireworks,full,,Феєрверк,Fireworks
-circus,full,,Цирк,Circus
+id,tier,preview,uk,en,de,pl,es,fr
+dog,free,,Собака,Dog,Hund,Pies,Perro,Chien
+cat,free,,Кіт,Cat,Katze,Kot,Gato,Chat
+cow,free,,Корова,Cow,Kuh,Krowa,Vaca,Vache
+pig,free,,Свиня,Pig,Schwein,Świnia,Cerdo,Cochon
+horse,free,,Кінь,Horse,Pferd,Koń,Caballo,Cheval
+sheep,full,,Вівця,Sheep,Schaf,Owca,Oveja,Mouton
+hen,full,,Курка,Hen,Huhn,Kura,Gallina,Poule
+duck,full,,Качка,Duck,Ente,Kaczka,Pato,Canard
+rabbit,free,,Кролик,Rabbit,Kaninchen,Królik,Conejo,Lapin
+mouse,full,,Миша,Mouse,Maus,Mysz,Ratón,Souris
+turtle,full,,Черепаха,Turtle,Schildkröte,Żółw,Tortuga,Tortue
+bear,free,,Ведмідь,Bear,Bär,Niedźwiedź,Oso,Ours
+wolf,full,,Вовк,Wolf,Wolf,Wilk,Lobo,Loup
+fox,full,,Лисиця,Fox,Fuchs,Lis,Zorro,Renard
+hedgehog,full,,Їжак,Hedgehog,Igel,Jeż,Erizo,Hérisson
+squirrel,full,,Білка,Squirrel,Eichhörnchen,Wiewiórka,Ardilla,Écureuil
+lion,free,,Лев,Lion,Löwe,Lew,León,Lion
+tiger,full,yes,Тигр,Tiger,Tiger,Tygrys,Tigre,Tigre
+zebra,full,,Зебра,Zebra,Zebra,Zebra,Cebra,Zèbre
+monkey,full,,Мавпа,Monkey,Affe,Małpa,Mono,Singe
+frog,full,,Жаба,Frog,Frosch,Żaba,Rana,Grenouille
+penguin,full,,Пінгвін,Penguin,Pinguin,Pingwin,Pingüino,Pingouin
+owl,full,,Сова,Owl,Eule,Sowa,Búho,Hibou
+whale,full,,Кит,Whale,Wal,Wieloryb,Ballena,Baleine
+fish,free,,Риба,Fish,Fisch,Ryba,Pez,Poisson
+butterfly,full,,Метелик,Butterfly,Schmetterling,Motyl,Mariposa,Papillon
+bee,full,,Бджола,Bee,Biene,Pszczoła,Abeja,Abeille
+ladybug,full,,Сонечко,Ladybug,Marienkäfer,Biedronka,Mariquita,Coccinelle
+snail,full,,Равлик,Snail,Schnecke,Ślimak,Caracol,Escargot
+sun,free,,Сонце,Sun,Sonne,Słońce,Sol,Soleil
+moon,free,,Місяць,Moon,Mond,Księżyc,Luna,Lune
+star,full,,Зірка,Star,Stern,Gwiazda,Estrella,Étoile
+cloud,full,,Хмара,Cloud,Wolke,Chmura,Nube,Nuage
+rainbow,full,yes,Веселка,Rainbow,Regenbogen,Tęcza,Arcoíris,Arc-en-ciel
+tree,free,,Дерево,Tree,Baum,Drzewo,Árbol,Arbre
+flower,free,,Квітка,Flower,Blume,Kwiat,Flor,Fleur
+apple,free,,Яблуко,Apple,Apfel,Jabłko,Manzana,Pomme
+banana,free,,Банан,Banana,Banane,Banan,Plátano,Banane
+pear,full,,Груша,Pear,Birne,Gruszka,Pera,Poire
+orange,full,,Апельсин,Orange,Orange,Pomarańcza,Naranja,Orange
+grapes,full,,Виноград,Grapes,Weintrauben,Winogrona,Uvas,Raisin
+strawberry,full,,Полуниця,Strawberry,Erdbeere,Truskawka,Fresa,Fraise
+watermelon,free,,Кавун,Watermelon,Wassermelone,Arbuz,Sandía,Pastèque
+carrot,free,,Морква,Carrot,Karotte,Marchewka,Zanahoria,Carotte
+tomato,full,,Помідор,Tomato,Tomate,Pomidor,Tomate,Tomate
+cucumber,full,,Огірок,Cucumber,Gurke,Ogórek,Pepino,Concombre
+corn,full,,Кукурудза,Corn,Mais,Kukurydza,Maíz,Maïs
+pumpkin,full,,Гарбуз,Pumpkin,Kürbis,Dynia,Calabaza,Citrouille
+mushroom,full,,Гриб,Mushroom,Pilz,Grzyb,Seta,Champignon
+bread,full,,Хліб,Bread,Brot,Chleb,Pan,Pain
+egg,full,,Яйце,Egg,Ei,Jajko,Huevo,Œuf
+cheese,full,,Сир,Cheese,Käse,Ser,Queso,Fromage
+milk,full,,Молоко,Milk,Milch,Mleko,Leche,Lait
+pizza,full,,Піца,Pizza,Pizza,Pizza,Pizza,Pizza
+cake,free,,Торт,Cake,Torte,Tort,Tarta,Gâteau
+candy,full,,Цукерка,Candy,Bonbon,Cukierek,Caramelo,Bonbon
+ice_cream,free,,Морозиво,Ice cream,Eis,Lody,Helado,Glace
+house,free,,Будинок,House,Haus,Dom,Casa,Maison
+cup,full,,Чашка,Cup,Tasse,Kubek,Taza,Tasse
+spoon,full,,Ложка,Spoon,Löffel,Łyżka,Cuchara,Cuillère
+plate,full,,Тарілка,Plate,Teller,Talerz,Plato,Assiette
+table,full,,Стіл,Table,Tisch,Stół,Mesa,Table
+chair,free,,Стілець,Chair,Stuhl,Krzesło,Silla,Chaise
+bed,free,,Ліжко,Bed,Bett,Łóżko,Cama,Lit
+lamp,full,,Лампа,Lamp,Lampe,Lampa,Lámpara,Lampe
+clock,full,,Годинник,Clock,Uhr,Zegar,Reloj,Horloge
+window,full,,Вікно,Window,Fenster,Okno,Ventana,Fenêtre
+door,full,,Двері,Door,Tür,Drzwi,Puerta,Porte
+key,full,,Ключ,Key,Schlüssel,Klucz,Llave,Clé
+toothbrush,free,,Зубна щітка,Toothbrush,Zahnbürste,Szczoteczka,Cepillo de dientes,Brosse à dents
+soap,full,,Мило,Soap,Seife,Mydło,Jabón,Savon
+phone,full,,Телефон,Phone,Telefon,Telefon,Teléfono,Téléphone
+tv,full,,Телевізор,TV,Fernseher,Telewizor,Televisión,Télé
+woolly_hat,full,,Шапка,Winter hat,Mütze,Czapka,Gorro,Bonnet
+socks,full,,Шкарпетки,Socks,Socken,Skarpetki,Calcetines,Chaussettes
+boots,full,,Чоботи,Boots,Stiefel,Kalosze,Botas,Bottes
+glasses,full,,Окуляри,Glasses,Brille,Okulary,Gafas,Lunettes
+umbrella,full,,Парасолька,Umbrella,Regenschirm,Parasol,Paraguas,Parapluie
+backpack,full,,Рюкзак,Backpack,Rucksack,Plecak,Mochila,Sac à dos
+ball,free,,М'яч,Ball,Ball,Piłka,Pelota,Balle
+balloon,free,,Кулька,Balloon,Luftballon,Balon,Globo,Ballon
+doll,full,,Лялька,Doll,Puppe,Lalka,Muñeca,Poupée
+teddy_bear,free,,Ведмедик,Teddy bear,Teddybär,Miś,Osito de peluche,Nounours
+kite,full,,Повітряний змій,Kite,Drachen,Latawiec,Cometa,Cerf-volant
+pencil,full,,Олівець,Pencil,Bleistift,Ołówek,Lápiz,Crayon
+book,full,,Книжка,Book,Buch,Książka,Libro,Livre
+drum,full,,Барабан,Drum,Trommel,Bęben,Tambor,Tambour
+guitar,full,,Гітара,Guitar,Gitarre,Gitara,Guitarra,Guitare
+hand,full,,Рука,Hand,Hand,Ręka,Mano,Main
+heart,full,,Серце,Heart,Herz,Serce,Corazón,Cœur
+gift,full,,Подарунок,Gift,Geschenk,Prezent,Regalo,Cadeau
+car,free,,Машина,Car,Auto,Samochód,Coche,Voiture
+bus,free,,Автобус,Bus,Bus,Autobus,Autobús,Bus
+train,free,,Потяг,Train,Zug,Pociąg,Tren,Train
+plane,free,,Літак,Plane,Flugzeug,Samolot,Avión,Avion
+ship,full,,Корабель,Ship,Schiff,Statek,Barco,Bateau
+bicycle,full,,Велосипед,Bicycle,Fahrrad,Rower,Bicicleta,Vélo
+tractor,full,,Трактор,Tractor,Traktor,Traktor,Tractor,Tracteur
+rocket,full,yes,Ракета,Rocket,Rakete,Rakieta,Cohete,Fusée
+snowman,full,,Сніговик,Snowman,Schneemann,Bałwan,Muñeco de nieve,Bonhomme de neige
+goat,full,,Коза,Goat,Ziege,Koza,Cabra,Chèvre
+rooster,full,,Півень,Rooster,Hahn,Kogut,Gallo,Coq
+chick,full,,Курча,Chick,Küken,Kurczątko,Pollito,Poussin
+donkey,full,,Віслюк,Donkey,Esel,Osioł,Burro,Âne
+hamster,full,,Хом'як,Hamster,Hamster,Chomik,Hámster,Hamster
+parrot,full,,Папуга,Parrot,Papagei,Papuga,Loro,Perroquet
+elephant,full,yes,Слон,Elephant,Elefant,Słoń,Elefante,Éléphant
+giraffe,full,yes,Жирафа,Giraffe,Giraffe,Żyrafa,Jirafa,Girafe
+crocodile,full,yes,Крокодил,Crocodile,Krokodil,Krokodyl,Cocodrilo,Crocodile
+hippo,full,,Бегемот,Hippo,Nilpferd,Hipopotam,Hipopótamo,Hippopotame
+kangaroo,full,,Кенгуру,Kangaroo,Känguru,Kangur,Canguro,Kangourou
+panda,full,,Панда,Panda,Panda,Panda,Panda,Panda
+camel,full,,Верблюд,Camel,Kamel,Wielbłąd,Camello,Chameau
+deer,full,,Олень,Deer,Hirsch,Jeleń,Ciervo,Cerf
+snake,full,,Змія,Snake,Schlange,Wąż,Serpiente,Serpent
+dinosaur,full,yes,Динозавр,Dinosaur,Dinosaurier,Dinozaur,Dinosaurio,Dinosaure
+bird,full,,Пташка,Bird,Vogel,Ptak,Pájaro,Oiseau
+flamingo,full,,Фламінго,Flamingo,Flamingo,Flaming,Flamenco,Flamant rose
+dolphin,full,,Дельфін,Dolphin,Delfin,Delfin,Delfín,Dauphin
+shark,full,,Акула,Shark,Hai,Rekin,Tiburón,Requin
+octopus,full,,Восьминіг,Octopus,Krake,Ośmiornica,Pulpo,Pieuvre
+crab,full,,Краб,Crab,Krabbe,Krab,Cangrejo,Crabe
+spider,full,,Павук,Spider,Spinne,Pająk,Araña,Araignée
+caterpillar,full,,Гусениця,Caterpillar,Raupe,Gąsienica,Oruga,Chenille
+lemon,full,,Лимон,Lemon,Zitrone,Cytryna,Limón,Citron
+cherry,full,,Вишня,Cherry,Kirsche,Wiśnia,Cereza,Cerise
+peach,full,,Персик,Peach,Pfirsich,Brzoskwinia,Melocotón,Pêche
+pineapple,full,,Ананас,Pineapple,Ananas,Ananas,Piña,Ananas
+potato,full,,Картопля,Potato,Kartoffel,Ziemniak,Patata,Pomme de terre
+onion,full,,Цибуля,Onion,Zwiebel,Cebula,Cebolla,Oignon
+cabbage,full,,Капуста,Cabbage,Kohl,Kapusta,Col,Chou
+soup,full,,Суп,Soup,Suppe,Zupa,Sopa,Soupe
+sandwich,full,,Бутерброд,Sandwich,Sandwich,Kanapka,Sándwich,Sandwich
+pasta,full,,Макарони,Pasta,Nudeln,Makaron,Espaguetis,Pâtes
+pancake,full,,Млинці,Pancakes,Pfannkuchen,Naleśniki,Tortitas,Crêpes
+cookie,full,,Печиво,Cookie,Keks,Ciastko,Galleta,Biscuit
+chocolate,full,,Шоколад,Chocolate,Schokolade,Czekolada,Chocolate,Chocolat
+lollipop,full,,Льодяник,Lollipop,Lutscher,Lizak,Piruleta,Sucette
+juice,full,,Сік,Juice,Saft,Sok,Zumo,Jus
+fork,full,,Виделка,Fork,Gabel,Widelec,Tenedor,Fourchette
+pot,full,,Каструля,Pot,Topf,Garnek,Olla,Casserole
+kettle,full,,Чайник,Kettle,Wasserkessel,Czajnik,Tetera,Bouilloire
+fridge,full,,Холодильник,Fridge,Kühlschrank,Lodówka,Nevera,Frigo
+sofa,full,,Диван,Sofa,Sofa,Kanapa,Sofá,Canapé
+pillow,full,,Подушка,Pillow,Kissen,Poduszka,Almohada,Oreiller
+candle,full,,Свічка,Candle,Kerze,Świeca,Vela,Bougie
+box,full,,Коробка,Box,Schachtel,Pudełko,Caja,Boîte
+towel,full,,Рушник,Towel,Handtuch,Ręcznik,Toalla,Serviette
+bathtub,full,,Ванна,Bathtub,Badewanne,Wanna,Bañera,Baignoire
+broom,full,,Віник,Broom,Besen,Miotła,Escoba,Balai
+bucket,full,,Відро,Bucket,Eimer,Wiadro,Cubo,Seau
+computer,full,,Комп'ютер,Computer,Computer,Komputer,Ordenador,Ordinateur
+camera,full,,Фотоапарат,Camera,Kamera,Aparat,Cámara,Appareil photo
+scissors,full,,Ножиці,Scissors,Schere,Nożyczki,Tijeras,Ciseaux
+cap,full,,Кепка,Cap,Kappe,Czapka z daszkiem,Gorra,Casquette
+scarf,full,,Шарф,Scarf,Schal,Szalik,Bufanda,Écharpe
+mittens,full,,Рукавиці,Mittens,Fäustlinge,Rękawiczki,Manoplas,Moufles
+jacket,full,,Куртка,Jacket,Jacke,Kurtka,Chaqueta,Veste
+dress,full,,Сукня,Dress,Kleid,Sukienka,Vestido,Robe
+t_shirt,full,,Футболка,T-shirt,T-Shirt,Koszulka,Camiseta,Tee-shirt
+trousers,full,,Штани,Pants,Hose,Spodnie,Pantalones,Pantalon
+sneakers,full,,Кросівки,Sneakers,Turnschuhe,Trampki,Zapatillas,Baskets
+blocks,full,,Кубики,Blocks,Bauklötze,Klocki,Bloques,Cubes
+swing,full,,Гойдалка,Swing,Schaukel,Huśtawka,Columpio,Balançoire
+slide,full,,Гірка,Slide,Rutsche,Zjeżdżalnia,Tobogán,Toboggan
+scooter,full,,Самокат,Scooter,Roller,Hulajnoga,Patinete,Trottinette
+sled,full,,Санки,Sled,Schlitten,Sanki,Trineo,Luge
+toy_car,full,,Іграшкова машинка,Toy car,Spielzeugauto,Samochodzik,Cochecito,Petite voiture
+boat,full,,Човен,Boat,Boot,Łódka,Barca,Barque
+motorcycle,full,,Мотоцикл,Motorcycle,Motorrad,Motocykl,Moto,Moto
+truck,full,,Вантажівка,Truck,Lastwagen,Ciężarówka,Camión,Camion
+helicopter,full,,Гелікоптер,Helicopter,Hubschrauber,Helikopter,Helicóptero,Hélicoptère
+ambulance,full,,Швидка допомога,Ambulance,Krankenwagen,Karetka,Ambulancia,Ambulance
+fire_truck,full,,Пожежна машина,Fire truck,Feuerwehrauto,Wóz strażacki,Camión de bomberos,Camion de pompiers
+police_car,full,,Поліцейська машина,Police car,Polizeiauto,Radiowóz,Coche de policía,Voiture de police
+snowflake,full,,Сніжинка,Snowflake,Schneeflocke,Płatek śniegu,Copo de nieve,Flocon de neige
+mountain,full,,Гора,Mountain,Berg,Góra,Montaña,Montagne
+fire,full,,Вогонь,Fire,Feuer,Ogień,Fuego,Feu
+leaf,full,,Листок,Leaf,Blatt,Liść,Hoja,Feuille
+sunflower,full,,Соняшник,Sunflower,Sonnenblume,Słonecznik,Girasol,Tournesol
+cactus,full,,Кактус,Cactus,Kaktus,Kaktus,Cactus,Cactus
+eye,full,,Око,Eye,Auge,Oko,Ojo,Œil
+nose,full,,Ніс,Nose,Nase,Nos,Nariz,Nez
+mouth,full,,Рот,Mouth,Mund,Usta,Boca,Bouche
+ear,full,,Вухо,Ear,Ohr,Ucho,Oreja,Oreille
+tooth,full,,Зуб,Tooth,Zahn,Ząb,Diente,Dent
+piano,full,,Піаніно,Piano,Klavier,Pianino,Piano,Piano
+soccer_ball,full,,Футбольний м'яч,Soccer ball,Fußball,Piłka nożna,Balón de fútbol,Ballon de foot
+hammer,full,,Молоток,Hammer,Hammer,Młotek,Martillo,Marteau
+baby,full,,Малюк,Baby,Baby,Dzidziuś,Bebé,Bébé
+boy,full,,Хлопчик,Boy,Junge,Chłopiec,Niño,Garçon
+girl,full,,Дівчинка,Girl,Mädchen,Dziewczynka,Niña,Fille
+grandma,full,,Бабуся,Grandma,Oma,Babcia,Abuela,Mamie
+grandpa,full,,Дідусь,Grandpa,Opa,Dziadek,Abuelo,Papy
+doctor,full,,Лікарка,Doctor,Ärztin,Lekarka,Doctora,Médecin
+firefighter,full,,Пожежник,Firefighter,Feuerwehrmann,Strażak,Bombero,Pompier
+castle,full,yes,Замок,Castle,Burg,Zamek,Castillo,Château
+robot,full,,Робот,Robot,Roboter,Robot,Robot,Robot
+dragon,full,yes,Дракон,Dragon,Drache,Smok,Dragón,Dragon
+unicorn,full,yes,Єдиноріг,Unicorn,Einhorn,Jednorożec,Unicornio,Licorne
+puppy,full,,Цуценя,Puppy,Welpe,Szczeniak,Cachorro,Chiot
+kitten,full,,Кошеня,Kitten,Kätzchen,Kotek,Gatito,Chaton
+pony,full,,Поні,Pony,Pony,Kucyk,Poni,Poney
+polar_bear,full,,Білий ведмідь,Polar bear,Eisbär,Niedźwiedź polarny,Oso polar,Ours polaire
+swan,full,,Лебідь,Swan,Schwan,Łabędź,Cisne,Cygne
+peacock,full,,Павич,Peacock,Pfau,Paw,Pavo real,Paon
+pigeon,full,,Голуб,Pigeon,Taube,Gołąb,Paloma,Pigeon
+nest,full,,Гніздо,Nest,Nest,Gniazdo,Nido,Nid
+feather,full,,Перо,Feather,Feder,Pióro,Pluma,Plume
+starfish,full,,Морська зірка,Starfish,Seestern,Rozgwiazda,Estrella de mar,Étoile de mer
+seashell,full,,Мушля,Seashell,Muschel,Muszla,Concha,Coquillage
+ant,full,,Мураха,Ant,Ameise,Mrówka,Hormiga,Fourmi
+beetle,full,,Жук,Beetle,Käfer,Chrząszcz,Escarabajo,Scarabée
+raspberry,full,,Малина,Raspberry,Himbeere,Malina,Frambuesa,Framboise
+tangerine,full,,Мандарин,Tangerine,Mandarine,Mandarynka,Mandarina,Mandarine
+bell_pepper,full,,Перець,Pepper,Paprika,Papryka,Pimiento,Poivron
+peas,full,,Горох,Peas,Erbsen,Groszek,Guisantes,Petits pois
+broccoli,full,,Броколі,Broccoli,Brokkoli,Brokuł,Brócoli,Brocoli
+sausage,full,,Сосиска,Sausage,Würstchen,Parówka,Salchicha,Saucisse
+hamburger,full,,Гамбургер,Burger,Hamburger,Hamburger,Hamburguesa,Hamburger
+honey,full,,Мед,Honey,Honig,Miód,Miel,Miel
+donut,full,,Пончик,Donut,Donut,Pączek,Dónut,Beignet
+popcorn,full,,Попкорн,Popcorn,Popcorn,Popcorn,Palomitas,Pop-corn
+fries,full,,Картопля фрі,French fries,Pommes,Frytki,Patatas fritas,Frites
+bottle,full,,Пляшка,Bottle,Flasche,Butelka,Botella,Bouteille
+frying_pan,full,,Сковорідка,Frying pan,Pfanne,Patelnia,Sartén,Poêle
+bowl,full,,Миска,Bowl,Schüssel,Miska,Cuenco,Bol
+basket,full,,Кошик,Basket,Korb,Koszyk,Cesta,Panier
+wardrobe,full,,Шафа,Wardrobe,Schrank,Szafa,Armario,Armoire
+light_bulb,full,,Лампочка,Light bulb,Glühbirne,Żarówka,Bombilla,Ampoule
+mirror,full,,Дзеркало,Mirror,Spiegel,Lustro,Espejo,Miroir
+blanket,full,,Ковдра,Blanket,Decke,Koc,Manta,Couverture
+bench,full,,Лавка,Bench,Bank,Ławka,Banco,Banc
+toilet,full,,Унітаз,Toilet,Toilette,Toaleta,Inodoro,Toilettes
+vacuum,full,,Пилосос,Vacuum cleaner,Staubsauger,Odkurzacz,Aspiradora,Aspirateur
+washing_machine,full,,Пральна машина,Washing machine,Waschmaschine,Pralka,Lavadora,Machine à laver
+rubber_duck,full,,Гумова качечка,Rubber duck,Quietscheente,Gumowa kaczuszka,Patito de goma,Canard en plastique
+headphones,full,,Навушники,Headphones,Kopfhörer,Słuchawki,Auriculares,Casque audio
+toilet_paper,full,,Туалетний папір,Toilet paper,Klopapier,Papier toaletowy,Papel higiénico,Papier toilette
+trash_can,full,,Смітник,Trash can,Mülleimer,Kosz na śmieci,Papelera,Poubelle
+pacifier,full,,Соска,Pacifier,Schnuller,Smoczek,Chupete,Tétine
+sponge,full,,Губка,Sponge,Schwamm,Gąbka,Esponja,Éponge
+skirt,full,,Спідниця,Skirt,Rock,Spódnica,Falda,Jupe
+sweater,full,,Светр,Sweater,Pullover,Sweter,Jersey,Pull
+shorts,full,,Шорти,Shorts,Shorts,Szorty,Pantalón corto,Short
+pajamas,full,,Піжама,Pajamas,Schlafanzug,Piżama,Pijama,Pyjama
+slippers,full,,Капці,Slippers,Hausschuhe,Kapcie,Pantuflas,Chaussons
+bag,full,,Сумка,Bag,Tasche,Torba,Bolso,Sac
+bow,full,,Бантик,Bow,Schleife,Kokarda,Lazo,Nœud
+button,full,,Ґудзик,Button,Knopf,Guzik,Botón,Bouton
+puzzle,full,,Пазл,Puzzle,Puzzle,Puzzle,Puzle,Puzzle
+jump_rope,full,,Скакалка,Jump rope,Springseil,Skakanka,Comba,Corde à sauter
+sandbox,full,,Пісочниця,Sandbox,Sandkasten,Piaskownica,Arenero,Bac à sable
+bubbles,full,,Мильні бульбашки,Bubbles,Seifenblasen,Bańki mydlane,Pompas de jabón,Bulles de savon
+paper_plane,full,,Паперовий літачок,Paper plane,Papierflieger,Papierowy samolot,Avión de papel,Avion en papier
+sandcastle,full,,Пісочний замок,Sandcastle,Sandburg,Zamek z piasku,Castillo de arena,Château de sable
+snowball,full,,Сніжка,Snowball,Schneeball,Śnieżka,Bola de nieve,Boule de neige
+play_dough,full,,Пластилін,Plasticine,Knete,Plastelina,Plastilina,Pâte à modeler
+excavator,full,,Екскаватор,Excavator,Bagger,Koparka,Excavadora,Pelleteuse
+traffic_light,full,,Світлофор,Traffic light,Ampel,Światła,Semáforo,Feu tricolore
+wheel,full,,Колесо,Wheel,Rad,Koło,Rueda,Roue
+stroller,full,,Візочок,Stroller,Kinderwagen,Wózek,Carrito,Poussette
+rain,full,,Дощ,Rain,Regen,Deszcz,Lluvia,Pluie
+volcano,full,,Вулкан,Volcano,Vulkan,Wulkan,Volcán,Volcan
+dandelion,full,,Кульбаба,Dandelion,Löwenzahn,Mlecz,Diente de león,Pissenlit
+palm_tree,full,,Пальма,Palm tree,Palme,Palma,Palmera,Palmier
+grass,full,,Трава,Grass,Gras,Trawa,Hierba,Herbe
+daisy,full,,Ромашка,Daisy,Gänseblümchen,Stokrotka,Margarita,Marguerite
+stone,full,,Камінь,Stone,Stein,Kamień,Piedra,Pierre
+leg,full,,Нога,Leg,Bein,Noga,Pierna,Jambe
+finger,full,,Палець,Finger,Finger,Palec,Dedo,Doigt
+bone,full,,Кістка,Bone,Knochen,Kość,Hueso,Os
+chef,full,,Кухар,Chef,Koch,Kucharz,Cocinero,Cuisinier
+teacher,full,,Вчителька,Teacher,Lehrerin,Nauczycielka,Maestra,Maîtresse
+astronaut,full,,Космонавт,Astronaut,Astronaut,Astronauta,Astronauta,Astronaute
+clown,full,,Клоун,Clown,Clown,Klaun,Payaso,Clown
+king,full,,Король,King,König,Król,Rey,Roi
+queen,full,,Королева,Queen,Königin,Królowa,Reina,Reine
+princess,full,,Принцеса,Princess,Prinzessin,Księżniczka,Princesa,Princesse
+pirate,full,yes,Пірат,Pirate,Pirat,Pirat,Pirata,Pirate
+mom,full,,Мама,Mom,Mama,Mama,Mamá,Maman
+dad,full,,Тато,Dad,Papa,Tata,Papá,Papa
+mermaid,full,,Русалка,Mermaid,Meerjungfrau,Syrenka,Sirena,Sirène
+fairy,full,,Фея,Fairy,Fee,Wróżka,Hada,Fée
+pen,full,,Ручка,Pen,Kuli,Długopis,Bolígrafo,Stylo
+notebook,full,,Зошит,Notebook,Heft,Zeszyt,Cuaderno,Cahier
+paintbrush,full,,Пензлик,Paintbrush,Pinsel,Pędzel,Pincel,Pinceau
+paints,full,,Фарби,Paints,Wasserfarben,Farby,Pinturas,Peinture
+bell,full,,Дзвоник,Bell,Glocke,Dzwonek,Campana,Cloche
+trumpet,full,,Труба,Trumpet,Trompete,Trąbka,Trompeta,Trompette
+medal,full,,Медаль,Medal,Medaille,Medal,Medalla,Médaille
+tent,full,,Намет,Tent,Zelt,Namiot,Tienda de campaña,Tente
+whistle,full,,Свисток,Whistle,Pfeife,Gwizdek,Silbato,Sifflet
+flag,full,,Прапорець,Flag,Fahne,Flaga,Bandera,Drapeau
+swimming_ring,full,,Надувне коло,Swim ring,Schwimmring,Koło do pływania,Flotador,Bouée
+binoculars,full,,Бінокль,Binoculars,Fernglas,Lornetka,Prismáticos,Jumelles
+shovel,full,,Лопата,Shovel,Schaufel,Łopata,Pala,Pelle
+watering_can,full,,Лійка,Watering can,Gießkanne,Konewka,Regadera,Arrosoir
+crown,full,,Корона,Crown,Krone,Korona,Corona,Couronne
+christmas_tree,full,,Ялинка,Christmas tree,Weihnachtsbaum,Choinka,Árbol de Navidad,Sapin de Noël
+doghouse,full,,Будка,Doghouse,Hundehütte,Buda,Caseta,Niche
+worm,full,,Черв'як,Worm,Wurm,Dżdżownica,Gusano,Ver de terre
+spiderweb,full,,Павутина,Spiderweb,Spinnennetz,Pajęczyna,Telaraña,Toile d'araignée
+guinea_pig,full,,Морська свинка,Guinea pig,Meerschweinchen,Świnka morska,Cobaya,Cochon d'Inde
+clownfish,full,,Риба-клоун,Clownfish,Clownfisch,Błazenek,Pez payaso,Poisson-clown
+bun,full,,Булочка,Bun,Brötchen,Bułka,Bollo,Petit pain
+stairs,full,,Сходи,Stairs,Treppe,Schody,Escalera,Escalier
+comb,full,,Гребінець,Comb,Kamm,Grzebień,Peine,Peigne
+plaster,full,,Пластир,Bandage,Pflaster,Plaster,Tirita,Pansement
+stickers,full,,Наліпки,Stickers,Aufkleber,Naklejki,Pegatinas,Autocollants
+stick,full,,Палиця,Stick,Stock,Patyk,Palo,Bâton
+envelope,full,,Конверт,Envelope,Briefumschlag,Koperta,Sobre,Enveloppe
+face,full,,Обличчя,Face,Gesicht,Twarz,Cara,Visage
+belly,full,,Живіт,Belly,Bauch,Brzuch,Barriga,Ventre
+skates,full,,Ковзани,Ice skates,Schlittschuhe,Łyżwy,Patines,Patins
+trampoline,full,,Батут,Trampoline,Trampolin,Trampolina,Cama elástica,Trampoline
+ladder,full,,Драбина,Ladder,Leiter,Drabina,Escalera de mano,Échelle
+flashlight,full,,Ліхтарик,Flashlight,Taschenlampe,Latarka,Linterna,Lampe de poche
+thread,full,,Нитки,Thread,Faden,Nici,Hilo,Fil
+bridge,full,,Міст,Bridge,Brücke,Most,Puente,Pont
+fence,full,,Паркан,Fence,Zaun,Płot,Valla,Clôture
+carousel,full,,Карусель,Carousel,Karussell,Karuzela,Tiovivo,Manège
+school,full,,Школа,School,Schule,Szkoła,Colegio,École
+coin,full,,Монета,Coin,Münze,Moneta,Moneda,Pièce
+puddle,full,,Калюжа,Puddle,Pfütze,Kałuża,Charco,Flaque
+snow,full,,Сніг,Snow,Schnee,Śnieg,Nieve,Neige
+forest,full,,Ліс,Forest,Wald,Las,Bosque,Forêt
+river,full,,Річка,River,Fluss,Rzeka,Río,Rivière
+sea,full,,Море,Sea,Meer,Morze,Mar,Mer
+beach,full,,Пляж,Beach,Strand,Plaża,Playa,Plage
+fireworks,full,,Феєрверк,Fireworks,Feuerwerk,Fajerwerki,Fuegos artificiales,Feu d'artifice
+circus,full,,Цирк,Circus,Zirkus,Cyrk,Circo,Cirque
