@@ -99,3 +99,235 @@ bicycle,full,,Велосипед,Bicycle
 tractor,full,,Трактор,Tractor
 rocket,full,yes,Ракета,Rocket
 snowman,full,,Сніговик,Snowman
+goat,full,,Коза,Goat
+rooster,full,,Півень,Rooster
+chick,full,,Курча,Chick
+donkey,full,,Віслюк,Donkey
+hamster,full,,Хом'як,Hamster
+parrot,full,,Папуга,Parrot
+elephant,full,yes,Слон,Elephant
+giraffe,full,yes,Жирафа,Giraffe
+crocodile,full,yes,Крокодил,Crocodile
+hippo,full,,Бегемот,Hippo
+kangaroo,full,,Кенгуру,Kangaroo
+panda,full,,Панда,Panda
+camel,full,,Верблюд,Camel
+deer,full,,Олень,Deer
+snake,full,,Змія,Snake
+dinosaur,full,yes,Динозавр,Dinosaur
+bird,full,,Пташка,Bird
+flamingo,full,,Фламінго,Flamingo
+dolphin,full,,Дельфін,Dolphin
+shark,full,,Акула,Shark
+octopus,full,,Восьминіг,Octopus
+crab,full,,Краб,Crab
+spider,full,,Павук,Spider
+caterpillar,full,,Гусениця,Caterpillar
+lemon,full,,Лимон,Lemon
+cherry,full,,Вишня,Cherry
+peach,full,,Персик,Peach
+pineapple,full,,Ананас,Pineapple
+potato,full,,Картопля,Potato
+onion,full,,Цибуля,Onion
+cabbage,full,,Капуста,Cabbage
+soup,full,,Суп,Soup
+sandwich,full,,Бутерброд,Sandwich
+pasta,full,,Макарони,Pasta
+pancake,full,,Млинці,Pancakes
+cookie,full,,Печиво,Cookie
+chocolate,full,,Шоколад,Chocolate
+lollipop,full,,Льодяник,Lollipop
+juice,full,,Сік,Juice
+fork,full,,Виделка,Fork
+pot,full,,Каструля,Pot
+kettle,full,,Чайник,Kettle
+fridge,full,,Холодильник,Fridge
+sofa,full,,Диван,Sofa
+pillow,full,,Подушка,Pillow
+candle,full,,Свічка,Candle
+box,full,,Коробка,Box
+towel,full,,Рушник,Towel
+bathtub,full,,Ванна,Bathtub
+broom,full,,Віник,Broom
+bucket,full,,Відро,Bucket
+computer,full,,Комп'ютер,Computer
+camera,full,,Фотоапарат,Camera
+scissors,full,,Ножиці,Scissors
+cap,full,,Кепка,Cap
+scarf,full,,Шарф,Scarf
+mittens,full,,Рукавиці,Mittens
+jacket,full,,Куртка,Jacket
+dress,full,,Сукня,Dress
+t_shirt,full,,Футболка,T-shirt
+trousers,full,,Штани,Pants
+sneakers,full,,Кросівки,Sneakers
+blocks,full,,Кубики,Blocks
+swing,full,,Гойдалка,Swing
+slide,full,,Гірка,Slide
+scooter,full,,Самокат,Scooter
+sled,full,,Санки,Sled
+toy_car,full,,Іграшкова машинка,Toy car
+boat,full,,Човен,Boat
+motorcycle,full,,Мотоцикл,Motorcycle
+truck,full,,Вантажівка,Truck
+helicopter,full,,Гелікоптер,Helicopter
+ambulance,full,,Швидка допомога,Ambulance
+fire_truck,full,,Пожежна машина,Fire truck
+police_car,full,,Поліцейська машина,Police car
+snowflake,full,,Сніжинка,Snowflake
+mountain,full,,Гора,Mountain
+fire,full,,Вогонь,Fire
+leaf,full,,Листок,Leaf
+sunflower,full,,Соняшник,Sunflower
+cactus,full,,Кактус,Cactus
+eye,full,,Око,Eye
+nose,full,,Ніс,Nose
+mouth,full,,Рот,Mouth
+ear,full,,Вухо,Ear
+tooth,full,,Зуб,Tooth
+piano,full,,Піаніно,Piano
+soccer_ball,full,,Футбольний м'яч,Soccer ball
+hammer,full,,Молоток,Hammer
+baby,full,,Малюк,Baby
+boy,full,,Хлопчик,Boy
+girl,full,,Дівчинка,Girl
+grandma,full,,Бабуся,Grandma
+grandpa,full,,Дідусь,Grandpa
+doctor,full,,Лікарка,Doctor
+firefighter,full,,Пожежник,Firefighter
+castle,full,yes,Замок,Castle
+robot,full,,Робот,Robot
+dragon,full,yes,Дракон,Dragon
+unicorn,full,yes,Єдиноріг,Unicorn
+puppy,full,,Цуценя,Puppy
+kitten,full,,Кошеня,Kitten
+pony,full,,Поні,Pony
+polar_bear,full,,Білий ведмідь,Polar bear
+swan,full,,Лебідь,Swan
+peacock,full,,Павич,Peacock
+pigeon,full,,Голуб,Pigeon
+nest,full,,Гніздо,Nest
+feather,full,,Перо,Feather
+starfish,full,,Морська зірка,Starfish
+seashell,full,,Мушля,Seashell
+ant,full,,Мураха,Ant
+beetle,full,,Жук,Beetle
+raspberry,full,,Малина,Raspberry
+tangerine,full,,Мандарин,Tangerine
+bell_pepper,full,,Перець,Pepper
+peas,full,,Горох,Peas
+broccoli,full,,Броколі,Broccoli
+sausage,full,,Сосиска,Sausage
+hamburger,full,,Гамбургер,Burger
+honey,full,,Мед,Honey
+donut,full,,Пончик,Donut
+popcorn,full,,Попкорн,Popcorn
+fries,full,,Картопля фрі,French fries
+bottle,full,,Пляшка,Bottle
+frying_pan,full,,Сковорідка,Frying pan
+bowl,full,,Миска,Bowl
+basket,full,,Кошик,Basket
+wardrobe,full,,Шафа,Wardrobe
+light_bulb,full,,Лампочка,Light bulb
+mirror,full,,Дзеркало,Mirror
+blanket,full,,Ковдра,Blanket
+bench,full,,Лавка,Bench
+toilet,full,,Унітаз,Toilet
+vacuum,full,,Пилосос,Vacuum cleaner
+washing_machine,full,,Пральна машина,Washing machine
+rubber_duck,full,,Гумова качечка,Rubber duck
+headphones,full,,Навушники,Headphones
+toilet_paper,full,,Туалетний папір,Toilet paper
+trash_can,full,,Смітник,Trash can
+pacifier,full,,Соска,Pacifier
+sponge,full,,Губка,Sponge
+skirt,full,,Спідниця,Skirt
+sweater,full,,Светр,Sweater
+shorts,full,,Шорти,Shorts
+pajamas,full,,Піжама,Pajamas
+slippers,full,,Капці,Slippers
+bag,full,,Сумка,Bag
+bow,full,,Бантик,Bow
+button,full,,Ґудзик,Button
+puzzle,full,,Пазл,Puzzle
+jump_rope,full,,Скакалка,Jump rope
+sandbox,full,,Пісочниця,Sandbox
+bubbles,full,,Мильні бульбашки,Bubbles
+paper_plane,full,,Паперовий літачок,Paper plane
+sandcastle,full,,Пісочний замок,Sandcastle
+snowball,full,,Сніжка,Snowball
+play_dough,full,,Пластилін,Plasticine
+excavator,full,,Екскаватор,Excavator
+traffic_light,full,,Світлофор,Traffic light
+wheel,full,,Колесо,Wheel
+stroller,full,,Візочок,Stroller
+rain,full,,Дощ,Rain
+volcano,full,,Вулкан,Volcano
+dandelion,full,,Кульбаба,Dandelion
+palm_tree,full,,Пальма,Palm tree
+grass,full,,Трава,Grass
+daisy,full,,Ромашка,Daisy
+stone,full,,Камінь,Stone
+leg,full,,Нога,Leg
+finger,full,,Палець,Finger
+bone,full,,Кістка,Bone
+chef,full,,Кухар,Chef
+teacher,full,,Вчителька,Teacher
+astronaut,full,,Космонавт,Astronaut
+clown,full,,Клоун,Clown
+king,full,,Король,King
+queen,full,,Королева,Queen
+princess,full,,Принцеса,Princess
+pirate,full,yes,Пірат,Pirate
+mom,full,,Мама,Mom
+dad,full,,Тато,Dad
+mermaid,full,,Русалка,Mermaid
+fairy,full,,Фея,Fairy
+pen,full,,Ручка,Pen
+notebook,full,,Зошит,Notebook
+paintbrush,full,,Пензлик,Paintbrush
+paints,full,,Фарби,Paints
+bell,full,,Дзвоник,Bell
+trumpet,full,,Труба,Trumpet
+medal,full,,Медаль,Medal
+tent,full,,Намет,Tent
+whistle,full,,Свисток,Whistle
+flag,full,,Прапорець,Flag
+swimming_ring,full,,Надувне коло,Swim ring
+binoculars,full,,Бінокль,Binoculars
+shovel,full,,Лопата,Shovel
+watering_can,full,,Лійка,Watering can
+crown,full,,Корона,Crown
+christmas_tree,full,,Ялинка,Christmas tree
+doghouse,full,,Будка,Doghouse
+worm,full,,Черв'як,Worm
+spiderweb,full,,Павутина,Spiderweb
+guinea_pig,full,,Морська свинка,Guinea pig
+clownfish,full,,Риба-клоун,Clownfish
+bun,full,,Булочка,Bun
+stairs,full,,Сходи,Stairs
+comb,full,,Гребінець,Comb
+plaster,full,,Пластир,Bandage
+stickers,full,,Наліпки,Stickers
+stick,full,,Палиця,Stick
+envelope,full,,Конверт,Envelope
+face,full,,Обличчя,Face
+belly,full,,Живіт,Belly
+skates,full,,Ковзани,Ice skates
+trampoline,full,,Батут,Trampoline
+ladder,full,,Драбина,Ladder
+flashlight,full,,Ліхтарик,Flashlight
+thread,full,,Нитки,Thread
+bridge,full,,Міст,Bridge
+fence,full,,Паркан,Fence
+carousel,full,,Карусель,Carousel
+school,full,,Школа,School
+coin,full,,Монета,Coin
+puddle,full,,Калюжа,Puddle
+snow,full,,Сніг,Snow
+forest,full,,Ліс,Forest
+river,full,,Річка,River
+sea,full,,Море,Sea
+beach,full,,Пляж,Beach
+fireworks,full,,Феєрверк,Fireworks
+circus,full,,Цирк,Circus
