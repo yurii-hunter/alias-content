@@ -4,7 +4,7 @@ import { describe, it } from 'node:test';
 import { renderReview } from './review.ts';
 
 describe('review', () => {
-  const tile = { id: 'apple', sheet: 'b01-07', uk: 'Яблуко', en: 'Apple', image: '../images/apple.png?1', problems: [] };
+  const tile = { id: 'apple', note: 'b01-07', uk: 'Яблуко', en: 'Apple', image: '../images/apple.png?1', problems: [] };
 
   it('renders tiles', () => {
     const html = renderReview({ title: 'Усі', intro: '1 картка', tiles: [tile] });

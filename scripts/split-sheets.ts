@@ -1,12 +1,12 @@
 // Ріже згенеровані сітки на окремі картинки карток.
-//   node scripts/split-sheets.ts generation/batch-01 [--sheet b01-05]
+//   node scripts/split-sheets.ts generation/batch-10 [--sheet b10-05]
 //
 // Читає <партія>/sheets.csv (sheet,row,col,index,id), бере generation/sheets/<sheet>.png|webp|jpg,
 // знаходить предмети на прозорому або білому тлі, кожен обрізає, центрує на квадраті й зберігає
 // images/<id>.png (1024 px, прозоре тло). Окремо перегенерований предмет кладеться як
 // generation/sheets/fix-<id>.png і має пріоритет над сіткою.
 // Наприкінці пише <партія>/review.html — контрольний аркуш «картинка + слово» — і оновлює
-// загальний generation/review.html з усіма партіями.
+// загальний generation/review.html з усіма словами.
 import { access, readFile, writeFile, mkdir } from 'node:fs/promises';
 import { join, relative } from 'node:path';
 import { parseArgs } from 'node:util';
@@ -28,7 +28,7 @@ const { values: args, positionals } = parseArgs({
 });
 const batchDir = positionals[0];
 if (!batchDir) {
-  console.error('Використання: node scripts/split-sheets.ts <папка партії, напр. generation/batch-01> [--sheet b01-05]');
+  console.error('Використання: node scripts/split-sheets.ts <папка партії, напр. generation/batch-10> [--sheet b10-05]');
   process.exit(2);
 }
 
@@ -168,7 +168,7 @@ async function writeReview(results: Result[], words: Record<string, Record<strin
   const stamp = Date.now();
   const tiles = results.map((r) => ({
     id: r.id,
-    sheet: r.sheet,
+    note: r.sheet,
     uk: words[r.id]?.uk ?? '',
     en: words[r.id]?.en ?? '',
     image: r.written ? `${imgRel}/${r.id}.png?${stamp}` : null,
