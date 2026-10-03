@@ -1,0 +1,847 @@
+<!doctype html>
+<html lang="uk"><head><meta charset="utf-8"><title>Перевірка картинок: усі картки</title>
+<style>
+body{margin:0;padding:24px;font-family:system-ui,sans-serif;background:#FFF8EC;color:#1E1B2E}
+h1{font-size:20px;margin:0 0 4px}p{margin:0 0 20px;color:#5E5A6B}
+main{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px}
+figure{margin:0;background:#fff;border:2px solid #EADFCB;border-radius:20px;padding:12px;display:flex;flex-direction:column;align-items:center}
+figure.flag{border-color:#D13B2F}
+img{width:150px;height:150px;object-fit:contain}
+.missing{width:150px;height:150px;display:flex;align-items:center;justify-content:center;color:#D13B2F}
+figcaption{text-align:center;margin-top:8px}b{display:block;font-size:18px}span{font-size:12px;color:#5E5A6B}
+ul{margin:6px 0 0;padding:0;list-style:none;color:#D13B2F;font-size:12px}
+</style></head><body>
+<h1>Перевірка картинок: усі картки</h1>
+<p>Карток: 830, без картинки: 0. Детальні проблеми нарізки — у review.html кожної партії.</p>
+<main>
+<figure class=""><img src="../images/dog.png?1791053959634" alt="" loading="lazy"><figcaption><b>Собака</b><span>Dog · dog · b01-01</span></figcaption></figure>
+<figure class=""><img src="../images/cat.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кіт</b><span>Cat · cat · b01-01</span></figcaption></figure>
+<figure class=""><img src="../images/cow.png?1791053959634" alt="" loading="lazy"><figcaption><b>Корова</b><span>Cow · cow · b01-01</span></figcaption></figure>
+<figure class=""><img src="../images/pig.png?1791053959634" alt="" loading="lazy"><figcaption><b>Свиня</b><span>Pig · pig · b01-01</span></figcaption></figure>
+<figure class=""><img src="../images/horse.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кінь</b><span>Horse · horse · b01-01</span></figcaption></figure>
+<figure class=""><img src="../images/sheep.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вівця</b><span>Sheep · sheep · b01-01</span></figcaption></figure>
+<figure class=""><img src="../images/hen.png?1791053959634" alt="" loading="lazy"><figcaption><b>Курка</b><span>Hen · hen · b01-02</span></figcaption></figure>
+<figure class=""><img src="../images/duck.png?1791053959634" alt="" loading="lazy"><figcaption><b>Качка</b><span>Duck · duck · b01-02</span></figcaption></figure>
+<figure class=""><img src="../images/rabbit.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кролик</b><span>Rabbit · rabbit · b01-02</span></figcaption></figure>
+<figure class=""><img src="../images/mouse.png?1791053959634" alt="" loading="lazy"><figcaption><b>Миша</b><span>Mouse · mouse · b01-02</span></figcaption></figure>
+<figure class=""><img src="../images/turtle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Черепаха</b><span>Turtle · turtle · b01-02</span></figcaption></figure>
+<figure class=""><img src="../images/bear.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ведмідь</b><span>Bear · bear · b01-02</span></figcaption></figure>
+<figure class=""><img src="../images/wolf.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вовк</b><span>Wolf · wolf · b01-03</span></figcaption></figure>
+<figure class=""><img src="../images/fox.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лисиця</b><span>Fox · fox · b01-03</span></figcaption></figure>
+<figure class=""><img src="../images/hedgehog.png?1791053959634" alt="" loading="lazy"><figcaption><b>Їжак</b><span>Hedgehog · hedgehog · b01-03</span></figcaption></figure>
+<figure class=""><img src="../images/squirrel.png?1791053959634" alt="" loading="lazy"><figcaption><b>Білка</b><span>Squirrel · squirrel · b01-03</span></figcaption></figure>
+<figure class=""><img src="../images/lion.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лев</b><span>Lion · lion · b01-03</span></figcaption></figure>
+<figure class=""><img src="../images/tiger.png?1791053959634" alt="" loading="lazy"><figcaption><b>Тигр</b><span>Tiger · tiger · b01-03</span></figcaption></figure>
+<figure class=""><img src="../images/zebra.png?1791053959634" alt="" loading="lazy"><figcaption><b>Зебра</b><span>Zebra · zebra · b01-04</span></figcaption></figure>
+<figure class=""><img src="../images/monkey.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мавпа</b><span>Monkey · monkey · b01-04</span></figcaption></figure>
+<figure class=""><img src="../images/frog.png?1791053959634" alt="" loading="lazy"><figcaption><b>Жаба</b><span>Frog · frog · b01-04</span></figcaption></figure>
+<figure class=""><img src="../images/penguin.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пінгвін</b><span>Penguin · penguin · b01-04</span></figcaption></figure>
+<figure class=""><img src="../images/owl.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сова</b><span>Owl · owl · b01-04</span></figcaption></figure>
+<figure class=""><img src="../images/whale.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кит</b><span>Whale · whale · b01-04</span></figcaption></figure>
+<figure class=""><img src="../images/fish.png?1791053959634" alt="" loading="lazy"><figcaption><b>Риба</b><span>Fish · fish · b01-05</span></figcaption></figure>
+<figure class=""><img src="../images/butterfly.png?1791053959634" alt="" loading="lazy"><figcaption><b>Метелик</b><span>Butterfly · butterfly · b01-05</span></figcaption></figure>
+<figure class=""><img src="../images/bee.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бджола</b><span>Bee · bee · b01-05</span></figcaption></figure>
+<figure class=""><img src="../images/ladybug.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сонечко</b><span>Ladybug · ladybug · b01-05</span></figcaption></figure>
+<figure class=""><img src="../images/snail.png?1791053959634" alt="" loading="lazy"><figcaption><b>Равлик</b><span>Snail · snail · b01-05</span></figcaption></figure>
+<figure class=""><img src="../images/sun.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сонце</b><span>Sun · sun · b01-05</span></figcaption></figure>
+<figure class=""><img src="../images/moon.png?1791053959634" alt="" loading="lazy"><figcaption><b>Місяць</b><span>Moon · moon · b01-06</span></figcaption></figure>
+<figure class=""><img src="../images/star.png?1791053959634" alt="" loading="lazy"><figcaption><b>Зірка</b><span>Star · star · b01-06</span></figcaption></figure>
+<figure class=""><img src="../images/cloud.png?1791053959634" alt="" loading="lazy"><figcaption><b>Хмара</b><span>Cloud · cloud · b01-06</span></figcaption></figure>
+<figure class=""><img src="../images/rainbow.png?1791053959634" alt="" loading="lazy"><figcaption><b>Веселка</b><span>Rainbow · rainbow · b01-06</span></figcaption></figure>
+<figure class=""><img src="../images/tree.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дерево</b><span>Tree · tree · b01-06</span></figcaption></figure>
+<figure class=""><img src="../images/flower.png?1791053959634" alt="" loading="lazy"><figcaption><b>Квітка</b><span>Flower · flower · b01-06</span></figcaption></figure>
+<figure class=""><img src="../images/apple.png?1791053959634" alt="" loading="lazy"><figcaption><b>Яблуко</b><span>Apple · apple · b01-07</span></figcaption></figure>
+<figure class=""><img src="../images/banana.png?1791053959634" alt="" loading="lazy"><figcaption><b>Банан</b><span>Banana · banana · b01-07</span></figcaption></figure>
+<figure class=""><img src="../images/pear.png?1791053959634" alt="" loading="lazy"><figcaption><b>Груша</b><span>Pear · pear · b01-07</span></figcaption></figure>
+<figure class=""><img src="../images/orange.png?1791053959634" alt="" loading="lazy"><figcaption><b>Апельсин</b><span>Orange · orange · b01-07</span></figcaption></figure>
+<figure class=""><img src="../images/grapes.png?1791053959634" alt="" loading="lazy"><figcaption><b>Виноград</b><span>Grapes · grapes · b01-07</span></figcaption></figure>
+<figure class=""><img src="../images/strawberry.png?1791053959634" alt="" loading="lazy"><figcaption><b>Полуниця</b><span>Strawberry · strawberry · b01-07</span></figcaption></figure>
+<figure class=""><img src="../images/watermelon.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кавун</b><span>Watermelon · watermelon · b01-08</span></figcaption></figure>
+<figure class=""><img src="../images/carrot.png?1791053959634" alt="" loading="lazy"><figcaption><b>Морква</b><span>Carrot · carrot · b01-08</span></figcaption></figure>
+<figure class=""><img src="../images/tomato.png?1791053959634" alt="" loading="lazy"><figcaption><b>Помідор</b><span>Tomato · tomato · b01-08</span></figcaption></figure>
+<figure class=""><img src="../images/cucumber.png?1791053959634" alt="" loading="lazy"><figcaption><b>Огірок</b><span>Cucumber · cucumber · b01-08</span></figcaption></figure>
+<figure class=""><img src="../images/corn.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кукурудза</b><span>Corn · corn · b01-08</span></figcaption></figure>
+<figure class=""><img src="../images/pumpkin.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гарбуз</b><span>Pumpkin · pumpkin · b01-08</span></figcaption></figure>
+<figure class=""><img src="../images/mushroom.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гриб</b><span>Mushroom · mushroom · b01-09</span></figcaption></figure>
+<figure class=""><img src="../images/bread.png?1791053959634" alt="" loading="lazy"><figcaption><b>Хліб</b><span>Bread · bread · b01-09</span></figcaption></figure>
+<figure class=""><img src="../images/egg.png?1791053959634" alt="" loading="lazy"><figcaption><b>Яйце</b><span>Egg · egg · b01-09</span></figcaption></figure>
+<figure class=""><img src="../images/cheese.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сир</b><span>Cheese · cheese · b01-09</span></figcaption></figure>
+<figure class=""><img src="../images/milk.png?1791053959634" alt="" loading="lazy"><figcaption><b>Молоко</b><span>Milk · milk · b01-09</span></figcaption></figure>
+<figure class=""><img src="../images/pizza.png?1791053959634" alt="" loading="lazy"><figcaption><b>Піца</b><span>Pizza · pizza · b01-09</span></figcaption></figure>
+<figure class=""><img src="../images/cake.png?1791053959634" alt="" loading="lazy"><figcaption><b>Торт</b><span>Cake · cake · b01-10</span></figcaption></figure>
+<figure class=""><img src="../images/candy.png?1791053959634" alt="" loading="lazy"><figcaption><b>Цукерка</b><span>Candy · candy · b01-10</span></figcaption></figure>
+<figure class=""><img src="../images/ice_cream.png?1791053959634" alt="" loading="lazy"><figcaption><b>Морозиво</b><span>Ice cream · ice_cream · b01-10</span></figcaption></figure>
+<figure class=""><img src="../images/house.png?1791053959634" alt="" loading="lazy"><figcaption><b>Будинок</b><span>House · house · b01-10</span></figcaption></figure>
+<figure class=""><img src="../images/cup.png?1791053959634" alt="" loading="lazy"><figcaption><b>Чашка</b><span>Cup · cup · b01-10</span></figcaption></figure>
+<figure class=""><img src="../images/spoon.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ложка</b><span>Spoon · spoon · b01-10</span></figcaption></figure>
+<figure class=""><img src="../images/plate.png?1791053959634" alt="" loading="lazy"><figcaption><b>Тарілка</b><span>Plate · plate · b01-11</span></figcaption></figure>
+<figure class=""><img src="../images/table.png?1791053959634" alt="" loading="lazy"><figcaption><b>Стіл</b><span>Table · table · b01-11</span></figcaption></figure>
+<figure class=""><img src="../images/chair.png?1791053959634" alt="" loading="lazy"><figcaption><b>Стілець</b><span>Chair · chair · b01-11</span></figcaption></figure>
+<figure class=""><img src="../images/bed.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ліжко</b><span>Bed · bed · b01-11</span></figcaption></figure>
+<figure class=""><img src="../images/lamp.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лампа</b><span>Lamp · lamp · b01-11</span></figcaption></figure>
+<figure class=""><img src="../images/clock.png?1791053959634" alt="" loading="lazy"><figcaption><b>Годинник</b><span>Clock · clock · b01-11</span></figcaption></figure>
+<figure class=""><img src="../images/window.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вікно</b><span>Window · window · b01-12</span></figcaption></figure>
+<figure class=""><img src="../images/door.png?1791053959634" alt="" loading="lazy"><figcaption><b>Двері</b><span>Door · door · b01-12</span></figcaption></figure>
+<figure class=""><img src="../images/key.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ключ</b><span>Key · key · b01-12</span></figcaption></figure>
+<figure class=""><img src="../images/toothbrush.png?1791053959634" alt="" loading="lazy"><figcaption><b>Зубна щітка</b><span>Toothbrush · toothbrush · b01-12</span></figcaption></figure>
+<figure class=""><img src="../images/soap.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мило</b><span>Soap · soap · b01-12</span></figcaption></figure>
+<figure class=""><img src="../images/phone.png?1791053959634" alt="" loading="lazy"><figcaption><b>Телефон</b><span>Phone · phone · b01-12</span></figcaption></figure>
+<figure class=""><img src="../images/tv.png?1791053959634" alt="" loading="lazy"><figcaption><b>Телевізор</b><span>TV · tv · b01-13</span></figcaption></figure>
+<figure class=""><img src="../images/woolly_hat.png?1791053959634" alt="" loading="lazy"><figcaption><b>Шапка</b><span>Winter hat · woolly_hat · b01-13</span></figcaption></figure>
+<figure class=""><img src="../images/socks.png?1791053959634" alt="" loading="lazy"><figcaption><b>Шкарпетки</b><span>Socks · socks · b01-13</span></figcaption></figure>
+<figure class=""><img src="../images/boots.png?1791053959634" alt="" loading="lazy"><figcaption><b>Чоботи</b><span>Boots · boots · b01-13</span></figcaption></figure>
+<figure class=""><img src="../images/glasses.png?1791053959634" alt="" loading="lazy"><figcaption><b>Окуляри</b><span>Glasses · glasses · b01-13</span></figcaption></figure>
+<figure class=""><img src="../images/umbrella.png?1791053959634" alt="" loading="lazy"><figcaption><b>Парасолька</b><span>Umbrella · umbrella · b01-13</span></figcaption></figure>
+<figure class=""><img src="../images/backpack.png?1791053959634" alt="" loading="lazy"><figcaption><b>Рюкзак</b><span>Backpack · backpack · b01-14</span></figcaption></figure>
+<figure class=""><img src="../images/ball.png?1791053959634" alt="" loading="lazy"><figcaption><b>М'яч</b><span>Ball · ball · b01-14</span></figcaption></figure>
+<figure class=""><img src="../images/balloon.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кулька</b><span>Balloon · balloon · b01-14</span></figcaption></figure>
+<figure class=""><img src="../images/doll.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лялька</b><span>Doll · doll · b01-14</span></figcaption></figure>
+<figure class=""><img src="../images/teddy_bear.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ведмедик</b><span>Teddy bear · teddy_bear · b01-14</span></figcaption></figure>
+<figure class=""><img src="../images/kite.png?1791053959634" alt="" loading="lazy"><figcaption><b>Повітряний змій</b><span>Kite · kite · b01-14</span></figcaption></figure>
+<figure class=""><img src="../images/pencil.png?1791053959634" alt="" loading="lazy"><figcaption><b>Олівець</b><span>Pencil · pencil · b01-15</span></figcaption></figure>
+<figure class=""><img src="../images/book.png?1791053959634" alt="" loading="lazy"><figcaption><b>Книжка</b><span>Book · book · b01-15</span></figcaption></figure>
+<figure class=""><img src="../images/drum.png?1791053959634" alt="" loading="lazy"><figcaption><b>Барабан</b><span>Drum · drum · b01-15</span></figcaption></figure>
+<figure class=""><img src="../images/guitar.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гітара</b><span>Guitar · guitar · b01-15</span></figcaption></figure>
+<figure class=""><img src="../images/hand.png?1791053959634" alt="" loading="lazy"><figcaption><b>Рука</b><span>Hand · hand · b01-15</span></figcaption></figure>
+<figure class=""><img src="../images/heart.png?1791053959634" alt="" loading="lazy"><figcaption><b>Серце</b><span>Heart · heart · b01-15</span></figcaption></figure>
+<figure class=""><img src="../images/gift.png?1791053959634" alt="" loading="lazy"><figcaption><b>Подарунок</b><span>Gift · gift · b01-16</span></figcaption></figure>
+<figure class=""><img src="../images/car.png?1791053959634" alt="" loading="lazy"><figcaption><b>Машина</b><span>Car · car · b01-16</span></figcaption></figure>
+<figure class=""><img src="../images/bus.png?1791053959634" alt="" loading="lazy"><figcaption><b>Автобус</b><span>Bus · bus · b01-16</span></figcaption></figure>
+<figure class=""><img src="../images/train.png?1791053959634" alt="" loading="lazy"><figcaption><b>Потяг</b><span>Train · train · b01-16</span></figcaption></figure>
+<figure class=""><img src="../images/plane.png?1791053959634" alt="" loading="lazy"><figcaption><b>Літак</b><span>Plane · plane · b01-16</span></figcaption></figure>
+<figure class=""><img src="../images/ship.png?1791053959634" alt="" loading="lazy"><figcaption><b>Корабель</b><span>Ship · ship · b01-16</span></figcaption></figure>
+<figure class=""><img src="../images/bicycle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Велосипед</b><span>Bicycle · bicycle · b01-17</span></figcaption></figure>
+<figure class=""><img src="../images/tractor.png?1791053959634" alt="" loading="lazy"><figcaption><b>Трактор</b><span>Tractor · tractor · b01-17</span></figcaption></figure>
+<figure class=""><img src="../images/rocket.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ракета</b><span>Rocket · rocket · b01-17</span></figcaption></figure>
+<figure class=""><img src="../images/snowman.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сніговик</b><span>Snowman · snowman · b01-17</span></figcaption></figure>
+<figure class=""><img src="../images/goat.png?1791053959634" alt="" loading="lazy"><figcaption><b>Коза</b><span>Goat · goat · b02-01</span></figcaption></figure>
+<figure class=""><img src="../images/rooster.png?1791053959634" alt="" loading="lazy"><figcaption><b>Півень</b><span>Rooster · rooster · b02-01</span></figcaption></figure>
+<figure class=""><img src="../images/chick.png?1791053959634" alt="" loading="lazy"><figcaption><b>Курча</b><span>Chick · chick · b02-01</span></figcaption></figure>
+<figure class=""><img src="../images/donkey.png?1791053959634" alt="" loading="lazy"><figcaption><b>Віслюк</b><span>Donkey · donkey · b02-01</span></figcaption></figure>
+<figure class=""><img src="../images/hamster.png?1791053959634" alt="" loading="lazy"><figcaption><b>Хом'як</b><span>Hamster · hamster · b02-01</span></figcaption></figure>
+<figure class=""><img src="../images/parrot.png?1791053959634" alt="" loading="lazy"><figcaption><b>Папуга</b><span>Parrot · parrot · b02-01</span></figcaption></figure>
+<figure class=""><img src="../images/elephant.png?1791053959634" alt="" loading="lazy"><figcaption><b>Слон</b><span>Elephant · elephant · b02-02</span></figcaption></figure>
+<figure class=""><img src="../images/giraffe.png?1791053959634" alt="" loading="lazy"><figcaption><b>Жирафа</b><span>Giraffe · giraffe · b02-02</span></figcaption></figure>
+<figure class=""><img src="../images/crocodile.png?1791053959634" alt="" loading="lazy"><figcaption><b>Крокодил</b><span>Crocodile · crocodile · b02-02</span></figcaption></figure>
+<figure class=""><img src="../images/hippo.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бегемот</b><span>Hippo · hippo · b02-02</span></figcaption></figure>
+<figure class=""><img src="../images/kangaroo.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кенгуру</b><span>Kangaroo · kangaroo · b02-02</span></figcaption></figure>
+<figure class=""><img src="../images/panda.png?1791053959634" alt="" loading="lazy"><figcaption><b>Панда</b><span>Panda · panda · b02-02</span></figcaption></figure>
+<figure class=""><img src="../images/camel.png?1791053959634" alt="" loading="lazy"><figcaption><b>Верблюд</b><span>Camel · camel · b02-03</span></figcaption></figure>
+<figure class=""><img src="../images/deer.png?1791053959634" alt="" loading="lazy"><figcaption><b>Олень</b><span>Deer · deer · b02-03</span></figcaption></figure>
+<figure class=""><img src="../images/snake.png?1791053959634" alt="" loading="lazy"><figcaption><b>Змія</b><span>Snake · snake · b02-03</span></figcaption></figure>
+<figure class=""><img src="../images/dinosaur.png?1791053959634" alt="" loading="lazy"><figcaption><b>Динозавр</b><span>Dinosaur · dinosaur · b02-03</span></figcaption></figure>
+<figure class=""><img src="../images/bird.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пташка</b><span>Bird · bird · b02-03</span></figcaption></figure>
+<figure class=""><img src="../images/flamingo.png?1791053959634" alt="" loading="lazy"><figcaption><b>Фламінго</b><span>Flamingo · flamingo · b02-03</span></figcaption></figure>
+<figure class=""><img src="../images/dolphin.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дельфін</b><span>Dolphin · dolphin · b02-04</span></figcaption></figure>
+<figure class=""><img src="../images/shark.png?1791053959634" alt="" loading="lazy"><figcaption><b>Акула</b><span>Shark · shark · b02-04</span></figcaption></figure>
+<figure class=""><img src="../images/octopus.png?1791053959634" alt="" loading="lazy"><figcaption><b>Восьминіг</b><span>Octopus · octopus · b02-04</span></figcaption></figure>
+<figure class=""><img src="../images/crab.png?1791053959634" alt="" loading="lazy"><figcaption><b>Краб</b><span>Crab · crab · b02-04</span></figcaption></figure>
+<figure class=""><img src="../images/spider.png?1791053959634" alt="" loading="lazy"><figcaption><b>Павук</b><span>Spider · spider · b02-04</span></figcaption></figure>
+<figure class=""><img src="../images/caterpillar.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гусениця</b><span>Caterpillar · caterpillar · b02-04</span></figcaption></figure>
+<figure class=""><img src="../images/lemon.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лимон</b><span>Lemon · lemon · b02-05</span></figcaption></figure>
+<figure class=""><img src="../images/cherry.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вишня</b><span>Cherry · cherry · b02-05</span></figcaption></figure>
+<figure class=""><img src="../images/peach.png?1791053959634" alt="" loading="lazy"><figcaption><b>Персик</b><span>Peach · peach · b02-05</span></figcaption></figure>
+<figure class=""><img src="../images/pineapple.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ананас</b><span>Pineapple · pineapple · b02-05</span></figcaption></figure>
+<figure class=""><img src="../images/potato.png?1791053959634" alt="" loading="lazy"><figcaption><b>Картопля</b><span>Potato · potato · b02-05</span></figcaption></figure>
+<figure class=""><img src="../images/onion.png?1791053959634" alt="" loading="lazy"><figcaption><b>Цибуля</b><span>Onion · onion · b02-05</span></figcaption></figure>
+<figure class=""><img src="../images/cabbage.png?1791053959634" alt="" loading="lazy"><figcaption><b>Капуста</b><span>Cabbage · cabbage · b02-06</span></figcaption></figure>
+<figure class=""><img src="../images/soup.png?1791053959634" alt="" loading="lazy"><figcaption><b>Суп</b><span>Soup · soup · b02-06</span></figcaption></figure>
+<figure class=""><img src="../images/sandwich.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бутерброд</b><span>Sandwich · sandwich · b02-06</span></figcaption></figure>
+<figure class=""><img src="../images/pasta.png?1791053959634" alt="" loading="lazy"><figcaption><b>Макарони</b><span>Pasta · pasta · b02-06</span></figcaption></figure>
+<figure class=""><img src="../images/pancake.png?1791053959634" alt="" loading="lazy"><figcaption><b>Млинці</b><span>Pancakes · pancake · b02-06</span></figcaption></figure>
+<figure class=""><img src="../images/cookie.png?1791053959634" alt="" loading="lazy"><figcaption><b>Печиво</b><span>Cookie · cookie · b02-06</span></figcaption></figure>
+<figure class=""><img src="../images/chocolate.png?1791053959634" alt="" loading="lazy"><figcaption><b>Шоколад</b><span>Chocolate · chocolate · b02-07</span></figcaption></figure>
+<figure class=""><img src="../images/lollipop.png?1791053959634" alt="" loading="lazy"><figcaption><b>Льодяник</b><span>Lollipop · lollipop · b02-07</span></figcaption></figure>
+<figure class=""><img src="../images/juice.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сік</b><span>Juice · juice · b02-07</span></figcaption></figure>
+<figure class=""><img src="../images/fork.png?1791053959634" alt="" loading="lazy"><figcaption><b>Виделка</b><span>Fork · fork · b02-07</span></figcaption></figure>
+<figure class=""><img src="../images/pot.png?1791053959634" alt="" loading="lazy"><figcaption><b>Каструля</b><span>Pot · pot · b02-07</span></figcaption></figure>
+<figure class=""><img src="../images/kettle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Чайник</b><span>Kettle · kettle · b02-07</span></figcaption></figure>
+<figure class=""><img src="../images/fridge.png?1791053959634" alt="" loading="lazy"><figcaption><b>Холодильник</b><span>Fridge · fridge · b02-08</span></figcaption></figure>
+<figure class=""><img src="../images/sofa.png?1791053959634" alt="" loading="lazy"><figcaption><b>Диван</b><span>Sofa · sofa · b02-08</span></figcaption></figure>
+<figure class=""><img src="../images/pillow.png?1791053959634" alt="" loading="lazy"><figcaption><b>Подушка</b><span>Pillow · pillow · b02-08</span></figcaption></figure>
+<figure class=""><img src="../images/candle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Свічка</b><span>Candle · candle · b02-08</span></figcaption></figure>
+<figure class=""><img src="../images/box.png?1791053959634" alt="" loading="lazy"><figcaption><b>Коробка</b><span>Box · box · b02-08</span></figcaption></figure>
+<figure class=""><img src="../images/towel.png?1791053959634" alt="" loading="lazy"><figcaption><b>Рушник</b><span>Towel · towel · b02-08</span></figcaption></figure>
+<figure class=""><img src="../images/bathtub.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ванна</b><span>Bathtub · bathtub · b02-09</span></figcaption></figure>
+<figure class=""><img src="../images/broom.png?1791053959634" alt="" loading="lazy"><figcaption><b>Віник</b><span>Broom · broom · b02-09</span></figcaption></figure>
+<figure class=""><img src="../images/bucket.png?1791053959634" alt="" loading="lazy"><figcaption><b>Відро</b><span>Bucket · bucket · b02-09</span></figcaption></figure>
+<figure class=""><img src="../images/computer.png?1791053959634" alt="" loading="lazy"><figcaption><b>Комп'ютер</b><span>Computer · computer · b02-09</span></figcaption></figure>
+<figure class=""><img src="../images/camera.png?1791053959634" alt="" loading="lazy"><figcaption><b>Фотоапарат</b><span>Camera · camera · b02-09</span></figcaption></figure>
+<figure class=""><img src="../images/scissors.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ножиці</b><span>Scissors · scissors · b02-09</span></figcaption></figure>
+<figure class=""><img src="../images/cap.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кепка</b><span>Cap · cap · b02-10</span></figcaption></figure>
+<figure class=""><img src="../images/scarf.png?1791053959634" alt="" loading="lazy"><figcaption><b>Шарф</b><span>Scarf · scarf · b02-10</span></figcaption></figure>
+<figure class=""><img src="../images/mittens.png?1791053959634" alt="" loading="lazy"><figcaption><b>Рукавиці</b><span>Mittens · mittens · b02-10</span></figcaption></figure>
+<figure class=""><img src="../images/jacket.png?1791053959634" alt="" loading="lazy"><figcaption><b>Куртка</b><span>Jacket · jacket · b02-10</span></figcaption></figure>
+<figure class=""><img src="../images/dress.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сукня</b><span>Dress · dress · b02-10</span></figcaption></figure>
+<figure class=""><img src="../images/t_shirt.png?1791053959634" alt="" loading="lazy"><figcaption><b>Футболка</b><span>T-shirt · t_shirt · b02-10</span></figcaption></figure>
+<figure class=""><img src="../images/trousers.png?1791053959634" alt="" loading="lazy"><figcaption><b>Штани</b><span>Pants · trousers · b02-11</span></figcaption></figure>
+<figure class=""><img src="../images/sneakers.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кросівки</b><span>Sneakers · sneakers · b02-11</span></figcaption></figure>
+<figure class=""><img src="../images/blocks.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кубики</b><span>Blocks · blocks · b02-11</span></figcaption></figure>
+<figure class=""><img src="../images/swing.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гойдалка</b><span>Swing · swing · b02-11</span></figcaption></figure>
+<figure class=""><img src="../images/slide.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гірка</b><span>Slide · slide · b02-11</span></figcaption></figure>
+<figure class=""><img src="../images/scooter.png?1791053959634" alt="" loading="lazy"><figcaption><b>Самокат</b><span>Scooter · scooter · b02-11</span></figcaption></figure>
+<figure class=""><img src="../images/sled.png?1791053959634" alt="" loading="lazy"><figcaption><b>Санки</b><span>Sled · sled · b02-12</span></figcaption></figure>
+<figure class=""><img src="../images/toy_car.png?1791053959634" alt="" loading="lazy"><figcaption><b>Іграшкова машинка</b><span>Toy car · toy_car · b02-12</span></figcaption></figure>
+<figure class=""><img src="../images/boat.png?1791053959634" alt="" loading="lazy"><figcaption><b>Човен</b><span>Boat · boat · b02-12</span></figcaption></figure>
+<figure class=""><img src="../images/motorcycle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мотоцикл</b><span>Motorcycle · motorcycle · b02-12</span></figcaption></figure>
+<figure class=""><img src="../images/truck.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вантажівка</b><span>Truck · truck · b02-12</span></figcaption></figure>
+<figure class=""><img src="../images/helicopter.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гелікоптер</b><span>Helicopter · helicopter · b02-12</span></figcaption></figure>
+<figure class=""><img src="../images/ambulance.png?1791053959634" alt="" loading="lazy"><figcaption><b>Швидка допомога</b><span>Ambulance · ambulance · b02-13</span></figcaption></figure>
+<figure class=""><img src="../images/fire_truck.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пожежна машина</b><span>Fire truck · fire_truck · b02-13</span></figcaption></figure>
+<figure class=""><img src="../images/police_car.png?1791053959634" alt="" loading="lazy"><figcaption><b>Поліцейська машина</b><span>Police car · police_car · b02-13</span></figcaption></figure>
+<figure class=""><img src="../images/snowflake.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сніжинка</b><span>Snowflake · snowflake · b02-13</span></figcaption></figure>
+<figure class=""><img src="../images/mountain.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гора</b><span>Mountain · mountain · b02-13</span></figcaption></figure>
+<figure class=""><img src="../images/fire.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вогонь</b><span>Fire · fire · b02-13</span></figcaption></figure>
+<figure class=""><img src="../images/leaf.png?1791053959634" alt="" loading="lazy"><figcaption><b>Листок</b><span>Leaf · leaf · b02-14</span></figcaption></figure>
+<figure class=""><img src="../images/sunflower.png?1791053959634" alt="" loading="lazy"><figcaption><b>Соняшник</b><span>Sunflower · sunflower · b02-14</span></figcaption></figure>
+<figure class=""><img src="../images/cactus.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кактус</b><span>Cactus · cactus · b02-14</span></figcaption></figure>
+<figure class=""><img src="../images/eye.png?1791053959634" alt="" loading="lazy"><figcaption><b>Око</b><span>Eye · eye · b02-14</span></figcaption></figure>
+<figure class=""><img src="../images/nose.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ніс</b><span>Nose · nose · b02-14</span></figcaption></figure>
+<figure class=""><img src="../images/mouth.png?1791053959634" alt="" loading="lazy"><figcaption><b>Рот</b><span>Mouth · mouth · b02-14</span></figcaption></figure>
+<figure class=""><img src="../images/ear.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вухо</b><span>Ear · ear · b02-15</span></figcaption></figure>
+<figure class=""><img src="../images/tooth.png?1791053959634" alt="" loading="lazy"><figcaption><b>Зуб</b><span>Tooth · tooth · b02-15</span></figcaption></figure>
+<figure class=""><img src="../images/piano.png?1791053959634" alt="" loading="lazy"><figcaption><b>Піаніно</b><span>Piano · piano · b02-15</span></figcaption></figure>
+<figure class=""><img src="../images/soccer_ball.png?1791053959634" alt="" loading="lazy"><figcaption><b>Футбольний м'яч</b><span>Soccer ball · soccer_ball · b02-15</span></figcaption></figure>
+<figure class=""><img src="../images/hammer.png?1791053959634" alt="" loading="lazy"><figcaption><b>Молоток</b><span>Hammer · hammer · b02-15</span></figcaption></figure>
+<figure class=""><img src="../images/baby.png?1791053959634" alt="" loading="lazy"><figcaption><b>Малюк</b><span>Baby · baby · b02-15</span></figcaption></figure>
+<figure class=""><img src="../images/boy.png?1791053959634" alt="" loading="lazy"><figcaption><b>Хлопчик</b><span>Boy · boy · b02-16</span></figcaption></figure>
+<figure class=""><img src="../images/girl.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дівчинка</b><span>Girl · girl · b02-16</span></figcaption></figure>
+<figure class=""><img src="../images/grandma.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бабуся</b><span>Grandma · grandma · b02-16</span></figcaption></figure>
+<figure class=""><img src="../images/grandpa.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дідусь</b><span>Grandpa · grandpa · b02-16</span></figcaption></figure>
+<figure class=""><img src="../images/doctor.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лікарка</b><span>Doctor · doctor · b02-16</span></figcaption></figure>
+<figure class=""><img src="../images/firefighter.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пожежник</b><span>Firefighter · firefighter · b02-16</span></figcaption></figure>
+<figure class=""><img src="../images/castle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Замок</b><span>Castle · castle · b02-17</span></figcaption></figure>
+<figure class=""><img src="../images/robot.png?1791053959634" alt="" loading="lazy"><figcaption><b>Робот</b><span>Robot · robot · b02-17</span></figcaption></figure>
+<figure class=""><img src="../images/dragon.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дракон</b><span>Dragon · dragon · b02-17</span></figcaption></figure>
+<figure class=""><img src="../images/unicorn.png?1791053959634" alt="" loading="lazy"><figcaption><b>Єдиноріг</b><span>Unicorn · unicorn · b02-17</span></figcaption></figure>
+<figure class=""><img src="../images/puppy.png?1791053959634" alt="" loading="lazy"><figcaption><b>Цуценя</b><span>Puppy · puppy · b03-01</span></figcaption></figure>
+<figure class=""><img src="../images/kitten.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кошеня</b><span>Kitten · kitten · b03-01</span></figcaption></figure>
+<figure class=""><img src="../images/pony.png?1791053959634" alt="" loading="lazy"><figcaption><b>Поні</b><span>Pony · pony · b03-01</span></figcaption></figure>
+<figure class=""><img src="../images/polar_bear.png?1791053959634" alt="" loading="lazy"><figcaption><b>Білий ведмідь</b><span>Polar bear · polar_bear · b03-01</span></figcaption></figure>
+<figure class=""><img src="../images/swan.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лебідь</b><span>Swan · swan · b03-01</span></figcaption></figure>
+<figure class=""><img src="../images/peacock.png?1791053959634" alt="" loading="lazy"><figcaption><b>Павич</b><span>Peacock · peacock · b03-01</span></figcaption></figure>
+<figure class=""><img src="../images/pigeon.png?1791053959634" alt="" loading="lazy"><figcaption><b>Голуб</b><span>Pigeon · pigeon · b03-02</span></figcaption></figure>
+<figure class=""><img src="../images/nest.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гніздо</b><span>Nest · nest · b03-02</span></figcaption></figure>
+<figure class=""><img src="../images/feather.png?1791053959634" alt="" loading="lazy"><figcaption><b>Перо</b><span>Feather · feather · b03-02</span></figcaption></figure>
+<figure class=""><img src="../images/starfish.png?1791053959634" alt="" loading="lazy"><figcaption><b>Морська зірка</b><span>Starfish · starfish · b03-02</span></figcaption></figure>
+<figure class=""><img src="../images/seashell.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мушля</b><span>Seashell · seashell · b03-02</span></figcaption></figure>
+<figure class=""><img src="../images/ant.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мураха</b><span>Ant · ant · b03-02</span></figcaption></figure>
+<figure class=""><img src="../images/beetle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Жук</b><span>Beetle · beetle · b03-03</span></figcaption></figure>
+<figure class=""><img src="../images/raspberry.png?1791053959634" alt="" loading="lazy"><figcaption><b>Малина</b><span>Raspberry · raspberry · b03-03</span></figcaption></figure>
+<figure class=""><img src="../images/tangerine.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мандарин</b><span>Tangerine · tangerine · b03-03</span></figcaption></figure>
+<figure class=""><img src="../images/bell_pepper.png?1791053959634" alt="" loading="lazy"><figcaption><b>Перець</b><span>Pepper · bell_pepper · b03-03</span></figcaption></figure>
+<figure class=""><img src="../images/peas.png?1791053959634" alt="" loading="lazy"><figcaption><b>Горох</b><span>Peas · peas · b03-03</span></figcaption></figure>
+<figure class=""><img src="../images/broccoli.png?1791053959634" alt="" loading="lazy"><figcaption><b>Броколі</b><span>Broccoli · broccoli · b03-03</span></figcaption></figure>
+<figure class=""><img src="../images/sausage.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сосиска</b><span>Sausage · sausage · b03-04</span></figcaption></figure>
+<figure class=""><img src="../images/hamburger.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гамбургер</b><span>Burger · hamburger · b03-04</span></figcaption></figure>
+<figure class=""><img src="../images/honey.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мед</b><span>Honey · honey · b03-04</span></figcaption></figure>
+<figure class=""><img src="../images/donut.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пончик</b><span>Donut · donut · b03-04</span></figcaption></figure>
+<figure class=""><img src="../images/popcorn.png?1791053959634" alt="" loading="lazy"><figcaption><b>Попкорн</b><span>Popcorn · popcorn · b03-04</span></figcaption></figure>
+<figure class=""><img src="../images/fries.png?1791053959634" alt="" loading="lazy"><figcaption><b>Картопля фрі</b><span>French fries · fries · b03-04</span></figcaption></figure>
+<figure class=""><img src="../images/bottle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пляшка</b><span>Bottle · bottle · b03-05</span></figcaption></figure>
+<figure class=""><img src="../images/frying_pan.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сковорідка</b><span>Frying pan · frying_pan · b03-05</span></figcaption></figure>
+<figure class=""><img src="../images/bowl.png?1791053959634" alt="" loading="lazy"><figcaption><b>Миска</b><span>Bowl · bowl · b03-05</span></figcaption></figure>
+<figure class=""><img src="../images/basket.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кошик</b><span>Basket · basket · b03-05</span></figcaption></figure>
+<figure class=""><img src="../images/wardrobe.png?1791053959634" alt="" loading="lazy"><figcaption><b>Шафа</b><span>Wardrobe · wardrobe · b03-05</span></figcaption></figure>
+<figure class=""><img src="../images/light_bulb.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лампочка</b><span>Light bulb · light_bulb · b03-05</span></figcaption></figure>
+<figure class=""><img src="../images/mirror.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дзеркало</b><span>Mirror · mirror · b03-06</span></figcaption></figure>
+<figure class=""><img src="../images/blanket.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ковдра</b><span>Blanket · blanket · b03-06</span></figcaption></figure>
+<figure class=""><img src="../images/bench.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лавка</b><span>Bench · bench · b03-06</span></figcaption></figure>
+<figure class=""><img src="../images/toilet.png?1791053959634" alt="" loading="lazy"><figcaption><b>Унітаз</b><span>Toilet · toilet · b03-06</span></figcaption></figure>
+<figure class=""><img src="../images/vacuum.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пилосос</b><span>Vacuum cleaner · vacuum · b03-06</span></figcaption></figure>
+<figure class=""><img src="../images/washing_machine.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пральна машина</b><span>Washing machine · washing_machine · b03-06</span></figcaption></figure>
+<figure class=""><img src="../images/rubber_duck.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гумова качечка</b><span>Rubber duck · rubber_duck · b03-07</span></figcaption></figure>
+<figure class=""><img src="../images/headphones.png?1791053959634" alt="" loading="lazy"><figcaption><b>Навушники</b><span>Headphones · headphones · b03-07</span></figcaption></figure>
+<figure class=""><img src="../images/toilet_paper.png?1791053959634" alt="" loading="lazy"><figcaption><b>Туалетний папір</b><span>Toilet paper · toilet_paper · b03-07</span></figcaption></figure>
+<figure class=""><img src="../images/trash_can.png?1791053959634" alt="" loading="lazy"><figcaption><b>Смітник</b><span>Trash can · trash_can · b03-07</span></figcaption></figure>
+<figure class=""><img src="../images/pacifier.png?1791053959634" alt="" loading="lazy"><figcaption><b>Соска</b><span>Pacifier · pacifier · b03-07</span></figcaption></figure>
+<figure class=""><img src="../images/sponge.png?1791053959634" alt="" loading="lazy"><figcaption><b>Губка</b><span>Sponge · sponge · b03-07</span></figcaption></figure>
+<figure class=""><img src="../images/skirt.png?1791053959634" alt="" loading="lazy"><figcaption><b>Спідниця</b><span>Skirt · skirt · b03-08</span></figcaption></figure>
+<figure class=""><img src="../images/sweater.png?1791053959634" alt="" loading="lazy"><figcaption><b>Светр</b><span>Sweater · sweater · b03-08</span></figcaption></figure>
+<figure class=""><img src="../images/shorts.png?1791053959634" alt="" loading="lazy"><figcaption><b>Шорти</b><span>Shorts · shorts · b03-08</span></figcaption></figure>
+<figure class=""><img src="../images/pajamas.png?1791053959634" alt="" loading="lazy"><figcaption><b>Піжама</b><span>Pajamas · pajamas · b03-08</span></figcaption></figure>
+<figure class=""><img src="../images/slippers.png?1791053959634" alt="" loading="lazy"><figcaption><b>Капці</b><span>Slippers · slippers · b03-08</span></figcaption></figure>
+<figure class=""><img src="../images/bag.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сумка</b><span>Bag · bag · b03-08</span></figcaption></figure>
+<figure class=""><img src="../images/bow.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бантик</b><span>Bow · bow · b03-09</span></figcaption></figure>
+<figure class=""><img src="../images/button.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ґудзик</b><span>Button · button · b03-09</span></figcaption></figure>
+<figure class=""><img src="../images/puzzle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пазл</b><span>Puzzle · puzzle · b03-09</span></figcaption></figure>
+<figure class=""><img src="../images/jump_rope.png?1791053959634" alt="" loading="lazy"><figcaption><b>Скакалка</b><span>Jump rope · jump_rope · b03-09</span></figcaption></figure>
+<figure class=""><img src="../images/sandbox.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пісочниця</b><span>Sandbox · sandbox · b03-09</span></figcaption></figure>
+<figure class=""><img src="../images/bubbles.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мильні бульбашки</b><span>Bubbles · bubbles · b03-09</span></figcaption></figure>
+<figure class=""><img src="../images/paper_plane.png?1791053959634" alt="" loading="lazy"><figcaption><b>Паперовий літачок</b><span>Paper plane · paper_plane · b03-10</span></figcaption></figure>
+<figure class=""><img src="../images/sandcastle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пісочний замок</b><span>Sandcastle · sandcastle · b03-10</span></figcaption></figure>
+<figure class=""><img src="../images/snowball.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сніжка</b><span>Snowball · snowball · b03-10</span></figcaption></figure>
+<figure class=""><img src="../images/play_dough.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пластилін</b><span>Plasticine · play_dough · b03-10</span></figcaption></figure>
+<figure class=""><img src="../images/excavator.png?1791053959634" alt="" loading="lazy"><figcaption><b>Екскаватор</b><span>Excavator · excavator · b03-10</span></figcaption></figure>
+<figure class=""><img src="../images/traffic_light.png?1791053959634" alt="" loading="lazy"><figcaption><b>Світлофор</b><span>Traffic light · traffic_light · b03-10</span></figcaption></figure>
+<figure class=""><img src="../images/wheel.png?1791053959634" alt="" loading="lazy"><figcaption><b>Колесо</b><span>Wheel · wheel · b03-11</span></figcaption></figure>
+<figure class=""><img src="../images/stroller.png?1791053959634" alt="" loading="lazy"><figcaption><b>Візочок</b><span>Stroller · stroller · b03-11</span></figcaption></figure>
+<figure class=""><img src="../images/rain.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дощ</b><span>Rain · rain · b03-11</span></figcaption></figure>
+<figure class=""><img src="../images/volcano.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вулкан</b><span>Volcano · volcano · b03-11</span></figcaption></figure>
+<figure class=""><img src="../images/dandelion.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кульбаба</b><span>Dandelion · dandelion · b03-11</span></figcaption></figure>
+<figure class=""><img src="../images/palm_tree.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пальма</b><span>Palm tree · palm_tree · b03-11</span></figcaption></figure>
+<figure class=""><img src="../images/grass.png?1791053959634" alt="" loading="lazy"><figcaption><b>Трава</b><span>Grass · grass · b03-12</span></figcaption></figure>
+<figure class=""><img src="../images/daisy.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ромашка</b><span>Daisy · daisy · b03-12</span></figcaption></figure>
+<figure class=""><img src="../images/stone.png?1791053959634" alt="" loading="lazy"><figcaption><b>Камінь</b><span>Stone · stone · b03-12</span></figcaption></figure>
+<figure class=""><img src="../images/leg.png?1791053959634" alt="" loading="lazy"><figcaption><b>Нога</b><span>Leg · leg · b03-12</span></figcaption></figure>
+<figure class=""><img src="../images/finger.png?1791053959634" alt="" loading="lazy"><figcaption><b>Палець</b><span>Finger · finger · b03-12</span></figcaption></figure>
+<figure class=""><img src="../images/bone.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кістка</b><span>Bone · bone · b03-12</span></figcaption></figure>
+<figure class=""><img src="../images/chef.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кухар</b><span>Chef · chef · b03-13</span></figcaption></figure>
+<figure class=""><img src="../images/teacher.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вчителька</b><span>Teacher · teacher · b03-13</span></figcaption></figure>
+<figure class=""><img src="../images/astronaut.png?1791053959634" alt="" loading="lazy"><figcaption><b>Космонавт</b><span>Astronaut · astronaut · b03-13</span></figcaption></figure>
+<figure class=""><img src="../images/clown.png?1791053959634" alt="" loading="lazy"><figcaption><b>Клоун</b><span>Clown · clown · b03-13</span></figcaption></figure>
+<figure class=""><img src="../images/king.png?1791053959634" alt="" loading="lazy"><figcaption><b>Король</b><span>King · king · b03-13</span></figcaption></figure>
+<figure class=""><img src="../images/queen.png?1791053959634" alt="" loading="lazy"><figcaption><b>Королева</b><span>Queen · queen · b03-13</span></figcaption></figure>
+<figure class=""><img src="../images/princess.png?1791053959634" alt="" loading="lazy"><figcaption><b>Принцеса</b><span>Princess · princess · b03-14</span></figcaption></figure>
+<figure class=""><img src="../images/pirate.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пірат</b><span>Pirate · pirate · b03-14</span></figcaption></figure>
+<figure class=""><img src="../images/mom.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мама</b><span>Mom · mom · b03-14</span></figcaption></figure>
+<figure class=""><img src="../images/dad.png?1791053959634" alt="" loading="lazy"><figcaption><b>Тато</b><span>Dad · dad · b03-14</span></figcaption></figure>
+<figure class=""><img src="../images/mermaid.png?1791053959634" alt="" loading="lazy"><figcaption><b>Русалка</b><span>Mermaid · mermaid · b03-14</span></figcaption></figure>
+<figure class=""><img src="../images/fairy.png?1791053959634" alt="" loading="lazy"><figcaption><b>Фея</b><span>Fairy · fairy · b03-14</span></figcaption></figure>
+<figure class=""><img src="../images/pen.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ручка</b><span>Pen · pen · b03-15</span></figcaption></figure>
+<figure class=""><img src="../images/notebook.png?1791053959634" alt="" loading="lazy"><figcaption><b>Зошит</b><span>Notebook · notebook · b03-15</span></figcaption></figure>
+<figure class=""><img src="../images/paintbrush.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пензлик</b><span>Paintbrush · paintbrush · b03-15</span></figcaption></figure>
+<figure class=""><img src="../images/paints.png?1791053959634" alt="" loading="lazy"><figcaption><b>Фарби</b><span>Paints · paints · b03-15</span></figcaption></figure>
+<figure class=""><img src="../images/bell.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дзвоник</b><span>Bell · bell · b03-15</span></figcaption></figure>
+<figure class=""><img src="../images/trumpet.png?1791053959634" alt="" loading="lazy"><figcaption><b>Труба</b><span>Trumpet · trumpet · b03-15</span></figcaption></figure>
+<figure class=""><img src="../images/medal.png?1791053959634" alt="" loading="lazy"><figcaption><b>Медаль</b><span>Medal · medal · b03-16</span></figcaption></figure>
+<figure class=""><img src="../images/tent.png?1791053959634" alt="" loading="lazy"><figcaption><b>Намет</b><span>Tent · tent · b03-16</span></figcaption></figure>
+<figure class=""><img src="../images/whistle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Свисток</b><span>Whistle · whistle · b03-16</span></figcaption></figure>
+<figure class=""><img src="../images/flag.png?1791053959634" alt="" loading="lazy"><figcaption><b>Прапорець</b><span>Flag · flag · b03-16</span></figcaption></figure>
+<figure class=""><img src="../images/swimming_ring.png?1791053959634" alt="" loading="lazy"><figcaption><b>Надувне коло</b><span>Swim ring · swimming_ring · b03-16</span></figcaption></figure>
+<figure class=""><img src="../images/binoculars.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бінокль</b><span>Binoculars · binoculars · b03-16</span></figcaption></figure>
+<figure class=""><img src="../images/shovel.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лопата</b><span>Shovel · shovel · b03-17</span></figcaption></figure>
+<figure class=""><img src="../images/watering_can.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лійка</b><span>Watering can · watering_can · b03-17</span></figcaption></figure>
+<figure class=""><img src="../images/crown.png?1791053959634" alt="" loading="lazy"><figcaption><b>Корона</b><span>Crown · crown · b03-17</span></figcaption></figure>
+<figure class=""><img src="../images/christmas_tree.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ялинка</b><span>Christmas tree · christmas_tree · b03-17</span></figcaption></figure>
+<figure class=""><img src="../images/doghouse.png?1791053959634" alt="" loading="lazy"><figcaption><b>Будка</b><span>Doghouse · doghouse · b04-01</span></figcaption></figure>
+<figure class=""><img src="../images/worm.png?1791053959634" alt="" loading="lazy"><figcaption><b>Черв'як</b><span>Worm · worm · b04-01</span></figcaption></figure>
+<figure class=""><img src="../images/spiderweb.png?1791053959634" alt="" loading="lazy"><figcaption><b>Павутина</b><span>Spiderweb · spiderweb · b04-01</span></figcaption></figure>
+<figure class=""><img src="../images/guinea_pig.png?1791053959634" alt="" loading="lazy"><figcaption><b>Морська свинка</b><span>Guinea pig · guinea_pig · b04-01</span></figcaption></figure>
+<figure class=""><img src="../images/clownfish.png?1791053959634" alt="" loading="lazy"><figcaption><b>Риба-клоун</b><span>Clownfish · clownfish · b04-01</span></figcaption></figure>
+<figure class=""><img src="../images/bun.png?1791053959634" alt="" loading="lazy"><figcaption><b>Булочка</b><span>Bun · bun · b04-01</span></figcaption></figure>
+<figure class=""><img src="../images/stairs.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сходи</b><span>Stairs · stairs · b04-02</span></figcaption></figure>
+<figure class=""><img src="../images/comb.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гребінець</b><span>Comb · comb · b04-02</span></figcaption></figure>
+<figure class=""><img src="../images/plaster.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пластир</b><span>Bandage · plaster · b04-02</span></figcaption></figure>
+<figure class=""><img src="../images/stickers.png?1791053959634" alt="" loading="lazy"><figcaption><b>Наліпки</b><span>Stickers · stickers · b04-02</span></figcaption></figure>
+<figure class=""><img src="../images/stick.png?1791053959634" alt="" loading="lazy"><figcaption><b>Палиця</b><span>Stick · stick · b04-02</span></figcaption></figure>
+<figure class=""><img src="../images/envelope.png?1791053959634" alt="" loading="lazy"><figcaption><b>Конверт</b><span>Envelope · envelope · b04-02</span></figcaption></figure>
+<figure class=""><img src="../images/face.png?1791053959634" alt="" loading="lazy"><figcaption><b>Обличчя</b><span>Face · face · b04-03</span></figcaption></figure>
+<figure class=""><img src="../images/belly.png?1791053959634" alt="" loading="lazy"><figcaption><b>Живіт</b><span>Belly · belly · b04-03</span></figcaption></figure>
+<figure class=""><img src="../images/skates.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ковзани</b><span>Ice skates · skates · b04-03</span></figcaption></figure>
+<figure class=""><img src="../images/trampoline.png?1791053959634" alt="" loading="lazy"><figcaption><b>Батут</b><span>Trampoline · trampoline · b04-03</span></figcaption></figure>
+<figure class=""><img src="../images/ladder.png?1791053959634" alt="" loading="lazy"><figcaption><b>Драбина</b><span>Ladder · ladder · b04-03</span></figcaption></figure>
+<figure class=""><img src="../images/flashlight.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ліхтарик</b><span>Flashlight · flashlight · b04-03</span></figcaption></figure>
+<figure class=""><img src="../images/thread.png?1791053959634" alt="" loading="lazy"><figcaption><b>Нитки</b><span>Thread · thread · b04-04</span></figcaption></figure>
+<figure class=""><img src="../images/bridge.png?1791053959634" alt="" loading="lazy"><figcaption><b>Міст</b><span>Bridge · bridge · b04-04</span></figcaption></figure>
+<figure class=""><img src="../images/fence.png?1791053959634" alt="" loading="lazy"><figcaption><b>Паркан</b><span>Fence · fence · b04-04</span></figcaption></figure>
+<figure class=""><img src="../images/carousel.png?1791053959634" alt="" loading="lazy"><figcaption><b>Карусель</b><span>Carousel · carousel · b04-04</span></figcaption></figure>
+<figure class=""><img src="../images/school.png?1791053959634" alt="" loading="lazy"><figcaption><b>Школа</b><span>School · school · b04-04</span></figcaption></figure>
+<figure class=""><img src="../images/coin.png?1791053959634" alt="" loading="lazy"><figcaption><b>Монета</b><span>Coin · coin · b04-04</span></figcaption></figure>
+<figure class=""><img src="../images/puddle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Калюжа</b><span>Puddle · puddle · b04-05</span></figcaption></figure>
+<figure class=""><img src="../images/snow.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сніг</b><span>Snow · snow · b04-05</span></figcaption></figure>
+<figure class=""><img src="../images/forest.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ліс</b><span>Forest · forest · b04-05</span></figcaption></figure>
+<figure class=""><img src="../images/river.png?1791053959634" alt="" loading="lazy"><figcaption><b>Річка</b><span>River · river · b04-05</span></figcaption></figure>
+<figure class=""><img src="../images/sea.png?1791053959634" alt="" loading="lazy"><figcaption><b>Море</b><span>Sea · sea · b04-06</span></figcaption></figure>
+<figure class=""><img src="../images/beach.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пляж</b><span>Beach · beach · b04-06</span></figcaption></figure>
+<figure class=""><img src="../images/fireworks.png?1791053959634" alt="" loading="lazy"><figcaption><b>Феєрверк</b><span>Fireworks · fireworks · b04-06</span></figcaption></figure>
+<figure class=""><img src="../images/circus.png?1791053959634" alt="" loading="lazy"><figcaption><b>Цирк</b><span>Circus · circus · b04-06</span></figcaption></figure>
+<figure class=""><img src="../images/goose.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гуска</b><span>Goose · goose · b05-01</span></figcaption></figure>
+<figure class=""><img src="../images/turkey.png?1791053959634" alt="" loading="lazy"><figcaption><b>Індик</b><span>Turkey · turkey · b05-01</span></figcaption></figure>
+<figure class=""><img src="../images/bull.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бик</b><span>Bull · bull · b05-01</span></figcaption></figure>
+<figure class=""><img src="../images/lamb.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ягня</b><span>Lamb · lamb · b05-01</span></figcaption></figure>
+<figure class=""><img src="../images/llama.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лама</b><span>Llama · llama · b05-01</span></figcaption></figure>
+<figure class=""><img src="../images/hay.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сіно</b><span>Hay · hay · b05-01</span></figcaption></figure>
+<figure class=""><img src="../images/barn.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сарай</b><span>Barn · barn · b05-02</span></figcaption></figure>
+<figure class=""><img src="../images/horseshoe.png?1791053959634" alt="" loading="lazy"><figcaption><b>Підкова</b><span>Horseshoe · horseshoe · b05-02</span></figcaption></figure>
+<figure class=""><img src="../images/beehive.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вулик</b><span>Beehive · beehive · b05-02</span></figcaption></figure>
+<figure class=""><img src="../images/goldfish.png?1791053959634" alt="" loading="lazy"><figcaption><b>Золота рибка</b><span>Goldfish · goldfish · b05-02</span></figcaption></figure>
+<figure class=""><img src="../images/rat.png?1791053959634" alt="" loading="lazy"><figcaption><b>Щур</b><span>Rat · rat · b05-02</span></figcaption></figure>
+<figure class=""><img src="../images/canary.png?1791053959634" alt="" loading="lazy"><figcaption><b>Канарка</b><span>Canary · canary · b05-02</span></figcaption></figure>
+<figure class=""><img src="../images/moose.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лось</b><span>Moose · moose · b05-03</span></figcaption></figure>
+<figure class=""><img src="../images/boar.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кабан</b><span>Boar · boar · b05-03</span></figcaption></figure>
+<figure class=""><img src="../images/beaver.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бобер</b><span>Beaver · beaver · b05-03</span></figcaption></figure>
+<figure class=""><img src="../images/raccoon.png?1791053959634" alt="" loading="lazy"><figcaption><b>Єнот</b><span>Raccoon · raccoon · b05-03</span></figcaption></figure>
+<figure class=""><img src="../images/mole.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кріт</b><span>Mole · mole · b05-03</span></figcaption></figure>
+<figure class=""><img src="../images/bat.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кажан</b><span>Bat · bat · b05-03</span></figcaption></figure>
+<figure class=""><img src="../images/lynx.png?1791053959634" alt="" loading="lazy"><figcaption><b>Рись</b><span>Lynx · lynx · b05-04</span></figcaption></figure>
+<figure class=""><img src="../images/bison.png?1791053959634" alt="" loading="lazy"><figcaption><b>Зубр</b><span>Bison · bison · b05-04</span></figcaption></figure>
+<figure class=""><img src="../images/badger.png?1791053959634" alt="" loading="lazy"><figcaption><b>Борсук</b><span>Badger · badger · b05-04</span></figcaption></figure>
+<figure class=""><img src="../images/porcupine.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дикобраз</b><span>Porcupine · porcupine · b05-04</span></figcaption></figure>
+<figure class=""><img src="../images/chipmunk.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бурундук</b><span>Chipmunk · chipmunk · b05-04</span></figcaption></figure>
+<figure class=""><img src="../images/hare.png?1791053959634" alt="" loading="lazy"><figcaption><b>Заєць</b><span>Hare · hare · b05-04</span></figcaption></figure>
+<figure class=""><img src="../images/rhino.png?1791053959634" alt="" loading="lazy"><figcaption><b>Носоріг</b><span>Rhino · rhino · b05-05</span></figcaption></figure>
+<figure class=""><img src="../images/koala.png?1791053959634" alt="" loading="lazy"><figcaption><b>Коала</b><span>Koala · koala · b05-05</span></figcaption></figure>
+<figure class=""><img src="../images/leopard.png?1791053959634" alt="" loading="lazy"><figcaption><b>Леопард</b><span>Leopard · leopard · b05-05</span></figcaption></figure>
+<figure class=""><img src="../images/gorilla.png?1791053959634" alt="" loading="lazy"><figcaption><b>Горила</b><span>Gorilla · gorilla · b05-05</span></figcaption></figure>
+<figure class=""><img src="../images/sloth.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лінивець</b><span>Sloth · sloth · b05-05</span></figcaption></figure>
+<figure class=""><img src="../images/cheetah.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гепард</b><span>Cheetah · cheetah · b05-05</span></figcaption></figure>
+<figure class=""><img src="../images/orangutan.png?1791053959634" alt="" loading="lazy"><figcaption><b>Орангутан</b><span>Orangutan · orangutan · b05-06</span></figcaption></figure>
+<figure class=""><img src="../images/lemur.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лемур</b><span>Lemur · lemur · b05-06</span></figcaption></figure>
+<figure class=""><img src="../images/hyena.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гієна</b><span>Hyena · hyena · b05-06</span></figcaption></figure>
+<figure class=""><img src="../images/buffalo.png?1791053959634" alt="" loading="lazy"><figcaption><b>Буйвол</b><span>Buffalo · buffalo · b05-06</span></figcaption></figure>
+<figure class=""><img src="../images/antelope.png?1791053959634" alt="" loading="lazy"><figcaption><b>Антилопа</b><span>Antelope · antelope · b05-06</span></figcaption></figure>
+<figure class=""><img src="../images/meerkat.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сурикат</b><span>Meerkat · meerkat · b05-06</span></figcaption></figure>
+<figure class=""><img src="../images/platypus.png?1791053959634" alt="" loading="lazy"><figcaption><b>Качкодзьоб</b><span>Platypus · platypus · b05-07</span></figcaption></figure>
+<figure class=""><img src="../images/armadillo.png?1791053959634" alt="" loading="lazy"><figcaption><b>Броненосець</b><span>Armadillo · armadillo · b05-07</span></figcaption></figure>
+<figure class=""><img src="../images/anteater.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мурахоїд</b><span>Anteater · anteater · b05-07</span></figcaption></figure>
+<figure class=""><img src="../images/skunk.png?1791053959634" alt="" loading="lazy"><figcaption><b>Скунс</b><span>Skunk · skunk · b05-07</span></figcaption></figure>
+<figure class=""><img src="../images/lizard.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ящірка</b><span>Lizard · lizard · b05-07</span></figcaption></figure>
+<figure class=""><img src="../images/chameleon.png?1791053959634" alt="" loading="lazy"><figcaption><b>Хамелеон</b><span>Chameleon · chameleon · b05-07</span></figcaption></figure>
+<figure class=""><img src="../images/iguana.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ігуана</b><span>Iguana · iguana · b05-08</span></figcaption></figure>
+<figure class=""><img src="../images/reindeer.png?1791053959634" alt="" loading="lazy"><figcaption><b>Північний олень</b><span>Reindeer · reindeer · b05-08</span></figcaption></figure>
+<figure class=""><img src="../images/mammoth.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мамонт</b><span>Mammoth · mammoth · b05-08</span></figcaption></figure>
+<figure class=""><img src="../images/seal.png?1791053959634" alt="" loading="lazy"><figcaption><b>Тюлень</b><span>Seal · seal · b05-08</span></figcaption></figure>
+<figure class=""><img src="../images/walrus.png?1791053959634" alt="" loading="lazy"><figcaption><b>Морж</b><span>Walrus · walrus · b05-08</span></figcaption></figure>
+<figure class=""><img src="../images/otter.png?1791053959634" alt="" loading="lazy"><figcaption><b>Видра</b><span>Otter · otter · b05-08</span></figcaption></figure>
+<figure class=""><img src="../images/eagle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Орел</b><span>Eagle · eagle · b05-09</span></figcaption></figure>
+<figure class=""><img src="../images/sparrow.png?1791053959634" alt="" loading="lazy"><figcaption><b>Горобець</b><span>Sparrow · sparrow · b05-09</span></figcaption></figure>
+<figure class=""><img src="../images/crow.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ворона</b><span>Crow · crow · b05-09</span></figcaption></figure>
+<figure class=""><img src="../images/stork.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лелека</b><span>Stork · stork · b05-09</span></figcaption></figure>
+<figure class=""><img src="../images/ostrich.png?1791053959634" alt="" loading="lazy"><figcaption><b>Страус</b><span>Ostrich · ostrich · b05-09</span></figcaption></figure>
+<figure class=""><img src="../images/woodpecker.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дятел</b><span>Woodpecker · woodpecker · b05-09</span></figcaption></figure>
+<figure class=""><img src="../images/seagull.png?1791053959634" alt="" loading="lazy"><figcaption><b>Чайка</b><span>Seagull · seagull · b05-10</span></figcaption></figure>
+<figure class=""><img src="../images/toucan.png?1791053959634" alt="" loading="lazy"><figcaption><b>Тукан</b><span>Toucan · toucan · b05-10</span></figcaption></figure>
+<figure class=""><img src="../images/heron.png?1791053959634" alt="" loading="lazy"><figcaption><b>Чапля</b><span>Heron · heron · b05-10</span></figcaption></figure>
+<figure class=""><img src="../images/pelican.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пелікан</b><span>Pelican · pelican · b05-10</span></figcaption></figure>
+<figure class=""><img src="../images/magpie.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сорока</b><span>Magpie · magpie · b05-10</span></figcaption></figure>
+<figure class=""><img src="../images/cuckoo.png?1791053959634" alt="" loading="lazy"><figcaption><b>Зозуля</b><span>Cuckoo · cuckoo · b05-10</span></figcaption></figure>
+<figure class=""><img src="../images/hummingbird.png?1791053959634" alt="" loading="lazy"><figcaption><b>Колібрі</b><span>Hummingbird · hummingbird · b05-11</span></figcaption></figure>
+<figure class=""><img src="../images/bullfinch.png?1791053959634" alt="" loading="lazy"><figcaption><b>Снігур</b><span>Bullfinch · bullfinch · b05-11</span></figcaption></figure>
+<figure class=""><img src="../images/swallow.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ластівка</b><span>Swallow · swallow · b05-11</span></figcaption></figure>
+<figure class=""><img src="../images/tit.png?1791053959634" alt="" loading="lazy"><figcaption><b>Синиця</b><span>Great tit · tit · b05-11</span></figcaption></figure>
+<figure class=""><img src="../images/cockatoo.png?1791053959634" alt="" loading="lazy"><figcaption><b>Какаду</b><span>Cockatoo · cockatoo · b05-11</span></figcaption></figure>
+<figure class=""><img src="../images/eggshell.png?1791053959634" alt="" loading="lazy"><figcaption><b>Шкаралупа</b><span>Eggshell · eggshell · b05-11</span></figcaption></figure>
+<figure class=""><img src="../images/jellyfish.png?1791053959634" alt="" loading="lazy"><figcaption><b>Медуза</b><span>Jellyfish · jellyfish · b05-12</span></figcaption></figure>
+<figure class=""><img src="../images/seahorse.png?1791053959634" alt="" loading="lazy"><figcaption><b>Морський коник</b><span>Seahorse · seahorse · b05-12</span></figcaption></figure>
+<figure class=""><img src="../images/shrimp.png?1791053959634" alt="" loading="lazy"><figcaption><b>Креветка</b><span>Shrimp · shrimp · b05-12</span></figcaption></figure>
+<figure class=""><img src="../images/coral.png?1791053959634" alt="" loading="lazy"><figcaption><b>Корал</b><span>Coral · coral · b05-12</span></figcaption></figure>
+<figure class=""><img src="../images/squid.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кальмар</b><span>Squid · squid · b05-12</span></figcaption></figure>
+<figure class=""><img src="../images/lobster.png?1791053959634" alt="" loading="lazy"><figcaption><b>Омар</b><span>Lobster · lobster · b05-12</span></figcaption></figure>
+<figure class=""><img src="../images/sea_urchin.png?1791053959634" alt="" loading="lazy"><figcaption><b>Морський їжак</b><span>Sea urchin · sea_urchin · b05-13</span></figcaption></figure>
+<figure class=""><img src="../images/orca.png?1791053959634" alt="" loading="lazy"><figcaption><b>Косатка</b><span>Orca · orca · b05-13</span></figcaption></figure>
+<figure class=""><img src="../images/stingray.png?1791053959634" alt="" loading="lazy"><figcaption><b>Скат</b><span>Stingray · stingray · b05-13</span></figcaption></figure>
+<figure class=""><img src="../images/pufferfish.png?1791053959634" alt="" loading="lazy"><figcaption><b>Риба-їжак</b><span>Pufferfish · pufferfish · b05-13</span></figcaption></figure>
+<figure class=""><img src="../images/swordfish.png?1791053959634" alt="" loading="lazy"><figcaption><b>Риба-меч</b><span>Swordfish · swordfish · b05-13</span></figcaption></figure>
+<figure class=""><img src="../images/narwhal.png?1791053959634" alt="" loading="lazy"><figcaption><b>Нарвал</b><span>Narwhal · narwhal · b05-13</span></figcaption></figure>
+<figure class=""><img src="../images/seaweed.png?1791053959634" alt="" loading="lazy"><figcaption><b>Водорості</b><span>Seaweed · seaweed · b05-14</span></figcaption></figure>
+<figure class=""><img src="../images/pearl.png?1791053959634" alt="" loading="lazy"><figcaption><b>Перлина</b><span>Pearl · pearl · b05-14</span></figcaption></figure>
+<figure class=""><img src="../images/aquarium.png?1791053959634" alt="" loading="lazy"><figcaption><b>Акваріум</b><span>Aquarium · aquarium · b05-14</span></figcaption></figure>
+<figure class=""><img src="../images/tadpole.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пуголовок</b><span>Tadpole · tadpole · b05-14</span></figcaption></figure>
+<figure class=""><img src="../images/anthill.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мурашник</b><span>Anthill · anthill · b05-14</span></figcaption></figure>
+<figure class=""><img src="../images/scorpion.png?1791053959634" alt="" loading="lazy"><figcaption><b>Скорпіон</b><span>Scorpion · scorpion · b05-14</span></figcaption></figure>
+<figure class=""><img src="../images/dragonfly.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бабка</b><span>Dragonfly · dragonfly · b05-15</span></figcaption></figure>
+<figure class=""><img src="../images/grasshopper.png?1791053959634" alt="" loading="lazy"><figcaption><b>Коник</b><span>Grasshopper · grasshopper · b05-15</span></figcaption></figure>
+<figure class=""><img src="../images/fly.png?1791053959634" alt="" loading="lazy"><figcaption><b>Муха</b><span>Fly · fly · b05-15</span></figcaption></figure>
+<figure class=""><img src="../images/mosquito.png?1791053959634" alt="" loading="lazy"><figcaption><b>Комар</b><span>Mosquito · mosquito · b05-15</span></figcaption></figure>
+<figure class=""><img src="../images/bumblebee.png?1791053959634" alt="" loading="lazy"><figcaption><b>Джміль</b><span>Bumblebee · bumblebee · b05-15</span></figcaption></figure>
+<figure class=""><img src="../images/firefly.png?1791053959634" alt="" loading="lazy"><figcaption><b>Світлячок</b><span>Firefly · firefly · b05-15</span></figcaption></figure>
+<figure class=""><img src="../images/wasp.png?1791053959634" alt="" loading="lazy"><figcaption><b>Оса</b><span>Wasp · wasp · b05-16</span></figcaption></figure>
+<figure class=""><img src="../images/centipede.png?1791053959634" alt="" loading="lazy"><figcaption><b>Багатоніжка</b><span>Centipede · centipede · b05-16</span></figcaption></figure>
+<figure class=""><img src="../images/tongue.png?1791053959634" alt="" loading="lazy"><figcaption><b>Язик</b><span>Tongue · tongue · b05-16</span></figcaption></figure>
+<figure class=""><img src="../images/footprint.png?1791053959634" alt="" loading="lazy"><figcaption><b>Слід</b><span>Footprint · footprint · b05-16</span></figcaption></figure>
+<figure class=""><img src="../images/knee.png?1791053959634" alt="" loading="lazy"><figcaption><b>Коліно</b><span>Knee · knee · b05-16</span></figcaption></figure>
+<figure class=""><img src="../images/beard.png?1791053959634" alt="" loading="lazy"><figcaption><b>Борода</b><span>Beard · beard · b05-16</span></figcaption></figure>
+<figure class=""><img src="../images/mustache.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вуса</b><span>Mustache · mustache · b05-17</span></figcaption></figure>
+<figure class=""><img src="../images/hair.png?1791053959634" alt="" loading="lazy"><figcaption><b>Волосся</b><span>Hair · hair · b05-17</span></figcaption></figure>
+<figure class=""><img src="../images/foot.png?1791053959634" alt="" loading="lazy"><figcaption><b>Стопа</b><span>Foot · foot · b05-17</span></figcaption></figure>
+<figure class=""><img src="../images/skeleton.png?1791053959634" alt="" loading="lazy"><figcaption><b>Скелет</b><span>Skeleton · skeleton · b05-17</span></figcaption></figure>
+<figure class=""><img src="../images/elbow.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лікоть</b><span>Elbow · elbow · b05-18</span></figcaption></figure>
+<figure class=""><img src="../images/neck.png?1791053959634" alt="" loading="lazy"><figcaption><b>Шия</b><span>Neck · neck · b05-18</span></figcaption></figure>
+<figure class=""><img src="../images/back.png?1791053959634" alt="" loading="lazy"><figcaption><b>Спина</b><span>Back · back · b05-18</span></figcaption></figure>
+<figure class=""><img src="../images/scarecrow.png?1791053959634" alt="" loading="lazy"><figcaption><b>Опудало</b><span>Scarecrow · scarecrow · b05-18</span></figcaption></figure>
+<figure class=""><img src="../images/knife.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ніж</b><span>Knife · knife · b06-01</span></figcaption></figure>
+<figure class=""><img src="../images/glass.png?1791053959634" alt="" loading="lazy"><figcaption><b>Склянка</b><span>Glass · glass · b06-01</span></figcaption></figure>
+<figure class=""><img src="../images/oven.png?1791053959634" alt="" loading="lazy"><figcaption><b>Духовка</b><span>Oven · oven · b06-01</span></figcaption></figure>
+<figure class=""><img src="../images/toaster.png?1791053959634" alt="" loading="lazy"><figcaption><b>Тостер</b><span>Toaster · toaster · b06-01</span></figcaption></figure>
+<figure class=""><img src="../images/ladle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Черпак</b><span>Ladle · ladle · b06-01</span></figcaption></figure>
+<figure class=""><img src="../images/rolling_pin.png?1791053959634" alt="" loading="lazy"><figcaption><b>Качалка</b><span>Rolling pin · rolling_pin · b06-01</span></figcaption></figure>
+<figure class=""><img src="../images/jug.png?1791053959634" alt="" loading="lazy"><figcaption><b>Глечик</b><span>Jug · jug · b06-02</span></figcaption></figure>
+<figure class=""><img src="../images/saucepan_lid.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кришка</b><span>Lid · saucepan_lid · b06-02</span></figcaption></figure>
+<figure class=""><img src="../images/tray.png?1791053959634" alt="" loading="lazy"><figcaption><b>Таця</b><span>Tray · tray · b06-02</span></figcaption></figure>
+<figure class=""><img src="../images/colander.png?1791053959634" alt="" loading="lazy"><figcaption><b>Друшляк</b><span>Colander · colander · b06-02</span></figcaption></figure>
+<figure class=""><img src="../images/grater.png?1791053959634" alt="" loading="lazy"><figcaption><b>Тертка</b><span>Grater · grater · b06-02</span></figcaption></figure>
+<figure class=""><img src="../images/whisk.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вінчик</b><span>Whisk · whisk · b06-02</span></figcaption></figure>
+<figure class=""><img src="../images/jar.png?1791053959634" alt="" loading="lazy"><figcaption><b>Банка</b><span>Jar · jar · b06-03</span></figcaption></figure>
+<figure class=""><img src="../images/thermos.png?1791053959634" alt="" loading="lazy"><figcaption><b>Термос</b><span>Thermos · thermos · b06-03</span></figcaption></figure>
+<figure class=""><img src="../images/microwave.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мікрохвильовка</b><span>Microwave · microwave · b06-03</span></figcaption></figure>
+<figure class=""><img src="../images/dishwasher.png?1791053959634" alt="" loading="lazy"><figcaption><b>Посудомийна машина</b><span>Dishwasher · dishwasher · b06-03</span></figcaption></figure>
+<figure class=""><img src="../images/spatula.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лопатка</b><span>Spatula · spatula · b06-03</span></figcaption></figure>
+<figure class=""><img src="../images/lunch_box.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ланч-бокс</b><span>Lunch box · lunch_box · b06-03</span></figcaption></figure>
+<figure class=""><img src="../images/armchair.png?1791053959634" alt="" loading="lazy"><figcaption><b>Крісло</b><span>Armchair · armchair · b06-04</span></figcaption></figure>
+<figure class=""><img src="../images/shelf.png?1791053959634" alt="" loading="lazy"><figcaption><b>Полиця</b><span>Shelf · shelf · b06-04</span></figcaption></figure>
+<figure class=""><img src="../images/rug.png?1791053959634" alt="" loading="lazy"><figcaption><b>Килим</b><span>Rug · rug · b06-04</span></figcaption></figure>
+<figure class=""><img src="../images/curtains.png?1791053959634" alt="" loading="lazy"><figcaption><b>Штори</b><span>Curtains · curtains · b06-04</span></figcaption></figure>
+<figure class=""><img src="../images/stool.png?1791053959634" alt="" loading="lazy"><figcaption><b>Табурет</b><span>Stool · stool · b06-04</span></figcaption></figure>
+<figure class=""><img src="../images/chest_of_drawers.png?1791053959634" alt="" loading="lazy"><figcaption><b>Комод</b><span>Dresser · chest_of_drawers · b06-04</span></figcaption></figure>
+<figure class=""><img src="../images/vase.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ваза</b><span>Vase · vase · b06-05</span></figcaption></figure>
+<figure class=""><img src="../images/painting.png?1791053959634" alt="" loading="lazy"><figcaption><b>Картина</b><span>Painting · painting · b06-05</span></figcaption></figure>
+<figure class=""><img src="../images/fireplace.png?1791053959634" alt="" loading="lazy"><figcaption><b>Камін</b><span>Fireplace · fireplace · b06-05</span></figcaption></figure>
+<figure class=""><img src="../images/flowerpot.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вазон</b><span>Flowerpot · flowerpot · b06-05</span></figcaption></figure>
+<figure class=""><img src="../images/chandelier.png?1791053959634" alt="" loading="lazy"><figcaption><b>Люстра</b><span>Chandelier · chandelier · b06-05</span></figcaption></figure>
+<figure class=""><img src="../images/photo_frame.png?1791053959634" alt="" loading="lazy"><figcaption><b>Рамка</b><span>Photo frame · photo_frame · b06-05</span></figcaption></figure>
+<figure class=""><img src="../images/roof.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дах</b><span>Roof · roof · b06-06</span></figcaption></figure>
+<figure class=""><img src="../images/socket.png?1791053959634" alt="" loading="lazy"><figcaption><b>Розетка</b><span>Socket · socket · b06-06</span></figcaption></figure>
+<figure class=""><img src="../images/elevator.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ліфт</b><span>Elevator · elevator · b06-06</span></figcaption></figure>
+<figure class=""><img src="../images/mailbox.png?1791053959634" alt="" loading="lazy"><figcaption><b>Поштова скринька</b><span>Mailbox · mailbox · b06-06</span></figcaption></figure>
+<figure class=""><img src="../images/air_conditioner.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кондиціонер</b><span>Air conditioner · air_conditioner · b06-06</span></figcaption></figure>
+<figure class=""><img src="../images/fan.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вентилятор</b><span>Fan · fan · b06-06</span></figcaption></figure>
+<figure class=""><img src="../images/toothpaste.png?1791053959634" alt="" loading="lazy"><figcaption><b>Зубна паста</b><span>Toothpaste · toothpaste · b06-07</span></figcaption></figure>
+<figure class=""><img src="../images/shower.png?1791053959634" alt="" loading="lazy"><figcaption><b>Душ</b><span>Shower · shower · b06-07</span></figcaption></figure>
+<figure class=""><img src="../images/tap.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кран</b><span>Faucet · tap · b06-07</span></figcaption></figure>
+<figure class=""><img src="../images/sink.png?1791053959634" alt="" loading="lazy"><figcaption><b>Раковина</b><span>Sink · sink · b06-07</span></figcaption></figure>
+<figure class=""><img src="../images/shampoo.png?1791053959634" alt="" loading="lazy"><figcaption><b>Шампунь</b><span>Shampoo · shampoo · b06-07</span></figcaption></figure>
+<figure class=""><img src="../images/hair_dryer.png?1791053959634" alt="" loading="lazy"><figcaption><b>Фен</b><span>Hair dryer · hair_dryer · b06-07</span></figcaption></figure>
+<figure class=""><img src="../images/iron.png?1791053959634" alt="" loading="lazy"><figcaption><b>Праска</b><span>Iron · iron · b06-08</span></figcaption></figure>
+<figure class=""><img src="../images/hanger.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вішалка</b><span>Hanger · hanger · b06-08</span></figcaption></figure>
+<figure class=""><img src="../images/mop.png?1791053959634" alt="" loading="lazy"><figcaption><b>Швабра</b><span>Mop · mop · b06-08</span></figcaption></figure>
+<figure class=""><img src="../images/dustpan.png?1791053959634" alt="" loading="lazy"><figcaption><b>Совок</b><span>Dustpan · dustpan · b06-08</span></figcaption></figure>
+<figure class=""><img src="../images/clothespin.png?1791053959634" alt="" loading="lazy"><figcaption><b>Прищіпка</b><span>Clothespin · clothespin · b06-08</span></figcaption></figure>
+<figure class=""><img src="../images/bathrobe.png?1791053959634" alt="" loading="lazy"><figcaption><b>Халат</b><span>Bathrobe · bathrobe · b06-08</span></figcaption></figure>
+<figure class=""><img src="../images/cradle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Колиска</b><span>Cradle · cradle · b06-09</span></figcaption></figure>
+<figure class=""><img src="../images/diaper.png?1791053959634" alt="" loading="lazy"><figcaption><b>Підгузок</b><span>Diaper · diaper · b06-09</span></figcaption></figure>
+<figure class=""><img src="../images/baby_bottle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пляшечка</b><span>Baby bottle · baby_bottle · b06-09</span></figcaption></figure>
+<figure class=""><img src="../images/bib.png?1791053959634" alt="" loading="lazy"><figcaption><b>Слинявчик</b><span>Bib · bib · b06-09</span></figcaption></figure>
+<figure class=""><img src="../images/bunk_bed.png?1791053959634" alt="" loading="lazy"><figcaption><b>Двоповерхове ліжко</b><span>Bunk bed · bunk_bed · b06-09</span></figcaption></figure>
+<figure class=""><img src="../images/hairbrush.png?1791053959634" alt="" loading="lazy"><figcaption><b>Щітка для волосся</b><span>Hairbrush · hairbrush · b06-09</span></figcaption></figure>
+<figure class=""><img src="../images/thermometer.png?1791053959634" alt="" loading="lazy"><figcaption><b>Градусник</b><span>Thermometer · thermometer · b06-10</span></figcaption></figure>
+<figure class=""><img src="../images/first_aid_kit.png?1791053959634" alt="" loading="lazy"><figcaption><b>Аптечка</b><span>First aid kit · first_aid_kit · b06-10</span></figcaption></figure>
+<figure class=""><img src="../images/stethoscope.png?1791053959634" alt="" loading="lazy"><figcaption><b>Стетоскоп</b><span>Stethoscope · stethoscope · b06-10</span></figcaption></figure>
+<figure class=""><img src="../images/alarm_clock.png?1791053959634" alt="" loading="lazy"><figcaption><b>Будильник</b><span>Alarm clock · alarm_clock · b06-10</span></figcaption></figure>
+<figure class=""><img src="../images/hourglass.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пісочний годинник</b><span>Hourglass · hourglass · b06-10</span></figcaption></figure>
+<figure class=""><img src="../images/birdcage.png?1791053959634" alt="" loading="lazy"><figcaption><b>Клітка</b><span>Birdcage · birdcage · b06-10</span></figcaption></figure>
+<figure class=""><img src="../images/battery.png?1791053959634" alt="" loading="lazy"><figcaption><b>Батарейка</b><span>Battery · battery · b06-11</span></figcaption></figure>
+<figure class=""><img src="../images/microphone.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мікрофон</b><span>Microphone · microphone · b06-11</span></figcaption></figure>
+<figure class=""><img src="../images/laptop.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ноутбук</b><span>Laptop · laptop · b06-11</span></figcaption></figure>
+<figure class=""><img src="../images/remote.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пульт</b><span>Remote · remote · b06-11</span></figcaption></figure>
+<figure class=""><img src="../images/tablet.png?1791053959634" alt="" loading="lazy"><figcaption><b>Планшет</b><span>Tablet · tablet · b06-11</span></figcaption></figure>
+<figure class=""><img src="../images/radio.png?1791053959634" alt="" loading="lazy"><figcaption><b>Радіо</b><span>Radio · radio · b06-11</span></figcaption></figure>
+<figure class=""><img src="../images/drone.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дрон</b><span>Drone · drone · b06-12</span></figcaption></figure>
+<figure class=""><img src="../images/calculator.png?1791053959634" alt="" loading="lazy"><figcaption><b>Калькулятор</b><span>Calculator · calculator · b06-12</span></figcaption></figure>
+<figure class=""><img src="../images/printer.png?1791053959634" alt="" loading="lazy"><figcaption><b>Принтер</b><span>Printer · printer · b06-12</span></figcaption></figure>
+<figure class=""><img src="../images/keyboard.png?1791053959634" alt="" loading="lazy"><figcaption><b>Клавіатура</b><span>Keyboard · keyboard · b06-12</span></figcaption></figure>
+<figure class=""><img src="../images/speaker.png?1791053959634" alt="" loading="lazy"><figcaption><b>Колонка</b><span>Speaker · speaker · b06-12</span></figcaption></figure>
+<figure class=""><img src="../images/telescope.png?1791053959634" alt="" loading="lazy"><figcaption><b>Телескоп</b><span>Telescope · telescope · b06-12</span></figcaption></figure>
+<figure class=""><img src="../images/folding_fan.png?1791053959634" alt="" loading="lazy"><figcaption><b>Віяло</b><span>Folding fan · folding_fan · b06-13</span></figcaption></figure>
+<figure class=""><img src="../images/barrel.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бочка</b><span>Barrel · barrel · b06-13</span></figcaption></figure>
+<figure class=""><img src="../images/paint_can.png?1791053959634" alt="" loading="lazy"><figcaption><b>Банка фарби</b><span>Paint can · paint_can · b06-13</span></figcaption></figure>
+<figure class=""><img src="../images/yo_yo.png?1791053959634" alt="" loading="lazy"><figcaption><b>Йо-йо</b><span>Yo-yo · yo_yo · b06-13</span></figcaption></figure>
+<figure class=""><img src="../images/spinning_top.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дзиґа</b><span>Spinning top · spinning_top · b06-13</span></figcaption></figure>
+<figure class=""><img src="../images/hoop.png?1791053959634" alt="" loading="lazy"><figcaption><b>Обруч</b><span>Hoop · hoop · b06-13</span></figcaption></figure>
+<figure class=""><img src="../images/skittles.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кеглі</b><span>Skittles · skittles · b06-14</span></figcaption></figure>
+<figure class=""><img src="../images/pyramid_toy.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пірамідка</b><span>Stacking rings · pyramid_toy · b06-14</span></figcaption></figure>
+<figure class=""><img src="../images/rocking_horse.png?1791053959634" alt="" loading="lazy"><figcaption><b>Конячка-гойдалка</b><span>Rocking horse · rocking_horse · b06-14</span></figcaption></figure>
+<figure class=""><img src="../images/dollhouse.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ляльковий будиночок</b><span>Dollhouse · dollhouse · b06-14</span></figcaption></figure>
+<figure class=""><img src="../images/dice.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гральний кубик</b><span>Dice · dice · b06-14</span></figcaption></figure>
+<figure class=""><img src="../images/rattle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Брязкальце</b><span>Rattle · rattle · b06-14</span></figcaption></figure>
+<figure class=""><img src="../images/paper_boat.png?1791053959634" alt="" loading="lazy"><figcaption><b>Паперовий кораблик</b><span>Paper boat · paper_boat · b06-15</span></figcaption></figure>
+<figure class=""><img src="../images/ball_of_yarn.png?1791053959634" alt="" loading="lazy"><figcaption><b>Клубок</b><span>Ball of yarn · ball_of_yarn · b06-15</span></figcaption></figure>
+<figure class=""><img src="../images/kaleidoscope.png?1791053959634" alt="" loading="lazy"><figcaption><b>Калейдоскоп</b><span>Kaleidoscope · kaleidoscope · b06-15</span></figcaption></figure>
+<figure class=""><img src="../images/chess.png?1791053959634" alt="" loading="lazy"><figcaption><b>Шахи</b><span>Chess · chess · b06-15</span></figcaption></figure>
+<figure class=""><img src="../images/dominoes.png?1791053959634" alt="" loading="lazy"><figcaption><b>Доміно</b><span>Dominoes · dominoes · b06-15</span></figcaption></figure>
+<figure class=""><img src="../images/coloring_book.png?1791053959634" alt="" loading="lazy"><figcaption><b>Розмальовка</b><span>Coloring book · coloring_book · b06-15</span></figcaption></figure>
+<figure class=""><img src="../images/melon.png?1791053959634" alt="" loading="lazy"><figcaption><b>Диня</b><span>Melon · melon · b07-01</span></figcaption></figure>
+<figure class=""><img src="../images/plum.png?1791053959634" alt="" loading="lazy"><figcaption><b>Слива</b><span>Plum · plum · b07-01</span></figcaption></figure>
+<figure class=""><img src="../images/apricot.png?1791053959634" alt="" loading="lazy"><figcaption><b>Абрикос</b><span>Apricot · apricot · b07-01</span></figcaption></figure>
+<figure class=""><img src="../images/kiwi.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ківі</b><span>Kiwi · kiwi · b07-01</span></figcaption></figure>
+<figure class=""><img src="../images/mango.png?1791053959634" alt="" loading="lazy"><figcaption><b>Манго</b><span>Mango · mango · b07-01</span></figcaption></figure>
+<figure class=""><img src="../images/coconut.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кокос</b><span>Coconut · coconut · b07-01</span></figcaption></figure>
+<figure class=""><img src="../images/blueberry.png?1791053959634" alt="" loading="lazy"><figcaption><b>Чорниця</b><span>Blueberry · blueberry · b07-02</span></figcaption></figure>
+<figure class=""><img src="../images/pomegranate.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гранат</b><span>Pomegranate · pomegranate · b07-02</span></figcaption></figure>
+<figure class=""><img src="../images/avocado.png?1791053959634" alt="" loading="lazy"><figcaption><b>Авокадо</b><span>Avocado · avocado · b07-02</span></figcaption></figure>
+<figure class=""><img src="../images/fig.png?1791053959634" alt="" loading="lazy"><figcaption><b>Інжир</b><span>Fig · fig · b07-02</span></figcaption></figure>
+<figure class=""><img src="../images/grapefruit.png?1791053959634" alt="" loading="lazy"><figcaption><b>Грейпфрут</b><span>Grapefruit · grapefruit · b07-02</span></figcaption></figure>
+<figure class=""><img src="../images/blackberry.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ожина</b><span>Blackberry · blackberry · b07-02</span></figcaption></figure>
+<figure class=""><img src="../images/currant.png?1791053959634" alt="" loading="lazy"><figcaption><b>Смородина</b><span>Currant · currant · b07-03</span></figcaption></figure>
+<figure class=""><img src="../images/lime.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лайм</b><span>Lime · lime · b07-03</span></figcaption></figure>
+<figure class=""><img src="../images/persimmon.png?1791053959634" alt="" loading="lazy"><figcaption><b>Хурма</b><span>Persimmon · persimmon · b07-03</span></figcaption></figure>
+<figure class=""><img src="../images/cranberry.png?1791053959634" alt="" loading="lazy"><figcaption><b>Журавлина</b><span>Cranberry · cranberry · b07-03</span></figcaption></figure>
+<figure class=""><img src="../images/dates.png?1791053959634" alt="" loading="lazy"><figcaption><b>Фініки</b><span>Dates · dates · b07-03</span></figcaption></figure>
+<figure class=""><img src="../images/olive.png?1791053959634" alt="" loading="lazy"><figcaption><b>Оливка</b><span>Olive · olive · b07-03</span></figcaption></figure>
+<figure class=""><img src="../images/garlic.png?1791053959634" alt="" loading="lazy"><figcaption><b>Часник</b><span>Garlic · garlic · b07-04</span></figcaption></figure>
+<figure class=""><img src="../images/eggplant.png?1791053959634" alt="" loading="lazy"><figcaption><b>Баклажан</b><span>Eggplant · eggplant · b07-04</span></figcaption></figure>
+<figure class=""><img src="../images/beet.png?1791053959634" alt="" loading="lazy"><figcaption><b>Буряк</b><span>Beet · beet · b07-04</span></figcaption></figure>
+<figure class=""><img src="../images/radish.png?1791053959634" alt="" loading="lazy"><figcaption><b>Редиска</b><span>Radish · radish · b07-04</span></figcaption></figure>
+<figure class=""><img src="../images/zucchini.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кабачок</b><span>Zucchini · zucchini · b07-04</span></figcaption></figure>
+<figure class=""><img src="../images/cauliflower.png?1791053959634" alt="" loading="lazy"><figcaption><b>Цвітна капуста</b><span>Cauliflower · cauliflower · b07-04</span></figcaption></figure>
+<figure class=""><img src="../images/chili.png?1791053959634" alt="" loading="lazy"><figcaption><b>Перець чилі</b><span>Chili pepper · chili · b07-05</span></figcaption></figure>
+<figure class=""><img src="../images/dill.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кріп</b><span>Dill · dill · b07-05</span></figcaption></figure>
+<figure class=""><img src="../images/beans.png?1791053959634" alt="" loading="lazy"><figcaption><b>Квасоля</b><span>Beans · beans · b07-05</span></figcaption></figure>
+<figure class=""><img src="../images/turnip.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ріпка</b><span>Turnip · turnip · b07-05</span></figcaption></figure>
+<figure class=""><img src="../images/asparagus.png?1791053959634" alt="" loading="lazy"><figcaption><b>Спаржа</b><span>Asparagus · asparagus · b07-05</span></figcaption></figure>
+<figure class=""><img src="../images/parsley.png?1791053959634" alt="" loading="lazy"><figcaption><b>Петрушка</b><span>Parsley · parsley · b07-05</span></figcaption></figure>
+<figure class=""><img src="../images/walnut.png?1791053959634" alt="" loading="lazy"><figcaption><b>Горіх</b><span>Nut · walnut · b07-06</span></figcaption></figure>
+<figure class=""><img src="../images/chestnut.png?1791053959634" alt="" loading="lazy"><figcaption><b>Каштан</b><span>Chestnut · chestnut · b07-06</span></figcaption></figure>
+<figure class=""><img src="../images/peanut.png?1791053959634" alt="" loading="lazy"><figcaption><b>Арахіс</b><span>Peanut · peanut · b07-06</span></figcaption></figure>
+<figure class=""><img src="../images/fried_egg.png?1791053959634" alt="" loading="lazy"><figcaption><b>Яєчня</b><span>Fried egg · fried_egg · b07-06</span></figcaption></figure>
+<figure class=""><img src="../images/rice.png?1791053959634" alt="" loading="lazy"><figcaption><b>Рис</b><span>Rice · rice · b07-06</span></figcaption></figure>
+<figure class=""><img src="../images/porridge.png?1791053959634" alt="" loading="lazy"><figcaption><b>Каша</b><span>Oatmeal · porridge · b07-06</span></figcaption></figure>
+<figure class=""><img src="../images/hot_dog.png?1791053959634" alt="" loading="lazy"><figcaption><b>Хот-дог</b><span>Hot dog · hot_dog · b07-07</span></figcaption></figure>
+<figure class=""><img src="../images/salad.png?1791053959634" alt="" loading="lazy"><figcaption><b>Салат</b><span>Salad · salad · b07-07</span></figcaption></figure>
+<figure class=""><img src="../images/borscht.png?1791053959634" alt="" loading="lazy"><figcaption><b>Борщ</b><span>Borscht · borscht · b07-07</span></figcaption></figure>
+<figure class=""><img src="../images/meatballs.png?1791053959634" alt="" loading="lazy"><figcaption><b>Фрикадельки</b><span>Meatballs · meatballs · b07-07</span></figcaption></figure>
+<figure class=""><img src="../images/omelette.png?1791053959634" alt="" loading="lazy"><figcaption><b>Омлет</b><span>Omelette · omelette · b07-07</span></figcaption></figure>
+<figure class=""><img src="../images/chicken_leg.png?1791053959634" alt="" loading="lazy"><figcaption><b>Куряча ніжка</b><span>Chicken leg · chicken_leg · b07-07</span></figcaption></figure>
+<figure class=""><img src="../images/pie.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пиріг</b><span>Pie · pie · b07-08</span></figcaption></figure>
+<figure class=""><img src="../images/waffle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вафля</b><span>Waffle · waffle · b07-08</span></figcaption></figure>
+<figure class=""><img src="../images/pretzel.png?1791053959634" alt="" loading="lazy"><figcaption><b>Крендель</b><span>Pretzel · pretzel · b07-08</span></figcaption></figure>
+<figure class=""><img src="../images/bagel.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бублик</b><span>Bagel · bagel · b07-08</span></figcaption></figure>
+<figure class=""><img src="../images/croissant.png?1791053959634" alt="" loading="lazy"><figcaption><b>Круасан</b><span>Croissant · croissant · b07-08</span></figcaption></figure>
+<figure class=""><img src="../images/baguette.png?1791053959634" alt="" loading="lazy"><figcaption><b>Багет</b><span>Baguette · baguette · b07-08</span></figcaption></figure>
+<figure class=""><img src="../images/cotton_candy.png?1791053959634" alt="" loading="lazy"><figcaption><b>Цукрова вата</b><span>Cotton candy · cotton_candy · b07-09</span></figcaption></figure>
+<figure class=""><img src="../images/cupcake.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кекс</b><span>Cupcake · cupcake · b07-09</span></figcaption></figure>
+<figure class=""><img src="../images/gingerbread_man.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пряничний чоловічок</b><span>Gingerbread man · gingerbread_man · b07-09</span></figcaption></figure>
+<figure class=""><img src="../images/marshmallow.png?1791053959634" alt="" loading="lazy"><figcaption><b>Маршмелоу</b><span>Marshmallow · marshmallow · b07-09</span></figcaption></figure>
+<figure class=""><img src="../images/jelly.png?1791053959634" alt="" loading="lazy"><figcaption><b>Желе</b><span>Gelatin · jelly · b07-09</span></figcaption></figure>
+<figure class=""><img src="../images/chewing_gum.png?1791053959634" alt="" loading="lazy"><figcaption><b>Жуйка</b><span>Chewing gum · chewing_gum · b07-09</span></figcaption></figure>
+<figure class=""><img src="../images/tea.png?1791053959634" alt="" loading="lazy"><figcaption><b>Чай</b><span>Tea · tea · b07-10</span></figcaption></figure>
+<figure class=""><img src="../images/cocoa.png?1791053959634" alt="" loading="lazy"><figcaption><b>Какао</b><span>Cocoa · cocoa · b07-10</span></figcaption></figure>
+<figure class=""><img src="../images/lemonade.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лимонад</b><span>Lemonade · lemonade · b07-10</span></figcaption></figure>
+<figure class=""><img src="../images/milkshake.png?1791053959634" alt="" loading="lazy"><figcaption><b>Молочний коктейль</b><span>Milkshake · milkshake · b07-10</span></figcaption></figure>
+<figure class=""><img src="../images/yogurt.png?1791053959634" alt="" loading="lazy"><figcaption><b>Йогурт</b><span>Yogurt · yogurt · b07-10</span></figcaption></figure>
+<figure class=""><img src="../images/cereal.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пластівці</b><span>Cereal · cereal · b07-10</span></figcaption></figure>
+<figure class=""><img src="../images/ketchup.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кетчуп</b><span>Ketchup · ketchup · b07-11</span></figcaption></figure>
+<figure class=""><img src="../images/jam.png?1791053959634" alt="" loading="lazy"><figcaption><b>Варення</b><span>Jam · jam · b07-11</span></figcaption></figure>
+<figure class=""><img src="../images/butter.png?1791053959634" alt="" loading="lazy"><figcaption><b>Масло</b><span>Butter · butter · b07-11</span></figcaption></figure>
+<figure class=""><img src="../images/salt.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сіль</b><span>Salt · salt · b07-11</span></figcaption></figure>
+<figure class=""><img src="../images/sugar.png?1791053959634" alt="" loading="lazy"><figcaption><b>Цукор</b><span>Sugar · sugar · b07-11</span></figcaption></figure>
+<figure class=""><img src="../images/toast.png?1791053959634" alt="" loading="lazy"><figcaption><b>Тост</b><span>Toast · toast · b07-11</span></figcaption></figure>
+<figure class=""><img src="../images/sushi.png?1791053959634" alt="" loading="lazy"><figcaption><b>Суші</b><span>Sushi · sushi · b07-12</span></figcaption></figure>
+<figure class=""><img src="../images/taco.png?1791053959634" alt="" loading="lazy"><figcaption><b>Тако</b><span>Taco · taco · b07-12</span></figcaption></figure>
+<figure class=""><img src="../images/chopsticks.png?1791053959634" alt="" loading="lazy"><figcaption><b>Палички для їжі</b><span>Chopsticks · chopsticks · b07-12</span></figcaption></figure>
+<figure class=""><img src="../images/straw.png?1791053959634" alt="" loading="lazy"><figcaption><b>Трубочка</b><span>Straw · straw · b07-12</span></figcaption></figure>
+<figure class=""><img src="../images/hat.png?1791053959634" alt="" loading="lazy"><figcaption><b>Капелюх</b><span>Hat · hat · b07-12</span></figcaption></figure>
+<figure class=""><img src="../images/beret.png?1791053959634" alt="" loading="lazy"><figcaption><b>Берет</b><span>Beret · beret · b07-12</span></figcaption></figure>
+<figure class=""><img src="../images/coat.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пальто</b><span>Coat · coat · b07-13</span></figcaption></figure>
+<figure class=""><img src="../images/shirt.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сорочка</b><span>Shirt · shirt · b07-13</span></figcaption></figure>
+<figure class=""><img src="../images/jeans.png?1791053959634" alt="" loading="lazy"><figcaption><b>Джинси</b><span>Jeans · jeans · b07-13</span></figcaption></figure>
+<figure class=""><img src="../images/swimsuit.png?1791053959634" alt="" loading="lazy"><figcaption><b>Купальник</b><span>Swimsuit · swimsuit · b07-13</span></figcaption></figure>
+<figure class=""><img src="../images/raincoat.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дощовик</b><span>Raincoat · raincoat · b07-13</span></figcaption></figure>
+<figure class=""><img src="../images/hoodie.png?1791053959634" alt="" loading="lazy"><figcaption><b>Худі</b><span>Hoodie · hoodie · b07-13</span></figcaption></figure>
+<figure class=""><img src="../images/overalls.png?1791053959634" alt="" loading="lazy"><figcaption><b>Комбінезон</b><span>Overalls · overalls · b07-14</span></figcaption></figure>
+<figure class=""><img src="../images/tights.png?1791053959634" alt="" loading="lazy"><figcaption><b>Колготки</b><span>Tights · tights · b07-14</span></figcaption></figure>
+<figure class=""><img src="../images/vest.png?1791053959634" alt="" loading="lazy"><figcaption><b>Жилетка</b><span>Vest · vest · b07-14</span></figcaption></figure>
+<figure class=""><img src="../images/apron.png?1791053959634" alt="" loading="lazy"><figcaption><b>Фартух</b><span>Apron · apron · b07-14</span></figcaption></figure>
+<figure class=""><img src="../images/belt.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пасок</b><span>Belt · belt · b07-14</span></figcaption></figure>
+<figure class=""><img src="../images/tie.png?1791053959634" alt="" loading="lazy"><figcaption><b>Краватка</b><span>Tie · tie · b07-14</span></figcaption></figure>
+<figure class=""><img src="../images/sandals.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сандалі</b><span>Sandals · sandals · b07-15</span></figcaption></figure>
+<figure class=""><img src="../images/flip_flops.png?1791053959634" alt="" loading="lazy"><figcaption><b>В'єтнамки</b><span>Flip-flops · flip_flops · b07-15</span></figcaption></figure>
+<figure class=""><img src="../images/shoe.png?1791053959634" alt="" loading="lazy"><figcaption><b>Черевик</b><span>Shoe · shoe · b07-15</span></figcaption></figure>
+<figure class=""><img src="../images/sunglasses.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сонцезахисні окуляри</b><span>Sunglasses · sunglasses · b07-15</span></figcaption></figure>
+<figure class=""><img src="../images/headband.png?1791053959634" alt="" loading="lazy"><figcaption><b>Обідок</b><span>Headband · headband · b07-15</span></figcaption></figure>
+<figure class=""><img src="../images/watch.png?1791053959634" alt="" loading="lazy"><figcaption><b>Наручний годинник</b><span>Watch · watch · b07-15</span></figcaption></figure>
+<figure class=""><img src="../images/ring.png?1791053959634" alt="" loading="lazy"><figcaption><b>Каблучка</b><span>Ring · ring · b07-16</span></figcaption></figure>
+<figure class=""><img src="../images/necklace.png?1791053959634" alt="" loading="lazy"><figcaption><b>Намисто</b><span>Necklace · necklace · b07-16</span></figcaption></figure>
+<figure class=""><img src="../images/wallet.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гаманець</b><span>Wallet · wallet · b07-16</span></figcaption></figure>
+<figure class=""><img src="../images/suitcase.png?1791053959634" alt="" loading="lazy"><figcaption><b>Валіза</b><span>Suitcase · suitcase · b07-16</span></figcaption></figure>
+<figure class=""><img src="../images/acorn.png?1791053959634" alt="" loading="lazy"><figcaption><b>Жолудь</b><span>Acorn · acorn · b08-01</span></figcaption></figure>
+<figure class=""><img src="../images/pine_cone.png?1791053959634" alt="" loading="lazy"><figcaption><b>Шишка</b><span>Pine cone · pine_cone · b08-01</span></figcaption></figure>
+<figure class=""><img src="../images/autumn_leaf.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кленовий листок</b><span>Maple leaf · autumn_leaf · b08-01</span></figcaption></figure>
+<figure class=""><img src="../images/clover.png?1791053959634" alt="" loading="lazy"><figcaption><b>Конюшина</b><span>Clover · clover · b08-01</span></figcaption></figure>
+<figure class=""><img src="../images/sprout.png?1791053959634" alt="" loading="lazy"><figcaption><b>Паросток</b><span>Sprout · sprout · b08-01</span></figcaption></figure>
+<figure class=""><img src="../images/branch.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гілка</b><span>Branch · branch · b08-01</span></figcaption></figure>
+<figure class=""><img src="../images/rose.png?1791053959634" alt="" loading="lazy"><figcaption><b>Троянда</b><span>Rose · rose · b08-02</span></figcaption></figure>
+<figure class=""><img src="../images/tulip.png?1791053959634" alt="" loading="lazy"><figcaption><b>Тюльпан</b><span>Tulip · tulip · b08-02</span></figcaption></figure>
+<figure class=""><img src="../images/poppy.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мак</b><span>Poppy · poppy · b08-02</span></figcaption></figure>
+<figure class=""><img src="../images/lily.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лілія</b><span>Lily · lily · b08-02</span></figcaption></figure>
+<figure class=""><img src="../images/water_lily.png?1791053959634" alt="" loading="lazy"><figcaption><b>Латаття</b><span>Water lily · water_lily · b08-02</span></figcaption></figure>
+<figure class=""><img src="../images/lavender.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лаванда</b><span>Lavender · lavender · b08-02</span></figcaption></figure>
+<figure class=""><img src="../images/bouquet.png?1791053959634" alt="" loading="lazy"><figcaption><b>Букет</b><span>Bouquet · bouquet · b08-03</span></figcaption></figure>
+<figure class=""><img src="../images/wreath.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вінок</b><span>Flower crown · wreath · b08-03</span></figcaption></figure>
+<figure class=""><img src="../images/fern.png?1791053959634" alt="" loading="lazy"><figcaption><b>Папороть</b><span>Fern · fern · b08-03</span></figcaption></figure>
+<figure class=""><img src="../images/bamboo.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бамбук</b><span>Bamboo · bamboo · b08-03</span></figcaption></figure>
+<figure class=""><img src="../images/wheat.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пшениця</b><span>Wheat · wheat · b08-03</span></figcaption></figure>
+<figure class=""><img src="../images/bush.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кущ</b><span>Bush · bush · b08-03</span></figcaption></figure>
+<figure class=""><img src="../images/oak.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дуб</b><span>Oak · oak · b08-04</span></figcaption></figure>
+<figure class=""><img src="../images/birch.png?1791053959634" alt="" loading="lazy"><figcaption><b>Береза</b><span>Birch · birch · b08-04</span></figcaption></figure>
+<figure class=""><img src="../images/pine.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сосна</b><span>Pine · pine · b08-04</span></figcaption></figure>
+<figure class=""><img src="../images/willow.png?1791053959634" alt="" loading="lazy"><figcaption><b>Верба</b><span>Willow · willow · b08-04</span></figcaption></figure>
+<figure class=""><img src="../images/stump.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пеньок</b><span>Stump · stump · b08-04</span></figcaption></figure>
+<figure class=""><img src="../images/log.png?1791053959634" alt="" loading="lazy"><figcaption><b>Колода</b><span>Log · log · b08-04</span></figcaption></figure>
+<figure class=""><img src="../images/lightning.png?1791053959634" alt="" loading="lazy"><figcaption><b>Блискавка</b><span>Lightning · lightning · b08-05</span></figcaption></figure>
+<figure class=""><img src="../images/tornado.png?1791053959634" alt="" loading="lazy"><figcaption><b>Торнадо</b><span>Tornado · tornado · b08-05</span></figcaption></figure>
+<figure class=""><img src="../images/icicle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бурулька</b><span>Icicle · icicle · b08-05</span></figcaption></figure>
+<figure class=""><img src="../images/wave.png?1791053959634" alt="" loading="lazy"><figcaption><b>Хвиля</b><span>Wave · wave · b08-05</span></figcaption></figure>
+<figure class=""><img src="../images/sand.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пісок</b><span>Sand · sand · b08-05</span></figcaption></figure>
+<figure class=""><img src="../images/crystal.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кристал</b><span>Crystal · crystal · b08-05</span></figcaption></figure>
+<figure class=""><img src="../images/diamond.png?1791053959634" alt="" loading="lazy"><figcaption><b>Діамант</b><span>Diamond · diamond · b08-06</span></figcaption></figure>
+<figure class=""><img src="../images/planet.png?1791053959634" alt="" loading="lazy"><figcaption><b>Планета</b><span>Planet · planet · b08-06</span></figcaption></figure>
+<figure class=""><img src="../images/earth.png?1791053959634" alt="" loading="lazy"><figcaption><b>Земля</b><span>Earth · earth · b08-06</span></figcaption></figure>
+<figure class=""><img src="../images/globe.png?1791053959634" alt="" loading="lazy"><figcaption><b>Глобус</b><span>Globe · globe · b08-06</span></figcaption></figure>
+<figure class=""><img src="../images/ufo.png?1791053959634" alt="" loading="lazy"><figcaption><b>НЛО</b><span>UFO · ufo · b08-06</span></figcaption></figure>
+<figure class=""><img src="../images/alien.png?1791053959634" alt="" loading="lazy"><figcaption><b>Інопланетянин</b><span>Alien · alien · b08-06</span></figcaption></figure>
+<figure class=""><img src="../images/skis.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лижі</b><span>Skis · skis · b08-07</span></figcaption></figure>
+<figure class=""><img src="../images/snowboard.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сноуборд</b><span>Snowboard · snowboard · b08-07</span></figcaption></figure>
+<figure class=""><img src="../images/trophy.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кубок</b><span>Trophy · trophy · b08-07</span></figcaption></figure>
+<figure class=""><img src="../images/goal.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ворота</b><span>Goal · goal · b08-07</span></figcaption></figure>
+<figure class=""><img src="../images/racket.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ракетка</b><span>Racket · racket · b08-07</span></figcaption></figure>
+<figure class=""><img src="../images/helmet.png?1791053959634" alt="" loading="lazy"><figcaption><b>Шолом</b><span>Helmet · helmet · b08-07</span></figcaption></figure>
+<figure class=""><img src="../images/fishing_rod.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вудка</b><span>Fishing rod · fishing_rod · b08-08</span></figcaption></figure>
+<figure class=""><img src="../images/target.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мішень</b><span>Target · target · b08-08</span></figcaption></figure>
+<figure class=""><img src="../images/basketball.png?1791053959634" alt="" loading="lazy"><figcaption><b>Баскетбольний м'яч</b><span>Basketball · basketball · b08-08</span></figcaption></figure>
+<figure class=""><img src="../images/hockey_stick.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ключка</b><span>Hockey stick · hockey_stick · b08-08</span></figcaption></figure>
+<figure class=""><img src="../images/boxing_gloves.png?1791053959634" alt="" loading="lazy"><figcaption><b>Боксерські рукавиці</b><span>Boxing gloves · boxing_gloves · b08-08</span></figcaption></figure>
+<figure class=""><img src="../images/dumbbell.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гантеля</b><span>Dumbbell · dumbbell · b08-08</span></figcaption></figure>
+<figure class=""><img src="../images/flippers.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ласти</b><span>Flippers · flippers · b08-09</span></figcaption></figure>
+<figure class=""><img src="../images/sleeping_bag.png?1791053959634" alt="" loading="lazy"><figcaption><b>Спальник</b><span>Sleeping bag · sleeping_bag · b08-09</span></figcaption></figure>
+<figure class=""><img src="../images/deckchair.png?1791053959634" alt="" loading="lazy"><figcaption><b>Шезлонг</b><span>Deckchair · deckchair · b08-09</span></figcaption></figure>
+<figure class=""><img src="../images/stopwatch.png?1791053959634" alt="" loading="lazy"><figcaption><b>Секундомір</b><span>Stopwatch · stopwatch · b08-09</span></figcaption></figure>
+<figure class=""><img src="../images/life_jacket.png?1791053959634" alt="" loading="lazy"><figcaption><b>Рятувальний жилет</b><span>Life jacket · life_jacket · b08-09</span></figcaption></figure>
+<figure class=""><img src="../images/birdhouse.png?1791053959634" alt="" loading="lazy"><figcaption><b>Шпаківня</b><span>Birdhouse · birdhouse · b08-09</span></figcaption></figure>
+<figure class=""><img src="../images/tower.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вежа</b><span>Tower · tower · b08-10</span></figcaption></figure>
+<figure class=""><img src="../images/lighthouse.png?1791053959634" alt="" loading="lazy"><figcaption><b>Маяк</b><span>Lighthouse · lighthouse · b08-10</span></figcaption></figure>
+<figure class=""><img src="../images/windmill.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вітряк</b><span>Windmill · windmill · b08-10</span></figcaption></figure>
+<figure class=""><img src="../images/igloo.png?1791053959634" alt="" loading="lazy"><figcaption><b>Іглу</b><span>Igloo · igloo · b08-10</span></figcaption></figure>
+<figure class=""><img src="../images/fountain.png?1791053959634" alt="" loading="lazy"><figcaption><b>Фонтан</b><span>Fountain · fountain · b08-10</span></figcaption></figure>
+<figure class=""><img src="../images/skyscraper.png?1791053959634" alt="" loading="lazy"><figcaption><b>Хмарочос</b><span>Skyscraper · skyscraper · b08-10</span></figcaption></figure>
+<figure class=""><img src="../images/pyramid.png?1791053959634" alt="" loading="lazy"><figcaption><b>Піраміда</b><span>Pyramid · pyramid · b08-11</span></figcaption></figure>
+<figure class=""><img src="../images/tent_hut.png?1791053959634" alt="" loading="lazy"><figcaption><b>Хатинка</b><span>Hut · tent_hut · b08-11</span></figcaption></figure>
+<figure class=""><img src="../images/hospital.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лікарня</b><span>Hospital · hospital · b08-11</span></figcaption></figure>
+<figure class=""><img src="../images/shop.png?1791053959634" alt="" loading="lazy"><figcaption><b>Магазин</b><span>Shop · shop · b08-11</span></figcaption></figure>
+<figure class=""><img src="../images/garage.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гараж</b><span>Garage · garage · b08-11</span></figcaption></figure>
+<figure class=""><img src="../images/treehouse.png?1791053959634" alt="" loading="lazy"><figcaption><b>Будиночок на дереві</b><span>Treehouse · treehouse · b08-11</span></figcaption></figure>
+<figure class=""><img src="../images/stadium.png?1791053959634" alt="" loading="lazy"><figcaption><b>Стадіон</b><span>Stadium · stadium · b08-12</span></figcaption></figure>
+<figure class=""><img src="../images/swimming_pool.png?1791053959634" alt="" loading="lazy"><figcaption><b>Басейн</b><span>Swimming pool · swimming_pool · b08-12</span></figcaption></figure>
+<figure class=""><img src="../images/pharmacy.png?1791053959634" alt="" loading="lazy"><figcaption><b>Аптека</b><span>Pharmacy · pharmacy · b08-12</span></figcaption></figure>
+<figure class=""><img src="../images/factory.png?1791053959634" alt="" loading="lazy"><figcaption><b>Фабрика</b><span>Factory · factory · b08-12</span></figcaption></figure>
+<figure class=""><img src="../images/wizard.png?1791053959634" alt="" loading="lazy"><figcaption><b>Чарівник</b><span>Wizard · wizard · b08-12</span></figcaption></figure>
+<figure class=""><img src="../images/throne.png?1791053959634" alt="" loading="lazy"><figcaption><b>Трон</b><span>Throne · throne · b08-12</span></figcaption></figure>
+<figure class=""><img src="../images/magic_wand.png?1791053959634" alt="" loading="lazy"><figcaption><b>Чарівна паличка</b><span>Magic wand · magic_wand · b08-13</span></figcaption></figure>
+<figure class=""><img src="../images/treasure_chest.png?1791053959634" alt="" loading="lazy"><figcaption><b>Скриня</b><span>Treasure chest · treasure_chest · b08-13</span></figcaption></figure>
+<figure class=""><img src="../images/mask.png?1791053959634" alt="" loading="lazy"><figcaption><b>Маска</b><span>Mask · mask · b08-13</span></figcaption></figure>
+<figure class=""><img src="../images/lantern.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ліхтар</b><span>Lantern · lantern · b08-13</span></figcaption></figure>
+<figure class=""><img src="../images/flying_carpet.png?1791053959634" alt="" loading="lazy"><figcaption><b>Килим-літак</b><span>Flying carpet · flying_carpet · b08-13</span></figcaption></figure>
+<figure class=""><img src="../images/easter_egg.png?1791053959634" alt="" loading="lazy"><figcaption><b>Писанка</b><span>Easter egg · easter_egg · b08-13</span></figcaption></figure>
+<figure class=""><img src="../images/confetti.png?1791053959634" alt="" loading="lazy"><figcaption><b>Конфеті</b><span>Confetti · confetti · b08-14</span></figcaption></figure>
+<figure class=""><img src="../images/party_hat.png?1791053959634" alt="" loading="lazy"><figcaption><b>Святковий ковпачок</b><span>Party hat · party_hat · b08-14</span></figcaption></figure>
+<figure class=""><img src="../images/treasure_map.png?1791053959634" alt="" loading="lazy"><figcaption><b>Карта скарбів</b><span>Treasure map · treasure_map · b08-14</span></figcaption></figure>
+<figure class=""><img src="../images/ghost.png?1791053959634" alt="" loading="lazy"><figcaption><b>Привид</b><span>Ghost · ghost · b08-14</span></figcaption></figure>
+<figure class=""><img src="../images/island.png?1791053959634" alt="" loading="lazy"><figcaption><b>Острів</b><span>Island · island · b08-15</span></figcaption></figure>
+<figure class=""><img src="../images/waterfall.png?1791053959634" alt="" loading="lazy"><figcaption><b>Водоспад</b><span>Waterfall · waterfall · b08-15</span></figcaption></figure>
+<figure class=""><img src="../images/cave.png?1791053959634" alt="" loading="lazy"><figcaption><b>Печера</b><span>Cave · cave · b08-15</span></figcaption></figure>
+<figure class=""><img src="../images/iceberg.png?1791053959634" alt="" loading="lazy"><figcaption><b>Айсберг</b><span>Iceberg · iceberg · b08-15</span></figcaption></figure>
+<figure class=""><img src="../images/desert.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пустеля</b><span>Desert · desert · b08-16</span></figcaption></figure>
+<figure class=""><img src="../images/sunset.png?1791053959634" alt="" loading="lazy"><figcaption><b>Захід сонця</b><span>Sunset · sunset · b08-16</span></figcaption></figure>
+<figure class=""><img src="../images/pond.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ставок</b><span>Pond · pond · b08-16</span></figcaption></figure>
+<figure class=""><img src="../images/satellite.png?1791053959634" alt="" loading="lazy"><figcaption><b>Супутник</b><span>Satellite · satellite · b08-16</span></figcaption></figure>
+<figure class=""><img src="../images/zoo.png?1791053959634" alt="" loading="lazy"><figcaption><b>Зоопарк</b><span>Zoo · zoo · b08-17</span></figcaption></figure>
+<figure class=""><img src="../images/farm.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ферма</b><span>Farm · farm · b08-17</span></figcaption></figure>
+<figure class=""><img src="../images/tunnel.png?1791053959634" alt="" loading="lazy"><figcaption><b>Тунель</b><span>Tunnel · tunnel · b08-17</span></figcaption></figure>
+<figure class=""><img src="../images/playground.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дитячий майданчик</b><span>Playground · playground · b08-17</span></figcaption></figure>
+<figure class=""><img src="../images/sailboat.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вітрильник</b><span>Sailboat · sailboat · b09-01</span></figcaption></figure>
+<figure class=""><img src="../images/taxi.png?1791053959634" alt="" loading="lazy"><figcaption><b>Таксі</b><span>Taxi · taxi · b09-01</span></figcaption></figure>
+<figure class=""><img src="../images/tram.png?1791053959634" alt="" loading="lazy"><figcaption><b>Трамвай</b><span>Tram · tram · b09-01</span></figcaption></figure>
+<figure class=""><img src="../images/submarine.png?1791053959634" alt="" loading="lazy"><figcaption><b>Підводний човен</b><span>Submarine · submarine · b09-01</span></figcaption></figure>
+<figure class=""><img src="../images/skateboard.png?1791053959634" alt="" loading="lazy"><figcaption><b>Скейтборд</b><span>Skateboard · skateboard · b09-01</span></figcaption></figure>
+<figure class=""><img src="../images/parachute.png?1791053959634" alt="" loading="lazy"><figcaption><b>Парашут</b><span>Parachute · parachute · b09-01</span></figcaption></figure>
+<figure class=""><img src="../images/anchor.png?1791053959634" alt="" loading="lazy"><figcaption><b>Якір</b><span>Anchor · anchor · b09-02</span></figcaption></figure>
+<figure class=""><img src="../images/garbage_truck.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сміттєвоз</b><span>Garbage truck · garbage_truck · b09-02</span></figcaption></figure>
+<figure class=""><img src="../images/cement_mixer.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бетономішалка</b><span>Cement mixer · cement_mixer · b09-02</span></figcaption></figure>
+<figure class=""><img src="../images/bulldozer.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бульдозер</b><span>Bulldozer · bulldozer · b09-02</span></figcaption></figure>
+<figure class=""><img src="../images/race_car.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гоночна машина</b><span>Race car · race_car · b09-02</span></figcaption></figure>
+<figure class=""><img src="../images/steering_wheel.png?1791053959634" alt="" loading="lazy"><figcaption><b>Кермо</b><span>Steering wheel · steering_wheel · b09-02</span></figcaption></figure>
+<figure class=""><img src="../images/canoe.png?1791053959634" alt="" loading="lazy"><figcaption><b>Каное</b><span>Canoe · canoe · b09-03</span></figcaption></figure>
+<figure class=""><img src="../images/raft.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пліт</b><span>Raft · raft · b09-03</span></figcaption></figure>
+<figure class=""><img src="../images/ticket.png?1791053959634" alt="" loading="lazy"><figcaption><b>Квиток</b><span>Ticket · ticket · b09-03</span></figcaption></figure>
+<figure class=""><img src="../images/compass.png?1791053959634" alt="" loading="lazy"><figcaption><b>Компас</b><span>Compass · compass · b09-03</span></figcaption></figure>
+<figure class=""><img src="../images/dump_truck.png?1791053959634" alt="" loading="lazy"><figcaption><b>Самоскид</b><span>Dump truck · dump_truck · b09-03</span></figcaption></figure>
+<figure class=""><img src="../images/snowmobile.png?1791053959634" alt="" loading="lazy"><figcaption><b>Снігохід</b><span>Snowmobile · snowmobile · b09-03</span></figcaption></figure>
+<figure class=""><img src="../images/steam_train.png?1791053959634" alt="" loading="lazy"><figcaption><b>Паровоз</b><span>Steam train · steam_train · b09-04</span></figcaption></figure>
+<figure class=""><img src="../images/carriage.png?1791053959634" alt="" loading="lazy"><figcaption><b>Карета</b><span>Carriage · carriage · b09-04</span></figcaption></figure>
+<figure class=""><img src="../images/traffic_cone.png?1791053959634" alt="" loading="lazy"><figcaption><b>Конус</b><span>Traffic cone · traffic_cone · b09-04</span></figcaption></figure>
+<figure class=""><img src="../images/road_sign.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дорожній знак</b><span>Road sign · road_sign · b09-04</span></figcaption></figure>
+<figure class=""><img src="../images/airship.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дирижабль</b><span>Airship · airship · b09-04</span></figcaption></figure>
+<figure class=""><img src="../images/tricycle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Триколісний велосипед</b><span>Tricycle · tricycle · b09-04</span></figcaption></figure>
+<figure class=""><img src="../images/shopping_cart.png?1791053959634" alt="" loading="lazy"><figcaption><b>Візок для покупок</b><span>Shopping cart · shopping_cart · b09-05</span></figcaption></figure>
+<figure class=""><img src="../images/paddle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Весло</b><span>Paddle · paddle · b09-05</span></figcaption></figure>
+<figure class=""><img src="../images/police_officer.png?1791053959634" alt="" loading="lazy"><figcaption><b>Поліцейський</b><span>Police officer · police_officer · b09-05</span></figcaption></figure>
+<figure class=""><img src="../images/builder.png?1791053959634" alt="" loading="lazy"><figcaption><b>Будівельник</b><span>Builder · builder · b09-05</span></figcaption></figure>
+<figure class=""><img src="../images/farmer.png?1791053959634" alt="" loading="lazy"><figcaption><b>Фермер</b><span>Farmer · farmer · b09-05</span></figcaption></figure>
+<figure class=""><img src="../images/artist.png?1791053959634" alt="" loading="lazy"><figcaption><b>Художниця</b><span>Artist · artist · b09-05</span></figcaption></figure>
+<figure class=""><img src="../images/knight.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лицар</b><span>Knight · knight · b09-06</span></figcaption></figure>
+<figure class=""><img src="../images/mail_carrier.png?1791053959634" alt="" loading="lazy"><figcaption><b>Листоноша</b><span>Mail carrier · mail_carrier · b09-06</span></figcaption></figure>
+<figure class=""><img src="../images/cowboy.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ковбой</b><span>Cowboy · cowboy · b09-06</span></figcaption></figure>
+<figure class=""><img src="../images/ballerina.png?1791053959634" alt="" loading="lazy"><figcaption><b>Балерина</b><span>Ballerina · ballerina · b09-06</span></figcaption></figure>
+<figure class=""><img src="../images/diver.png?1791053959634" alt="" loading="lazy"><figcaption><b>Водолаз</b><span>Diver · diver · b09-06</span></figcaption></figure>
+<figure class=""><img src="../images/sailor.png?1791053959634" alt="" loading="lazy"><figcaption><b>Моряк</b><span>Sailor · sailor · b09-06</span></figcaption></figure>
+<figure class=""><img src="../images/driver.png?1791053959634" alt="" loading="lazy"><figcaption><b>Водій</b><span>Driver · driver · b09-07</span></figcaption></figure>
+<figure class=""><img src="../images/superhero.png?1791053959634" alt="" loading="lazy"><figcaption><b>Супергерой</b><span>Superhero · superhero · b09-07</span></figcaption></figure>
+<figure class=""><img src="../images/gnome.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гном</b><span>Gnome · gnome · b09-07</span></figcaption></figure>
+<figure class=""><img src="../images/nurse.png?1791053959634" alt="" loading="lazy"><figcaption><b>Медсестра</b><span>Nurse · nurse · b09-07</span></figcaption></figure>
+<figure class=""><img src="../images/baker.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пекар</b><span>Baker · baker · b09-07</span></figcaption></figure>
+<figure class=""><img src="../images/singer.png?1791053959634" alt="" loading="lazy"><figcaption><b>Співачка</b><span>Singer · singer · b09-07</span></figcaption></figure>
+<figure class=""><img src="../images/soccer_player.png?1791053959634" alt="" loading="lazy"><figcaption><b>Футболіст</b><span>Soccer player · soccer_player · b09-08</span></figcaption></figure>
+<figure class=""><img src="../images/juggler.png?1791053959634" alt="" loading="lazy"><figcaption><b>Жонглер</b><span>Juggler · juggler · b09-08</span></figcaption></figure>
+<figure class=""><img src="../images/prince.png?1791053959634" alt="" loading="lazy"><figcaption><b>Принц</b><span>Prince · prince · b09-08</span></figcaption></figure>
+<figure class=""><img src="../images/ninja.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ніндзя</b><span>Ninja · ninja · b09-08</span></figcaption></figure>
+<figure class=""><img src="../images/hairdresser.png?1791053959634" alt="" loading="lazy"><figcaption><b>Перукарка</b><span>Hairdresser · hairdresser · b09-08</span></figcaption></figure>
+<figure class=""><img src="../images/gardener.png?1791053959634" alt="" loading="lazy"><figcaption><b>Садівник</b><span>Gardener · gardener · b09-08</span></figcaption></figure>
+<figure class=""><img src="../images/photographer.png?1791053959634" alt="" loading="lazy"><figcaption><b>Фотограф</b><span>Photographer · photographer · b09-09</span></figcaption></figure>
+<figure class=""><img src="../images/scientist.png?1791053959634" alt="" loading="lazy"><figcaption><b>Вчений</b><span>Scientist · scientist · b09-09</span></figcaption></figure>
+<figure class=""><img src="../images/detective.png?1791053959634" alt="" loading="lazy"><figcaption><b>Детектив</b><span>Detective · detective · b09-09</span></figcaption></figure>
+<figure class=""><img src="../images/captain.png?1791053959634" alt="" loading="lazy"><figcaption><b>Капітан</b><span>Captain · captain · b09-09</span></figcaption></figure>
+<figure class=""><img src="../images/waiter.png?1791053959634" alt="" loading="lazy"><figcaption><b>Офіціант</b><span>Waiter · waiter · b09-09</span></figcaption></figure>
+<figure class=""><img src="../images/mechanic.png?1791053959634" alt="" loading="lazy"><figcaption><b>Механік</b><span>Mechanic · mechanic · b09-09</span></figcaption></figure>
+<figure class=""><img src="../images/saw.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пилка</b><span>Saw · saw · b09-10</span></figcaption></figure>
+<figure class=""><img src="../images/nail.png?1791053959634" alt="" loading="lazy"><figcaption><b>Цвях</b><span>Nail · nail · b09-10</span></figcaption></figure>
+<figure class=""><img src="../images/screwdriver.png?1791053959634" alt="" loading="lazy"><figcaption><b>Викрутка</b><span>Screwdriver · screwdriver · b09-10</span></figcaption></figure>
+<figure class=""><img src="../images/rake.png?1791053959634" alt="" loading="lazy"><figcaption><b>Граблі</b><span>Rake · rake · b09-10</span></figcaption></figure>
+<figure class=""><img src="../images/wheelbarrow.png?1791053959634" alt="" loading="lazy"><figcaption><b>Тачка</b><span>Wheelbarrow · wheelbarrow · b09-10</span></figcaption></figure>
+<figure class=""><img src="../images/magnet.png?1791053959634" alt="" loading="lazy"><figcaption><b>Магніт</b><span>Magnet · magnet · b09-10</span></figcaption></figure>
+<figure class=""><img src="../images/rope.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мотузка</b><span>Rope · rope · b09-11</span></figcaption></figure>
+<figure class=""><img src="../images/scale.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ваги</b><span>Scale · scale · b09-11</span></figcaption></figure>
+<figure class=""><img src="../images/brick.png?1791053959634" alt="" loading="lazy"><figcaption><b>Цеглина</b><span>Brick · brick · b09-11</span></figcaption></figure>
+<figure class=""><img src="../images/toolbox.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ящик з інструментами</b><span>Toolbox · toolbox · b09-11</span></figcaption></figure>
+<figure class=""><img src="../images/paint_roller.png?1791053959634" alt="" loading="lazy"><figcaption><b>Валик</b><span>Paint roller · paint_roller · b09-11</span></figcaption></figure>
+<figure class=""><img src="../images/drill.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дриль</b><span>Drill · drill · b09-11</span></figcaption></figure>
+<figure class=""><img src="../images/tape_measure.png?1791053959634" alt="" loading="lazy"><figcaption><b>Рулетка</b><span>Tape measure · tape_measure · b09-12</span></figcaption></figure>
+<figure class=""><img src="../images/needle.png?1791053959634" alt="" loading="lazy"><figcaption><b>Голка</b><span>Needle · needle · b09-12</span></figcaption></figure>
+<figure class=""><img src="../images/chain.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ланцюг</b><span>Chain · chain · b09-12</span></figcaption></figure>
+<figure class=""><img src="../images/hook.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гачок</b><span>Hook · hook · b09-12</span></figcaption></figure>
+<figure class=""><img src="../images/axe.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сокира</b><span>Axe · axe · b09-12</span></figcaption></figure>
+<figure class=""><img src="../images/pliers.png?1791053959634" alt="" loading="lazy"><figcaption><b>Плоскогубці</b><span>Pliers · pliers · b09-12</span></figcaption></figure>
+<figure class=""><img src="../images/screw.png?1791053959634" alt="" loading="lazy"><figcaption><b>Шуруп</b><span>Screw · screw · b09-13</span></figcaption></figure>
+<figure class=""><img src="../images/lawn_mower.png?1791053959634" alt="" loading="lazy"><figcaption><b>Газонокосарка</b><span>Lawn mower · lawn_mower · b09-13</span></figcaption></figure>
+<figure class=""><img src="../images/glue.png?1791053959634" alt="" loading="lazy"><figcaption><b>Клей</b><span>Glue · glue · b09-13</span></figcaption></figure>
+<figure class=""><img src="../images/ruler.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лінійка</b><span>Ruler · ruler · b09-13</span></figcaption></figure>
+<figure class=""><img src="../images/eraser.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гумка</b><span>Eraser · eraser · b09-13</span></figcaption></figure>
+<figure class=""><img src="../images/chalk.png?1791053959634" alt="" loading="lazy"><figcaption><b>Крейда</b><span>Chalk · chalk · b09-13</span></figcaption></figure>
+<figure class=""><img src="../images/blackboard.png?1791053959634" alt="" loading="lazy"><figcaption><b>Дошка</b><span>Blackboard · blackboard · b09-14</span></figcaption></figure>
+<figure class=""><img src="../images/map.png?1791053959634" alt="" loading="lazy"><figcaption><b>Карта</b><span>Map · map · b09-14</span></figcaption></figure>
+<figure class=""><img src="../images/sharpener.png?1791053959634" alt="" loading="lazy"><figcaption><b>Точилка</b><span>Sharpener · sharpener · b09-14</span></figcaption></figure>
+<figure class=""><img src="../images/magnifying_glass.png?1791053959634" alt="" loading="lazy"><figcaption><b>Лупа</b><span>Magnifying glass · magnifying_glass · b09-14</span></figcaption></figure>
+<figure class=""><img src="../images/marker.png?1791053959634" alt="" loading="lazy"><figcaption><b>Фломастер</b><span>Marker · marker · b09-14</span></figcaption></figure>
+<figure class=""><img src="../images/desk.png?1791053959634" alt="" loading="lazy"><figcaption><b>Парта</b><span>Desk · desk · b09-14</span></figcaption></figure>
+<figure class=""><img src="../images/microscope.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мікроскоп</b><span>Microscope · microscope · b09-15</span></figcaption></figure>
+<figure class=""><img src="../images/calendar.png?1791053959634" alt="" loading="lazy"><figcaption><b>Календар</b><span>Calendar · calendar · b09-15</span></figcaption></figure>
+<figure class=""><img src="../images/pencil_case.png?1791053959634" alt="" loading="lazy"><figcaption><b>Пенал</b><span>Pencil case · pencil_case · b09-15</span></figcaption></figure>
+<figure class=""><img src="../images/abacus.png?1791053959634" alt="" loading="lazy"><figcaption><b>Рахівниця</b><span>Abacus · abacus · b09-15</span></figcaption></figure>
+<figure class=""><img src="../images/newspaper.png?1791053959634" alt="" loading="lazy"><figcaption><b>Газета</b><span>Newspaper · newspaper · b09-15</span></figcaption></figure>
+<figure class=""><img src="../images/palette.png?1791053959634" alt="" loading="lazy"><figcaption><b>Палітра</b><span>Palette · palette · b09-15</span></figcaption></figure>
+<figure class=""><img src="../images/tape.png?1791053959634" alt="" loading="lazy"><figcaption><b>Скотч</b><span>Tape · tape · b09-16</span></figcaption></figure>
+<figure class=""><img src="../images/stapler.png?1791053959634" alt="" loading="lazy"><figcaption><b>Степлер</b><span>Stapler · stapler · b09-16</span></figcaption></figure>
+<figure class=""><img src="../images/paper_clip.png?1791053959634" alt="" loading="lazy"><figcaption><b>Скріпка</b><span>Paper clip · paper_clip · b09-16</span></figcaption></figure>
+<figure class=""><img src="../images/crayons.png?1791053959634" alt="" loading="lazy"><figcaption><b>Воскові олівці</b><span>Crayons · crayons · b09-16</span></figcaption></figure>
+<figure class=""><img src="../images/paper.png?1791053959634" alt="" loading="lazy"><figcaption><b>Папір</b><span>Paper · paper · b09-16</span></figcaption></figure>
+<figure class=""><img src="../images/stamp.png?1791053959634" alt="" loading="lazy"><figcaption><b>Марка</b><span>Stamp · stamp · b09-16</span></figcaption></figure>
+<figure class=""><img src="../images/postcard.png?1791053959634" alt="" loading="lazy"><figcaption><b>Листівка</b><span>Postcard · postcard · b09-17</span></figcaption></figure>
+<figure class=""><img src="../images/violin.png?1791053959634" alt="" loading="lazy"><figcaption><b>Скрипка</b><span>Violin · violin · b09-17</span></figcaption></figure>
+<figure class=""><img src="../images/flute.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сопілка</b><span>Flute · flute · b09-17</span></figcaption></figure>
+<figure class=""><img src="../images/accordion.png?1791053959634" alt="" loading="lazy"><figcaption><b>Акордеон</b><span>Accordion · accordion · b09-17</span></figcaption></figure>
+<figure class=""><img src="../images/xylophone.png?1791053959634" alt="" loading="lazy"><figcaption><b>Ксилофон</b><span>Xylophone · xylophone · b09-17</span></figcaption></figure>
+<figure class=""><img src="../images/music_note.png?1791053959634" alt="" loading="lazy"><figcaption><b>Нота</b><span>Music note · music_note · b09-17</span></figcaption></figure>
+<figure class=""><img src="../images/tambourine.png?1791053959634" alt="" loading="lazy"><figcaption><b>Бубон</b><span>Tambourine · tambourine · b09-18</span></figcaption></figure>
+<figure class=""><img src="../images/maracas.png?1791053959634" alt="" loading="lazy"><figcaption><b>Маракаси</b><span>Maracas · maracas · b09-18</span></figcaption></figure>
+<figure class=""><img src="../images/saxophone.png?1791053959634" alt="" loading="lazy"><figcaption><b>Саксофон</b><span>Saxophone · saxophone · b09-18</span></figcaption></figure>
+<figure class=""><img src="../images/harmonica.png?1791053959634" alt="" loading="lazy"><figcaption><b>Губна гармошка</b><span>Harmonica · harmonica · b09-18</span></figcaption></figure>
+<figure class=""><img src="../images/gong.png?1791053959634" alt="" loading="lazy"><figcaption><b>Гонг</b><span>Gong · gong · b09-18</span></figcaption></figure>
+<figure class=""><img src="../images/record.png?1791053959634" alt="" loading="lazy"><figcaption><b>Платівка</b><span>Record · record · b09-18</span></figcaption></figure>
+<figure class=""><img src="../images/family.png?1791053959634" alt="" loading="lazy"><figcaption><b>Сім'я</b><span>Family · family · b09-19</span></figcaption></figure>
+<figure class=""><img src="../images/cable_car.png?1791053959634" alt="" loading="lazy"><figcaption><b>Канатна дорога</b><span>Cable car · cable_car · b09-19</span></figcaption></figure>
+<figure class=""><img src="../images/hot_air_balloon.png?1791053959634" alt="" loading="lazy"><figcaption><b>Повітряна куля</b><span>Hot air balloon · hot_air_balloon · b09-19</span></figcaption></figure>
+<figure class=""><img src="../images/crane.png?1791053959634" alt="" loading="lazy"><figcaption><b>Підйомний кран</b><span>Crane · crane · b09-19</span></figcaption></figure>
+<figure class=""><img src="../images/easel.png?1791053959634" alt="" loading="lazy"><figcaption><b>Мольберт</b><span>Easel · easel · b09-20</span></figcaption></figure>
+<figure class=""><img src="../images/harp.png?1791053959634" alt="" loading="lazy"><figcaption><b>Арфа</b><span>Harp · harp · b09-20</span></figcaption></figure>
+<figure class=""><img src="../images/cello.png?1791053959634" alt="" loading="lazy"><figcaption><b>Віолончель</b><span>Cello · cello · b09-20</span></figcaption></figure>
+<figure class=""><img src="../images/tuba.png?1791053959634" alt="" loading="lazy"><figcaption><b>Туба</b><span>Tuba · tuba · b09-20</span></figcaption></figure>
+</main></body></html>

@@ -1,10 +1,12 @@
-# Безкоштовні 100 карток: промпти для ChatGPT
+# Партія 01 · рівень 1 · перша сотня: промпти для ChatGPT
 
 17 сіток: 16 по 6 предметів (3×2) і остання на 4 (2×2). Порядок у списку = порядок у сітці (рядками, зліва направо) = `sheets.csv`. Не змінюйте порядок: за ним скрипт нарізки називає картинки.
 
+Сітки цієї партії називаються `b01-NN`. Їх зберігати як `generation/sheets/b01-NN.png`.
+
 ## Крок 1. Вибір стилю
 
-Відкрийте два окремі чати і в кожному згенеруйте `sheet-01` своїм стилем. Порівняйте на телефоні, покажіть дитині, оберіть.
+Відкрийте два окремі чати і в кожному згенеруйте `b01-01` своїм стилем. Порівняйте на телефоні, покажіть дитині, оберіть.
 
 ### Чат A
 
@@ -46,9 +48,9 @@ Layout: a wide 3:2 image with a grid of 3 columns and 2 rows. Exactly 6 separate
 
 Продовжуйте **в тому самому чаті**, де вийшов обраний стиль: ChatGPT пам'ятає стиль і правила з попередніх повідомлень. Кожна наступна сітка — окреме повідомлення нижче. Якщо стиль почав «пливти», почніть новий чат: вставте блок стилю, прикріпіть першу вдалу сітку й напишіть «Match this style exactly».
 
-### sheet-02 — курка, качка, кролик, миша, черепаха, ведмідь
+### b01-02 — курка, качка, кролик, миша, черепаха, ведмідь
 
-Зберегти як `generation/sheets/sheet-02.png`
+Зберегти як `generation/sheets/b01-02.png`
 
 ```
 Next sprite sheet. Same style and the same layout rules as before: 6 items in the exact order, one per cell, same size, transparent or white background, no text.
@@ -62,9 +64,9 @@ Items, in order:
 6. bear — a brown bear standing on four legs
 ```
 
-### sheet-03 — вовк, лисиця, їжак, білка, лев, тигр
+### b01-03 — вовк, лисиця, їжак, білка, лев, тигр
 
-Зберегти як `generation/sheets/sheet-03.png`
+Зберегти як `generation/sheets/b01-03.png`
 
 ```
 Next sprite sheet. Same style and the same layout rules as before: 6 items in the exact order, one per cell, same size, transparent or white background, no text.
@@ -78,9 +80,9 @@ Items, in order:
 6. tiger — an orange tiger with black stripes
 ```
 
-### sheet-04 — зебра, мавпа, жаба, пінгвін, сова, кит
+### b01-04 — зебра, мавпа, жаба, пінгвін, сова, кит
 
-Зберегти як `generation/sheets/sheet-04.png`
+Зберегти як `generation/sheets/b01-04.png`
 
 ```
 Next sprite sheet. Same style and the same layout rules as before: 6 items in the exact order, one per cell, same size, transparent or white background, no text.
@@ -94,9 +96,9 @@ Items, in order:
 6. whale — a blue whale with a water spout
 ```
 
-### sheet-05 — риба, метелик, бджола, сонечко, равлик, сонце
+### b01-05 — риба, метелик, бджола, сонечко, равлик, сонце
 
-Зберегти як `generation/sheets/sheet-05.png`
+Зберегти як `generation/sheets/b01-05.png`
 
 ```
 Next sprite sheet. Same style and the same layout rules as before: 6 items in the exact order, one per cell, same size, transparent or white background, no text.
@@ -110,9 +112,9 @@ Items, in order:
 6. sun — a smiling yellow sun with rays
 ```
 
-### sheet-06 — місяць, зірка, хмара, веселка, дерево, квітка
+### b01-06 — місяць, зірка, хмара, веселка, дерево, квітка
 
-Зберегти як `generation/sheets/sheet-06.png`
+Зберегти як `generation/sheets/b01-06.png`
 
 ```
 Next sprite sheet. Same style and the same layout rules as before: 6 items in the exact order, one per cell, same size, transparent or white background, no text.
@@ -126,9 +128,9 @@ Items, in order:
 6. flower — a red flower with a stem and leaves
 ```
 
-### sheet-07 — яблуко, банан, груша, апельсин, виноград, полуниця
+### b01-07 — яблуко, банан, груша, апельсин, виноград, полуниця
 
-Зберегти як `generation/sheets/sheet-07.png`
+Зберегти як `generation/sheets/b01-07.png`
 
 ```
 Next sprite sheet. Same style and the same layout rules as before: 6 items in the exact order, one per cell, same size, transparent or white background, no text.
@@ -142,9 +144,9 @@ Items, in order:
 6. strawberry — a red strawberry
 ```
 
-### sheet-08 — кавун, морква, помідор, огірок, кукурудза, гарбуз
+### b01-08 — кавун, морква, помідор, огірок, кукурудза, гарбуз
 
-Зберегти як `generation/sheets/sheet-08.png`
+Зберегти як `generation/sheets/b01-08.png`
 
 ```
 Next sprite sheet. Same style and the same layout rules as before: 6 items in the exact order, one per cell, same size, transparent or white background, no text.
@@ -158,9 +160,9 @@ Items, in order:
 6. pumpkin — an orange pumpkin
 ```
 
-### sheet-09 — гриб, хліб, яйце, сир, молоко, піца
+### b01-09 — гриб, хліб, яйце, сир, молоко, піца
 
-Зберегти як `generation/sheets/sheet-09.png`
+Зберегти як `generation/sheets/b01-09.png`
 
 ```
 Next sprite sheet. Same style and the same layout rules as before: 6 items in the exact order, one per cell, same size, transparent or white background, no text.
@@ -174,9 +176,9 @@ Items, in order:
 6. pizza — a round pizza
 ```
 
-### sheet-10 — торт, цукерка, морозиво, будинок, чашка, ложка
+### b01-10 — торт, цукерка, морозиво, будинок, чашка, ложка
 
-Зберегти як `generation/sheets/sheet-10.png`
+Зберегти як `generation/sheets/b01-10.png`
 
 ```
 Next sprite sheet. Same style and the same layout rules as before: 6 items in the exact order, one per cell, same size, transparent or white background, no text.
@@ -190,9 +192,9 @@ Items, in order:
 6. spoon — a metal spoon
 ```
 
-### sheet-11 — тарілка, стіл, стілець, ліжко, лампа, годинник
+### b01-11 — тарілка, стіл, стілець, ліжко, лампа, годинник
 
-Зберегти як `generation/sheets/sheet-11.png`
+Зберегти як `generation/sheets/b01-11.png`
 
 ```
 Next sprite sheet. Same style and the same layout rules as before: 6 items in the exact order, one per cell, same size, transparent or white background, no text.
@@ -206,9 +208,9 @@ Items, in order:
 6. clock — a round wall clock
 ```
 
-### sheet-12 — вікно, двері, ключ, зубна щітка, мило, телефон
+### b01-12 — вікно, двері, ключ, зубна щітка, мило, телефон
 
-Зберегти як `generation/sheets/sheet-12.png`
+Зберегти як `generation/sheets/b01-12.png`
 
 ```
 Next sprite sheet. Same style and the same layout rules as before: 6 items in the exact order, one per cell, same size, transparent or white background, no text.
@@ -222,9 +224,9 @@ Items, in order:
 6. phone — a smartphone
 ```
 
-### sheet-13 — телевізор, шапка, шкарпетки, чоботи, окуляри, парасолька
+### b01-13 — телевізор, шапка, шкарпетки, чоботи, окуляри, парасолька
 
-Зберегти як `generation/sheets/sheet-13.png`
+Зберегти як `generation/sheets/b01-13.png`
 
 ```
 Next sprite sheet. Same style and the same layout rules as before: 6 items in the exact order, one per cell, same size, transparent or white background, no text.
@@ -238,9 +240,9 @@ Items, in order:
 6. umbrella — an open umbrella
 ```
 
-### sheet-14 — рюкзак, м'яч, кулька, лялька, ведмедик, повітряний змій
+### b01-14 — рюкзак, м'яч, кулька, лялька, ведмедик, повітряний змій
 
-Зберегти як `generation/sheets/sheet-14.png`
+Зберегти як `generation/sheets/b01-14.png`
 
 ```
 Next sprite sheet. Same style and the same layout rules as before: 6 items in the exact order, one per cell, same size, transparent or white background, no text.
@@ -254,9 +256,9 @@ Items, in order:
 6. kite — a diamond kite with a tail
 ```
 
-### sheet-15 — олівець, книжка, барабан, гітара, рука, серце
+### b01-15 — олівець, книжка, барабан, гітара, рука, серце
 
-Зберегти як `generation/sheets/sheet-15.png`
+Зберегти як `generation/sheets/b01-15.png`
 
 ```
 Next sprite sheet. Same style and the same layout rules as before: 6 items in the exact order, one per cell, same size, transparent or white background, no text.
@@ -270,9 +272,9 @@ Items, in order:
 6. heart — a red heart shape
 ```
 
-### sheet-16 — подарунок, машина, автобус, потяг, літак, корабель
+### b01-16 — подарунок, машина, автобус, потяг, літак, корабель
 
-Зберегти як `generation/sheets/sheet-16.png`
+Зберегти як `generation/sheets/b01-16.png`
 
 ```
 Next sprite sheet. Same style and the same layout rules as before: 6 items in the exact order, one per cell, same size, transparent or white background, no text.
@@ -286,9 +288,9 @@ Items, in order:
 6. ship — a big ship
 ```
 
-### sheet-17 — велосипед, трактор, ракета, сніговик
+### b01-17 — велосипед, трактор, ракета, сніговик
 
-Зберегти як `generation/sheets/sheet-17.png`
+Зберегти як `generation/sheets/b01-17.png`
 
 ```
 Next sprite sheet. Same style and the same layout rules as before: 4 items in the exact order, one per cell, same size, transparent or white background, no text. This time a square image with a 2×2 grid.
@@ -299,3 +301,11 @@ Items, in order:
 3. rocket — a space rocket
 4. snowman — a snowman with a carrot nose
 ```
+
+## Крок 3. Нарізка
+
+```
+npm run split -- generation/batch-01
+```
+
+Перевірте `generation/batch-01/review.html` і загальний `generation/review.html`. Злиплі через межу клітинки предмети скрипт розріже сам. Бракований предмет — перегенерувати окремо («Draw only item N again, same style, alone on a white background»), зберегти як `generation/sheets/fix-<id>.png` і перезапустити нарізку з `--sheet b01-NN`.

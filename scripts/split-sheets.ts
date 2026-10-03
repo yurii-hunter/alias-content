@@ -1,11 +1,12 @@
 // Ріже згенеровані сітки на окремі картинки карток.
-//   node scripts/split-sheets.ts generation/free-100 [--sheet sheet-05]
+//   node scripts/split-sheets.ts generation/batch-01 [--sheet b01-05]
 //
 // Читає <партія>/sheets.csv (sheet,row,col,index,id), бере generation/sheets/<sheet>.png|webp|jpg,
 // знаходить предмети на прозорому або білому тлі, кожен обрізає, центрує на квадраті й зберігає
 // images/<id>.png (1024 px, прозоре тло). Окремо перегенерований предмет кладеться як
 // generation/sheets/fix-<id>.png і має пріоритет над сіткою.
-// Наприкінці пише <партія>/review.html — контрольний аркуш «картинка + слово».
+// Наприкінці пише <партія>/review.html — контрольний аркуш «картинка + слово» — і оновлює
+// загальний generation/review.html з усіма партіями.
 import { access, readFile, writeFile, mkdir } from 'node:fs/promises';
 import { join, relative } from 'node:path';
 import { parseArgs } from 'node:util';
@@ -13,13 +14,13 @@ import { parseArgs } from 'node:util';
 import { parse } from 'csv-parse/sync';
 import sharp from 'sharp';
 
+import { renderReview, readWords, writeOverallReview, IMAGES_DIR } from './lib/review.ts';
 import { assignToCells, cutout, findComponents, foregroundMask, splitNecks, type Box } from './lib/sheet.ts';
 
 const OUT_SIZE = 1024;
 /** Яку частку квадрата займає більша сторона предмета. */
 const FILL = 0.86;
 const SHEETS_DIR = 'generation/sheets';
-const IMAGES_DIR = 'images';
 
 const { values: args, positionals } = parseArgs({
   allowPositionals: true,
@@ -27,7 +28,7 @@ const { values: args, positionals } = parseArgs({
 });
 const batchDir = positionals[0];
 if (!batchDir) {
-  console.error('Використання: node scripts/split-sheets.ts <папка партії, напр. generation/free-100> [--sheet sheet-05]');
+  console.error('Використання: node scripts/split-sheets.ts <папка партії, напр. generation/batch-01> [--sheet b01-05]');
   process.exit(2);
 }
 
@@ -100,9 +101,7 @@ async function main() {
   const slots: Slot[] = parse(await readFile(join(batchDir, 'sheets.csv'), 'utf8'), { columns: true, skip_empty_lines: true, bom: true }).map(
     (r: Record<string, string>) => ({ sheet: r.sheet, row: Number(r.row), col: Number(r.col), index: Number(r.index), id: r.id }),
   );
-  const words: Record<string, Record<string, string>> = Object.fromEntries(
-    parse(await readFile('words.csv', 'utf8'), { columns: true, skip_empty_lines: true, bom: true }).map((r: Record<string, string>) => [r.id, r]),
-  );
+  const words = await readWords();
   await mkdir(IMAGES_DIR, { recursive: true });
 
   const bySheet = new Map<string, Slot[]>();
@@ -154,48 +153,32 @@ async function main() {
   }
 
   await writeReview(results, words);
+  const overall = await writeOverallReview();
 
   const written = results.filter((r) => r.written).length;
   const flagged = results.filter((r) => r.problems.length);
   console.log(`Збережено ${written} з ${results.length} картинок у ${IMAGES_DIR}/.`);
   for (const r of flagged) console.log(`  ! ${r.id} (${r.sheet}): ${r.problems.join('; ')}`);
   console.log(`Контрольний аркуш: ${join(batchDir, 'review.html')}`);
-}
-
-function escape(text: string): string {
-  return text.replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[ch]!);
+  console.log(`Загальний аркуш: ${overall}`);
 }
 
 async function writeReview(results: Result[], words: Record<string, Record<string, string>>) {
   const imgRel = relative(batchDir, IMAGES_DIR);
   const stamp = Date.now();
-  const tiles = results
-    .map((r) => {
-      const w = words[r.id] ?? {};
-      const img = r.written ? `<img src="${imgRel}/${r.id}.png?${stamp}" alt="">` : '<div class="missing">немає</div>';
-      const problems = r.problems.map((p) => `<li>${escape(p)}</li>`).join('');
-      return `<figure class="${r.problems.length ? 'flag' : ''}">${img}<figcaption><b>${escape(w.uk ?? r.id)}</b><span>${escape(w.en ?? '')} · ${escape(r.id)} · ${escape(r.sheet)}</span>${problems ? `<ul>${problems}</ul>` : ''}</figcaption></figure>`;
-    })
-    .join('\n');
-  const html = `<!doctype html>
-<html lang="uk"><head><meta charset="utf-8"><title>Перевірка картинок · ${escape(batchDir)}</title>
-<style>
-body{margin:0;padding:24px;font-family:system-ui,sans-serif;background:#FFF8EC;color:#1E1B2E}
-h1{font-size:20px;margin:0 0 4px}p{margin:0 0 20px;color:#5E5A6B}
-main{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px}
-figure{margin:0;background:#fff;border:2px solid #EADFCB;border-radius:20px;padding:12px;display:flex;flex-direction:column;align-items:center}
-figure.flag{border-color:#D13B2F}
-img{width:150px;height:150px;object-fit:contain}
-.missing{width:150px;height:150px;display:flex;align-items:center;justify-content:center;color:#D13B2F}
-figcaption{text-align:center;margin-top:8px}b{display:block;font-size:18px}span{font-size:12px;color:#5E5A6B}
-ul{margin:6px 0 0;padding:0;list-style:none;color:#D13B2F;font-size:12px}
-</style></head><body>
-<h1>Перевірка картинок: ${escape(batchDir)}</h1>
-<p>${results.length} карток. Червона рамка — скрипт знайшов проблему. Решту перевірте очима: чи впізнається предмет і чи відповідає слову.</p>
-<main>
-${tiles}
-</main></body></html>
-`;
+  const tiles = results.map((r) => ({
+    id: r.id,
+    sheet: r.sheet,
+    uk: words[r.id]?.uk ?? '',
+    en: words[r.id]?.en ?? '',
+    image: r.written ? `${imgRel}/${r.id}.png?${stamp}` : null,
+    problems: r.problems,
+  }));
+  const html = renderReview({
+    title: `Перевірка картинок: ${batchDir}`,
+    intro: `${results.length} карток. Червона рамка — скрипт знайшов проблему. Решту перевірте очима: чи впізнається предмет і чи відповідає слову.`,
+    tiles,
+  });
   await writeFile(join(batchDir, 'review.html'), html);
 }
 
