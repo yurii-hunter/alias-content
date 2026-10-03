@@ -1,5 +1,5 @@
 // Збирає cards.csv + images/*.png у статичні файли для CDN (dist/) і додає сторінки privacy/ та support/.
-//   node scripts/build.ts [--published <url маніфесту>] [--allow-partial-free] [--out dist]
+//   node scripts/build.ts [--published <url маніфесту>] [--out dist]
 import { cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { parseArgs } from 'node:util';
@@ -17,7 +17,6 @@ const WEBP_QUALITY = 80;
 const { values: args } = parseArgs({
   options: {
     published: { type: 'string' },
-    'allow-partial-free': { type: 'boolean', default: false },
     out: { type: 'string', default: 'dist' },
   },
 });
@@ -42,7 +41,7 @@ async function main() {
   const { cards, errors } = validateSheet(sheet, {
     imageIds,
     publishedLocales: published,
-    requireFreeCount: !args['allow-partial-free'],
+    requireFreeCount: true,
   });
   const allErrors = [...csvErrors, ...errors];
   if (allErrors.length > 0) {

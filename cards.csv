@@ -713,3 +713,119 @@ zoo,full,,Зоопарк,Zoo,Zoo,Zoo,Zoo,Zoo
 farm,full,,Ферма,Farm,Bauernhof,Farma,Granja,Ferme
 tunnel,full,,Тунель,Tunnel,Tunnel,Tunel,Túnel,Tunnel
 playground,full,,Дитячий майданчик,Playground,Spielplatz,Plac zabaw,Parque infantil,Aire de jeux
+sailboat,full,,Вітрильник,Sailboat,Segelboot,Żaglówka,Velero,Voilier
+taxi,full,,Таксі,Taxi,Taxi,Taksówka,Taxi,Taxi
+tram,full,,Трамвай,Tram,Straßenbahn,Tramwaj,Tranvía,Tramway
+submarine,full,,Підводний човен,Submarine,U-Boot,Łódź podwodna,Submarino,Sous-marin
+skateboard,full,,Скейтборд,Skateboard,Skateboard,Deskorolka,Monopatín,Skateboard
+parachute,full,,Парашут,Parachute,Fallschirm,Spadochron,Paracaídas,Parachute
+anchor,full,,Якір,Anchor,Anker,Kotwica,Ancla,Ancre
+garbage_truck,full,,Сміттєвоз,Garbage truck,Müllauto,Śmieciarka,Camión de basura,Camion-poubelle
+cement_mixer,full,,Бетономішалка,Cement mixer,Betonmischer,Betoniarka,Hormigonera,Bétonnière
+bulldozer,full,,Бульдозер,Bulldozer,Planierraupe,Spychacz,Bulldozer,Bulldozer
+race_car,full,,Гоночна машина,Race car,Rennauto,Wyścigówka,Coche de carreras,Voiture de course
+steering_wheel,full,,Кермо,Steering wheel,Lenkrad,Kierownica,Volante,Volant
+canoe,full,,Каное,Canoe,Kanu,Kanadyjka,Canoa,Canoë
+raft,full,,Пліт,Raft,Floß,Tratwa,Balsa,Radeau
+ticket,full,,Квиток,Ticket,Fahrkarte,Bilet,Billete,Billet
+compass,full,,Компас,Compass,Kompass,Kompas,Brújula,Boussole
+dump_truck,full,,Самоскид,Dump truck,Kipper,Wywrotka,Volquete,Camion benne
+snowmobile,full,,Снігохід,Snowmobile,Schneemobil,Skuter śnieżny,Moto de nieve,Motoneige
+steam_train,full,,Паровоз,Steam train,Dampflok,Parowóz,Locomotora de vapor,Locomotive à vapeur
+carriage,full,,Карета,Carriage,Kutsche,Kareta,Carruaje,Carrosse
+traffic_cone,full,,Конус,Traffic cone,Leitkegel,Pachołek,Cono,Cône
+road_sign,full,,Дорожній знак,Road sign,Verkehrsschild,Znak drogowy,Señal de tráfico,Panneau
+airship,full,,Дирижабль,Airship,Luftschiff,Sterowiec,Dirigible,Dirigeable
+tricycle,full,,Триколісний велосипед,Tricycle,Dreirad,Rowerek trójkołowy,Triciclo,Tricycle
+shopping_cart,full,,Візок для покупок,Shopping cart,Einkaufswagen,Wózek sklepowy,Carrito de la compra,Chariot
+paddle,full,,Весло,Paddle,Paddel,Wiosło,Remo,Pagaie
+police_officer,full,,Поліцейський,Police officer,Polizist,Policjant,Policía,Policier
+builder,full,,Будівельник,Builder,Bauarbeiter,Budowlaniec,Albañil,Maçon
+farmer,full,,Фермер,Farmer,Bauer,Rolnik,Granjero,Fermier
+artist,full,,Художниця,Artist,Malerin,Malarka,Pintora,Peintre
+knight,full,,Лицар,Knight,Ritter,Rycerz,Caballero,Chevalier
+mail_carrier,full,,Листоноша,Mail carrier,Postbote,Listonosz,Cartero,Facteur
+cowboy,full,,Ковбой,Cowboy,Cowboy,Kowboj,Vaquero,Cow-boy
+ballerina,full,,Балерина,Ballerina,Ballerina,Baletnica,Bailarina,Ballerine
+diver,full,,Водолаз,Diver,Taucher,Nurek,Buzo,Plongeur
+sailor,full,,Моряк,Sailor,Matrose,Marynarz,Marinero,Marin
+driver,full,,Водій,Driver,Fahrer,Kierowca,Conductor,Conducteur
+superhero,full,,Супергерой,Superhero,Superheld,Superbohater,Superhéroe,Super-héros
+gnome,full,,Гном,Gnome,Zwerg,Krasnal,Gnomo,Gnome
+nurse,full,,Медсестра,Nurse,Krankenschwester,Pielęgniarka,Enfermera,Infirmière
+baker,full,,Пекар,Baker,Bäcker,Piekarz,Panadero,Boulanger
+singer,full,,Співачка,Singer,Sängerin,Piosenkarka,Cantante,Chanteuse
+soccer_player,full,,Футболіст,Soccer player,Fußballspieler,Piłkarz,Futbolista,Footballeur
+juggler,full,,Жонглер,Juggler,Jongleur,Żongler,Malabarista,Jongleur
+prince,full,,Принц,Prince,Prinz,Książę,Príncipe,Prince
+ninja,full,,Ніндзя,Ninja,Ninja,Ninja,Ninja,Ninja
+hairdresser,full,,Перукарка,Hairdresser,Friseurin,Fryzjerka,Peluquera,Coiffeuse
+gardener,full,,Садівник,Gardener,Gärtner,Ogrodnik,Jardinero,Jardinier
+photographer,full,,Фотограф,Photographer,Fotograf,Fotograf,Fotógrafo,Photographe
+scientist,full,,Вчений,Scientist,Wissenschaftler,Naukowiec,Científico,Scientifique
+detective,full,,Детектив,Detective,Detektiv,Detektyw,Detective,Détective
+captain,full,,Капітан,Captain,Kapitän,Kapitan,Capitán,Capitaine
+waiter,full,,Офіціант,Waiter,Kellner,Kelner,Camarero,Serveur
+mechanic,full,,Механік,Mechanic,Mechaniker,Mechanik,Mecánico,Mécanicien
+saw,full,,Пилка,Saw,Säge,Piła,Sierra,Scie
+nail,full,,Цвях,Nail,Nagel,Gwóźdź,Clavo,Clou
+screwdriver,full,,Викрутка,Screwdriver,Schraubenzieher,Śrubokręt,Destornillador,Tournevis
+rake,full,,Граблі,Rake,Rechen,Grabie,Rastrillo,Râteau
+wheelbarrow,full,,Тачка,Wheelbarrow,Schubkarre,Taczka,Carretilla,Brouette
+magnet,full,,Магніт,Magnet,Magnet,Magnes,Imán,Aimant
+rope,full,,Мотузка,Rope,Seil,Lina,Cuerda,Corde
+scale,full,,Ваги,Scale,Waage,Waga,Balanza,Balance
+brick,full,,Цеглина,Brick,Ziegelstein,Cegła,Ladrillo,Brique
+toolbox,full,,Ящик з інструментами,Toolbox,Werkzeugkasten,Skrzynka na narzędzia,Caja de herramientas,Boîte à outils
+paint_roller,full,,Валик,Paint roller,Farbroller,Wałek do malowania,Rodillo de pintura,Rouleau à peinture
+drill,full,,Дриль,Drill,Bohrmaschine,Wiertarka,Taladro,Perceuse
+tape_measure,full,,Рулетка,Tape measure,Maßband,Miarka,Cinta métrica,Mètre ruban
+needle,full,,Голка,Needle,Nadel,Igła,Aguja,Aiguille
+chain,full,,Ланцюг,Chain,Kette,Łańcuch,Cadena,Chaîne
+hook,full,,Гачок,Hook,Haken,Hak,Gancho,Crochet
+axe,full,,Сокира,Axe,Axt,Siekiera,Hacha,Hache
+pliers,full,,Плоскогубці,Pliers,Zange,Kombinerki,Alicates,Pince
+screw,full,,Шуруп,Screw,Schraube,Śruba,Tornillo,Vis
+lawn_mower,full,,Газонокосарка,Lawn mower,Rasenmäher,Kosiarka,Cortacésped,Tondeuse
+glue,full,,Клей,Glue,Kleber,Klej,Pegamento,Colle
+ruler,full,,Лінійка,Ruler,Lineal,Linijka,Regla,Règle
+eraser,full,,Гумка,Eraser,Radiergummi,Gumka,Goma,Gomme
+chalk,full,,Крейда,Chalk,Kreide,Kreda,Tiza,Craie
+blackboard,full,,Дошка,Blackboard,Tafel,Tablica,Pizarra,Tableau noir
+map,full,,Карта,Map,Landkarte,Mapa,Mapa,Carte
+sharpener,full,,Точилка,Sharpener,Anspitzer,Temperówka,Sacapuntas,Taille-crayon
+magnifying_glass,full,,Лупа,Magnifying glass,Lupe,Lupa,Lupa,Loupe
+marker,full,,Фломастер,Marker,Filzstift,Flamaster,Rotulador,Feutre
+desk,full,,Парта,Desk,Schulbank,Ławka szkolna,Pupitre,Pupitre
+microscope,full,,Мікроскоп,Microscope,Mikroskop,Mikroskop,Microscopio,Microscope
+calendar,full,,Календар,Calendar,Kalender,Kalendarz,Calendario,Calendrier
+pencil_case,full,,Пенал,Pencil case,Federmäppchen,Piórnik,Estuche,Trousse
+abacus,full,,Рахівниця,Abacus,Abakus,Liczydło,Ábaco,Boulier
+newspaper,full,,Газета,Newspaper,Zeitung,Gazeta,Periódico,Journal
+palette,full,,Палітра,Palette,Palette,Paleta,Paleta,Palette
+tape,full,,Скотч,Tape,Klebeband,Taśma klejąca,Cinta adhesiva,Ruban adhésif
+stapler,full,,Степлер,Stapler,Hefter,Zszywacz,Grapadora,Agrafeuse
+paper_clip,full,,Скріпка,Paper clip,Büroklammer,Spinacz,Clip,Trombone
+crayons,full,,Воскові олівці,Crayons,Wachsmalstifte,Kredki świecowe,Ceras,Crayons de cire
+paper,full,,Папір,Paper,Papier,Papier,Papel,Papier
+stamp,full,,Марка,Stamp,Briefmarke,Znaczek,Sello,Timbre
+postcard,full,,Листівка,Postcard,Postkarte,Pocztówka,Postal,Carte postale
+violin,full,,Скрипка,Violin,Geige,Skrzypce,Violín,Violon
+flute,full,,Сопілка,Flute,Blockflöte,Flet,Flauta,Flûte
+accordion,full,,Акордеон,Accordion,Akkordeon,Akordeon,Acordeón,Accordéon
+xylophone,full,,Ксилофон,Xylophone,Xylophon,Cymbałki,Xilófono,Xylophone
+music_note,full,,Нота,Music note,Note,Nuta,Nota,Note
+tambourine,full,,Бубон,Tambourine,Tamburin,Tamburyn,Pandereta,Tambourin
+maracas,full,,Маракаси,Maracas,Maracas,Marakasy,Maracas,Maracas
+saxophone,full,,Саксофон,Saxophone,Saxophon,Saksofon,Saxofón,Saxophone
+harmonica,full,,Губна гармошка,Harmonica,Mundharmonika,Harmonijka,Armónica,Harmonica
+gong,full,,Гонг,Gong,Gong,Gong,Gong,Gong
+record,full,,Платівка,Record,Schallplatte,Płyta winylowa,Disco,Disque
+family,full,,Сім'я,Family,Familie,Rodzina,Familia,Famille
+cable_car,full,,Канатна дорога,Cable car,Seilbahn,Kolejka linowa,Teleférico,Téléphérique
+hot_air_balloon,full,,Повітряна куля,Hot air balloon,Heißluftballon,Balon na ogrzane powietrze,Globo aerostático,Montgolfière
+crane,full,,Підйомний кран,Crane,Kran,Dźwig,Grúa,Grue
+easel,full,,Мольберт,Easel,Staffelei,Sztaluga,Caballete,Chevalet
+harp,full,,Арфа,Harp,Harfe,Harfa,Arpa,Harpe
+cello,full,,Віолончель,Cello,Cello,Wiolonczela,Violonchelo,Violoncelle
+tuba,full,,Туба,Tuba,Tuba,Tuba,Tuba,Tuba
