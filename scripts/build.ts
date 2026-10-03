@@ -31,6 +31,18 @@ async function publishedLocales(url: string | undefined): Promise<string[]> {
   return manifest.locales;
 }
 
+/** Рядок прогресу кожні 25 картинок і на останній: щоб у логах CI було видно, що збірка не зависла. */
+function progress(done: number, total: number, started: number) {
+  if (done % 25 !== 0 && done !== total) return;
+  const elapsed = (Date.now() - started) / 1000;
+  const left = (elapsed / done) * (total - done);
+  const fmt = (sec: number) => {
+    const s = Math.round(sec);
+    return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
+  };
+  console.log(`  ${done}/${total} (${Math.round((done / total) * 100)}%) · минуло ${fmt(elapsed)} · лишилось ~${fmt(left)}`);
+}
+
 async function main() {
   const published = await publishedLocales(args.published);
   console.log(`Опубліковані мови: ${published.join(', ') || '—'}`);
@@ -58,7 +70,9 @@ async function main() {
   await mkdir(join(out, 'img'), { recursive: true });
 
   const images = new Map<string, string>();
-  for (const card of cards) {
+  const started = Date.now();
+  console.log(`Стискаємо ${cards.length} картинок у WebP…`);
+  for (const [index, card] of cards.entries()) {
     const webp = await sharp(join('images', `${card.id}.png`))
       .resize(IMAGE_SIZE, IMAGE_SIZE, { fit: 'inside', withoutEnlargement: true })
       .webp({ quality: WEBP_QUALITY, effort: 6 })
@@ -66,6 +80,7 @@ async function main() {
     const path = imagePath(card.id, webp);
     await writeFile(join(out, path), webp);
     images.set(card.id, path);
+    progress(index + 1, cards.length, started);
   }
 
   const cardsJson = JSON.stringify(buildCardsFile(cards, locales, images));
