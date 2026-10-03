@@ -73,9 +73,10 @@ async function main() {
   const started = Date.now();
   console.log(`Стискаємо ${cards.length} картинок у WebP…`);
   for (const [index, card] of cards.entries()) {
+    // effort 6 дає файли лише на ~5% менші, але стискає в ~70 разів повільніше (година в CI замість хвилини).
     const webp = await sharp(join('images', `${card.id}.png`))
       .resize(IMAGE_SIZE, IMAGE_SIZE, { fit: 'inside', withoutEnlargement: true })
-      .webp({ quality: WEBP_QUALITY, effort: 6 })
+      .webp({ quality: WEBP_QUALITY, effort: 4 })
       .toBuffer();
     const path = imagePath(card.id, webp);
     await writeFile(join(out, path), webp);
