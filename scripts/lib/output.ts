@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
 
-import type { CardsFile, Manifest, SourceCard } from './types.ts';
+import type { CardsFile, Category, Manifest, SourceCard } from './types.ts';
 
 export const SCHEMA_VERSION = 1;
 export const MIN_APP_VERSION = '1.0.0';
@@ -14,11 +14,15 @@ export function imagePath(id: string, webp: Uint8Array): string {
   return `img/${id}.${contentHash(webp)}.webp`;
 }
 
-/** Файл карток: лише слова мов з маніфесту, щоб недороблений переклад не потрапив у додаток. */
+/**
+ * Файл карток: лише слова мов з маніфесту, щоб недороблений переклад не потрапив у додаток.
+ * Поля першої версії (`id`, `tier`, `preview`, `image`, `words`) не змінюються — їх читає версія 1.0.0.
+ */
 export function buildCardsFile(
   cards: readonly SourceCard[],
   locales: readonly string[],
   images: ReadonlyMap<string, string>,
+  categories: readonly Category[],
 ): CardsFile {
   return {
     cards: cards.map((card) => ({
@@ -27,7 +31,9 @@ export function buildCardsFile(
       ...(card.preview ? { preview: true as const } : {}),
       image: images.get(card.id)!,
       words: Object.fromEntries(locales.map((lang) => [lang, card.words[lang]])),
+      category: card.category,
     })),
+    categories: categories.map((c) => ({ id: c.id, cover: c.cover, names: { ...c.names } })),
   };
 }
 

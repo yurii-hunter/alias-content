@@ -1,4 +1,4 @@
-// Збирає cards.csv + images/*.png у статичні файли для CDN (dist/) і додає сторінки privacy/ та support/.
+// Збирає cards.csv + categories.csv + images/*.png у статичні файли для CDN (dist/) і додає сторінки privacy/ та support/.
 //   node scripts/build.ts [--published <url маніфесту>] [--out dist]
 import { cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
@@ -6,10 +6,11 @@ import { parseArgs } from 'node:util';
 
 import sharp from 'sharp';
 
-import { parseSheet } from './lib/csv.ts';
+import { checkAppV1 } from './lib/compat-v1.ts';
+import { parseCategories, parseSheet } from './lib/csv.ts';
 import { buildCardsFile, buildManifest, contentHash, contentVersion, imagePath } from './lib/output.ts';
 import type { Manifest } from './lib/types.ts';
-import { completeLocales, validateSheet } from './lib/validate.ts';
+import { completeLocales, validateCategories, validateSheet } from './lib/validate.ts';
 
 const IMAGE_SIZE = 512;
 const WEBP_QUALITY = 80;
@@ -55,7 +56,9 @@ async function main() {
     publishedLocales: published,
     requireFreeCount: true,
   });
-  const allErrors = [...csvErrors, ...errors];
+  const { sheet: categorySheet, errors: categoryCsvErrors } = parseCategories(await readFile('categories.csv', 'utf8'));
+  const { categories, errors: categoryErrors } = validateCategories(categorySheet, cards);
+  const allErrors = [...csvErrors, ...errors, ...categoryCsvErrors, ...categoryErrors];
   if (allErrors.length > 0) {
     console.error(`Помилки (${allErrors.length}):\n${allErrors.map((e) => `  • ${e}`).join('\n')}`);
     process.exit(1);
@@ -84,13 +87,20 @@ async function main() {
     progress(index + 1, cards.length, started);
   }
 
-  const cardsJson = JSON.stringify(buildCardsFile(cards, locales, images));
+  const cardsJson = JSON.stringify(buildCardsFile(cards, locales, images, categories));
   const cardsName = `cards.${contentHash(cardsJson)}.json`;
   await writeFile(join(out, cardsName), cardsJson);
 
   const version = contentVersion(new Date(), process.env.GITHUB_RUN_NUMBER ?? 'local');
   const manifest = buildManifest(locales, cardsName, version);
   await writeFile(join(out, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`);
+
+  // Додаток 1.0.0 уже в магазинах і читає цей самий контент: збірка, яку він відкине, не публікується.
+  const compat = checkAppV1(JSON.parse(JSON.stringify(manifest)), JSON.parse(cardsJson));
+  if (compat.length > 0) {
+    console.error(`Контент несумісний з додатком 1.0.0:\n${compat.map((e) => `  • ${e}`).join('\n')}`);
+    process.exit(1);
+  }
   // Політика конфіденційності й підтримка: посилання на них вказані в App Store і Google Play.
   await cp('privacy', join(out, 'privacy'), { recursive: true });
   await cp('support', join(out, 'support'), { recursive: true });
@@ -98,7 +108,7 @@ async function main() {
   await writeFile(join(out, '.nojekyll'), '');
 
   const free = cards.filter((c) => c.tier === 'free').length;
-  console.log(`Готово: ${cards.length} карток (${free} безкоштовних), мови ${locales.join(', ')}, ${version}`);
+  console.log(`Готово: ${cards.length} карток (${free} безкоштовних), ${categories.length} категорій, мови ${locales.join(', ')}, ${version}`);
 }
 
 await main();

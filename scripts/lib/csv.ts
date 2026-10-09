@@ -1,34 +1,62 @@
 import { parse } from 'csv-parse/sync';
 
-import type { RawRow, Sheet } from './types.ts';
+import type { CategorySheet, RawCategory, RawRow, Sheet } from './types.ts';
 
-const FIXED_COLUMNS = ['id', 'tier', 'preview'];
+const CARD_COLUMNS = ['id', 'tier', 'preview', 'category'];
+const CATEGORY_COLUMNS = ['id', 'cover'];
 
-/** Розбирає `cards.csv`: перевіряє заголовок, значення клітинок перевіряє `validateSheet`. */
-export function parseSheet(text: string): { sheet: Sheet; errors: string[] } {
+interface Table {
+  languages: string[];
+  /** Клітинки рядка без пробілів по краях: спершу фіксовані колонки, потім слова за мовою. */
+  rows: { line: number; fixed: string[]; byLanguage: Record<string, string> }[];
+}
+
+/** Таблиця «фіксовані колонки, далі по колонці на мову». Значення клітинок перевіряє валідація. */
+function parseTable(file: string, text: string, fixedColumns: string[], errors: string[]): Table {
   const records: string[][] = parse(text, { bom: true, skip_empty_lines: true, relax_column_count: true });
   const [header = [], ...body] = records;
   const columns = header.map((c) => c.trim());
-  const errors: string[] = [];
 
-  FIXED_COLUMNS.forEach((name, i) => {
-    if (columns[i] !== name) errors.push(`cards.csv: колонка ${i + 1} має бути «${name}», а не «${columns[i] ?? ''}»`);
+  fixedColumns.forEach((name, i) => {
+    if (columns[i] !== name) errors.push(`${file}: колонка ${i + 1} має бути «${name}», а не «${columns[i] ?? ''}»`);
   });
-  const languages = columns.slice(FIXED_COLUMNS.length);
+  const languages = columns.slice(fixedColumns.length);
   for (const lang of languages) {
-    if (!/^[a-z]{2,3}$/.test(lang)) errors.push(`cards.csv: «${lang}» не схоже на код мови (uk, en, de…)`);
+    if (!/^[a-z]{2,3}$/.test(lang)) errors.push(`${file}: «${lang}» не схоже на код мови (uk, en, de…)`);
   }
-  if (new Set(languages).size !== languages.length) errors.push('cards.csv: мова повторюється в заголовку');
+  if (new Set(languages).size !== languages.length) errors.push(`${file}: мова повторюється в заголовку`);
 
-  const rows = body.map((record, i): RawRow => {
+  const rows = body.map((record, i) => {
     const cell = (index: number) => (record[index] ?? '').trim();
-    const words: Record<string, string> = {};
+    const byLanguage: Record<string, string> = {};
     languages.forEach((lang, j) => {
-      const word = cell(FIXED_COLUMNS.length + j);
-      if (word) words[lang] = word;
+      const value = cell(fixedColumns.length + j);
+      if (value) byLanguage[lang] = value;
     });
-    return { line: i + 2, id: cell(0), tier: cell(1), preview: cell(2), words };
+    return { line: i + 2, fixed: fixedColumns.map((_, k) => cell(k)), byLanguage };
   });
+  return { languages, rows };
+}
 
-  return { sheet: { languages, rows }, errors };
+/** Розбирає `cards.csv`: перевіряє заголовок, значення клітинок перевіряє `validateSheet`. */
+export function parseSheet(text: string): { sheet: Sheet; errors: string[] } {
+  const errors: string[] = [];
+  const table = parseTable('cards.csv', text, CARD_COLUMNS, errors);
+  const rows = table.rows.map(({ line, fixed: [id, tier, preview, category], byLanguage }): RawRow => ({
+    line,
+    id,
+    tier,
+    preview,
+    category,
+    words: byLanguage,
+  }));
+  return { sheet: { languages: table.languages, rows }, errors };
+}
+
+/** Розбирає `categories.csv`: id, cover, далі назви мовами інтерфейсу. */
+export function parseCategories(text: string): { sheet: CategorySheet; errors: string[] } {
+  const errors: string[] = [];
+  const table = parseTable('categories.csv', text, CATEGORY_COLUMNS, errors);
+  const rows = table.rows.map(({ line, fixed: [id, cover], byLanguage }): RawCategory => ({ line, id, cover, names: byLanguage }));
+  return { sheet: { languages: table.languages, rows }, errors };
 }

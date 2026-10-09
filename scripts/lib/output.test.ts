@@ -14,19 +14,21 @@ describe('output', () => {
   it('writes only published words and marks previews', () => {
     const file = buildCardsFile(
       [
-        { id: 'apple', tier: 'free', preview: false, words: { uk: 'яблуко', en: 'apple', de: '' } },
-        { id: 'giraffe', tier: 'full', preview: true, words: { uk: 'жирафа', en: 'giraffe' } },
+        { id: 'apple', tier: 'free', preview: false, category: 'fruit_veg', words: { uk: 'яблуко', en: 'apple', de: '' } },
+        { id: 'giraffe', tier: 'full', preview: true, category: 'wild', words: { uk: 'жирафа', en: 'giraffe' } },
       ],
       ['uk', 'en'],
       new Map([
         ['apple', 'img/apple.1.webp'],
         ['giraffe', 'img/giraffe.2.webp'],
       ]),
+      [{ id: 'wild', cover: 'giraffe', names: { uk: 'Дикі тварини', en: 'Wild animals' } }],
     );
     assert.deepEqual(file.cards, [
-      { id: 'apple', tier: 'free', image: 'img/apple.1.webp', words: { uk: 'яблуко', en: 'apple' } },
-      { id: 'giraffe', tier: 'full', preview: true, image: 'img/giraffe.2.webp', words: { uk: 'жирафа', en: 'giraffe' } },
+      { id: 'apple', tier: 'free', image: 'img/apple.1.webp', words: { uk: 'яблуко', en: 'apple' }, category: 'fruit_veg' },
+      { id: 'giraffe', tier: 'full', preview: true, image: 'img/giraffe.2.webp', words: { uk: 'жирафа', en: 'giraffe' }, category: 'wild' },
     ]);
+    assert.deepEqual(file.categories, [{ id: 'wild', cover: 'giraffe', names: { uk: 'Дикі тварини', en: 'Wild animals' } }]);
   });
 
   it('builds the manifest', () => {
