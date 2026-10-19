@@ -15,7 +15,11 @@ words.csv              робочий список слів, для яких щ�
 images/<id>.png        ілюстрація картки, квадратна, від 512 px (краще 1024)
 privacy/index.html     політика конфіденційності додатку
 support/index.html     сторінка підтримки додатку
+printable/strings.csv  тексти друкованих карток: правила, заголовки сторінок
+printable/badges/      офіційні значки App Store, <мова>.svg (необов'язково)
+fonts/                 Rubik і Nunito для PDF
 scripts/build.ts       збірка в dist/
+scripts/lib/printable.ts  PDF і сторінки друкованих карток
 ```
 
 `cards.csv`:
@@ -91,6 +95,7 @@ id,tier,preview,level,category,uk,en,de,pl,es,fr,draw
 npm ci
 npm test
 npm run build                            # результат у dist/
+npm run printable                        # лише друковані картки в dist/printable/, кілька секунд
 ```
 
 ## Що публікується
@@ -101,6 +106,8 @@ npm run build                            # результат у dist/
 
 - `privacy/` — політика конфіденційності додатку.
 - `support/` — сторінка підтримки: контакт і часті питання.
+- `printable/<мова>/` — друковані картки: сторінка, PDF з 30 безкоштовними картками й прев'ю. Робляться для кожної опублікованої мови, у якої заповнені всі рядки `printable/strings.csv`; якщо рядків бракує, мова пропускається з попередженням. Деталі — `docs/architecture.md` у репозиторії додатку, розділ 5.
+- `sitemap.xml` — сторінки `printable/` для Google Search Console.
 
 Жодних даних про користувачів: додаток робить лише анонімні `GET` цих файлів.
 

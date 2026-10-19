@@ -1,4 +1,5 @@
-// Збирає cards.csv + categories.csv + images/*.png у статичні файли для CDN (dist/) і додає сторінки privacy/ та support/.
+// Збирає cards.csv + categories.csv + images/*.png у статичні файли для CDN (dist/) і додає сторінки privacy/, support/
+// та друковані картки printable/ (PDF і сторінка для кожної мови, scripts/lib/printable.ts).
 //   node scripts/build.ts [--published <url маніфесту>] [--out dist]
 import { cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
@@ -9,6 +10,7 @@ import sharp from 'sharp';
 import { checkAppV1 } from './lib/compat-v1.ts';
 import { parseCategories, parseSheet } from './lib/csv.ts';
 import { buildCardsFile, buildManifest, contentHash, contentVersion, imagePath } from './lib/output.ts';
+import { writePrintables } from './lib/printable.ts';
 import type { Manifest } from './lib/types.ts';
 import { completeLocales, validateCategories, validateSheet } from './lib/validate.ts';
 
@@ -104,6 +106,9 @@ async function main() {
   // Політика конфіденційності й підтримка: посилання на них вказані в App Store і Google Play.
   await cp('privacy', join(out, 'privacy'), { recursive: true });
   await cp('support', join(out, 'support'), { recursive: true });
+  // Друковані картки: 30 безкоштовних карток у PDF для кожної опублікованої мови. Додаток їх не читає.
+  console.log('Друковані картки…');
+  await writePrintables(cards, locales, out);
   // GitHub Pages не обробляє файли через Jekyll.
   await writeFile(join(out, '.nojekyll'), '');
 
