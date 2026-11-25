@@ -2,6 +2,7 @@
 // та друковані картки printable/ (PDF і сторінка для кожної мови, scripts/lib/printable.ts).
 //   node scripts/build.ts [--published <url маніфесту>] [--out dist]
 import { cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { parseArgs } from 'node:util';
 
@@ -106,6 +107,8 @@ async function main() {
   // Політика конфіденційності й підтримка: посилання на них вказані в App Store і Google Play.
   await cp('privacy', join(out, 'privacy'), { recursive: true });
   await cp('support', join(out, 'support'), { recursive: true });
+  // Файли в корінь сайту, напр. підтвердження Google Search Console (google<код>.html). Тека необов'язкова.
+  if (existsSync('site-root')) await cp('site-root', out, { recursive: true });
   // Друковані картки: 30 безкоштовних карток у PDF для кожної опублікованої мови. Додаток їх не читає.
   console.log('Друковані картки…');
   await writePrintables(cards, locales, out);
