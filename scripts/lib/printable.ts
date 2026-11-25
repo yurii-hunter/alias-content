@@ -22,7 +22,7 @@ const PROVIDER_TOKEN = '129516479';
 export const STRING_KEYS = [
   'languageName', 'pageTitle', 'subtitle', 'pageDescription', 'download', 'fileInfo', 'previewCaption', 'howTo',
   'rule1', 'rule2', 'rule3', 'rule4', 'rule5', 'rule6',
-  'cutHint', 'timerHint', 'ctaTitle', 'ctaText', 'scanHint', 'appStore', 'support', 'privacy',
+  'cutHint', 'timerHint', 'ctaTitle', 'ctaText', 'scanHint', 'appStore', 'support', 'privacy', 'pinTitle',
 ] as const;
 export type StringKey = (typeof STRING_KEYS)[number];
 export type Strings = Record<StringKey, string>;
@@ -428,7 +428,7 @@ export async function buildPreview(lang: string, page: SourceCard[]): Promise<Bu
 
 export const escapeHtml = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-export function pageHtml(lang: string, t: Strings, all: Record<string, Strings>, opts: { pdfBytes: number; badge: boolean }): string {
+export function pageHtml(lang: string, t: Strings, all: Record<string, Strings>, opts: { pdfBytes: number; badge: boolean; pins?: readonly string[] }): string {
   const e = escapeHtml;
   const langs = Object.keys(all);
   const url = (l: string) => `${SITE}printable/${l}/`;
@@ -442,6 +442,10 @@ export function pageHtml(lang: string, t: Strings, all: Record<string, Strings>,
   const store = opts.badge
     ? `<a class="badge" href="${e(appStoreUrl(lang))}"><img src="app-store.svg" alt="${e(t.appStore)}" height="54"></a>`
     : `<a class="store" href="${e(appStoreUrl(lang))}">${e(t.appStore)}</a>`;
+  // Піни з site-root/pinterest/: «Save from URL» у Pinterest бере картинки зі сторінки, і пін веде сюди.
+  const pins = (opts.pins ?? []).length > 0
+    ? `<h2>${e(t.pinTitle)}</h2>\n<div class="pins">${(opts.pins ?? []).map((f) => `<img src="../../pinterest/${e(f)}" width="1000" height="1500" alt="${e(t.pageTitle)}" loading="lazy">`).join('')}</div>\n`
+    : '';
   return `<!doctype html>
 <html lang="${lang}">
 <head>
@@ -475,6 +479,8 @@ ${hreflang}
   li + li { margin-top: .4rem; }
   .store { display: inline-block; margin-top: 1rem; padding: .8rem 1.4rem; border-radius: 12px; background: #1E1B2E; color: #fff; text-decoration: none; font-weight: 700; }
   .badge { display: inline-block; margin-top: 1rem; }
+  .pins { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
+  .pins img { width: 100%; height: auto; border-radius: 14px; }
   hr { margin: 3rem 0 1.5rem; border: none; border-top: 1px solid currentColor; opacity: .2; }
   footer { font-size: .9rem; opacity: .8; }
 </style>
@@ -498,7 +504,7 @@ ${rules}
 <h2>${e(t.ctaTitle)}</h2>
 <p>${e(t.ctaText)}</p>
 ${store}
-<hr>
+${pins}<hr>
 <footer>Fox &amp; Bunny · <a href="../../support/">${e(t.support)}</a> · <a href="../../privacy/">${e(t.privacy)}</a></footer>
 </body>
 </html>
@@ -553,7 +559,8 @@ export async function writePrintables(cards: readonly SourceCard[], locales: rea
     const badgeFile = join('printable', 'badges', `${lang}.svg`);
     const badge = existsSync(badgeFile);
     if (badge) await writeFile(join(dir, 'app-store.svg'), await readFile(badgeFile));
-    await writeFile(join(dir, 'index.html'), pageHtml(lang, strings[lang], published, { pdfBytes: pdf.length, badge }));
+    const pins = ['1-cards', '2-rules'].map((n) => `${lang}-${n}.jpg`).filter((f) => existsSync(join('site-root', 'pinterest', f)));
+    await writeFile(join(dir, 'index.html'), pageHtml(lang, strings[lang], published, { pdfBytes: pdf.length, badge, pins }));
     console.log(`  printable/${lang}: ${(pdf.length / 1024 / 1024).toFixed(1)} МБ`);
   }
   await writeFile(join(out, 'printable', 'index.html'), indexHtml(published));

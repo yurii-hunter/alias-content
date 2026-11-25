@@ -71,6 +71,14 @@ describe('printable', () => {
     assert.ok(!/<script|https:\/\/fonts\./.test(html), 'без скриптів і сторонніх ресурсів');
   });
 
+  it('shows the language pins for Pinterest when they exist', async () => {
+    const { strings } = parseStrings(await readFile('printable/strings.csv', 'utf8'));
+    const html = pageHtml('pl', strings.pl, strings, { pdfBytes: 2_000_000, badge: false, pins: ['pl-1-cards.jpg'] });
+    assert.ok(html.includes('src="../../pinterest/pl-1-cards.jpg"'));
+    assert.ok(html.includes(strings.pl.pinTitle));
+    assert.ok(!pageHtml('pl', strings.pl, strings, { pdfBytes: 1, badge: false }).includes('class="pins"'));
+  });
+
   it('lists printable pages in the sitemap', () => {
     const xml = sitemap(['uk', 'en']);
     assert.ok(xml.includes('<loc>https://yurii-hunter.github.io/alias-content/printable/uk/</loc>'));
