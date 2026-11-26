@@ -29,12 +29,12 @@ export type Strings = Record<StringKey, string>;
 
 export const CARDS_PER_PAGE = 6;
 
-const PX = 0.75;
-const PAGE_W = 794;
-const PAGE_H = 1123;
+export const PX = 0.75;
+export const PAGE_W = 794;
+export const PAGE_H = 1123;
 
 const hex = (h: string): RGB => rgb(parseInt(h.slice(1, 3), 16) / 255, parseInt(h.slice(3, 5), 16) / 255, parseInt(h.slice(5, 7), 16) / 255);
-const C = {
+export const C = {
   red: hex('#D13B2F'),
   blue: hex('#2563D6'),
   ink: hex('#1E1B2E'),
@@ -113,27 +113,27 @@ export function wrap(text: string, width: (s: string) => number, maxWidth: numbe
 
 // ---------- Маскоти (ті самі SVG, що в макетах) ----------
 
-const FOX = `<path d="M20 52 L30 10 L56 38 Z" fill="#E8572A" stroke="#1E1B2E" stroke-width="4" stroke-linejoin="round"/><path d="M100 52 L90 10 L64 38 Z" fill="#E8572A" stroke="#1E1B2E" stroke-width="4" stroke-linejoin="round"/><path d="M30 40 L33 24 L44 36 Z" fill="#FFD9C7"/><path d="M90 40 L87 24 L76 36 Z" fill="#FFD9C7"/><path d="M16 54 Q60 22 104 54 Q102 94 60 110 Q18 94 16 54 Z" fill="#F0662F" stroke="#1E1B2E" stroke-width="4" stroke-linejoin="round"/><path d="M22 62 Q42 70 60 108 Q28 96 22 62 Z" fill="#FFF4EA"/><path d="M98 62 Q78 70 60 108 Q92 96 98 62 Z" fill="#FFF4EA"/><circle cx="44" cy="64" r="6" fill="#1E1B2E"/><circle cx="76" cy="64" r="6" fill="#1E1B2E"/><circle cx="46" cy="62" r="2" fill="#fff"/><circle cx="78" cy="62" r="2" fill="#fff"/><circle cx="34" cy="78" r="5" fill="#FF9C8A" opacity=".8"/><circle cx="86" cy="78" r="5" fill="#FF9C8A" opacity=".8"/><ellipse cx="60" cy="90" rx="6" ry="4.5" fill="#1E1B2E"/><path d="M53 97 Q60 103 67 97" fill="none" stroke="#1E1B2E" stroke-width="3.5" stroke-linecap="round"/>`;
-const BUNNY = `<g transform="rotate(-10 44 34)"><ellipse cx="44" cy="34" rx="12" ry="30" fill="#EEF3FF" stroke="#1E1B2E" stroke-width="4"/><ellipse cx="44" cy="36" rx="5.5" ry="20" fill="#FFC6D3"/></g><g transform="rotate(10 76 34)"><ellipse cx="76" cy="34" rx="12" ry="30" fill="#EEF3FF" stroke="#1E1B2E" stroke-width="4"/><ellipse cx="76" cy="36" rx="5.5" ry="20" fill="#FFC6D3"/></g><ellipse cx="60" cy="80" rx="40" ry="32" fill="#EEF3FF" stroke="#1E1B2E" stroke-width="4"/><circle cx="46" cy="76" r="6" fill="#1E1B2E"/><circle cx="74" cy="76" r="6" fill="#1E1B2E"/><circle cx="48" cy="74" r="2" fill="#fff"/><circle cx="76" cy="74" r="2" fill="#fff"/><circle cx="36" cy="88" r="5" fill="#FFB3C4" opacity=".9"/><circle cx="84" cy="88" r="5" fill="#FFB3C4" opacity=".9"/><ellipse cx="60" cy="88" rx="5" ry="3.5" fill="#F27A98" stroke="#1E1B2E" stroke-width="2"/><path d="M60 92 Q57 98 52 96" fill="none" stroke="#1E1B2E" stroke-width="3" stroke-linecap="round"/><path d="M60 92 Q63 98 68 96" fill="none" stroke="#1E1B2E" stroke-width="3" stroke-linecap="round"/>`;
-const svgPng = (body: string, size: number) =>
+export const FOX = `<path d="M20 52 L30 10 L56 38 Z" fill="#E8572A" stroke="#1E1B2E" stroke-width="4" stroke-linejoin="round"/><path d="M100 52 L90 10 L64 38 Z" fill="#E8572A" stroke="#1E1B2E" stroke-width="4" stroke-linejoin="round"/><path d="M30 40 L33 24 L44 36 Z" fill="#FFD9C7"/><path d="M90 40 L87 24 L76 36 Z" fill="#FFD9C7"/><path d="M16 54 Q60 22 104 54 Q102 94 60 110 Q18 94 16 54 Z" fill="#F0662F" stroke="#1E1B2E" stroke-width="4" stroke-linejoin="round"/><path d="M22 62 Q42 70 60 108 Q28 96 22 62 Z" fill="#FFF4EA"/><path d="M98 62 Q78 70 60 108 Q92 96 98 62 Z" fill="#FFF4EA"/><circle cx="44" cy="64" r="6" fill="#1E1B2E"/><circle cx="76" cy="64" r="6" fill="#1E1B2E"/><circle cx="46" cy="62" r="2" fill="#fff"/><circle cx="78" cy="62" r="2" fill="#fff"/><circle cx="34" cy="78" r="5" fill="#FF9C8A" opacity=".8"/><circle cx="86" cy="78" r="5" fill="#FF9C8A" opacity=".8"/><ellipse cx="60" cy="90" rx="6" ry="4.5" fill="#1E1B2E"/><path d="M53 97 Q60 103 67 97" fill="none" stroke="#1E1B2E" stroke-width="3.5" stroke-linecap="round"/>`;
+export const BUNNY = `<g transform="rotate(-10 44 34)"><ellipse cx="44" cy="34" rx="12" ry="30" fill="#EEF3FF" stroke="#1E1B2E" stroke-width="4"/><ellipse cx="44" cy="36" rx="5.5" ry="20" fill="#FFC6D3"/></g><g transform="rotate(10 76 34)"><ellipse cx="76" cy="34" rx="12" ry="30" fill="#EEF3FF" stroke="#1E1B2E" stroke-width="4"/><ellipse cx="76" cy="36" rx="5.5" ry="20" fill="#FFC6D3"/></g><ellipse cx="60" cy="80" rx="40" ry="32" fill="#EEF3FF" stroke="#1E1B2E" stroke-width="4"/><circle cx="46" cy="76" r="6" fill="#1E1B2E"/><circle cx="74" cy="76" r="6" fill="#1E1B2E"/><circle cx="48" cy="74" r="2" fill="#fff"/><circle cx="76" cy="74" r="2" fill="#fff"/><circle cx="36" cy="88" r="5" fill="#FFB3C4" opacity=".9"/><circle cx="84" cy="88" r="5" fill="#FFB3C4" opacity=".9"/><ellipse cx="60" cy="88" rx="5" ry="3.5" fill="#F27A98" stroke="#1E1B2E" stroke-width="2"/><path d="M60 92 Q57 98 52 96" fill="none" stroke="#1E1B2E" stroke-width="3" stroke-linecap="round"/><path d="M60 92 Q63 98 68 96" fill="none" stroke="#1E1B2E" stroke-width="3" stroke-linecap="round"/>`;
+export const svgPng = (body: string, size: number) =>
   sharp(Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="${size}" height="${size}">${body}</svg>`)).png().toBuffer();
 
 // Лінійні іконки 24×24, штрих 2,6, як у додатку.
-const CLOCK = 'M20 13 A8 8 0 1 1 4 13 A8 8 0 1 1 20 13 Z M12 9 V13 L14.5 15 M10 2 H14 M12 2 V5';
+export const CLOCK = 'M20 13 A8 8 0 1 1 4 13 A8 8 0 1 1 20 13 Z M12 9 V13 L14.5 15 M10 2 H14 M12 2 V5';
 const SCISSORS = 'M9 6 A3 3 0 1 1 3 6 A3 3 0 1 1 9 6 Z M9 18 A3 3 0 1 1 3 18 A3 3 0 1 1 9 18 Z M20 4 L8.1 15.9 M14.5 14.5 L20 20 M8.1 8.1 L12 12';
 
-const roundRect = (w: number, h: number, r: number) =>
+export const roundRect = (w: number, h: number, r: number) =>
   `M${r} 0 H${w - r} A${r} ${r} 0 0 1 ${w} ${r} V${h - r} A${r} ${r} 0 0 1 ${w - r} ${h} H${r} A${r} ${r} 0 0 1 0 ${h - r} V${r} A${r} ${r} 0 0 1 ${r} 0 Z`;
 
 // ---------- Малювання в координатах макета (px, вісь y вниз) ----------
 
-interface Fonts {
+export interface Fonts {
   rubik700: PDFFont;
   rubik800: PDFFont;
   nunito700: PDFFont;
 }
 
-class Sheet {
+export class Sheet {
   readonly page: PDFPage;
   constructor(page: PDFPage) {
     this.page = page;
@@ -191,7 +191,7 @@ function fitWord(word: string, font: PDFFont, maxWidth: number): { size: number;
   return { size: 18.7, lines };
 }
 
-async function cardImage(doc: PDFDocument, id: string): Promise<PDFImage> {
+export async function cardImage(doc: PDFDocument, id: string): Promise<PDFImage> {
   const jpg = await sharp(join('images', `${id}.png`))
     .flatten({ background: '#ffffff' })
     .resize(900, 900, { fit: 'inside', withoutEnlargement: true })
@@ -200,7 +200,7 @@ async function cardImage(doc: PDFDocument, id: string): Promise<PDFImage> {
   return doc.embedJpg(jpg);
 }
 
-async function loadFonts(doc: PDFDocument): Promise<Fonts> {
+export async function loadFonts(doc: PDFDocument): Promise<Fonts> {
   doc.registerFontkit(fontkit);
   const embed = async (file: string) => doc.embedFont(await readFile(join('fonts', file)), { subset: true });
   return {
@@ -244,7 +244,7 @@ function drawCover(sheet: Sheet, t: Strings, f: Fonts, fox: PDFImage, bunny: PDF
   sheet.footer(f, 1, 72);
 }
 
-function drawCards(sheet: Sheet, t: Strings, f: Fonts, cards: { word: string; image: PDFImage }[], n: number) {
+export function drawCards(sheet: Sheet, t: Strings, f: Fonts, cards: { word: string; image: PDFImage }[], n: number) {
   const left = 57;
   const top = 51;
   const size = 340;
