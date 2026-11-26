@@ -140,7 +140,7 @@ iguana,full,,2,wild,Ігуана,Iguana,Leguan,Legwan,Iguana,Iguane,a green igua
 narwhal,full,,2,sea,Нарвал,Narwhal,Narwal,Narwal,Narval,Narval,a narwhal with a long tusk
 hare,full,,2,wild,Заєць,Hare,Hase,Zając,Liebre,Lièvre,a brown hare running
 hummingbird,full,,2,wild,Колібрі,Hummingbird,Kolibri,Koliber,Colibrí,Colibri,a hummingbird near a flower
-bullfinch,full,,2,wild,Снігур,Bullfinch,Gimpel,Gil,Camachuelo,Bouvreuil,a bullfinch with a red chest on a snowy branch
+bullfinch,full,,2,winter,Снігур,Bullfinch,Gimpel,Gil,Camachuelo,Bouvreuil,a bullfinch with a red chest on a snowy branch
 eggshell,full,,2,wild,Шкаралупа,Eggshell,Eierschale,Skorupka,Cáscara de huevo,Coquille d'œuf,a cracked eggshell
 squid,full,,2,sea,Кальмар,Squid,Tintenfisch,Kałamarnica,Calamar,Calmar,a pink squid with long tentacles
 lobster,full,,2,sea,Омар,Lobster,Hummer,Homar,Langosta,Homard,a red lobster
@@ -153,7 +153,7 @@ seaweed,full,,2,sea,Водорості,Seaweed,Seetang,Wodorosty,Algas,Algues,a 
 firefly,full,,2,bugs,Світлячок,Firefly,Glühwürmchen,Świetlik,Luciérnaga,Luciole,a firefly with a glowing yellow tail
 wasp,full,,2,bugs,Оса,Wasp,Wespe,Osa,Avispa,Guêpe,a yellow and black wasp with a thin waist
 centipede,full,,2,bugs,Багатоніжка,Centipede,Tausendfüßler,Stonoga,Ciempiés,Mille-pattes,a centipede with many legs
-reindeer,full,,2,wild,Північний олень,Reindeer,Rentier,Renifer,Reno,Renne,a reindeer with big antlers
+reindeer,full,,2,winter,Північний олень,Reindeer,Rentier,Renifer,Reno,Renne,a reindeer with big antlers
 mammoth,full,,2,wild,Мамонт,Mammoth,Mammut,Mamut,Mamut,Mammouth,a woolly mammoth with curved tusks
 scorpion,full,,2,bugs,Скорпіон,Scorpion,Skorpion,Skorpion,Escorpión,Scorpion,a friendly cartoon scorpion
 swallow,full,,2,wild,Ластівка,Swallow,Schwalbe,Jaskółka,Golondrina,Hirondelle,a swallow with a forked tail flying
@@ -264,7 +264,7 @@ salt,full,,2,food,Сіль,Salt,Salz,Sól,Sal,Sel,a glass salt shaker with a met
 sugar,full,,2,food,Цукор,Sugar,Zucker,Cukier,Azúcar,Sucre,white sugar cubes in a small blue bowl
 sushi,full,,2,food,Суші,Sushi,Sushi,Sushi,Sushi,Sushi,two pieces of sushi
 toast,full,,2,food,Тост,Toast,Toast,Tost,Tostada,Pain grillé,a slice of golden toast
-gingerbread_man,full,,2,food,Пряничний чоловічок,Gingerbread man,Lebkuchenmann,Piernikowy ludzik,Hombre de jengibre,Bonhomme en pain d'épices,a gingerbread man cookie
+gingerbread_man,full,,2,winter,Пряничний чоловічок,Gingerbread man,Lebkuchenmann,Piernikowy ludzik,Hombre de jengibre,Bonhomme en pain d'épices,a gingerbread man cookie
 marshmallow,full,,2,food,Маршмелоу,Marshmallow,Marshmallow,Pianka,Malvavisco,Guimauve,pink and white marshmallows
 jelly,full,,2,food,Желе,Gelatin,Wackelpudding,Galaretka,Gelatina,Gelée,a wobbly red jelly dessert
 milkshake,full,,2,food,Молочний коктейль,Milkshake,Milchshake,Koktajl mleczny,Batido,Milk-shake,a milkshake with a straw and whipped cream
@@ -410,8 +410,8 @@ paint_can,full,,2,tech_tools,Банка фарби,Paint can,Farbeimer,Puszka fa
 woolly_hat,full,yes,1,clothes,Шапка,Winter hat,Mütze,Czapka,Gorro,Bonnet,a knitted winter hat with a pompom
 hat,full,,2,clothes,Капелюх,Hat,Hut,Kapelusz,Sombrero,Chapeau,a brimmed sun hat
 cap,full,,1,clothes,Кепка,Cap,Kappe,Czapka z daszkiem,Gorra,Casquette,a baseball cap
-scarf,full,,1,clothes,Шарф,Scarf,Schal,Szalik,Bufanda,Écharpe,a striped knitted scarf
-mittens,full,,1,clothes,Рукавиці,Mittens,Fäustlinge,Rękawiczki,Manoplas,Moufles,a pair of knitted mittens
+scarf,full,,1,winter,Шарф,Scarf,Schal,Szalik,Bufanda,Écharpe,a striped knitted scarf
+mittens,full,,1,winter,Рукавиці,Mittens,Fäustlinge,Rękawiczki,Manoplas,Moufles,a pair of knitted mittens
 jacket,full,,1,clothes,Куртка,Jacket,Jacke,Kurtka,Chaqueta,Veste,a zip-up jacket
 coat,full,,2,clothes,Пальто,Coat,Mantel,Płaszcz,Abrigo,Manteau,a long coat with buttons
 dress,full,,1,clothes,Сукня,Dress,Kleid,Sukienka,Vestido,Robe,a girl's dress
@@ -468,7 +468,7 @@ slide,full,,1,toys_sports,Гірка,Slide,Rutsche,Zjeżdżalnia,Tobogán,Tobogg
 sandbox,full,,1,toys_sports,Пісочниця,Sandbox,Sandkasten,Piaskownica,Arenero,Bac à sable,a sandbox with a bucket and spade
 scooter,full,,1,toys_sports,Самокат,Scooter,Roller,Hulajnoga,Patinete,Trottinette,a kick scooter
 bubbles,full,,1,toys_sports,Мильні бульбашки,Bubbles,Seifenblasen,Bańki mydlane,Pompas de jabón,Bulles de savon,soap bubbles and a bubble wand
-sled,full,,1,toys_sports,Санки,Sled,Schlitten,Sanki,Trineo,Luge,a wooden sled
+sled,full,,1,winter,Санки,Sled,Schlitten,Sanki,Trineo,Luge,a wooden sled
 hoop,full,,2,toys_sports,Обруч,Hoop,Reifen,Obręcz,Aro,Cerceau,a colorful hula hoop
 skittles,full,,2,toys_sports,Кеглі,Skittles,Kegel,Kręgle,Bolos,Quilles,bowling pins and a ball
 toy_car,full,,1,toys_sports,Іграшкова машинка,Toy car,Spielzeugauto,Samochodzik,Cochecito,Petite voiture,a small red toy car
@@ -480,7 +480,7 @@ rattle,full,,2,toys_sports,Брязкальце,Rattle,Rassel,Grzechotka,Sonajer
 paper_plane,full,,1,toys_sports,Паперовий літачок,Paper plane,Papierflieger,Papierowy samolot,Avión de papel,Avion en papier,a paper airplane
 sandcastle,full,,1,toys_sports,Пісочний замок,Sandcastle,Sandburg,Zamek z piasku,Castillo de arena,Château de sable,a sandcastle with a flag
 paper_boat,full,,2,toys_sports,Паперовий кораблик,Paper boat,Papierschiff,Łódka z papieru,Barco de papel,Bateau en papier,a folded paper boat
-snowball,full,,1,toys_sports,Сніжка,Snowball,Schneeball,Śnieżka,Bola de nieve,Boule de neige,a round snowball with light blue shading
+snowball,full,,1,winter,Сніжка,Snowball,Schneeball,Śnieżka,Bola de nieve,Boule de neige,a round snowball with light blue shading
 ball_of_yarn,full,,2,toys_sports,Клубок,Ball of yarn,Wollknäuel,Kłębek,Ovillo,Pelote de laine,a ball of red yarn
 play_dough,full,,1,toys_sports,Пластилін,Plasticine,Knete,Plastelina,Plastilina,Pâte à modeler,colorful modeling clay sticks
 stickers,full,,1,toys_sports,Наліпки,Stickers,Aufkleber,Naklejki,Pegatinas,Autocollants,a sheet of stickers with stars
@@ -526,7 +526,7 @@ raft,full,,2,city_transport,Пліт,Raft,Floß,Tratwa,Balsa,Radeau,a wooden raf
 ticket,full,,2,city_transport,Квиток,Ticket,Fahrkarte,Bilet,Billete,Billet,"a paper ticket with a star, no text"
 compass,full,,2,city_transport,Компас,Compass,Kompass,Kompas,Brújula,Boussole,"a compass with a red needle, no letters"
 dump_truck,full,,2,city_transport,Самоскид,Dump truck,Kipper,Wywrotka,Volquete,Camion benne,a dump truck with sand
-snowmobile,full,,2,city_transport,Снігохід,Snowmobile,Schneemobil,Skuter śnieżny,Moto de nieve,Motoneige,a snowmobile
+snowmobile,full,,2,winter,Снігохід,Snowmobile,Schneemobil,Skuter śnieżny,Moto de nieve,Motoneige,a snowmobile
 cable_car,full,,2,city_transport,Канатна дорога,Cable car,Seilbahn,Kolejka linowa,Teleférico,Téléphérique,a red cable car cabin hanging on a cable
 steam_train,full,,2,city_transport,Паровоз,Steam train,Dampflok,Parowóz,Locomotora de vapor,Locomotive à vapeur,a steam locomotive with smoke
 carriage,full,,2,city_transport,Карета,Carriage,Kutsche,Kareta,Carruaje,Carrosse,a royal horse-drawn carriage
@@ -541,7 +541,7 @@ moon,free,,1,nature,Місяць,Moon,Mond,Księżyc,Luna,Lune,a yellow crescent
 star,full,,1,nature,Зірка,Star,Stern,Gwiazda,Estrella,Étoile,a yellow five-pointed star
 cloud,full,,1,nature,Хмара,Cloud,Wolke,Chmura,Nube,Nuage,a white fluffy cloud
 rain,full,,1,nature,Дощ,Rain,Regen,Deszcz,Lluvia,Pluie,a grey cloud with raindrops
-snowflake,full,,1,nature,Сніжинка,Snowflake,Schneeflocke,Płatek śniegu,Copo de nieve,Flocon de neige,a blue snowflake
+snowflake,full,,1,winter,Сніжинка,Snowflake,Schneeflocke,Płatek śniegu,Copo de nieve,Flocon de neige,a blue snowflake
 rainbow,full,yes,1,nature,Веселка,Rainbow,Regenbogen,Tęcza,Arcoíris,Arc-en-ciel,a rainbow arc with clouds at the ends
 lightning,full,,2,nature,Блискавка,Lightning,Blitz,Błyskawica,Rayo,Éclair,a yellow lightning bolt from a dark cloud
 puddle,full,,1,nature,Калюжа,Puddle,Pfütze,Kałuża,Charco,Flaque,a round vignette: a blue puddle with ripples and a falling raindrop on a patch of wet ground
@@ -560,7 +560,7 @@ stick,full,,1,nature,Палиця,Stick,Stock,Patyk,Palo,Bâton,a forked wooden 
 log,full,,2,nature,Колода,Log,Baumstamm,Kłoda,Tronco,Bûche,a wooden log
 stump,full,,2,nature,Пеньок,Stump,Baumstumpf,Pień,Tocón,Souche,a tree stump
 sand,full,,2,nature,Пісок,Sand,Sand,Piasek,Arena,Sable,a pile of sand with a toy spade
-snow,full,,1,nature,Сніг,Snow,Schnee,Śnieg,Nieve,Neige,a round vignette: a snowy hill with falling snowflakes
+snow,full,,1,winter,Сніг,Snow,Schnee,Śnieg,Nieve,Neige,a round vignette: a snowy hill with falling snowflakes
 tree,free,,1,nature,Дерево,Tree,Baum,Drzewo,Árbol,Arbre,a green leafy tree
 flower,free,,1,nature,Квітка,Flower,Blume,Kwiat,Flor,Fleur,a red flower with a stem and leaves
 leaf,full,,1,nature,Листок,Leaf,Blatt,Liść,Hoja,Feuille,a green leaf
@@ -575,7 +575,7 @@ pine_cone,full,,2,nature,Шишка,Pine cone,Tannenzapfen,Szyszka,Piña de pino
 daisy,full,,1,nature,Ромашка,Daisy,Gänseblümchen,Stokrotka,Margarita,Marguerite,a white daisy with a yellow center
 autumn_leaf,full,,2,nature,Кленовий листок,Maple leaf,Ahornblatt,Liść klonu,Hoja de arce,Feuille d'érable,an orange maple leaf
 tornado,full,,2,nature,Торнадо,Tornado,Tornado,Tornado,Tornado,Tornade,a grey swirling tornado
-icicle,full,,2,nature,Бурулька,Icicle,Eiszapfen,Sopel,Carámbano,Stalactite de glace,a row of shining icicles
+icicle,full,,2,winter,Бурулька,Icicle,Eiszapfen,Sopel,Carámbano,Stalactite de glace,a row of shining icicles
 forest,full,,1,nature,Ліс,Forest,Wald,Las,Bosque,Forêt,a round vignette: a few green trees close together on a patch of grass
 river,full,,1,nature,Річка,River,Fluss,Rzeka,Río,Rivière,a round vignette: a blue river winding between green grassy banks
 sea,full,,1,nature,Море,Sea,Meer,Morze,Mar,Mer,a round vignette: blue sea waves with a small sailboat
@@ -723,8 +723,8 @@ harmonica,full,,2,school_art,Губна гармошка,Harmonica,Mundharmonika
 tuba,full,,2,school_art,Туба,Tuba,Tuba,Tuba,Tuba,Tuba,a big brass tuba
 gong,full,,2,school_art,Гонг,Gong,Gong,Gong,Gong,Gong,a round gong with a mallet
 record,full,,2,school_art,Платівка,Record,Schallplatte,Płyta winylowa,Disco,Disque,a vinyl record
-skis,full,,2,toys_sports,Лижі,Skis,Ski,Narty,Esquís,Skis,a pair of skis with poles
-skates,full,,1,toys_sports,Ковзани,Ice skates,Schlittschuhe,Łyżwy,Patines,Patins,a pair of ice skates
+skis,full,,2,winter,Лижі,Skis,Ski,Narty,Esquís,Skis,a pair of skis with poles
+skates,full,,1,winter,Ковзани,Ice skates,Schlittschuhe,Łyżwy,Patines,Patins,a pair of ice skates
 tent,full,,1,toys_sports,Намет,Tent,Zelt,Namiot,Tienda de campaña,Tente,a camping tent
 medal,full,,1,toys_sports,Медаль,Medal,Medaille,Medal,Medalla,Médaille,a gold medal on a ribbon
 trophy,full,,2,toys_sports,Кубок,Trophy,Pokal,Puchar,Trofeo,Coupe,a golden trophy cup
@@ -739,7 +739,7 @@ target,full,,2,toys_sports,Мішень,Target,Zielscheibe,Tarcza,Diana,Cible,a 
 soccer_ball,full,,1,toys_sports,Футбольний м'яч,Soccer ball,Fußball,Piłka nożna,Balón de fútbol,Ballon de foot,a black and white soccer ball
 basketball,full,,2,toys_sports,Баскетбольний м'яч,Basketball,Basketball,Piłka do koszykówki,Balón de baloncesto,Ballon de basket,an orange basketball
 swimming_ring,full,,1,toys_sports,Надувне коло,Swim ring,Schwimmring,Koło do pływania,Flotador,Bouée,an inflatable swim ring
-hockey_stick,full,,2,toys_sports,Ключка,Hockey stick,Hockeyschläger,Kij hokejowy,Palo de hockey,Crosse de hockey,a hockey stick and a puck
+hockey_stick,full,,2,winter,Ключка,Hockey stick,Hockeyschläger,Kij hokejowy,Palo de hockey,Crosse de hockey,a hockey stick and a puck
 boxing_gloves,full,,2,toys_sports,Боксерські рукавиці,Boxing gloves,Boxhandschuhe,Rękawice bokserskie,Guantes de boxeo,Gants de boxe,a pair of red boxing gloves
 dumbbell,full,,2,toys_sports,Гантеля,Dumbbell,Hantel,Hantla,Mancuerna,Haltère,a dumbbell
 flippers,full,,2,toys_sports,Ласти,Flippers,Schwimmflossen,Płetwy,Aletas,Palmes,a pair of swimming flippers
@@ -782,7 +782,7 @@ bridge,full,,1,city_transport,Міст,Bridge,Brücke,Most,Puente,Pont,an arched
 lighthouse,full,,2,city_transport,Маяк,Lighthouse,Leuchtturm,Latarnia morska,Faro,Phare,a red and white lighthouse
 windmill,full,,2,city_transport,Вітряк,Windmill,Windmühle,Wiatrak,Molino,Moulin,a windmill with sails
 fence,full,,1,city_transport,Паркан,Fence,Zaun,Płot,Valla,Clôture,a short section of wooden picket fence
-igloo,full,,2,city_transport,Іглу,Igloo,Iglu,Igloo,Iglú,Igloo,an igloo made of snow blocks
+igloo,full,,2,winter,Іглу,Igloo,Iglu,Igloo,Iglú,Igloo,an igloo made of snow blocks
 fountain,full,,2,city_transport,Фонтан,Fountain,Brunnen,Fontanna,Fuente,Fontaine,a park fountain
 skyscraper,full,,2,city_transport,Хмарочос,Skyscraper,Wolkenkratzer,Wieżowiec,Rascacielos,Gratte-ciel,a tall skyscraper
 birdhouse,full,,2,nature,Шпаківня,Birdhouse,Vogelhaus,Budka dla ptaków,Casita para pájaros,Nichoir,a wooden birdhouse on a pole
@@ -812,12 +812,12 @@ wizard,full,,2,fantasy,Чарівник,Wizard,Zauberer,Czarodziej,Mago,Magicien
 magic_wand,full,,2,fantasy,Чарівна паличка,Magic wand,Zauberstab,Różdżka,Varita mágica,Baguette magique,a magic wand with a star
 crown,full,,1,fantasy,Корона,Crown,Krone,Korona,Corona,Couronne,a golden crown
 treasure_chest,full,,2,fantasy,Скриня,Treasure chest,Schatztruhe,Skrzynia,Cofre,Coffre,an open treasure chest with coins
-snowman,full,,1,fantasy,Сніговик,Snowman,Schneemann,Bałwan,Muñeco de nieve,Bonhomme de neige,a snowman with a carrot nose
-christmas_tree,full,,1,fantasy,Ялинка,Christmas tree,Weihnachtsbaum,Choinka,Árbol de Navidad,Sapin de Noël,a decorated Christmas tree
-gift,full,,1,fantasy,Подарунок,Gift,Geschenk,Prezent,Regalo,Cadeau,a wrapped gift box with a bow
+snowman,full,yes,1,winter,Сніговик,Snowman,Schneemann,Bałwan,Muñeco de nieve,Bonhomme de neige,a snowman with a carrot nose
+christmas_tree,full,,1,winter,Ялинка,Christmas tree,Weihnachtsbaum,Choinka,Árbol de Navidad,Sapin de Noël,a decorated Christmas tree
+gift,full,,1,winter,Подарунок,Gift,Geschenk,Prezent,Regalo,Cadeau,a wrapped gift box with a bow
 alien,full,,2,fantasy,Інопланетянин,Alien,Außerirdischer,Kosmita,Extraterrestre,Extraterrestre,a friendly green alien
 mask,full,,2,fantasy,Маска,Mask,Maske,Maska,Máscara,Masque,a carnival mask
-fireworks,full,,1,fantasy,Феєрверк,Fireworks,Feuerwerk,Fajerwerki,Fuegos artificiales,Feu d'artifice,a round vignette: colorful fireworks bursting in a dark blue night sky
+fireworks,full,,1,winter,Феєрверк,Fireworks,Feuerwerk,Fajerwerki,Fuegos artificiales,Feu d'artifice,a round vignette: colorful fireworks bursting in a dark blue night sky
 lantern,full,,2,fantasy,Ліхтар,Lantern,Laterne,Lampion,Farol,Lanterne,a paper lantern
 flying_carpet,full,,2,fantasy,Килим-літак,Flying carpet,Fliegender Teppich,Latający dywan,Alfombra mágica,Tapis volant,a flying carpet
 ufo,full,,2,fantasy,НЛО,UFO,UFO,UFO,Ovni,Ovni,a flying saucer
@@ -829,3 +829,15 @@ ghost,full,,2,fantasy,Привид,Ghost,Gespenst,Duch,Fantasma,Fantôme,a frien
 throne,full,,2,fantasy,Трон,Throne,Thron,Tron,Trono,Trône,a golden throne with red cushion
 coin,full,,1,home,Монета,Coin,Münze,Moneta,Moneda,Pièce,a gold coin
 hourglass,full,,2,home,Пісочний годинник,Hourglass,Sanduhr,Klepsydra,Reloj de arena,Sablier,an hourglass with sand
+st_nicholas,full,,1,winter,Святий Миколай,Santa Claus,Weihnachtsmann,Święty Mikołaj,Papá Noel,Père Noël,"a jolly old man with a long white beard in a red coat and a red hat with white fur trim, carrying a sack of presents"
+angel,full,,1,winter,Ангел,Angel,Engel,Anioł,Ángel,Ange,a cute little angel child with white feathered wings and a golden halo
+elf,full,,2,winter,Ельф,Elf,Elf,Elf,Elfo,Lutin,a cheerful Christmas elf in a green outfit with pointy ears and a pointy green hat
+ornament,full,,1,winter,Ялинкова кулька,Christmas ornament,Christbaumkugel,Bombka,Bola de Navidad,Boule de Noël,a shiny red round Christmas tree ball with a gold cap and a hanging loop
+string_lights,full,,1,winter,Гірлянда,Christmas lights,Lichterkette,Lampki choinkowe,Luces de Navidad,Guirlande lumineuse,"a short string of colorful glowing Christmas light bulbs on a green wire, in a gentle wave"
+santa_hat,full,,1,winter,Шапка Миколая,Santa hat,Weihnachtsmütze,Czapka Mikołaja,Gorro de Papá Noel,Bonnet de Noël,a red Santa hat with white fur trim and a white pompom
+candy_cane,full,,1,winter,Карамельна паличка,Candy cane,Zuckerstange,Laska cukrowa,Bastón de caramelo,Sucre d'orge,a red and white striped candy cane
+gingerbread_house,full,,2,winter,Пряничний будиночок,Gingerbread house,Lebkuchenhaus,Piernikowy domek,Casita de jengibre,Maison en pain d'épices,a small gingerbread house with white icing on the roof and colorful candies
+stocking,full,,2,winter,Різдвяна панчоха,Christmas stocking,Weihnachtsstrumpf,Skarpeta świąteczna,Calcetín de Navidad,Chaussette de Noël,"a red Christmas stocking with a white fur top, hanging from a small loop, no text"
+snow_globe,full,,2,winter,Сніжна куля,Snow globe,Schneekugel,Śnieżna kula,Globo de nieve,Boule à neige,a glass snow globe on a wooden base with a tiny fir tree and snowflakes inside
+sparkler,full,,2,winter,Бенгальський вогник,Sparkler,Wunderkerze,Zimne ognie,Bengala,Cierge magique,a lit sparkler stick with bright golden star-shaped sparks
+puck,full,,2,winter,Шайба,Hockey puck,Puck,Krążek,Disco de hockey,Palet,a black ice hockey puck seen at a 3/4 angle

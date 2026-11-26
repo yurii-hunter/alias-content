@@ -89,7 +89,7 @@ drum,full,,school_art,Барабан,Drum,Trommel,Bęben,Tambor,Tambour
 guitar,full,,school_art,Гітара,Guitar,Gitarre,Gitara,Guitarra,Guitare
 hand,full,yes,body,Рука,Hand,Hand,Ręka,Mano,Main
 heart,full,,body,Серце,Heart,Herz,Serce,Corazón,Cœur
-gift,full,,fantasy,Подарунок,Gift,Geschenk,Prezent,Regalo,Cadeau
+gift,full,,winter,Подарунок,Gift,Geschenk,Prezent,Regalo,Cadeau
 car,free,,city_transport,Машина,Car,Auto,Samochód,Coche,Voiture
 bus,free,,city_transport,Автобус,Bus,Bus,Autobus,Autobús,Bus
 train,free,,city_transport,Потяг,Train,Zug,Pociąg,Tren,Train
@@ -98,7 +98,7 @@ ship,full,,city_transport,Корабель,Ship,Schiff,Statek,Barco,Bateau
 bicycle,full,,city_transport,Велосипед,Bicycle,Fahrrad,Rower,Bicicleta,Vélo
 tractor,full,,city_transport,Трактор,Tractor,Traktor,Traktor,Tractor,Tracteur
 rocket,full,yes,city_transport,Ракета,Rocket,Rakete,Rakieta,Cohete,Fusée
-snowman,full,,fantasy,Сніговик,Snowman,Schneemann,Bałwan,Muñeco de nieve,Bonhomme de neige
+snowman,full,yes,winter,Сніговик,Snowman,Schneemann,Bałwan,Muñeco de nieve,Bonhomme de neige
 goat,full,,pets,Коза,Goat,Ziege,Koza,Cabra,Chèvre
 rooster,full,,pets,Півень,Rooster,Hahn,Kogut,Gallo,Coq
 chick,full,,pets,Курча,Chick,Küken,Kurczątko,Pollito,Poussin
@@ -154,8 +154,8 @@ computer,full,,tech_tools,Комп'ютер,Computer,Computer,Komputer,Ordenador
 camera,full,,tech_tools,Фотоапарат,Camera,Kamera,Aparat,Cámara,Appareil photo
 scissors,full,,school_art,Ножиці,Scissors,Schere,Nożyczki,Tijeras,Ciseaux
 cap,full,,clothes,Кепка,Cap,Kappe,Czapka z daszkiem,Gorra,Casquette
-scarf,full,,clothes,Шарф,Scarf,Schal,Szalik,Bufanda,Écharpe
-mittens,full,,clothes,Рукавиці,Mittens,Fäustlinge,Rękawiczki,Manoplas,Moufles
+scarf,full,,winter,Шарф,Scarf,Schal,Szalik,Bufanda,Écharpe
+mittens,full,,winter,Рукавиці,Mittens,Fäustlinge,Rękawiczki,Manoplas,Moufles
 jacket,full,,clothes,Куртка,Jacket,Jacke,Kurtka,Chaqueta,Veste
 dress,full,,clothes,Сукня,Dress,Kleid,Sukienka,Vestido,Robe
 t_shirt,full,,clothes,Футболка,T-shirt,T-Shirt,Koszulka,Camiseta,Tee-shirt
@@ -165,7 +165,7 @@ blocks,full,,toys_sports,Кубики,Blocks,Bauklötze,Klocki,Bloques,Cubes
 swing,full,,toys_sports,Гойдалка,Swing,Schaukel,Huśtawka,Columpio,Balançoire
 slide,full,,toys_sports,Гірка,Slide,Rutsche,Zjeżdżalnia,Tobogán,Toboggan
 scooter,full,,toys_sports,Самокат,Scooter,Roller,Hulajnoga,Patinete,Trottinette
-sled,full,,toys_sports,Санки,Sled,Schlitten,Sanki,Trineo,Luge
+sled,full,,winter,Санки,Sled,Schlitten,Sanki,Trineo,Luge
 toy_car,full,,toys_sports,Іграшкова машинка,Toy car,Spielzeugauto,Samochodzik,Cochecito,Petite voiture
 boat,full,,city_transport,Човен,Boat,Boot,Łódka,Barca,Barque
 motorcycle,full,,city_transport,Мотоцикл,Motorcycle,Motorrad,Motocykl,Moto,Moto
@@ -174,7 +174,7 @@ helicopter,full,,city_transport,Гелікоптер,Helicopter,Hubschrauber,Hel
 ambulance,full,,city_transport,Швидка допомога,Ambulance,Krankenwagen,Karetka,Ambulancia,Ambulance
 fire_truck,full,,city_transport,Пожежна машина,Fire truck,Feuerwehrauto,Wóz strażacki,Camión de bomberos,Camion de pompiers
 police_car,full,,city_transport,Поліцейська машина,Police car,Polizeiauto,Radiowóz,Coche de policía,Voiture de police
-snowflake,full,,nature,Сніжинка,Snowflake,Schneeflocke,Płatek śniegu,Copo de nieve,Flocon de neige
+snowflake,full,,winter,Сніжинка,Snowflake,Schneeflocke,Płatek śniegu,Copo de nieve,Flocon de neige
 mountain,full,,nature,Гора,Mountain,Berg,Góra,Montaña,Montagne
 fire,full,,nature,Вогонь,Fire,Feuer,Ogień,Fuego,Feu
 leaf,full,,nature,Листок,Leaf,Blatt,Liść,Hoja,Feuille
@@ -255,7 +255,7 @@ sandbox,full,,toys_sports,Пісочниця,Sandbox,Sandkasten,Piaskownica,Aren
 bubbles,full,,toys_sports,Мильні бульбашки,Bubbles,Seifenblasen,Bańki mydlane,Pompas de jabón,Bulles de savon
 paper_plane,full,,toys_sports,Паперовий літачок,Paper plane,Papierflieger,Papierowy samolot,Avión de papel,Avion en papier
 sandcastle,full,,toys_sports,Пісочний замок,Sandcastle,Sandburg,Zamek z piasku,Castillo de arena,Château de sable
-snowball,full,,toys_sports,Сніжка,Snowball,Schneeball,Śnieżka,Bola de nieve,Boule de neige
+snowball,full,,winter,Сніжка,Snowball,Schneeball,Śnieżka,Bola de nieve,Boule de neige
 play_dough,full,,toys_sports,Пластилін,Plasticine,Knete,Plastelina,Plastilina,Pâte à modeler
 excavator,full,,city_transport,Екскаватор,Excavator,Bagger,Koparka,Excavadora,Pelleteuse
 traffic_light,full,,city_transport,Світлофор,Traffic light,Ampel,Światła,Semáforo,Feu tricolore
@@ -298,7 +298,7 @@ binoculars,full,,toys_sports,Бінокль,Binoculars,Fernglas,Lornetka,Prismá
 shovel,full,,tech_tools,Лопата,Shovel,Schaufel,Łopata,Pala,Pelle
 watering_can,full,,tech_tools,Лійка,Watering can,Gießkanne,Konewka,Regadera,Arrosoir
 crown,full,,fantasy,Корона,Crown,Krone,Korona,Corona,Couronne
-christmas_tree,full,,fantasy,Ялинка,Christmas tree,Weihnachtsbaum,Choinka,Árbol de Navidad,Sapin de Noël
+christmas_tree,full,,winter,Ялинка,Christmas tree,Weihnachtsbaum,Choinka,Árbol de Navidad,Sapin de Noël
 doghouse,full,,pets,Будка,Doghouse,Hundehütte,Buda,Caseta,Niche
 worm,full,,bugs,Черв'як,Worm,Wurm,Dżdżownica,Gusano,Ver de terre
 spiderweb,full,,bugs,Павутина,Spiderweb,Spinnennetz,Pajęczyna,Telaraña,Toile d'araignée
@@ -313,7 +313,7 @@ stick,full,,nature,Палиця,Stick,Stock,Patyk,Palo,Bâton
 envelope,full,,school_art,Конверт,Envelope,Briefumschlag,Koperta,Sobre,Enveloppe
 face,full,,body,Обличчя,Face,Gesicht,Twarz,Cara,Visage
 belly,full,,body,Живіт,Belly,Bauch,Brzuch,Barriga,Ventre
-skates,full,,toys_sports,Ковзани,Ice skates,Schlittschuhe,Łyżwy,Patines,Patins
+skates,full,,winter,Ковзани,Ice skates,Schlittschuhe,Łyżwy,Patines,Patins
 trampoline,full,,toys_sports,Батут,Trampoline,Trampolin,Trampolina,Cama elástica,Trampoline
 ladder,full,,tech_tools,Драбина,Ladder,Leiter,Drabina,Escalera de mano,Échelle
 flashlight,full,,tech_tools,Ліхтарик,Flashlight,Taschenlampe,Latarka,Linterna,Lampe de poche
@@ -324,12 +324,12 @@ carousel,full,,city_transport,Карусель,Carousel,Karussell,Karuzela,Tiovi
 school,full,,city_transport,Школа,School,Schule,Szkoła,Colegio,École
 coin,full,,home,Монета,Coin,Münze,Moneta,Moneda,Pièce
 puddle,full,,nature,Калюжа,Puddle,Pfütze,Kałuża,Charco,Flaque
-snow,full,,nature,Сніг,Snow,Schnee,Śnieg,Nieve,Neige
+snow,full,,winter,Сніг,Snow,Schnee,Śnieg,Nieve,Neige
 forest,full,,nature,Ліс,Forest,Wald,Las,Bosque,Forêt
 river,full,,nature,Річка,River,Fluss,Rzeka,Río,Rivière
 sea,full,,nature,Море,Sea,Meer,Morze,Mar,Mer
 beach,full,,nature,Пляж,Beach,Strand,Plaża,Playa,Plage
-fireworks,full,,fantasy,Феєрверк,Fireworks,Feuerwerk,Fajerwerki,Fuegos artificiales,Feu d'artifice
+fireworks,full,,winter,Феєрверк,Fireworks,Feuerwerk,Fajerwerki,Fuegos artificiales,Feu d'artifice
 circus,full,,city_transport,Цирк,Circus,Zirkus,Cyrk,Circo,Cirque
 goose,full,,pets,Гуска,Goose,Gans,Gęś,Ganso,Oie
 turkey,full,,pets,Індик,Turkey,Truthahn,Indyk,Pavo,Dinde
@@ -374,7 +374,7 @@ skunk,full,,wild,Скунс,Skunk,Stinktier,Skunks,Mofeta,Mouffette
 lizard,full,,wild,Ящірка,Lizard,Eidechse,Jaszczurka,Lagarto,Lézard
 chameleon,full,,wild,Хамелеон,Chameleon,Chamäleon,Kameleon,Camaleón,Caméléon
 iguana,full,,wild,Ігуана,Iguana,Leguan,Legwan,Iguana,Iguane
-reindeer,full,,wild,Північний олень,Reindeer,Rentier,Renifer,Reno,Renne
+reindeer,full,,winter,Північний олень,Reindeer,Rentier,Renifer,Reno,Renne
 mammoth,full,,wild,Мамонт,Mammoth,Mammut,Mamut,Mamut,Mammouth
 seal,full,,wild,Тюлень,Seal,Robbe,Foka,Foca,Phoque
 walrus,full,,wild,Морж,Walrus,Walross,Mors,Morsa,Morse
@@ -392,7 +392,7 @@ pelican,full,,wild,Пелікан,Pelican,Pelikan,Pelikan,Pelícano,Pélican
 magpie,full,,wild,Сорока,Magpie,Elster,Sroka,Urraca,Pie
 cuckoo,full,,wild,Зозуля,Cuckoo,Kuckuck,Kukułka,Cuco,Coucou
 hummingbird,full,,wild,Колібрі,Hummingbird,Kolibri,Koliber,Colibrí,Colibri
-bullfinch,full,,wild,Снігур,Bullfinch,Gimpel,Gil,Camachuelo,Bouvreuil
+bullfinch,full,,winter,Снігур,Bullfinch,Gimpel,Gil,Camachuelo,Bouvreuil
 swallow,full,,wild,Ластівка,Swallow,Schwalbe,Jaskółka,Golondrina,Hirondelle
 tit,full,,wild,Синиця,Great tit,Kohlmeise,Sikorka,Carbonero,Mésange
 cockatoo,full,,pets,Какаду,Cockatoo,Kakadu,Kakadu,Cacatúa,Cacatoès
@@ -575,7 +575,7 @@ croissant,full,,food,Круасан,Croissant,Croissant,Rogalik,Cruasán,Croissa
 baguette,full,,food,Багет,Baguette,Baguette,Bagietka,Barra de pan,Baguette
 cotton_candy,full,,food,Цукрова вата,Cotton candy,Zuckerwatte,Wata cukrowa,Algodón de azúcar,Barbe à papa
 cupcake,full,,food,Кекс,Cupcake,Muffin,Babeczka,Magdalena,Cupcake
-gingerbread_man,full,,food,Пряничний чоловічок,Gingerbread man,Lebkuchenmann,Piernikowy ludzik,Hombre de jengibre,Bonhomme en pain d'épices
+gingerbread_man,full,,winter,Пряничний чоловічок,Gingerbread man,Lebkuchenmann,Piernikowy ludzik,Hombre de jengibre,Bonhomme en pain d'épices
 marshmallow,full,,food,Маршмелоу,Marshmallow,Marshmallow,Pianka,Malvavisco,Guimauve
 jelly,full,,food,Желе,Gelatin,Wackelpudding,Galaretka,Gelatina,Gelée
 chewing_gum,full,,food,Жуйка,Chewing gum,Kaugummi,Guma do żucia,Chicle,Chewing-gum
@@ -645,7 +645,7 @@ stump,full,,nature,Пеньок,Stump,Baumstumpf,Pień,Tocón,Souche
 log,full,,nature,Колода,Log,Baumstamm,Kłoda,Tronco,Bûche
 lightning,full,,nature,Блискавка,Lightning,Blitz,Błyskawica,Rayo,Éclair
 tornado,full,,nature,Торнадо,Tornado,Tornado,Tornado,Tornado,Tornade
-icicle,full,,nature,Бурулька,Icicle,Eiszapfen,Sopel,Carámbano,Stalactite de glace
+icicle,full,,winter,Бурулька,Icicle,Eiszapfen,Sopel,Carámbano,Stalactite de glace
 wave,full,,nature,Хвиля,Wave,Welle,Fala,Ola,Vague
 sand,full,,nature,Пісок,Sand,Sand,Piasek,Arena,Sable
 crystal,full,,nature,Кристал,Crystal,Kristall,Kryształ,Cristal,Cristal
@@ -655,7 +655,7 @@ earth,full,,nature,Земля,Earth,Erde,Ziemia,Tierra,Terre
 globe,full,,nature,Глобус,Globe,Globus,Globus,Globo terráqueo,Globe
 ufo,full,,fantasy,НЛО,UFO,UFO,UFO,Ovni,Ovni
 alien,full,,fantasy,Інопланетянин,Alien,Außerirdischer,Kosmita,Extraterrestre,Extraterrestre
-skis,full,,toys_sports,Лижі,Skis,Ski,Narty,Esquís,Skis
+skis,full,,winter,Лижі,Skis,Ski,Narty,Esquís,Skis
 snowboard,full,,toys_sports,Сноуборд,Snowboard,Snowboard,Snowboard,Snowboard,Snowboard
 trophy,full,,toys_sports,Кубок,Trophy,Pokal,Puchar,Trofeo,Coupe
 goal,full,,toys_sports,Ворота,Goal,Tor,Bramka,Portería,But
@@ -664,7 +664,7 @@ helmet,full,,toys_sports,Шолом,Helmet,Helm,Kask,Casco,Casque
 fishing_rod,full,,toys_sports,Вудка,Fishing rod,Angel,Wędka,Caña de pescar,Canne à pêche
 target,full,,toys_sports,Мішень,Target,Zielscheibe,Tarcza,Diana,Cible
 basketball,full,,toys_sports,Баскетбольний м'яч,Basketball,Basketball,Piłka do koszykówki,Balón de baloncesto,Ballon de basket
-hockey_stick,full,,toys_sports,Ключка,Hockey stick,Hockeyschläger,Kij hokejowy,Palo de hockey,Crosse de hockey
+hockey_stick,full,,winter,Ключка,Hockey stick,Hockeyschläger,Kij hokejowy,Palo de hockey,Crosse de hockey
 boxing_gloves,full,,toys_sports,Боксерські рукавиці,Boxing gloves,Boxhandschuhe,Rękawice bokserskie,Guantes de boxeo,Gants de boxe
 dumbbell,full,,toys_sports,Гантеля,Dumbbell,Hantel,Hantla,Mancuerna,Haltère
 flippers,full,,toys_sports,Ласти,Flippers,Schwimmflossen,Płetwy,Aletas,Palmes
@@ -676,7 +676,7 @@ birdhouse,full,,nature,Шпаківня,Birdhouse,Vogelhaus,Budka dla ptaków,Ca
 tower,full,,city_transport,Вежа,Tower,Turm,Wieża,Torre,Tour
 lighthouse,full,,city_transport,Маяк,Lighthouse,Leuchtturm,Latarnia morska,Faro,Phare
 windmill,full,,city_transport,Вітряк,Windmill,Windmühle,Wiatrak,Molino,Moulin
-igloo,full,,city_transport,Іглу,Igloo,Iglu,Igloo,Iglú,Igloo
+igloo,full,,winter,Іглу,Igloo,Iglu,Igloo,Iglú,Igloo
 fountain,full,,city_transport,Фонтан,Fountain,Brunnen,Fontanna,Fuente,Fontaine
 skyscraper,full,,city_transport,Хмарочос,Skyscraper,Wolkenkratzer,Wieżowiec,Rascacielos,Gratte-ciel
 pyramid,full,,city_transport,Піраміда,Pyramid,Pyramide,Piramida,Pirámide,Pyramide
@@ -730,7 +730,7 @@ raft,full,,city_transport,Пліт,Raft,Floß,Tratwa,Balsa,Radeau
 ticket,full,,city_transport,Квиток,Ticket,Fahrkarte,Bilet,Billete,Billet
 compass,full,,city_transport,Компас,Compass,Kompass,Kompas,Brújula,Boussole
 dump_truck,full,,city_transport,Самоскид,Dump truck,Kipper,Wywrotka,Volquete,Camion benne
-snowmobile,full,,city_transport,Снігохід,Snowmobile,Schneemobil,Skuter śnieżny,Moto de nieve,Motoneige
+snowmobile,full,,winter,Снігохід,Snowmobile,Schneemobil,Skuter śnieżny,Moto de nieve,Motoneige
 steam_train,full,,city_transport,Паровоз,Steam train,Dampflok,Parowóz,Locomotora de vapor,Locomotive à vapeur
 carriage,full,,city_transport,Карета,Carriage,Kutsche,Kareta,Carruaje,Carrosse
 traffic_cone,full,,city_transport,Конус,Traffic cone,Leitkegel,Pachołek,Cono,Cône
@@ -829,3 +829,15 @@ easel,full,,school_art,Мольберт,Easel,Staffelei,Sztaluga,Caballete,Cheva
 harp,full,,school_art,Арфа,Harp,Harfe,Harfa,Arpa,Harpe
 cello,full,,school_art,Віолончель,Cello,Cello,Wiolonczela,Violonchelo,Violoncelle
 tuba,full,,school_art,Туба,Tuba,Tuba,Tuba,Tuba,Tuba
+st_nicholas,full,,winter,Святий Миколай,Santa Claus,Weihnachtsmann,Święty Mikołaj,Papá Noel,Père Noël
+angel,full,,winter,Ангел,Angel,Engel,Anioł,Ángel,Ange
+elf,full,,winter,Ельф,Elf,Elf,Elf,Elfo,Lutin
+ornament,full,,winter,Ялинкова кулька,Christmas ornament,Christbaumkugel,Bombka,Bola de Navidad,Boule de Noël
+string_lights,full,,winter,Гірлянда,Christmas lights,Lichterkette,Lampki choinkowe,Luces de Navidad,Guirlande lumineuse
+santa_hat,full,,winter,Шапка Миколая,Santa hat,Weihnachtsmütze,Czapka Mikołaja,Gorro de Papá Noel,Bonnet de Noël
+candy_cane,full,,winter,Карамельна паличка,Candy cane,Zuckerstange,Laska cukrowa,Bastón de caramelo,Sucre d'orge
+gingerbread_house,full,,winter,Пряничний будиночок,Gingerbread house,Lebkuchenhaus,Piernikowy domek,Casita de jengibre,Maison en pain d'épices
+stocking,full,,winter,Різдвяна панчоха,Christmas stocking,Weihnachtsstrumpf,Skarpeta świąteczna,Calcetín de Navidad,Chaussette de Noël
+snow_globe,full,,winter,Сніжна куля,Snow globe,Schneekugel,Śnieżna kula,Globo de nieve,Boule à neige
+sparkler,full,,winter,Бенгальський вогник,Sparkler,Wunderkerze,Zimne ognie,Bengala,Cierge magique
+puck,full,,winter,Шайба,Hockey puck,Puck,Krążek,Disco de hockey,Palet
